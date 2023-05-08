@@ -1,3 +1,3 @@
 export * from "./Goal";
-export * from "./Home";
+export * from "./home/Home";
 export * from "./Settings";

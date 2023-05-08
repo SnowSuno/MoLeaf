@@ -1,7 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import { Header } from "./Header.tsx";
-import { BottomNavigator } from "./BottomNavigator.tsx";
+import { Header } from "./Header";
+import { Navigator } from "./Navigator";
 
 export const Layout: React.FC = () => {
   return (
@@ -10,7 +10,7 @@ export const Layout: React.FC = () => {
       <main>
         <Outlet/>
       </main>
-      <BottomNavigator/>
+      <Navigator/>
     </>
   );
 };
