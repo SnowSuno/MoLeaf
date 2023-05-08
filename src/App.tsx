@@ -1,12 +1,25 @@
-import Example from "./Example.tsx";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+import { Home, Goal, Settings } from "./pages";
+import { Layout } from "./components/Layout.tsx";
+
+// import Example from "./Example.tsx";
+
+const router = createBrowserRouter([{
+  path: "/",
+  element: <Layout/>,
+  children: [
+    { path: "/", element: <Home/> },
+    { path: "/goal", element: <Goal/> },
+    { path: "/settings", element: <Settings/> },
+  ],
+}]);
 
 function App() {
 
-
   return (
     <>
-      <Example width={400} height={300}/>
-
+      <RouterProvider router={router}/>
     </>
   );
 }
