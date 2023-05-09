@@ -1,15 +1,18 @@
 import React from "react";
 
 interface Props {
-  size?: number;
-  color?: string;
+  size: number;
+  color: string;
+  weight: number;
 }
 
-export const icon = (svg: JSX.Element): React.FC<Props> => ({
-  size,
-  color = "currentColor",
-}) => React.cloneElement(svg, {
-  width: size,
-  height: size,
-  color,
-});
+const defaultProps: Props = {
+  size: 24,
+  color: "currentColor",
+  weight: 1.5,
+};
+
+export const icon = (svg: (props: Props) => JSX.Element): React.FC<Partial<Props>> =>
+  (props) => svg(
+    { ...defaultProps, ...props },
+  );
