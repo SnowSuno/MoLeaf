@@ -6,6 +6,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: var(--text-font);
+
 }
 
 html, body, #root {
@@ -22,10 +23,13 @@ html, body, #root {
 }
 
 :root {
+    -webkit-tap-highlight-color: transparent;
+
     /* colors */
     --white: #FFFFFF;
     --black: #333333;
     --gray: #BEC1CB;
+    --light-gray: #E6E7EB;
     --dark-text: #666666;
     --backgroud-color: #F2F4F6;
 
