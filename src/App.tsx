@@ -1,6 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import { Home, Goal, Settings } from "./pages";
+import { Home, Goals, Settings } from "./pages";
 import { Layout } from "./components/Layout";
 import { TotalUsage } from "./pages/home/TotalUsage";
 
@@ -18,7 +18,7 @@ const router = createBrowserRouter([
           { path: "/total", element: <TotalUsage/> },
         ],
       },
-      { path: "/goal", element: <Goal/> },
+      { path: "/goals", element: <Goals/> },
       { path: "/settings", element: <Settings/> },
     ],
   }]);
