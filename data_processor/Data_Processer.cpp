@@ -42,7 +42,7 @@ int get_dir(){
         if(str_path.find("AppUsageEventEntity") == 141){
             file_names.push_back(str_path);
 
-            cout << str_path << endl;
+            cout << str_path.substr(60) << endl;
         }
     }
 
