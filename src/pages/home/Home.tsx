@@ -6,9 +6,9 @@ import { Header } from "../../components/Header";
 export const Home: React.FC = () => {
   return (
     <div>
+      <AnimatedOutlet/>
       <Header title="Overview"/>
       <Link to="/total">Total usage</Link>
-      <AnimatedOutlet/>
     </div>
   );
 };

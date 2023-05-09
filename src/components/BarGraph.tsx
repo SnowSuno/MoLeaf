@@ -1,8 +1,8 @@
-import { useMemo } from "react";
+import React, { useMemo } from "react";
 import { Bar } from "@visx/shape";
 import { Group } from "@visx/group";
-// import letterFrequency, { LetterFrequency } from '@visx/mock-data/lib/mocks/letterFrequency';
 import { scaleBand, scaleLinear } from "@visx/scale";
+import { ScaleSVG } from "@visx/responsive";
 
 const data = [
   { date: 12, value: 10 },
@@ -17,16 +17,14 @@ const verticalMargin = 120;
 
 // accessors
 
-export type BarsProps = {
-  width: number;
-  height: number;
+interface Props {
   events?: boolean;
-};
+}
 
-export default function Example({ width, height, events = false }: BarsProps) {
+export const BarGraph: React.FC<Props> = ({ events = false }) => {
   // bounds
-  const xMax = width;
-  const yMax = height - verticalMargin;
+  const xMax = 400;
+  const yMax = 300 - verticalMargin;
 
   // scales, memoize for performance
   const xScale = useMemo(() =>
@@ -43,9 +41,9 @@ export default function Example({ width, height, events = false }: BarsProps) {
       domain: [0, Math.max(...data.map(data => data.value))],
     }), [yMax]);
 
-  return width < 10 ? null : (
-    <svg width={width} height={height}>
-      <rect width={width} height={height} fill="url(#teal)" rx={14}/>
+  return (
+    <ScaleSVG width={400} height={300}>
+      {/*<rect width={width} height={height} fill="url(#teal)" rx={14} />*/}
       <Group top={verticalMargin / 2}>
         {data.map(data => {
           const barWidth = xScale.bandwidth();
@@ -69,6 +67,6 @@ export default function Example({ width, height, events = false }: BarsProps) {
           );
         })}
       </Group>
-    </svg>
+    </ScaleSVG>
   );
-}
+};

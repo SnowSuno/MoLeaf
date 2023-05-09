@@ -4,8 +4,6 @@ import { Home, Goals, Settings } from "./pages";
 import { Layout } from "./components/Layout";
 import { TotalUsage } from "./pages/home/TotalUsage";
 
-// import Example from "./Example.tsx";
-
 const router = createBrowserRouter([
   {
     path: "/",

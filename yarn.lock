@@ -753,6 +753,16 @@
     classnames "^2.3.1"
     prop-types "^15.6.2"
 
+"@visx/responsive@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@visx/responsive/-/responsive-3.0.0.tgz#e183c54ce04cffe756378872d30ac88c66a137ac"
+  integrity sha512-immnxQwOWlrxbnlCIqJWuDpPfrM6tglgMTN1WsyXyGluLMJqhuuxqxllfXaRPkQFS4fcvs66KCEELdazh96U2w==
+  dependencies:
+    "@types/lodash" "^4.14.172"
+    "@types/react" "*"
+    lodash "^4.17.21"
+    prop-types "^15.6.1"
+
 "@visx/scale@3.0.0":
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/@visx/scale/-/scale-3.0.0.tgz#727123f0c930d3346a4473e926831c45997e0312"
@@ -1753,7 +1763,7 @@ prelude-ls@^1.2.1:
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.2.1.tgz#debc6489d7a6e6b0e7611888cec880337d316396"
   integrity sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==
 
-prop-types@^15.5.10, prop-types@^15.6.2:
+prop-types@^15.5.10, prop-types@^15.6.1, prop-types@^15.6.2:
   version "15.8.1"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.8.1.tgz#67d87bf1a694f48435cf332c24af10214a3140b5"
   integrity sha512-oj87CgZICdulUohogVAR7AjlC0327U4el4L6eAvOqCeudMDVU0NThNaV+b9Df4dXgSP1gXMTnPdhfe/2qDH5cg==
