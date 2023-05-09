@@ -1,0 +1,1567 @@
+total number of files : 554
+
+554 name
+524 카카오톡
+523 시스템 UI
+520 Paco
+511 Polar Beat
+475 메시지
+463 패키지 설치 프로그램
+462 설정
+459 ABC Logger
+444 Logger
+440 Dropsync
+433 Chrome
+424 YouTube
+384 Google Play 스토어
+374 카메라
+367 Google
+364 갤러리
+358 안드로이드 시스템
+348 접근성
+322 Facebook
+318 캘린더
+303 Gmail
+299 시계
+280 날씨
+273 삼성 인터넷
+270 전화
+270 Instagram
+239 Google Play 서비스
+235 AhnLab V3 Mobile Plus 2.0
+225 차단된 번호 스토리지
+225 Google Services Framework
+225 Android Services Library
+224 Samsung Experience 홈
+222 사용자 사전
+220 SoundAlive
+220 Samsung DeX
+219 Samsung Health
+219 BadgeProvider
+218 SCPM Client
+216 Samsung Pass 자동 완성
+215 빅스비 홈
+208 Context Service
+207 키즈 홈 인스톨러
+205 Smart​Things
+202 Samsung Pay
+199 Google 주소록 동기화
+197 Microsoft Health
+194 Wi-Fi 사용 팁
+192 원스토어
+191 다운로드 관리자
+183 Google VR 서비스
+182 토스
+177 설정메시지
+176 패키지 액세스 도움말
+176 원터치알림
+175 Messenger
+175 KLMS
+173 Google 캘린더 동기화
+172 네이버 웹툰
+168 Google Partner Setup
+167 드라이브
+164 Android 시스템
+163 Galaxy Themes
+161 삼성 캡처
+145 연락처
+144 Galaxy Store
+141 기본홈
+140 카카오뱅크
+138 내 파일
+137 StickerProvider
+131 NAVER
+130 지도
+129 스마트카드 서비스
+125 T전화
+118 빅스비 보이스
+117 계산기
+116 네이버 지도
+115 에브리타임
+115 KAIST	Portal
+112 One UI 홈
+110 통화
+110 이메일
+105 알람/시계
+101 통화 관리
+101 원터치개인
+100 배달의민족
+99 Samsung Music
+97 음성 호출
+96 게임런처
+94 Microsoft Band
+92 주소록
+90 com.sec.android.app.chromecustomizations
+89 밥대생
+88 코레일톡
+87 통화 화면
+85 Google Play 뮤직
+84 소프트웨어 업데이트
+84 비디오 플레이어
+84 Samsung Notes
+84 Netflix
+83 한컴오피스 viewer
+81 Melon
+79 카카오맵
+79 Bluetooth
+77 음성 녹음
+77 뱅크샐러드
+77 BAND
+75 미세미세
+72 카카오 T
+71 Google TTS 엔진
+69 쿠팡
+68 The Day Before
+67 Wi-Fi
+65 파인더
+65 KAIST Library
+64 카카오페이지
+62 파일
+62 Q메모+
+61 우리카드
+61 Google Play 게임
+60 구성 업데이트
+59 SNOW
+58 시외버스	모바일
+57 Foodie
+56 삼성 키보드
+55 YouTube Music
+54 고속버스 모바일
+54 T연락처
+53 Samsung Members
+52 리마인더
+52 네이버 카페
+51 포토 에디터
+51 티몬
+51 Edge screen
+50 디바이스 케어
+49 Duo
+48 후후
+48 인쇄 스풀러
+48 원스토어 서비스
+48 게임툴즈
+48 PASS
+48 NFC
+47 스프레드시트
+47 T map
+47 SODA
+46 T멤버십
+46 Smart Call
+46 Samsung Push Service
+45 포토
+45 트위터
+44 위메프
+44 네이버TV
+44 CaptivePortalLogin
+43 네이버 메일
+43 MTP 애플리케이션
+42 Twitch
+42 SecurityLogAgent
+41 야놀자
+41 보안 폴더
+41 Slack
+41 Cookie Run: OvenBreak
+40 oksusu
+40 ARCore
+39 블루투스
+39 배경화면
+39 Word
+39 Samsung Experience Service
+39 PAYCO
+39 OneDrive
+39 
+38 LoL 프렌즈
+38 Android 설정
+37 시스템 추적
+37 삼성 클라우드
+37 문서
+37 Settings Suggestions
+37 ISP/페이북
+37 CLASSUM
+36 음악
+36 실행 프로그램
+36 마이 케이티
+36 LED 아이콘 편집
+35 T 안심
+35 Smart View
+35 Excel
+34 키 체인
+34 지니 뮤직
+34 입력 기기
+34 셸
+34 설정 저장소
+34 빅스비 비전
+34 미디어 저장공간
+34 com.android.wallpaperbackup
+34 Wi-Fi 다이렉트
+34 SecureElementApplication
+34 Samsung Themes
+34 Samsung ApexService
+34 SR 고속열차
+34 People edge
+34 MmsService
+34 Fused Location
+34 EmergencyManagerService
+34 Device Health Services
+34 DMB
+34 Always On Display
+33 편한가계부
+33 퍼스널 홈
+33 통신상태알림
+33 캘린더 저장공간
+33 연락처 저장공간
+33 앱 설치 마법사
+33 안전 지킴이
+33 스토리 비디오 에디터
+33 새 소식
+33 삼성 설정 마법사
+33 삼성 계정
+33 삼성 TTS 엔진
+33 빠른 도구 모음
+33 빅스비 서비스
+33 블루라이트 필터
+33 보안정책 업데이트
+33 보안 저장소
+33 맞춤형 서비스
+33 링크 공유
+33 똑똑가계부
+33 디바이스 보호
+33 듀얼 메신저
+33 다이얼러 저장소
+33 내 디바이스 찾기
+33 갤러리 스토리
+33 ringtonebackup
+33 mlp
+33 com.sec.phone
+33 com.sec.internal.vsim.VSimServiceApp
+33 com.sec.ims
+33 com.sec.bcservice
+33 com.samsung.faceservice
+33 com.samsung.android.smartswitchassistant
+33 bootagent
+33 WlanTest
+33 UsimDownload
+33 USBSettings
+33 UIBCVirtualSoftkey
+33 TetheringAutomation
+33 StickerCenter
+33 SplitSoundService
+33 SmartThings
+33 SmartFittingService
+33 SmartFaceService
+33 SilentLogging
+33 ShortcutBNR
+33 Service mode RIL
+33 Service mode
+33 SecVideoEngineService
+33 SamsungPositioning
+33 Samsung PaymentFramework
+33 Samsung MirrorLink 1.1
+33 Samsung Location SDK
+33 Samsung Device Health Manager Service
+33 Samsung DeX 홈
+33 SVC Agent
+33 SKMSAgentService
+33 SIM 카드 관리자
+33 SEMFactoryApp
+33 QRreader
+33 Polaris Office
+33 Perso
+33 Payment Services
+33 NetworkDiagnostic
+33 Nearby Service
+33 MLDAPlog
+33 LED Cover Service
+33 KnoxVpnPacProcessor
+33 KnoxContainerDesktop
+33 Knox Enrollment Service
+33 KLMS Agent
+33 IpsGeofence
+33 ImsLogger
+33 IPService
+33 IMS Settings
+33 IMS Service
+33 IMS DM
+33 HwModuleTest
+33 Hidden Network Setting
+33 HandwritingService
+33 Gear VR Service
+33 Game Optimizing Service
+33 Filter Provider
+33 Face
+33 Enterprise Sim Pin Service
+33 EasyOneHand
+33 Dsms
+33 DiagMonAgent
+33 DeviceTest
+33 DeviceKeystring
+33 DRParser Mode
+33 DQA
+33 ClipboardUIService
+33 ClipboardSaveService
+33 CSC
+33 CMHProvider
+33 CJ ONE
+33 BluetoothTest
+33 Bixby Voice Stub
+33 BBCAgent
+33 AppLinker
+33 ANT+ HAL 서비스
+33 AASAservice
+32 프레젠테이션
+32 통화 서비스
+32 앱 소리 분리 재생
+32 알파카
+32 신한 쏠(SOL)
+32 시간대 업데이터
+32 세로로 긴 디스플레이 컷아웃
+32 모서리 디스플레이 컷아웃
+32 더블 디스플레이 컷아웃
+32 김과외
+32 emojiupdater
+32 com.google.android.gms.policy_sidecar_aps
+32 TeeService
+32 T world
+32 Sim App Dialog
+32 SetupWizardLegalProvider
+32 Samsung Time Zone Data
+32 Samsung Pass
+32 RootPA
+32 NSDSWebApp
+32 Galaxy Graphics Driver
+31 홍채
+31 벅스
+31 VisionProvider
+31 Universal switch
+31 Sound detectors
+31 PowerPoint
+31 Camera Iris User Test
+31 AutoPreconfig
+31 Assistant menu
+30 캐시워크
+30 배달요기요
+30 CGV
+29 번호 안내 서비스
+29 LG 페이
+29 B612
+28 어두움
+28 다음웹툰
+28 Zenly
+28 TouchWiz 홈
+28 SystemUIBixby2
+28 SettingsBixby
+28 Samsung DeX 시스템 UI
+28 Galaxy Wearable
+27 에이블리
+27 Gear S PlugIn
+27 DeX community
+27 Bixby Service
+27 Bixby Global Action
+26 Workspace
+26 Shutdown Monitor
+26 KB스타알림
+26 Evernote
+26 Authentication Framework
+26 Adobe Acrobat
+25 한국장학재단
+25 VIBE
+25 Puffin
+25 Dropbox
+25 AhnLab V3 Mobile Security
+25 11번가
+24 위비톡
+24 Discord
+24 AfreecaTV
+23 해피포인트
+23 카카오스탁
+23 카카오버스
+23 카이스트 버스
+23 좋은 카메라
+23 알라미
+23 러브데이
+23 LG 키보드
+23 CamScanner
+23 Brawl Stars
+23 Between
+22 후후-유플러스
+22 클라우드베리
+22 스마트택배
+22 eSE UCS Plugin
+22 Samsung Accessory Service
+22 KT 멤버십
+22 Apps edge
+21 지하철종결자
+21 알림
+21 디바이스 관리
+21 Pokémon GO
+21 MX 플레이어
+20 화해
+20 하나1Q페이
+20 텔레그램
+20 크아M
+20 모바일	티머니
+20 다음
+20 OK Cashbag
+20 Clean Master
+19 파일 관리자
+19 즐겨찾는 연락처
+19 위비뱅크
+19 원터치개인 삼성페이
+19 알바몬
+19 롯데시네마
+19 네이버 사전
+19 X Google enrollment
+19 U+ 고객센터
+19 SIM 카드 툴킷
+19 FLO
+18 신한페이판
+18 신한카드
+18 동영상
+18 네트워크
+18 SuwScriptPlayer
+18 Pinterest
+18 Papago
+18 Knox Analytics Uploader
+18 KAIST 전자식복무관리시스템
+18 HideNotch
+18 Android Easter Egg
+17 카카오톡 치즈
+17 직방
+17 삼성 키보드 뉴럴 베타
+17 VpnDialogs
+17 T라이프
+17 SmartPush
+17 Samsung Galaxy Friends
+17 HPSClient2.0 Service
+17 Camera Test
+16 올원뱅크
+16 스타벅스
+16 삼성 음성 입력
+16 비디오
+16 네이버 캘린더
+16 궁극의 질문
+16 com.sec.epdg
+16 Wi-Fi 전화
+16 SKT Hidden Menu
+16 SEIOAgent
+16 Knox Key Chain
+16 KB스타뱅킹
+16 FactoryCamera
+16 FIFA Online 4 M
+16 Beaming Service
+16 AirCommandManager
+15 올레 service agent
+15 업데이트 센터
+15 비디오 에디터
+15 번역
+15 문피아
+15 딩굴 키보드
+15 달에 쓰는 일기
+15 기본 화면 보호기
+15 WeChat
+15 SIM 툴킷
+15 OP.GG
+15 NUGU
+15 Lite
+15 LG 헬스
+15 KPNS
+15 EpdgTestApp
+15 EhViewer
+15 CLiP
+15 CJ대한통운 택배
+15 AIA Vitality T건강걷기
+14 컴프야2019
+14 캐시슬라이드 스텝업
+14 카카오스토리
+14 올레 tv 모바일
+14 쏠캘린더
+14 스터디헬퍼
+14 블루라이트 차단 스크린 필터
+14 디시인사이드
+14 네이버 블로그
+14 넌얼마나쓰니
+14 Samsung Pay (Watch plug-in)
+14 Mi Fit
+14 M-able
+14 KT 고객 특화 서비스
+14 KT Hidden Menu
+14 Intelligent Scan
+14 Duel Links
+14 Droid-X 3.0
+14 Camera Iris Factory Test
+14 AccuBattery
+13 헬로우봇
+13 전화 모드 설정
+13 위비멤버스
+13 왓챠플레이
+13 옥션
+13 사전
+13 브랜디
+13 메가박스
+13 Intra
+13 Briefing
+12 프렌즈타운
+12 티머니	갤럭시워치
+12 지퍼7
+12 이마트몰
+12 왓챠
+12 오늘의집
+12 에어비앤비
+12 알람몬
+12 슬로우 모션 에디터
+12 미미박스
+12 모바일교보문고
+12 롯데리아
+12 Steam
+12 L.POINT
+12 KFTC FIDO LINK
+12 Health Service
+12 G마켓
+12 Google 뉴스
+12 Chance
+11 콴다 선생님
+11 에어 커맨드
+11 업비트
+11 쏘카
+11 스마트 닥터
+11 메모
+11 리브
+11 레진코믹스
+11 국세청 홈택스
+11 brunch
+11 Vingle
+11 ULike
+11 Syrup 월렛
+11 Samsung Pass Provider
+11 OTP
+10 피키캐스트
+10 컬쳐랜드
+10 첫화면 상식
+10 알송
+10 아이디어스
+10 시리즈
+10 번역기
+10 메모장
+10 WhatsApp
+10 Rummikub
+10 OCR Service
+10 KAIST GenChem
+10 Galaxy Apps
+10 FIFA Mobile
+9 한국투자	주식
+9 하스스톤
+9 트리플
+9 카카오지하철
+9 점신
+9 잠금화면 설정
+9 영웅문S
+9 비주얼 가계부
+9 긴급 상황 정보
+9 고음질 녹음
+9 mVaccine for web
+9 T데이터쿠폰
+9 Study
+9 Security Master
+9 NFC 서비스
+9 KB국민카드
+9 Cake
+8 호갱노노
+8 하나카드
+8 픽테일 - NewYork
+8 팟빵
+8 코디북
+8 카톡 프리뷰
+8 이랜드몰
+8 알약M
+8 알라딘
+8 사용자 휴대폰 도우미
+8 배틀그라운드
+8 모션 파노라마 뷰어
+8 마카롱
+8 마이	홈플러스
+8 당근마켓
+8 다방
+8 네이버 뮤직
+8 내 캘린더
+8 Y데이터박스
+8 Turbo VPN
+8 Todoist
+8 T guard
+8 StyleShare
+8 Smart Switch
+8 Most
+8 Microsoft Launcher
+8 MangoPlate
+8 MUSINSA
+8 LINE
+8 LFmall
+8 Height increase Home workout tips: add 3 inches
+8 Galaxy Buds
+8 FatSecret
+8 Android System WebView
+8 AliExpress
+8 ANT+ Plugins Service
+7 히어로칸타레
+7 홈&쇼핑
+7 해피스크린
+7 피망 뉴맞고
+7 프렌즈팝콘
+7 페이트/그랜드오더
+7 팝콘티비
+7 타임스프레드
+7 클래시 로얄
+7 케이뱅크
+7 커플릿
+7 캠퍼스팅
+7 캔디카메라
+7 유니콘
+7 원더락
+7 우먼스톡
+7 오락_OK캐쉬백
+7 에스티엘
+7 알집
+7 아이쉐어링
+7 아이모
+7 스푼 라디오
+7 스카이피플
+7 숨고
+7 수탉 알람시계
+7 성경일독Q
+7 성경
+7 삼성 인터넷용 Adblock Plus
+7 붕괴3rd
+7 복부 근육 트레이팅
+7 번개장터
+7 버즈 런처
+7 미디어 저장소
+7 무음 카메라로
+7 모아키 통합키보드
+7 메이플스토리M
+7 만보기 - 걸음 측정기
+7 마이리틀셰프
+7 리리앤코
+7 루리웹
+7 디즈니팝
+7 도돌 키보드
+7 도돌 런처
+7 다이어트신
+7 네이트
+7 기본홈(홈&앱서랍)
+7 ミリシタ
+7 com.android.providers.partnerbookmarks
+7 Xodo Docs
+7 Whale
+7 Walkr
+7 TVING
+7 THE COUPLE
+7 T 가드
+7 T map 택시
+7 Sound+
+7 SleepTown
+7 Samsung Pay (Gear plug-in)
+7 Reddit
+7 Qoo10
+7 PES 2019 PRO EVOLUTION SOCCER
+7 PAIGE
+7 NYTimes
+7 LookPin
+7 LoL 상점
+7 LightSlinger
+7 Life360
+7 KT 패밀리박스
+7 JAM Live
+7 GGtics
+7 Forza
+7 Forest
+7 FocusMore
+7 Flipboard
+7 Firefox
+7 FOW.KR
+7 Dragon Strike: Puzzle RPG
+7 DU 배터리 세이버
+7 Cyworld
+7 CloudGateway
+7 Booking.com
+7 Auto Chess
+7 Arcane Tracker
+7 AirVisual
+7 AirBattery
+7 AdGuard
+7 ANOTHER EDEN
+7 10000!
+7 1.1.1.1
+7 0한동
+6 휴대전화
+6 호텔나우
+6 헬로마켓
+6 하나멤버스
+6 플레이윙즈
+6 퓨처파이트
+6 타이젬 바둑
+6 키작은남자
+6 크루비
+6 카이스트 모바일 메일
+6 지그재그
+6 원격 데스크톱
+6 영웅문SG 베타
+6 여기어때
+6 야구친구
+6 알람이
+6 아지트
+6 신한S뱅크	mini+
+6 스마트 스캔
+6 소모임
+6 삼성앱카드
+6 사무라이 쇼다운M
+6 벽돌깨기 퍼즐
+6 메이비베이비
+6 멀티 뷰 샷 뷰어
+6 라프텔
+6 대기오염정보
+6 다나와 가격비교
+6 나무위키뷰어
+6 µTorrent
+6 U-OTP+
+6 U+멤버스
+6 T전화 통화
+6 T pay
+6 Skype
+6 QuestioN Diary
+6 Q.Feat
+6 NLPHub
+6 NBA Live
+6 Kahoot!
+6 Headspace
+6 ES 파일 탐색기
+6 Call+
+6 Bleacher Report
+6 BixbyVision Framework
+6 Bill Letter
+6 29CM
+5 해먹남녀
+5 할 일 저장
+5 표류소녀
+5 텍뷰
+5 탈잉
+5 콜라주 배경화면
+5 인터파크 티켓
+5 원내비
+5 원기날씨
+5 우리페이
+5 와디즈
+5 연락처와 다이얼
+5 어드벤처
+5 아이즈원 프라이빗 메일
+5 아만다
+5 시스템 런처
+5 슬립 베터
+5 스와이프 벽돌깨기
+5 서울스토어
+5 삼성카드
+5 브로콜리
+5 뱃살 빼기
+5 롯데면세점
+5 라이브 메시지
+5 라디오
+5 똑똑계산기
+5 꼼꼼달력메모
+5 自走棋测试服
+5 timetable-core
+5 com.lge.provider.lockscreensettings
+5 ZUMO
+5 Wunderlist
+5 World War Rising
+5 WSJ
+5 TimeTree
+5 S보이스
+5 Spotify
+5 Soundcamp
+5 Smart Cooler
+5 OneNote
+5 NH콕뱅크
+5 MobileCX
+5 MLB9이닝스19
+5 Lysn
+5 LinkedIn
+5 Last Arrows
+5 LIVE스코어
+5 Keyguard Wallpaper Updator
+5 KEB 하나은행
+5 KBO STATS
+5 InCallUI
+5 FANDOM
+5 Edge 터치
+5 Draw It
+5 Clipboard edge
+5 CYBOS Touch
+5 CGV포토티켓
+5 Always-on display 프로바이더
+5 ActionManager Service
+5 11번가쇼킹딜
+4 후지
+4 호텔스컴바인
+4 픽스쿨
+4 피트니스
+4 프리스타일2:플라잉덩크
+4 프렌즈레이싱
+4 티켓링크
+4 튜브박스
+4 클라우드
+4 코인뷰
+4 컬러노트
+4 캐시슬라이드
+4 카카오뮤직
+4 인터파크
+4 음악 속도 체인저
+4 원더쇼핑
+4 우체국 스마트뱅킹
+4 외부 저장소
+4 오목의 달인
+4 연애의과학
+4 에브리싱
+4 얼리버드 알람
+4 애니메이션 사진 위젯
+4 알람/시간
+4 아이캠펑
+4 싸이메라
+4 스마트 캡처
+4 스마트 매니저
+4 스냅스
+4 사운드 선택기
+4 브롤스타즈
+4 보안
+4 버즈 위젯
+4 버스타고
+4 배달통
+4 미디어팩
+4 메모G
+4 맞춤형 지능화 서비스
+4 마이 이모지 메이커
+4 리디북스
+4 롤도우미
+4 렌즈
+4 라이프애프터
+4 라이브 포커스
+4 드라마바이블
+4 더캠프
+4 네이버 클라우드
+4 네이버 지식iN
+4 네이버 스마트보드
+4 그래핑 계산기 Mathlab
+4 고스톱 프리
+4 com.lge.smartshare.provider
+4 W Concept
+4 T페이
+4 To The Moon
+4 Suunto
+4 QR 코드 스캐너
+4 Photo Wonder
+4 PENUP
+4 NekoSushi
+4 NML
+4 Messenger Lite
+4 LGU_GPSnWPS
+4 KT Shop
+4 KB스마트원 통합인증
+4 InBody
+4 Home
+4 HackersMP3
+4 EyeFilter
+4 English Grammar Flashcards
+4 EllieService
+4 EXiTS
+4 EML Reader FREE
+4 DU Speed Booster
+4 Castto
+4 Box
+4 Bloomberg
+4 Arsenal
+4 AppSales
+4 Always-on display
+4 1분일본어
+3 휴대폰
+3 현대해상
+3 현대카드
+3 헤이카카오
+3 행아웃
+3 해커스인강	챔프스터디
+3 한국투자증권
+3 포코포코
+3 파우더룸
+3 튜다
+3 클리너
+3 케이툰	(완전판)
+3 카카오택시
+3 카카오스탁 거래용
+3 전광판 LED
+3 이랜드리테일
+3 음악 플레이어
+3 위키백과
+3 원스토어 북스
+3 운전면허PLUS
+3 옷잘남
+3 올원페이	(NH앱카드)
+3 올리브영
+3 오목
+3 예스24 도서
+3 엽기떡볶이
+3 에뛰드하우스
+3 앱 업데이트
+3 알바천국
+3 아스팔트 9
+3 시크릿라벨
+3 스와이프
+3 스마트벨링
+3 스마트 명세서
+3 서머너즈 워
+3 사운드코르셋 튜너 & 메트로놈
+3 빅토(VicTo) Google
+3 버거킹
+3 배경음악 선택
+3 미스할인
+3 맥딜리버리
+3 리브메이트
+3 루딘프
+3 롯데홈쇼핑
+3 도미노피자
+3 대전버스
+3 다음카페
+3 기본 인쇄 서비스
+3 그린카
+3 그래픽 계산기
+3 가톨릭
+3 pixiv
+3 kakaoTV Live
+3 gStrings
+3 X-plore
+3 Vivino
+3 Tasks edge
+3 Tap Scanner
+3 Strava
+3 SmartSetting
+3 SSG.COM
+3 RedKiwi
+3 RX TIMER
+3 Print Service Recommendation Service
+3 Poly Bridge
+3 Piazza
+3 POOQ
+3 Notification Edge
+3 NH뱅킹
+3 Mi Home
+3 MAXIM KOREA HD
+3 Lyft
+3 LGUHiddenMenu
+3 LG 앱 이용약관
+3 KM플레이어 Pro
+3 KIA고객앱
+3 KFC
+3 IoT@home
+3 IV Go
+3 HTML 뷰어
+3 H&M
+3 Google 일본어 입력기
+3 Google PDF 뷰어
+3 GiGA Genie
+3 Escape Rooms
+3 EmergencyProvider
+3 ESPN
+3 Dream Piano
+3 Cut+Mix Studio
+3 Call of Thunder War
+3 Call Provider
+3 Analog Paris Pro
+3 Ah Q Go
+2 히든프라이스
+2 헤어핏
+2 해피머니
+2 해커스보카
+2 한컴오피스
+2 핑크다이어리
+2 프렌즈마블
+2 펜타스톰
+2 펀드슈퍼마켓
+2 파일 보내기 및 받기
+2 토플 VOCA
+2 크몽
+2 퀵 비디오 편집기
+2 콘텐츠 잠금
+2 컴시간(학생용)K
+2 캐시미션
+2 카카오스탁 모의투자
+2 추억 앨범
+2 착한교육
+2 지퍼7 2.0
+2 중고나라
+2 조용한 카메라
+2 제이숲
+2 정부24
+2 인어교주해적단
+2 이즈 미러전 2
+2 이사만루 2019
+2 이미지 사이즈
+2 이동거리
+2 음악 편집기
+2 유니헬프
+2 윈마이
+2 오먹상점
+2 오르비
+2 오디오클립
+2 오늘하루
+2 오누이
+2 어시스턴트
+2 어스
+2 앱 추가 설치
+2 악보바다
+2 아이즈원 오늘 뭐 했니?
+2 아웃 포커스
+2 씀
+2 스투비플래너
+2 서울 2033
+2 색상 식별
+2 삼성증권 mPOP
+2 삼성 결제
+2 빅스비 루틴
+2 보이스 케어
+2 번호안내 서비스
+2 방치타임
+2 뮤직벨링
+2 무한의 계단
+2 몰테일
+2 모아락
+2 모션 와이드 셀프 샷 뷰어
+2 모비즌 미러링 for SAMSUNG
+2 모비즌
+2 모바일결제 ISP
+2 모바일 네트워크
+2 만개의 레시피
+2 마켓컬리
+2 마이리얼트립
+2 마이 이모지 스티커
+2 리멤버
+2 롯데카드
+2 레몬브릿지
+2 떠리몰
+2 땡처리닷컴
+2 디코드
+2 디지털 웰빙
+2 데일리호텔
+2 대한항공
+2 대학강의
+2 다이소몰
+2 네이버 메모
+2 냥코 대전쟁
+2 내손안(安)	식품안전정보
+2 나만의 실험실
+2 기억의 신
+2 국제검진센터
+2 과학적인 계산기
+2 과외하자
+2 공차
+2 가상 성형 - 모두의 변신
+2 kt M모바일
+2 com.android.wallpapercropper
+2 Yoga VPN
+2 WoW BfA Talent Calculator
+2 Wahoo
+2 V LIVE
+2 U+프로야구	(SKT
+2 Twilight
+2 TubeMate
+2 Trello
+2 The Weather Channel
+2 TOEFL 보카
+2 TEEgrisTuiService
+2 TADownloader
+2 T map 대중교통
+2 S플래너
+2 System Intelligence
+2 Swing Star
+2 Stupid Stickman
+2 Spotlight: Room Escape
+2 SoundCloud
+2 SmartWorld
+2 SlideShare
+2 Skyscanner
+2 Shazam
+2 Shadow Of Death
+2 Samsung account
+2 Samsung Flow
+2 SOL알리미
+2 SK엔카
+2 SCameraService
+2 RunDay
+2 Rise Up
+2 Rime
+2 Rider
+2 Rebel Inc.
+2 Q렌즈
+2 Quizlet
+2 QuickSupport Add-On Samsung
+2 QuickSupport
+2 PhotoDirector
+2 Perfect Viewer
+2 PDF에 쓰기
+2 Nintendo Switch Online
+2 Nike Training
+2 NH스마트인증
+2 NERDY
+2 NBA
+2 My Voice
+2 Mobile Print
+2 Meitu
+2 McKinsey Insights
+2 MTP 호스트
+2 MP3 커터
+2 MP3 Video Converter
+2 LGInstallService
+2 LG System Server
+2 LED 커버
+2 Kyte
+2 KB앱카드
+2 K-MOOC
+2 Hotels.com
+2 HiEdu Scientific Calculator
+2 HelloChinese
+2 Helix Jump
+2 Grab
+2 Google Play 북
+2 Free DS For Android 6
+2 Fitbit
+2 FastHub
+2 ExpressVPN
+2 Elice
+2 Edu
+2 Dropsync Pro Key
+2 Drive and Park
+2 Dreamclass
+2 Downloader
+2 Doctor Who
+2 Daum 검색
+2 Crowd City
+2 Cram
+2 Cookie
+2 ConfigUpdater
+2 Companion Device Manager
+2 Coinnow
+2 Class101
+2 Chwazi
+2 CashLeaflet
+2 CarrierCodeChanger
+2 Canva
+2 Call & Message Continuity
+2 Balls vs Lasers
+2 App Lock
+2 Amazon Shopping
+2 Amazon Kindle
+2 AirMapKorea
+2 Age of Civilizations II
+2 AR 이모지
+2 4shared
+1 휴대폰 인증서 서비스
+1 후스콜
+1 홈 선택
+1 호우호우
+1 헤이부
+1 해피트리
+1 할리스커피
+1 한컴오피스 S 뷰어
+1 한컴스페이스
+1 하나투어
+1 플로팅 바
+1 프렌즈타워
+1 프레임
+1 프라임 영한한영
+1 프라이빗 모드
+1 포토스캐너
+1 포켓큐브
+1 페이지 관리자
+1 팔라고
+1 파일탐색기
+1 파일노리
+1 티타임즈
+1 트레이더스
+1 터치 영역 제어
+1 택시타요(한빛콜)
+1 태그
+1 타슈
+1 킹덤스
+1 키즈 홈 캐릭터
+1 키즈 홈
+1 퀵툴
+1 퀵 헬프
+1 쿠키베베
+1 컴온빈센트
+1 커피빈멤버스클럽
+1 캘린더 저장
+1 캔디팡:쥬시월드
+1 칵테일레시피
+1 카카오헤어샵
+1 카카오플레이스
+1 카카오스타일
+1 충남대학교병원
+1 챌린저스
+1 착한음악
+1 착한구두
+1 직장 프로필 설정
+1 지하철 알림이
+1 지하철 노선도
+1 지퍼 Zipper
+1 주차 도우미
+1 주소록 저장소
+1 젤라또
+1 제안
+1 정확한 고도계
+1 전화/메시지 보관
+1 전국 스마트 버스
+1 저장용량 관리자
+1 자산관리
+1 인터파크 도서
+1 인증서 설치 마법사
+1 이하넥스
+1 이퀄라이저
+1 이미지 용량 줄이기
+1 이동통신사 기본 앱
+1 응급의료정보제공
+1 윈드러너Z
+1 웹소설 조아라
+1 웹 번역기
+1 워너비스톤
+1 요금안내서 Bill Letter
+1 올원페이	(앱카드)
+1 오디오 선택기
+1 여성 피트니스 - 여성 운동
+1 얼굴인식 체험판
+1 얼굴 표정
+1 얼굴 장식
+1 애드투페이퍼
+1 안전정보
+1 안다르
+1 아시아나항공
+1 아고다
+1 씨티모바일
+1 시리즈 on
+1 스트리트 뷰
+1 스텔라 브라우저
+1 스탬프
+1 스크롤 캡처
+1 스마트헌혈
+1 스마트명세서
+1 스마트 클리닝
+1 스마일페이
+1 슈퍼리치M
+1 설정 마법사
+1 상황 인지
+1 삼성 프린트 서비스 플러그인
+1 삼성 인터넷 패널
+1 사진 스크린세이버
+1 사용 설명서
+1 빠삭
+1 빚쟁이
+1 비둘기키우기
+1 블링샵
+1 부동산	다이어트
+1 봄 캘린더
+1 뱅드림
+1 배터리 및 성능
+1 배경화면 및 테마
+1 바비톡
+1 바로가기
+1 미디어 서버
+1 문상채굴기
+1 무비 메이커
+1 모야모
+1 모션 콜
+1 모바일카드 서비스
+1 모바일뱅킹
+1 메트로이드HD 지하철정보
+1 메모위젯
+1 멀티타이머
+1 마켓 피드백 에이전트
+1 로밍
+1 랭킹닭컴
+1 라이브 포커스 사진
+1 라이브 배경화면 선택기
+1 디지털OTP(스마트보안카드)
+1 듀오링고
+1 동영상 잘라내기
+1 동영상 배경화면
+1 돋보기
+1 데일리 브리핑
+1 데이트팝
+1 더잠
+1 다이소 멤버십
+1 다음사전
+1 다운로드
+1 네이버 주소록
+1 네이버 오피스
+1 네이버 앱스토어
+1 내 장소 엔진
+1 내 장소
+1 내 멤버십 카드
+1 날씨 서비스
+1 나만의냉장고
+1 꽁음따 시즌4
+1 기기 설정
+1 규정
+1 굿리치
+1 관광객을 위한 도쿄 지하철 가이드
+1 공성삼국: 새 천하를 열다 Red
+1 고양이는 정말 귀여워
+1 고양이가 귀여운
+1 계좌통합관리
+1 게임 런처
+1 게임
+1 超!A＆G+ fanPlayer
+1 盒马
+1 手机淘宝
+1 zet
+1 tbs
+1 slocation
+1 page2
+1 m.Stock
+1 iSafe
+1 i-ONE뱅크 미니
+1 edwith
+1 com.sec.enterprise.knox.attestation
+1 com.samsung.android.wallpaper.res
+1 com.samsung.android.biometrics.app.setting
+1 com.quicinc.cne.CNEService.CNEServiceApp
+1 com.qualcomm.qti.workloadclassifier
+1 com.qualcomm.qti.uim
+1 com.qualcomm.qti.telephonyservice
+1 com.qualcomm.qti.smcinvokepkgmgr
+1 com.qualcomm.qti.lpa
+1 com.qualcomm.qti.dynamicddsservice
+1 com.qualcomm.qcrilmsgtunnel
+1 com.qualcomm.atfwd
+1 com.lge.sdencryption
+1 com.lge.provider.systemui
+1 com.lge.musiccontroller
+1 com.lge.icecontacts
+1 com.lge.entitlementcheckservice
+1 com.android.sharedstoragebackup
+1 com.android.cts.priv.ctsshim
+1 com.android.cts.ctsshim
+1 com.android.carrierconfig
+1 com.android.backupconfirm
+1 blind
+1 android.auto_generated_rro__
+1 YOIL
+1 Wolfram Alpha
+1 WiFi Mouse
+1 Wfd Service
+1 Wearable Manager Installer
+1 VocalPitchMonitor
+1 V-Guard for Web
+1 Uber Eats
+1 Uber
+1 UNIQLO
+1 U+모바일tv
+1 U+Box (클라우드)
+1 U+ 편의기능
+1 T스마트청구서
+1 Tumblr
+1 Traffic Run!
+1 Tower Color
+1 TouchVPN
+1 TimeBlocks
+1 ThinQ 서비스
+1 ThemeService
+1 Tabula at KAIST
+1 TV
+1 T 데이터쿠폰
+1 Space Big Bang
+1 SongsterrWeb
+1 Software Update
+1 Snowball.io
+1 SmartThinQ
+1 SmartMessagingEngine
+1 SmartDoctorWebView
+1 Smart Tools
+1 Smart ThinQ
+1 Smart Switch 에이전트
+1 SimMobilityKit
+1 ServiceMenu
+1 Send Anywhere
+1 SecCamService
+1 Screen Off Button
+1 SamsungOne
+1 Samsung DeX panel
+1 Samsung Blockchain Keystore
+1 SSGPAY
+1 SSF SHOP
+1 SRTC
+1 SOS 모드
+1 SMARTalk
+1 SM19-SE
+1 SF네모동글 FlipFont
+1 SC제일은행
+1 Retrica
+1 RealCalc
+1 RadDog
+1 Q보이스
+1 QuickStar
+1 QuickPic
+1 Quick Help Service
+1 QMMI
+1 QHelpRecEngine
+1 Q-Net
+1 ProxyHandler
+1 Prime Video
+1 PostPay
+1 Ping Pong King
+1 PickMe
+1 Piano
+1 Perfect Piano
+1 Party time
+1 PacProcessor
+1 PICNIC
+1 Operator HiddenMenu
+1 Office Mobile
+1 ONE store redirector
+1 ONE store Setup Wizard
+1 OK Google enrollment
+1 Nike⁠ Run Club
+1 Nature Photo Effects
+1 NFL
+1 NFC 설정
+1 My Application1
+1 Moon+ Reader
+1 Mj밤하늘아래 FlipFont
+1 MirrorLink
+1 Mi 계산기
+1 Metal Madness
+1 Medium
+1 MOCA_DUMMY
+1 MDMApp
+1 MATLAB
+1 LocationServices
+1 Leaone
+1 Lapse
+1 LIA SmartDoctor Engine
+1 LIA S4URecommender
+1 LIA Informant
+1 LH청약센터
+1 LG전자 멤버십
+1 LGMirroringHead
+1 LGDMProvisioningClient
+1 LGBroadcastRadioService
+1 LG 입력 기기
+1 LG 모바일 스위치
+1 LG WFDS Services
+1 LG System Resources
+1 LG Pay QLauncher
+1 LG P2p Service
+1 LG IMS
+1 LG Hand ID
+1 LG GNSS 2.1
+1 LG Face Unlock
+1 LG Connectivity Service
+1 LG Bridge Service
+1 LG AirDrive Settings
+1 LG AirDrive
+1 LG Account
+1 LDB
+1 LAOP Test v1.92
+1 L.pay
+1 Korbit
+1 Keep 메모
+1 KT 금융유심관리
+1 KAYAK
+1 Just Dance Now
+1 Intent Filter Verification Service
+1 Image 2 Wallpaper
+1 Hue
+1 HideNotchWithoutCornerRound
+1 Hidden Menu
+1 Hentoid
+1 Harry Potter
+1 Habitica
+1 HU네모의꿈 FlipFont
+1 HTV 3.4.6
+1 Google+
+1 Google 팟캐스트
+1 Google 백업 전송
+1 Google Play 무비
+1 Google One Time Init
+1 Good Lock
+1 GnssTest 1.2
+1 GlobalUIService
+1 Genius
+1 Galaxy Essentials 위젯
+1 GOS Legacy
+1 GNSS LOG LEVEL SETTING
+1 GNSS Air Test
+1 GGOCHI
+1 GF쿠키앤라떼 FlipFont
+1 GCUV
+1 G-DEC
+1 Frip
+1 Foundation
+1 Font Server
+1 Follower Analyzer
+1 Flo
+1 Flashlight Galaxy
+1 FidoService
+1 Facebook Services
+1 Facebook App Manager
+1 FOTA Update
+1 Expo
+1 Exchange
+1 Emerald
+1 EdgeLighting+
+1 ETS TOEIC Books by YBM
+1 ELTest
+1 E:LAND	E:AT
+1 DraStic
+1 Dot n Beat
+1 Default
+1 DS file
+1 DRM Service
+1 Converter
+1 Content Service
+1 ConfigAPK
+1 Citymapper
+1 Chinese English Dictionary
+1 Chess
+1 CarmodeStub
+1 Capriccio
+1 Canvasbio ASM
+1 Cameralyzer
+1 Call Log Backup/Restore
+1 CakeTown
+1 CNCITY에너지
+1 CJmall
+1 Burgerking
+1 Bubble Shooter
+1 Bookmark Provider
+1 Bluetooth MIDI Service
+1 Blue Light Filter - Night Mode
+1 Black Opal
+1 Biometric Trust Agent
+1 Big Hunter
+1 Big Finish
+1 Battery Doctor
+1 Avast Mobile Security
+1 Automation Test
+1 AuthFw TaPack
+1 Atomas
+1 At Bat
+1 Arduino bluetooth controller
+1 Android Shared Library
+1 Amethyst
+1 Always-on display 이미지
+1 Always-on display 설정
+1 Alipay
+1 Adapt sound
+1 AZ Screen Recorder
+1 AVS
+1 ANT Radio Service
+1 ANT + DUT
+1 AI Benchmark
+1 365바람부는날 FlipFont
+1 360° 포토 에디터
+1 360 이미지 배경화면
+1 30초영어캠프
+1 1km
