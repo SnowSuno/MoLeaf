@@ -3,17 +3,16 @@ import { Bar } from "@visx/shape";
 import { Group } from "@visx/group";
 import { scaleBand, scaleLinear } from "@visx/scale";
 import { ScaleSVG } from "@visx/responsive";
-import { AxisLeft, TickLabelProps } from "@visx/axis";
-import styled from "@emotion/styled";
+import { AxisLeft } from "@visx/axis";
 
 const data = [
-  { date: 12, value: 10 },
-  { date: 13, value: 5 },
-  { date: 14, value: 15 },
-  { date: 15, value: 7 },
-  { date: 16, value: 2 },
-  { date: 17, value: 4 },
-  { date: 18, value: 10 },
+  { date: 12, value: 2.4 },
+  { date: 13, value: 4.2 },
+  { date: 14, value: 1.1 },
+  { date: 15, value: 0.7 },
+  { date: 16, value: 2.8 },
+  { date: 17, value: 1.4 },
+  { date: 18, value: 2 },
 ];
 
 // accessors
@@ -61,9 +60,13 @@ export const BarGraph: React.FC<Props> = ({
           hideAxisLine={true}
           hideTicks={true}
           left={5}
-          numTicks={3}
+          numTicks={2}
           tickLength={0}
-          tickLabelProps={{fill: "var(--gray)", fontFamily: "var(--text-font)"}}
+          tickLabelProps={{
+            fill: "var(--gray)",
+            fontFamily: "var(--text-font)",
+          }}
+          tickFormat={tickValue => `${tickValue}h`}
         />
         {data.map(data => {
           const barWidth = xScale.bandwidth();
@@ -90,12 +93,3 @@ export const BarGraph: React.FC<Props> = ({
     </ScaleSVG>
   );
 };
-
-const Text = styled.text`
-  font-size: 10px;
-  color: var(--gray);
-`
-
-const TickLabel: React.FC<TickLabelProps<number>> = () => (
-  <Text>q</Text>
-)
