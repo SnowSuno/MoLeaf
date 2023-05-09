@@ -20,6 +20,8 @@ const Container = styled.nav`
   flex-direction: row;
   position: absolute;
   bottom: 0;
+  
+  padding-bottom: env(safe-area-inset-bottom, 0);
 `;
 
 export const Navigator: React.FC = () => {
@@ -27,7 +29,7 @@ export const Navigator: React.FC = () => {
   return (
     <Container>
       <NavItem name="home" to="/"/>
-      <NavItem name="goal" to="/goal"/>
+      <NavItem name="goals" to="/goals"/>
       <NavItem name="settings" to="/settings"/>
     </Container>
   );

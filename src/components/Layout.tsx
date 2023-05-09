@@ -1,16 +1,21 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import { Header } from "./Header";
 import { Navigator } from "./Navigator";
+import styled from "@emotion/styled";
 
 export const Layout: React.FC = () => {
   return (
     <>
-      <Header/>
-      <main>
+      {/*<Header/>*/}
+      <Main>
         <Outlet/>
-      </main>
+      </Main>
       <Navigator/>
     </>
   );
 };
+
+const Main = styled.main`
+  padding: 20px 20px 0;
+  
+`;

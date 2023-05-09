@@ -1,12 +1,11 @@
 import React from "react";
 import { Page } from "../../components/Page";
-import { Link } from "react-router-dom";
+import { BarGraph } from "../../components/BarGraph";
 
 export const TotalUsage: React.FC = () => {
   return (
-    <Page>
-      <Link to="/">back</Link>
-      Total usage
+    <Page title="사용 시간">
+      <BarGraph />
     </Page>
   );
 };
