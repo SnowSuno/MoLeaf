@@ -21,7 +21,7 @@ const Container = styled.nav`
   position: absolute;
   bottom: 0;
   
-  //padding-bottom: 20px;
+  padding-bottom: env(safe-area-inset-bottom, 0);
 `;
 
 export const Navigator: React.FC = () => {
