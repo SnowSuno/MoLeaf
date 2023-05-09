@@ -5,8 +5,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Spoqa Han Sans Neo', sans-serif;
-    color: var(--black);
+    font-family: var(--text-font);
 }
 
 html, body, #root {
@@ -23,16 +22,22 @@ html, body, #root {
 }
 
 :root {
+    /* colors */
     --white: #FFFFFF;
     --black: #333333;
+    --gray: #BEC1CB;
     --dark-text: #666666;
     --backgroud-color: #F2F4F6;
 
+    /* fonts */
+    --title-font: 'Raleway', 'Spoqa Han Sans Neo', sans-serif;
+    --text-font: 'Spoqa Han Sans Neo', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Raleway', 'Spoqa Han Sans Neo', sans-serif;
+    font-family: var(--title-font);
     font-weight: 800;
+    color: var(--black);
 }
 
 button {

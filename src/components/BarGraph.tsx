@@ -3,6 +3,8 @@ import { Bar } from "@visx/shape";
 import { Group } from "@visx/group";
 import { scaleBand, scaleLinear } from "@visx/scale";
 import { ScaleSVG } from "@visx/responsive";
+import { AxisLeft, TickLabelProps } from "@visx/axis";
+import styled from "@emotion/styled";
 
 const data = [
   { date: 12, value: 10 },
@@ -13,18 +15,27 @@ const data = [
   { date: 17, value: 4 },
   { date: 18, value: 10 },
 ];
-const verticalMargin = 120;
 
 // accessors
 
 interface Props {
   events?: boolean;
+  marginLeft?: number;
+  marginRight?: number;
+  marginTop?: number;
+  marginBottom?: number;
 }
 
-export const BarGraph: React.FC<Props> = ({ events = false }) => {
+export const BarGraph: React.FC<Props> = ({
+  events = false,
+  marginLeft = 25,
+  marginRight = 5,
+  marginTop = 5,
+  marginBottom = 5,
+}) => {
   // bounds
-  const xMax = 400;
-  const yMax = 300 - verticalMargin;
+  const xMax = 400 - marginLeft - marginRight;
+  const yMax = 200 - marginTop - marginBottom;
 
   // scales, memoize for performance
   const xScale = useMemo(() =>
@@ -44,7 +55,16 @@ export const BarGraph: React.FC<Props> = ({ events = false }) => {
   return (
     <ScaleSVG width={400} height={300}>
       {/*<rect width={width} height={height} fill="url(#teal)" rx={14} />*/}
-      <Group top={verticalMargin / 2}>
+      <Group top={marginTop} left={marginLeft}>
+        <AxisLeft
+          scale={yScale}
+          hideAxisLine={true}
+          hideTicks={true}
+          left={5}
+          numTicks={3}
+          tickLength={0}
+          tickLabelProps={{fill: "var(--gray)", fontFamily: "var(--text-font)"}}
+        />
         {data.map(data => {
           const barWidth = xScale.bandwidth();
           const barHeight = yMax - (yScale(data.value));
@@ -70,3 +90,12 @@ export const BarGraph: React.FC<Props> = ({ events = false }) => {
     </ScaleSVG>
   );
 };
+
+const Text = styled.text`
+  font-size: 10px;
+  color: var(--gray);
+`
+
+const TickLabel: React.FC<TickLabelProps<number>> = () => (
+  <Text>q</Text>
+)
