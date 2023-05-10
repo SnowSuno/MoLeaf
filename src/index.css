@@ -1,42 +1,51 @@
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Spoqa Han Sans Neo', sans-serif;
-    color: var(--black);
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Spoqa Han Sans Neo", sans-serif;
+  color: var(--black);
 }
 
-html, body, #root {
-    height: 100%;
-    background-color: var(--backgroud-color);
+html,
+body,
+#root {
+  height: 100%;
+  background-color: var(--backgroud-color);
 }
 
 #root {
-    position: relative;
-    max-width: 480px;
-    margin: 0 auto;
-    background-color: var(--backgroud-color);
-    overflow: hidden;
+  position: relative;
+  max-width: 480px;
+  margin: 0 auto;
+  background-color: var(--backgroud-color);
+  overflow: hidden;
 }
 
 :root {
-    --white: #FFFFFF;
-    --black: #333333;
-    --dark-text: #666666;
-    --backgroud-color: #F2F4F6;
+  --white: #ffffff;
+  --black: #333333;
+  --dark-text: #666666;
+  --light-text: #bbbbbb;
+  --backgroud-color: #f2f4f6;
 
+  --medium-text: 500;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Raleway', 'Spoqa Han Sans Neo', sans-serif;
-    font-weight: 800;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", "Spoqa Han Sans Neo", sans-serif;
+  font-weight: 800;
 }
 
 button {
-    all: unset;
-    cursor: pointer;
-    display: flex;
+  all: unset;
+  cursor: pointer;
+  display: flex;
 }
