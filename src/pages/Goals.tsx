@@ -1,10 +1,9 @@
-import React, { type PropsWithChildren } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import { Header } from "../components/Header";
 import { TimeUsageWidget } from "../components/widgets";
 import styled from "@emotion/styled";
 
-//interface Props extends PropsWithChildren { }
 
 export const Goals: React.FC = () => {
   return (
@@ -40,8 +39,8 @@ const Category = styled.div`
   font-weight: var(--medium-text);
 `
 
-const Title = styled.div`
-  color: var(--dark-text);
-  font-size: 16px;
-  font-weight: var(--medium-text);
-`;
+// const Title = styled.div`
+//   color: var(--dark-text);
+//   font-size: 16px;
+//   font-weight: var(--medium-text);
+// `;

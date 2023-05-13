@@ -1,13 +1,12 @@
-import React, { type PropsWithChildren } from "react";
+import React from "react";
 import styled from "@emotion/styled";
 import { Widget } from "../Widget";
 
 const totalTime = { hours: 2, minutes: 27 };
 const goal = { hours: 4, minutes: 0 };
 
-interface Props extends PropsWithChildren {}
 
-export const DailyTotalTimeUsageWidget: React.FC<Props> = () => {
+export const DailyTotalTimeUsageWidget: React.FC = () => {
   const childrenComponent = (
     <>
       <Container>
