@@ -2,11 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Spoqa Han Sans Neo", sans-serif;
-  color: var(--black);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--text-font);
 }
 
 html,
@@ -25,23 +24,28 @@ body,
 }
 
 :root {
-  --white: #ffffff;
-  --black: #333333;
-  --dark-text: #666666;
-  --light-text: #bbbbbb;
-  --backgroud-color: #f2f4f6;
+    -webkit-tap-highlight-color: transparent;
 
-  --medium-text: 500;
+    /* colors */
+    --white: #FFFFFF;
+    --black: #333333;
+    --gray: #BEC1CB;
+    --light-gray: #E6E7EB;
+    --dark-text: #666666;
+    --backgroud-color: #F2F4F6;
+    
+    /* weights */
+    --medium-text: 500;
+
+    /* fonts */
+    --title-font: 'Raleway', 'Spoqa Han Sans Neo', sans-serif;
+    --text-font: 'Spoqa Han Sans Neo', sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Raleway", "Spoqa Han Sans Neo", sans-serif;
-  font-weight: 800;
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--title-font);
+    font-weight: 800;
+    color: var(--black);
 }
 
 button {
