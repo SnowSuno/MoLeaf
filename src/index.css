@@ -1,25 +1,26 @@
 @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSansNeo.css);
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: var(--text-font);
-
 }
 
-html, body, #root {
-    height: 100%;
-    background-color: var(--backgroud-color);
+html,
+body,
+#root {
+  height: 100%;
+  background-color: var(--backgroud-color);
 }
 
 #root {
-    position: relative;
-    max-width: 480px;
-    margin: 0 auto;
-    background-color: var(--backgroud-color);
-    overflow: hidden;
+  position: relative;
+  max-width: 480px;
+  margin: 0 auto;
+  background-color: var(--backgroud-color);
+  overflow: hidden;
 }
 
 :root {
@@ -32,6 +33,9 @@ html, body, #root {
     --light-gray: #E6E7EB;
     --dark-text: #666666;
     --backgroud-color: #F2F4F6;
+    
+    /* weights */
+    --medium-text: 500;
 
     /* fonts */
     --title-font: 'Raleway', 'Spoqa Han Sans Neo', sans-serif;
@@ -45,7 +49,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 button {
-    all: unset;
-    cursor: pointer;
-    display: flex;
+  all: unset;
+  cursor: pointer;
+  display: flex;
 }
