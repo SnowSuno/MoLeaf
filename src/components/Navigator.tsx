@@ -1,36 +1,50 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "@emotion/styled";
+import { Flag, Home, Settings } from "../assets/icons";
+import { IconComponent } from "../assets/icons/utils";
 
 interface Props {
   name: string;
+  icon: IconComponent;
   to: string;
 }
 
-const NavItem: React.FC<Props> = ({ name, to }) =>
+const NavItem: React.FC<Props> = ({ name, icon: Icon, to }) => (
   <NavLink
+    id={name}
     to={to}
-    style={({ isActive }) => isActive ? { color: "red" } : { color: "black" }}
+    style={({ isActive }) =>
+      isActive ? { color: "var(--primary)" } : { color: "var(--dark-text)" }
+    }
   >
-    {name}
-  </NavLink>;
+    <Icon size={24} />
+  </NavLink>
+);
 
 const Container = styled.nav`
   display: flex;
   flex-direction: row;
   position: absolute;
   bottom: 0;
-  
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+  background-color: var(--white);
   padding-bottom: env(safe-area-inset-bottom, 0);
+
+  & > * {
+    flex: 1;
+    padding: 16px;
+    text-align: center;
+  }
 `;
 
 export const Navigator: React.FC = () => {
-
   return (
     <Container>
-      <NavItem name="home" to="/"/>
-      <NavItem name="goals" to="/goals"/>
-      <NavItem name="settings" to="/settings"/>
+      <NavItem name="goals" icon={Flag} to="/goals" />
+      <NavItem name="home" icon={Home} to="/" />
+      <NavItem name="settings" icon={Settings} to="/settings" />
     </Container>
   );
 };
