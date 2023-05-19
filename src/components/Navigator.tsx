@@ -2,14 +2,15 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "@emotion/styled";
 import { Flag, Home, Settings } from "../assets/icons";
+import { IconComponent } from "../assets/icons/utils";
 
 interface Props {
   name: string;
-  icon: OverridableComponent<SvgIconTypeMap>;
+  icon: IconComponent;
   to: string;
 }
 
-const NavItem: React.FC<Props> = ({ name, icon, to }) => (
+const NavItem: React.FC<Props> = ({ name, icon: Icon, to }) => (
   <NavLink
     id={name}
     to={to}
@@ -17,7 +18,7 @@ const NavItem: React.FC<Props> = ({ name, icon, to }) => (
       isActive ? { color: "var(--primary)" } : { color: "var(--dark-text)" }
     }
   >
-    {icon({ size: 24 })}
+    <Icon size={24} />
   </NavLink>
 );
 
