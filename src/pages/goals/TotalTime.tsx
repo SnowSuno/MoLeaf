@@ -23,9 +23,9 @@ export const TotalTime: React.FC = () => {
           <Container>
             <Category>목표 설정하기</Category>
             <InnerContainer2>
-              <GoalInput max={24} />
+              <GoalInput max={24} initVal={4} />
               <GoalTime1>h</GoalTime1>
-              <GoalInput max={59} />
+              <GoalInput max={59} initVal={0} />
               <GoalTime1>m</GoalTime1>
               <GoalTime2>/ 일</GoalTime2>
             </InnerContainer2>

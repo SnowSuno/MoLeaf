@@ -2,12 +2,13 @@ import React, { useState } from "react";
 
 interface Props {
   max: number;
+  initVal?: number;
 }
 
-export const GoalInput: React.FC<Props> = ({ max }) => {
+export const GoalInput: React.FC<Props> = ({ max, initVal = 0 }) => {
   const min = 0;
 
-  const [value, setValue] = useState(0);
+  const [value, setValue] = useState(initVal);
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const value = Math.max(min, Math.min(max, Number(event.target.value)));
@@ -29,7 +30,7 @@ export const GoalInput: React.FC<Props> = ({ max }) => {
         backgroundColor: "var(--light-gray)",
         borderRadius: "8px",
       }}
-      value={value}
+      value={("0" + value).slice(-2)}
       onChange={handleChange}
     />
   );
