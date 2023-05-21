@@ -7,12 +7,13 @@ import {
   ChevronUp,
 } from "../../assets/icons";
 import styled from "@emotion/styled";
-import { MainWidget, SmallWidget } from "../../components/widgets";
+import { MainWidget, SmallTimeWidget } from "../../components/widgets";
 import { Widget } from "../../components/Widget";
 import { Button } from "../../components/Button";
 import { Settings } from "../../assets/icons/Settings";
 import { Card } from "../../components/Card";
 import { Radio } from "../../components/Radio";
+import { SmallPatternWidget } from "../../components/widgets/SmallPatternWidget";
 
 interface Props {
   widgetOrder: string[];
@@ -29,7 +30,7 @@ const WidgetList: React.FC<Props> = ({
     if (x == "total") {
       return (
         <div onClick={() => (selected == x ? setSelected("") : setSelected(x))}>
-          <SmallWidget
+          <SmallTimeWidget
             title="전체 사용 시간"
             actual={{ hours: 2, minutes: 27 }}
             goal={{ hours: 4, minutes: 0 }}
@@ -40,7 +41,7 @@ const WidgetList: React.FC<Props> = ({
     } else if (x == "max") {
       return (
         <div onClick={() => (selected == x ? setSelected("") : setSelected(x))}>
-          <SmallWidget
+          <SmallTimeWidget
             title="최대 사용 시간"
             actual={{ hours: 3, minutes: 12 }}
             goal={{ hours: 3, minutes: 0 }}
@@ -51,10 +52,24 @@ const WidgetList: React.FC<Props> = ({
     } else if (x == "average") {
       return (
         <div onClick={() => (selected == x ? setSelected("") : setSelected(x))}>
-          <SmallWidget
+          <SmallTimeWidget
             title="평균 사용 시간"
             actual={{ hours: 0, minutes: 12 }}
             selected={selected == "average"}
+          />
+        </div>
+      );
+    } else if (x == "downtime") {
+      return (
+        <div onClick={() => (selected == x ? setSelected("") : setSelected(x))}>
+          <SmallPatternWidget
+            title="다운 타임"
+            on={true}
+            range={{
+              startTime: { hours: 20, minutes: 0 },
+              endTime: { hours: 23, minutes: 0 },
+            }}
+            selected={selected == "downtime"}
           />
         </div>
       );
@@ -117,6 +132,9 @@ export const Customize: React.FC = () => {
   const [selectedMain, setSelectedMain] = useState<string>("");
 
   useEffect(() => {
+    console.log("hi");
+  }, [widgetOrder]);
+  useEffect(() => {
     const tmpWidgetOrder = localStorage.getItem("widgetOrder")?.split(",");
     if (tmpWidgetOrder) setWidgetOrder(tmpWidgetOrder);
 
@@ -124,14 +142,15 @@ export const Customize: React.FC = () => {
   }, []);
 
   const move = (dir: number) => {
-    const tmpWidgetOrder = localStorage.getItem("widgetOrder")?.split(",");
-    const tmp = tmpWidgetOrder.findIndex((x) => x == selected);
+    const tmp = widgetOrder.findIndex((x) => x == selected);
+    console.log(tmp, dir);
     if (tmp + dir >= 0 && tmp + dir <= widgetOrder.length - 1) {
-      const newWidgetOrder = tmpWidgetOrder;
+      const newWidgetOrder = widgetOrder;
       if (newWidgetOrder) {
-        newWidgetOrder[tmp] = tmpWidgetOrder[tmp + dir];
+        newWidgetOrder[tmp] = widgetOrder[tmp + dir];
         newWidgetOrder[tmp + dir] = selected;
         setWidgetOrder(newWidgetOrder);
+        console.log(widgetOrder);
       }
     }
   };
@@ -158,6 +177,8 @@ export const Customize: React.FC = () => {
                 ? "평균 사용 시간"
                 : selectedMain == "max"
                 ? "최대 사용 시간"
+                : selectedMain == "downtime"
+                ? "다운 타임"
                 : ""
             }
             icon={Settings}
@@ -179,6 +200,11 @@ export const Customize: React.FC = () => {
               text="최대 사용 시간"
               selected={selectedMain == "max"}
               onClick={() => setSelectedMain("max")}
+            />
+            <Radio
+              text="다운 타임"
+              selected={selectedMain == "downtime"}
+              onClick={() => setSelectedMain("downtime")}
             />
           </ExpandedWidget>
         ) : (

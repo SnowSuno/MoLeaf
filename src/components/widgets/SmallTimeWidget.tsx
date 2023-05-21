@@ -22,7 +22,7 @@ const goalSuccess = (actual: Time, goal: Time) => {
   return actualTotalMinutes <= goalTotalMinutes;
 };
 
-export const SmallWidget: React.FC<Props> = ({
+export const SmallTimeWidget: React.FC<Props> = ({
   title,
   actual,
   goal,

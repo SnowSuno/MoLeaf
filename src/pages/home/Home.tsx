@@ -2,21 +2,22 @@ import React, { useEffect, useState } from "react";
 import { AnimatedOutlet } from "../../components/AnimatedOutlet";
 import { Link } from "react-router-dom";
 import { Header } from "../../components/Header";
-import { MainWidget, SmallWidget } from "../../components/widgets";
+import { MainWidget, SmallTimeWidget } from "../../components/widgets";
 import styled from "@emotion/styled";
 import { Widget } from "../../components/Widget";
 import { Button } from "../../components/Button";
 import { Settings } from "../../assets/icons/Settings";
+import { SmallPatternWidget } from "../../components/widgets/SmallPatternWidget";
 
 interface Props {
-  widgetOrder: string[];
+  widgetOrder: string[] | null;
 }
 
 const WidgetList: React.FC<Props> = ({ widgetOrder }) => {
-  return widgetOrder.map((x) => {
+  return widgetOrder?.map((x) => {
     if (x == "total") {
       return (
-        <SmallWidget
+        <SmallTimeWidget
           title="전체 사용 시간"
           actual={{ hours: 2, minutes: 27 }}
           goal={{ hours: 4, minutes: 0 }}
@@ -24,7 +25,7 @@ const WidgetList: React.FC<Props> = ({ widgetOrder }) => {
       );
     } else if (x == "max") {
       return (
-        <SmallWidget
+        <SmallTimeWidget
           title="최대 사용 시간"
           actual={{ hours: 3, minutes: 12 }}
           goal={{ hours: 3, minutes: 0 }}
@@ -32,9 +33,20 @@ const WidgetList: React.FC<Props> = ({ widgetOrder }) => {
       );
     } else if (x == "average") {
       return (
-        <SmallWidget
+        <SmallTimeWidget
           title="평균 사용 시간"
           actual={{ hours: 0, minutes: 12 }}
+        />
+      );
+    } else if (x == "downtime") {
+      return (
+        <SmallPatternWidget
+          title="다운 타임"
+          on={true}
+          range={{
+            startTime: { hours: 20, minutes: 0 },
+            endTime: { hours: 23, minutes: 0 },
+          }}
         />
       );
     } else {
@@ -58,7 +70,7 @@ export const Home: React.FC = () => {
     if (!localStorage.getItem("widgetOrder")) {
       localStorage.setItem(
         "widgetOrder",
-        ["total", "max", "average"].toString()
+        ["total", "max", "average", "downtime"].toString()
       );
     }
   }, [widgetOrder]);
@@ -78,6 +90,8 @@ export const Home: React.FC = () => {
                 ? "평균 사용 시간"
                 : selectedMain == "max"
                 ? "최대 사용 시간"
+                : selectedMain == "downtime"
+                ? "다운 타임"
                 : ""
             }
           />
@@ -88,8 +102,6 @@ export const Home: React.FC = () => {
             <WidgetList widgetOrder={widgetOrder} />
           </WidgetContainer>
         </div>
-
-        <Widget title="임의의 어떤 위젯을 넣을 예정" />
 
         <div style={{ margin: "0 auto" }}>
           <Link to="/customize" style={{ textDecoration: "none" }}>
