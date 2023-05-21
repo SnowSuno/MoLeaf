@@ -4,6 +4,7 @@ import { Header } from "../../components/Header";
 import { TimeUsageWidget } from "../../components/widgets";
 import styled from "@emotion/styled";
 import { AnimatedOutlet } from "../../components/AnimatedOutlet";
+import { PatternUsageWidget } from "../../components/widgets/PatternUsageWidget";
 
 export const Goals: React.FC = () => {
   return (
@@ -19,14 +20,14 @@ export const Goals: React.FC = () => {
               totalTime={{ hours: 4, minutes: 0 }}
             />
           </Link>
-          <Link to="/goals/downtime" style={{ textDecoration: "none" }}>
-            <TimeUsageWidget title="다운 타임" />{" "}
-          </Link>
           <Link to="/goals/maxtime" style={{ textDecoration: "none" }}>
             <TimeUsageWidget
               title="최대 사용 시간"
               totalTime={{ hours: 3, minutes: 0 }}
             />
+          </Link>
+          <Link to="/goals/downtime" style={{ textDecoration: "none" }}>
+            <PatternUsageWidget title="다운 타임" />
           </Link>
         </InnerContainer>
         <InnerContainer>

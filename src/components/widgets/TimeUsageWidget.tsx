@@ -51,7 +51,7 @@ const Time = styled.div`
 
 const TotalTime = styled.div`
   color: var(--black);
-  font-size: 36px;
+  font-size: 32px;
   font-weight: bold;
   margin-right: 12px;
 `;
