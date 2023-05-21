@@ -15,9 +15,16 @@ interface Props {
     hours: number;
     minutes: number;
   };
+  index: number;
+  removeData: (index: number) => void;
 }
 
-const DownTimeBox: React.FC<Props> = ({ startTime, endTime }) => {
+const DownTimeBox: React.FC<Props> = ({
+  startTime,
+  endTime,
+  index,
+  removeData,
+}) => {
   return (
     <InnerContainer1>
       <InnerContainer2>
@@ -66,7 +73,7 @@ const DownTimeBox: React.FC<Props> = ({ startTime, endTime }) => {
         </select>
       </InnerContainer2>
 
-      <DeleteButton>-</DeleteButton>
+      <DeleteButton onClick={() => removeData(index)}>-</DeleteButton>
     </InnerContainer1>
   );
 };
@@ -84,6 +91,19 @@ export const DownTime: React.FC = () => {
     },
   ]);
 
+  const addData = () => {
+    const newRange = {
+      startTime: { hours: 0, minutes: 0 },
+      endTime: { hours: 0, minutes: 0 },
+    };
+    setData(data.concat(newRange));
+  };
+
+  const removeData = (index: number) => {
+    if (index == 0) setData(data.slice(1));
+    else setData(data.slice(0, index - 1).concat(data.slice(index + 1)));
+  };
+
   return (
     <Page title="전체 사용 시간">
       <PageContainer>
@@ -97,10 +117,15 @@ export const DownTime: React.FC = () => {
         ) : (
           <Container>
             <Category>목표 설정하기</Category>
-            {data.map((x) => (
-              <DownTimeBox startTime={x.startTime} endTime={x.endTime} />
+            {data.map((x, index) => (
+              <DownTimeBox
+                startTime={x.startTime}
+                endTime={x.endTime}
+                index={index}
+                removeData={removeData}
+              />
             ))}
-            <AddButton>+</AddButton>
+            <AddButton onClick={addData}>+</AddButton>
           </Container>
         )}
 
