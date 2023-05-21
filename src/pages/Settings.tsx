@@ -43,13 +43,21 @@ const PrivacyConsent: React.FC = () => {
 
 export const Settings: React.FC = () => {
   return (
-    <>
+    <Container>
       <Header title="Settings" />
       <UserInfo />
       <PrivacyConsent />
-    </>
+    </Container>
   );
 };
+
+const Container = styled.div`
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 24px;
+`;
 
 const UserInfoContainer = styled.div`
   display: flex;
