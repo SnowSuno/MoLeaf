@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { Page } from "../../components/Page";
-import { BarGraph } from "../../components/BarGraph";
-import { BarGauge } from "../../components/BarGauge";
+import { BarGraph } from "../../components/graphs/BarGraph";
+import { BarGauge } from "../../components/graphs/BarGauge";
 import { DataPoint } from "../../types";
 import { Divider } from "../../components/Divider";
+import { BarSelector } from "../../components/graphs/BarSelector";
 
 const data: DataPoint[] = [
   { date: 12, value: 2.4 },
@@ -27,8 +28,14 @@ export const TotalUsage: React.FC = () => {
         selected={selected}
         onClickData={setSelected}
       />
+      <BarSelector
+        data={data}
+        selected={selected}
+        onClickData={setSelected}
+      />
       <Divider/>
       <BarGauge data={selected}/>
+      <div style={{height: "200vh"}}></div>
     </Page>
   );
 };

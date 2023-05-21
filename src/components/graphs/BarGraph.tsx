@@ -4,13 +4,10 @@ import { Group } from "@visx/group";
 import { scaleBand, scaleLinear } from "@visx/scale";
 import { ScaleSVG } from "@visx/responsive";
 import { AxisLeft } from "@visx/axis";
-import type { DataPoint } from "../types";
+import type { DataPoint } from "../../types";
 
-
-
+import { spacing } from "./constants";
 // accessors
-
-
 
 interface Props {
   data: DataPoint[];
@@ -29,16 +26,12 @@ export const BarGraph: React.FC<Props> = ({
   data,
   selected,
   onClickData,
-  width = 400,
-  height = 200,
-  marginLeft = 25,
-  marginRight = 5,
   marginTop = 5,
   marginBottom = 5,
 }) => {
   // bounds
-  const xMax = width - marginLeft - marginRight;
-  const yMax = height - marginTop - marginBottom;
+  const xMax = spacing.width - 2 * spacing.marginInline;
+  const yMax = spacing.height - marginTop - marginBottom;
 
   // scales, memoize for performance
   const xScale = useMemo(() =>
@@ -56,14 +49,13 @@ export const BarGraph: React.FC<Props> = ({
     }), [yMax, data]);
 
   return (
-    <ScaleSVG {...{ width, height }}>
-      {/*<rect width={width} height={height} fill="url(#teal)" rx={14} />*/}
-      <Group top={marginTop} left={marginLeft}>
+    <ScaleSVG width={spacing.width} height={spacing.height}>
+      <Group top={marginTop} left={spacing.marginInline}>
         <AxisLeft
           scale={yScale}
           hideAxisLine={true}
           hideTicks={true}
-          left={marginLeft - 18}
+          left={spacing.marginInline - 18}
           numTicks={2}
           tickLength={0}
           tickLabelProps={{
@@ -72,6 +64,7 @@ export const BarGraph: React.FC<Props> = ({
           }}
           tickFormat={tickValue => `${tickValue}h`}
         />
+
         {data.map(dataPoint => {
           const barWidth = xScale.bandwidth();
           const barHeight = yMax - (yScale(dataPoint.value));
@@ -88,7 +81,6 @@ export const BarGraph: React.FC<Props> = ({
               opacity={dataPoint.date === selected.date ? 1 : 0.3}
               rx={12}
               onClick={() => onClickData?.(dataPoint)}
-
             />
           );
         })}
