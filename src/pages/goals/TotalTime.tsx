@@ -1,18 +1,11 @@
 import React, { useState } from "react";
-import { Page } from "../../components/Page";
-import { BarGraph, BarGauge } from "../../components/graphs";
-import { DataPoint } from "../../types";
-import { Divider } from "../../components/Divider";
+import styled from "@emotion/styled";
 
-const data: DataPoint[] = [
-  { date: 12, value: 2.4 },
-  { date: 13, value: 4.2 },
-  { date: 14, value: 1.1 },
-  { date: 15, value: 0.7 },
-  { date: 16, value: 2.8 },
-  { date: 17, value: 1.4 },
-  { date: 18, value: 2 },
-];
+import { Page } from "../../components/Page";
+
+import { ToggleSwitch } from "../../components/ToggleSwitch";
+import { GoalInput } from "../../components/GoalInput";
+
 
 export const TotalTime: React.FC = () => {
   const [toggled, setToggled] = useState<boolean>(false);
@@ -37,7 +30,7 @@ export const TotalTime: React.FC = () => {
             <GoalTime2>/ 일</GoalTime2>
           </InnerContainer2>
         </Container>}
-        
+
         {toggled ?
         <></> :
         <InformationBox>
