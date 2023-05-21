@@ -69,14 +69,15 @@ export const Home: React.FC = () => {
           "widgetOrder",
           ["total", "max", "average", "downtime"].toString()
         );
-        const tmpWidgetOrder = localStorage.getItem("widgetOrder");
-        if (tmpWidgetOrder) await setWidgetOrder(tmpWidgetOrder.split(","));
       }
       if (!localStorage.getItem("mainWidget")) {
         await localStorage.setItem("mainWidget", "total");
-        const tmpSelectedMain = localStorage.getItem("mainWidget");
-        if (tmpSelectedMain) await setSelectedMain(tmpSelectedMain);
       }
+
+      const tmpWidgetOrder = localStorage.getItem("widgetOrder");
+      if (tmpWidgetOrder) await setWidgetOrder(tmpWidgetOrder.split(","));
+      const tmpSelectedMain = localStorage.getItem("mainWidget");
+      if (tmpSelectedMain) await setSelectedMain(tmpSelectedMain);
     }
     initLocalStorage();
   }, []);
