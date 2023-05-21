@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Page } from "../../components/Page";
+import { Page } from "../../components/layouts/Page";
 import { BarGraph, BarGauge, BarSelector } from "../../components/graphs";
 import { DataPoint } from "../../types";
 import { Divider } from "../../components/elements";

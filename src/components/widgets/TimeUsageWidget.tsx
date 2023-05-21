@@ -1,6 +1,6 @@
 import React, { type PropsWithChildren } from "react";
 import styled from "@emotion/styled";
-import { Widget } from "../Widget";
+import { Widget } from "../elements";
 import { ChevronRight } from "../../assets/icons";
 
 //const totalTime = { hours: 2, minutes: 27 };

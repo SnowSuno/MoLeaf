@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { Page } from "../../components/Page";
+import { Page } from "../../components/layouts/Page";
 import { ChevronLeft, ChevronRight } from "../../assets/icons";
 import styled from "@emotion/styled";
 import { MainWidget, SmallTimeWidget } from "../../components/widgets";
 import { Button, Card } from "../../components/elements";
 import { Settings } from "../../assets/icons";
-import { Radio } from "../../components/Radio";
 import { SmallPatternWidget } from "../../components/widgets/SmallPatternWidget";
+import { Radio } from "../../components/elements";
 
 interface Props {
   widgetOrder: string[];

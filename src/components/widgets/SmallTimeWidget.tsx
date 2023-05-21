@@ -1,6 +1,6 @@
 import React, { type PropsWithChildren } from "react";
 import styled from "@emotion/styled";
-import { Widget } from "../Widget";
+import { Widget } from "../elements";
 import { BarGauge } from "../graphs";
 
 type Time = {

@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Header } from "../../components/Header";
+import { Header } from "../../components/layouts/Header";
 import { TimeUsageWidget } from "../../components/widgets";
 import styled from "@emotion/styled";
-import { AnimatedOutlet } from "../../components/AnimatedOutlet";
 import { PatternUsageWidget } from "../../components/widgets/PatternUsageWidget";
+import { AnimatedOutlet } from "../../components/layouts/AnimatedOutlet";
 
 export const Goals: React.FC = () => {
   return (
@@ -45,13 +45,9 @@ export const Goals: React.FC = () => {
 };
 
 const Container = styled.div`
-  position: relative;
   display: flex;
   flex-direction: column;
   gap: 24px;
-  padding-bottom: 100px;
-  overflow: auto;
-  height: 100vh;
 `;
 
 const InnerContainer = styled.div`
@@ -65,9 +61,3 @@ const Category = styled.div`
   font-size: 24px;
   font-weight: var(--medium-text);
 `;
-
-// const Title = styled.div`
-//   color: var(--dark-text);
-//   font-size: 16px;
-//   font-weight: var(--medium-text);
-// `;

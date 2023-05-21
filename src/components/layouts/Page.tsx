@@ -2,7 +2,7 @@ import React, { type PropsWithChildren } from "react";
 import { motion } from "framer-motion";
 import styled from "@emotion/styled";
 import { useNavigate } from "react-router-dom";
-import { ChevronLeft } from "../assets/icons";
+import { ChevronLeft } from "../../assets/icons";
 
 interface Props extends PropsWithChildren {
   title: string;

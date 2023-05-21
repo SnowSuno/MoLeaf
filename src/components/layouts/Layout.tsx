@@ -16,5 +16,11 @@ export const Layout: React.FC = () => {
 };
 
 const Main = styled.main`
-  padding: 20px 20px 0;
+  max-height: 100%;
+  overflow-y: scroll;
+  padding-inline: var(--margin-inline);
+  padding-bottom: calc(120px + env(safe-area-inset-bottom, 0));
+  & > div {
+    height: max-content;
+  }
 `;
