@@ -5,3 +5,4 @@ export * from "./ChevronLeft";
 export * from "./ChevronRight";
 export * from "./ChevronDown";
 export * from "./Edit";
+export * from "./Timer";
