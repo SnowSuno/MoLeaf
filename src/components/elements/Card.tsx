@@ -25,8 +25,7 @@ export const Card: React.FC<Props> = ({
 
 const Container = styled.div`
   background-color: var(--white);
-  border-radius: 10px;
-  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
   padding: 20px;
   display: flex;
   flex-direction: column;

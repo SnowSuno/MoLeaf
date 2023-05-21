@@ -1,7 +1,7 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 import { Home, Goals, Settings } from "./pages";
-import { Layout } from "./components/Layout";
+import { Layout } from "./components/layouts/Layout";
 import { TotalUsage } from "./pages/home/TotalUsage";
 import { MotionConfig } from "framer-motion";
 import { TotalTime } from "./pages/goals/TotalTime";

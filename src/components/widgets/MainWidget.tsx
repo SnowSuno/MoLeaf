@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
-import { Widget } from "../Widget";
+import { Widget } from "../elements";
 import { BarGauge } from "../graphs";
 import { IconComponent } from "../../assets/icons/utils";
 

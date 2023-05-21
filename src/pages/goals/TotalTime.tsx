@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import styled from "@emotion/styled";
 
-import { Page } from "../../components/Page";
+import { Page } from "../../components/layouts/Page";
 
-import { Toggle } from "../../components/elements/Toggle";
+import { Toggle } from "../../components/elements";
 import { GoalInput } from "../../components/GoalInput";
 
 

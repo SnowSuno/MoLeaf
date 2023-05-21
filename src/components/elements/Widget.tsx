@@ -1,5 +1,5 @@
 import React, { type PropsWithChildren } from "react";
-import { Card } from "./elements";
+import { Card } from "./Card";
 import styled from "@emotion/styled";
 
 interface Props extends PropsWithChildren {

@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import { AnimatedOutlet } from "../../components/AnimatedOutlet";
+import { AnimatedOutlet } from "../../components/layouts/AnimatedOutlet";
 import { Link } from "react-router-dom";
-import { Header } from "../../components/Header";
+import { Header } from "../../components/layouts/Header";
 import { MainWidget, SmallTimeWidget } from "../../components/widgets";
 import styled from "@emotion/styled";
 import { Button } from "../../components/elements";

@@ -1,5 +1,5 @@
 import React from "react";
-import { Header } from "../components/Header";
+import { Header } from "../components/layouts/Header";
 import styled from "@emotion/styled";
 import { Card, Checkbox } from "../components/elements";
 import { ChevronRight, Edit } from "../assets/icons";

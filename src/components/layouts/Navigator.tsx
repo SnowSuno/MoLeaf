@@ -1,7 +1,7 @@
 import React, { type ReactNode } from "react";
 import { NavLink } from "react-router-dom";
 import styled from "@emotion/styled";
-import { Home, Settings, Timer } from "../assets/icons";
+import { Home, Settings, Timer } from "../../assets/icons";
 import { css } from "@emotion/css";
 
 interface Props {
