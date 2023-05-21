@@ -11,7 +11,7 @@ export const Toggle: React.FC<Props> = ({ toggled = false, setToggled }) => {
   return (
     <>
       <Container
-        data-isToggled={toggled}
+        data-toggled={toggled}
         onClick={() => setToggled(t => !t)}
       >
         <motion.div layout transition={spring}/>
@@ -35,7 +35,7 @@ const Container = styled.div`
   border-radius: 999px;
   padding: 4px;
   
-  &[data-isToggled="true"] {
+  &[data-toggled="true"] {
     justify-content: flex-end;
     background-color: var(--primary);
   }
