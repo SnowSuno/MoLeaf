@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Page } from "../../components/Page";
-import { BarGraph } from "../../components/BarGraph";
-import { BarGauge } from "../../components/BarGauge";
+import { BarGraph, BarGauge } from "../../components/graphs";
 import { DataPoint } from "../../types";
 import { Divider } from "../../components/Divider";
 
