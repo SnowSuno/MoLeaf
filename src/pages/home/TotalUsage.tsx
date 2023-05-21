@@ -3,6 +3,7 @@ import { Page } from "../../components/Page";
 import { BarGraph } from "../../components/BarGraph";
 import { BarGauge } from "../../components/BarGauge";
 import { DataPoint } from "../../types";
+import { Divider } from "../../components/Divider";
 
 const data: DataPoint[] = [
   { date: 12, value: 2.4 },
@@ -26,6 +27,7 @@ export const TotalUsage: React.FC = () => {
         selected={selected}
         onClickData={setSelected}
       />
+      <Divider/>
       <BarGauge data={selected}/>
     </Page>
   );

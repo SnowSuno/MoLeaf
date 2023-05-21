@@ -2,7 +2,7 @@ import React, { useMemo } from "react";
 import { ScaleSVG } from "@visx/responsive";
 import { scaleLinear } from "@visx/scale";
 import { Group } from "@visx/group";
-import { Bar } from "@visx/shape";
+import { Bar } from "./Bar";
 import { AxisBottom } from "@visx/axis";
 import { DataPoint } from "../types";
 
@@ -22,8 +22,8 @@ export const BarGauge: React.FC<Props> = ({ data }) => {
     scaleLinear<number>({
       range: [0, xMax],
       round: true,
-      domain: [0, 4],
-    }), [xMax]);
+      domain: [0, Math.max(2, data.value)],
+    }), [xMax, data]);
 
   return (
     <ScaleSVG width={width} height={height}>

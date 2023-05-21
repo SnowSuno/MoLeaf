@@ -7,7 +7,7 @@ interface Props {
 }
 
 const defaultProps: Props = {
-  size: 24,
+  size: 32,
   color: "currentColor",
   weight: 1.5,
 };
