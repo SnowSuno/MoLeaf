@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "@emotion/styled";
 import { Widget } from "../Widget";
-import { BarGauge } from "../BarGauge";
+import { BarGauge } from "../graphs";
 import { IconComponent } from "../../assets/icons/utils";
 
 const totalTime = { hours: 2, minutes: 27 };

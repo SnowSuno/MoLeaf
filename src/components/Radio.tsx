@@ -1,6 +1,5 @@
 import React, { type PropsWithChildren } from "react";
 import styled from "@emotion/styled";
-import { IconComponent } from "../assets/icons/utils";
 
 interface Props extends PropsWithChildren {
   text: string;

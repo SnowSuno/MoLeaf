@@ -1,7 +1,6 @@
 import React, { type PropsWithChildren } from "react";
 import styled from "@emotion/styled";
 import { Widget } from "../Widget";
-import { BarGauge } from "../BarGauge";
 
 type Time = {
   hours: number;

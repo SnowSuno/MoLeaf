@@ -3,11 +3,12 @@ import { Page } from "../../components/Page";
 import { ChevronLeft, ChevronRight } from "../../assets/icons";
 import styled from "@emotion/styled";
 import { MainWidget, SmallTimeWidget } from "../../components/widgets";
-import { Button } from "../../components/Button";
-import { Settings } from "../../assets/icons/Settings";
-import { Card } from "../../components/Card";
+import { Button, Card } from "../../components/elements";
+import { Settings } from "../../assets/icons";
 import { Radio } from "../../components/Radio";
-import { SmallPatternWidget } from "../../components/widgets/SmallPatternWidget";
+import {
+  SmallPatternWidget,
+} from "../../components/widgets/SmallPatternWidget";
 
 interface Props {
   widgetOrder: string[];
@@ -20,7 +21,7 @@ const WidgetList: React.FC<Props> = ({
   selected,
   setSelected,
 }) => {
-  return widgetOrder.map((x) => {
+  return <>{widgetOrder.map((x) => {
     if (x == "total") {
       return (
         <div onClick={() => (selected == x ? setSelected("") : setSelected(x))}>
@@ -73,7 +74,7 @@ const WidgetList: React.FC<Props> = ({
         /* TODO: 잠금 해제 횟수 & 다운타임 위젯 만들기 */
       );
     }
-  });
+  })}</>;
 };
 
 interface ControllerProps {
@@ -164,12 +165,12 @@ export const Customize: React.FC = () => {
               selectedMain == "total"
                 ? "전체 사용 시간"
                 : selectedMain == "average"
-                ? "평균 사용 시간"
-                : selectedMain == "max"
-                ? "최대 사용 시간"
-                : selectedMain == "downtime"
-                ? "다운 타임"
-                : ""
+                  ? "평균 사용 시간"
+                  : selectedMain == "max"
+                    ? "최대 사용 시간"
+                    : selectedMain == "downtime"
+                      ? "다운 타임"
+                      : ""
             }
             icon={Settings}
           />
@@ -211,7 +212,7 @@ export const Customize: React.FC = () => {
           </WidgetContainer>
         </div>
 
-        <Button text="저장하기" onClick={save} />
+        <Button text="저장하기" onClick={save}/>
       </Container>
       {selected && selected != "main" ? (
         <Controller
@@ -255,15 +256,9 @@ const ControllerContainer = styled.div`
   padding: 24px;
   display: flex;
   flex-direction: row;
-  align-items: center;
   justify-content: center;
 
   & * {
     cursor: pointer;
   }
-`;
-
-const ControllerInnerContainer = styled.div`
-  display: flex;
-  flex-direction: row;
 `;
