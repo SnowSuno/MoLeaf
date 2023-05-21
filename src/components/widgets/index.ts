@@ -1,3 +1,3 @@
-export * from "./DailyTotalTimeUsageWidget";
+export * from "./MainWidget";
 export * from "./SmallWidget";
 export * from "./TimeUsageWidget";

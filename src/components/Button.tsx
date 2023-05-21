@@ -5,14 +5,17 @@ import { IconComponent } from "../assets/icons/utils";
 interface Props extends PropsWithChildren {
   icon?: IconComponent;
   text: string;
+  onClick?: () => void;
 }
 
-export const Button: React.FC<Props> = ({ icon: Icon, text }) => {
+export const Button: React.FC<Props> = ({ icon: Icon, text, onClick }) => {
   return (
-    <Container>
-      {Icon ? <Icon size={24} /> : <></>}
-      {text}
-    </Container>
+    <div onClick={onClick}>
+      <Container>
+        {Icon ? <Icon size={24} /> : <></>}
+        {text}
+      </Container>
+    </div>
   );
 };
 
@@ -27,7 +30,6 @@ const Container = styled.div`
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
   font-size: 18px;
   cursor: pointer;
 

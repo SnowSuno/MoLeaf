@@ -3,6 +3,7 @@ export * from "./Flag";
 export * from "./Settings";
 export * from "./ChevronLeft";
 export * from "./ChevronRight";
+export * from "./ChevronUp";
 export * from "./ChevronDown";
 export * from "./Edit";
 export * from "./Timer";

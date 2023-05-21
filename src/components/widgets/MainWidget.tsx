@@ -2,13 +2,27 @@ import React from "react";
 import styled from "@emotion/styled";
 import { Widget } from "../Widget";
 import { BarGauge } from "../BarGauge";
+import { IconComponent } from "../../assets/icons/utils";
 
 const totalTime = { hours: 2, minutes: 27 };
 const goal = { hours: 4, minutes: 0 };
 
-export const DailyTotalTimeUsageWidget: React.FC = () => {
-  const childrenComponent = (
-    <>
+interface Props {
+  text: string;
+  icon?: IconComponent;
+  selected?: boolean;
+}
+
+export const MainWidget: React.FC<Props> = ({ text, icon: Icon, selected }) => {
+  return (
+    <Widget title={text} selected={selected}>
+      {Icon ? (
+        <div style={{ float: "right", marginTop: "-24px", cursor: "pointer" }}>
+          <Icon size={24} color="var(--dark-text)" />
+        </div>
+      ) : (
+        <></>
+      )}
       <Container>
         <TotalTime>
           {totalTime.hours}h {totalTime.minutes}m
@@ -22,9 +36,8 @@ export const DailyTotalTimeUsageWidget: React.FC = () => {
         )}
       </Container>
       <BarGauge data={{ date: 0, value: 1.2 }} />
-    </>
+    </Widget>
   );
-  return <Widget title="전체 사용 시간" children={childrenComponent} />;
 };
 
 const Container = styled.div`

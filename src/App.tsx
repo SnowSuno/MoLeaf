@@ -5,6 +5,7 @@ import { Layout } from "./components/Layout";
 import { TotalUsage } from "./pages/home/TotalUsage";
 import { TotalTime } from "./pages/goals/TotalTime";
 import { DownTime } from "./pages/goals/DownTime";
+import { Customize } from "./pages/home/Customize";
 
 const router = createBrowserRouter([
   {
@@ -14,7 +15,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
-        children: [{ path: "/total", element: <TotalUsage /> }],
+        children: [
+          { path: "/total", element: <TotalUsage /> },
+          { path: "/customize", element: <Customize /> },
+        ],
       },
       {
         path: "/goals",
