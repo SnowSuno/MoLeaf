@@ -15,14 +15,16 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
-        children: [{ path: "/total", element: <TotalUsage /> }],
+        children: [
+          { path: "total", element: <TotalUsage /> },
+        ],
       },
       {
         path: "/goals",
         element: <Goals />,
         children: [
-          { path: "/goals/totaltime", element: <TotalTime /> },
-          { path: "/goals/downtime", element: <DownTime /> },
+          { path: "totaltime", element: <TotalTime /> },
+          { path: "downtime", element: <DownTime /> },
         ],
       },
       { path: "/settings", element: <Settings /> },
