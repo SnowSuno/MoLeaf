@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "@emotion/styled";
 import { Widget } from "../Widget";
+import { BarGauge } from "../BarGauge";
 
 const totalTime = { hours: 2, minutes: 27 };
 const goal = { hours: 4, minutes: 0 };
-
 
 export const DailyTotalTimeUsageWidget: React.FC = () => {
   const childrenComponent = (
@@ -21,7 +21,7 @@ export const DailyTotalTimeUsageWidget: React.FC = () => {
           <></>
         )}
       </Container>
-      (Horizontal Bar)
+      <BarGauge data={{ date: 0, value: 1.2 }} />
     </>
   );
   return <Widget title="전체 사용 시간" children={childrenComponent} />;
