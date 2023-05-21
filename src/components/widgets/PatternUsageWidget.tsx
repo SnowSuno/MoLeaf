@@ -89,9 +89,3 @@ const NotSet = styled.div`
   font-weight: bold;
   margin-right: 12px;
 `;
-
-const GoalTime = styled.div`
-  color: var(--dark-text);
-  font-size: 18px;
-  font-weight: 500;
-`;
