@@ -8,14 +8,13 @@ export const Layout: React.FC = () => {
     <>
       {/*<Header/>*/}
       <Main>
-        <Outlet/>
+        <Outlet />
       </Main>
-      <Navigator/>
+      <Navigator />
     </>
   );
 };
 
 const Main = styled.main`
   padding: 20px 20px 0;
-  
 `;

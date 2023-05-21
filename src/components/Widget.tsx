@@ -8,13 +8,12 @@ interface Props extends PropsWithChildren {
 }
 
 export const Widget: React.FC<Props> = ({ full, title, children }) => {
-  const childrenComponent = (
-    <>
+  return (
+    <Card full={full}>
       <Title>{title}</Title>
       {children}
-    </>
+    </Card>
   );
-  return <Card full={full} children={childrenComponent} />;
 };
 
 const Title = styled.div`
