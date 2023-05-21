@@ -100,7 +100,8 @@ export const DownTime: React.FC = () => {
   };
 
   const removeData = (index: number) => {
-    setData(data.splice(index));
+    data.splice(index, 1);
+    setData(data);
   };
 
   return (
