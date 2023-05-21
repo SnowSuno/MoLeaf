@@ -11,7 +11,7 @@ interface Props extends PropsWithChildren {
   totalTime?: {
     hours: number;
     minutes: number;
-  }
+  };
 }
 
 export const TimeUsageWidget: React.FC<Props> = ({ title, totalTime }) => {
@@ -24,15 +24,11 @@ export const TimeUsageWidget: React.FC<Props> = ({ title, totalTime }) => {
               {totalTime.hours}h {totalTime.minutes}m
             </TotalTime>
           ) : (
-            <NotSet>
-              미설정
-            </NotSet>
+            <NotSet>미설정</NotSet>
           )}
-          <GoalTime>
-            / 1일
-          </GoalTime>
+          <GoalTime>/ 1일</GoalTime>
         </Time>
-        <ChevronRight size={36} color="var(--dark-text)"/>
+        <ChevronRight size={36} color="var(--dark-text)" />
       </Container>
     </>
   );
@@ -47,10 +43,10 @@ const Container = styled.div`
 `;
 
 const Time = styled.div`
-  display: flex;  
+  display: flex;
   align-items: baseline;
   flex-direction: row;
-  justify-content: space-between;  
+  justify-content: space-between;
 `;
 
 const TotalTime = styled.div`

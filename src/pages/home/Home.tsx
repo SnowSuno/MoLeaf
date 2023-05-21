@@ -24,15 +24,19 @@ export const Home: React.FC = () => {
           <WidgetContainer>
             <SmallWidget
               title="전체 사용 시간"
-              mainText="2h 27m"
-              goalText="4h"
+              actual={{ hours: 2, minutes: 27 }}
+              goal={{ hours: 4, minutes: 0 }}
             />
             <SmallWidget
               title="최대 사용 시간"
-              mainText="1h 12m"
-              goalText="3h"
+              actual={{ hours: 3, minutes: 12 }}
+              goal={{ hours: 3, minutes: 0 }}
             />
-            {/* <SmallWidget title="평균 사용 시간" mainText="12m" /> */}
+            <SmallWidget
+              title="평균 사용 시간"
+              actual={{ hours: 0, minutes: 12 }}
+            />
+            {/* TODO: 잠금 해제 횟수 & 다운타임 위젯 만들기 */}
           </WidgetContainer>
         </div>
         <Widget title="임의의 어떤 위젯을 넣을 예정" />

@@ -8,7 +8,7 @@ interface Props extends PropsWithChildren {
 export const Card: React.FC<Props> = ({ full = true, children }) => {
   return (
     <Container
-      style={!full ? { display: "inline-block", minWidth: "144px" } : {}}
+      style={!full ? { display: "inline-block", minWidth: "200px" } : {}}
     >
       {children}
     </Container>
