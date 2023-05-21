@@ -1,18 +1,20 @@
 import React from "react";
 
-interface Props {
+export interface IconProps {
   size: number;
   color: string;
   weight: number;
 }
 
-const defaultProps: Props = {
-  size: 32,
+export const defaultProps: IconProps = {
+  size: 24,
   color: "currentColor",
   weight: 1.5,
 };
 
-export const icon = (svg: (props: Props) => JSX.Element): React.FC<Partial<Props>> =>
-  (props) => svg(
-    { ...defaultProps, ...props },
-  );
+export const icon =
+  (svg: (props: IconProps) => JSX.Element): React.FC<Partial<IconProps>> =>
+  (props) =>
+    svg({ ...defaultProps, ...props });
+
+export type IconComponent = React.FC<Partial<IconProps>>;
