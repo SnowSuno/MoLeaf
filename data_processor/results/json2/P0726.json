@@ -1,0 +1,37 @@
+[
+	{
+		"date": 1,
+		"maxTime": 0,
+		"unlockCount": 0
+	},
+	{
+		"date": 2,
+		"maxTime": 0,
+		"unlockCount": 0
+	},
+	{
+		"date": 3,
+		"maxTime": 2,
+		"unlockCount": 2
+	},
+	{
+		"date": 4,
+		"maxTime": 12,
+		"unlockCount": 51
+	},
+	{
+		"date": 5,
+		"maxTime": 16,
+		"unlockCount": 54
+	},
+	{
+		"date": 6,
+		"maxTime": 12,
+		"unlockCount": 38
+	},
+	{
+		"date": 7,
+		"maxTime": 8,
+		"unlockCount": 32
+	},
+]

@@ -1,0 +1,111 @@
+[
+	{
+		"date": 1,
+		"totalTime": 240,
+		"details": [
+			{"appName": "Chrome", "usage": 90},
+			{"appName": "Facebook", "usage": 66},
+			{"appName": "YouTube", "usage": 31},
+			{"appName": "카카오톡", "usage": 25},
+			{"appName": "기본홈", "usage": 5},
+			{"appName": "Paco", "usage": 5},
+			{"appName": "Polar Beat", "usage": 3},
+			{"appName": "통화 화면", "usage": 2},
+			{"appName": "알람/시계", "usage": 2},
+			{"appName": "메시지", "usage": 1},
+		]
+	},
+	{
+		"date": 2,
+		"totalTime": 272,
+		"details": [
+			{"appName": "YouTube", "usage": 139},
+			{"appName": "Chrome", "usage": 47},
+			{"appName": "Facebook", "usage": 28},
+			{"appName": "카카오톡", "usage": 24},
+			{"appName": "쿠팡", "usage": 12},
+			{"appName": "통화 화면", "usage": 4},
+			{"appName": "기본홈", "usage": 4},
+			{"appName": "Paco", "usage": 4},
+			{"appName": "메시지", "usage": 2},
+			{"appName": "알람/시계", "usage": 1},
+			{"appName": "Polar Beat", "usage": 1},
+		]
+	},
+	{
+		"date": 3,
+		"totalTime": 205,
+		"details": [
+			{"appName": "YouTube", "usage": 77},
+			{"appName": "카카오톡", "usage": 43},
+			{"appName": "드라이브", "usage": 16},
+			{"appName": "Facebook", "usage": 15},
+			{"appName": "Chrome", "usage": 15},
+			{"appName": "Melon", "usage": 10},
+			{"appName": "Paco", "usage": 7},
+			{"appName": "통화 화면", "usage": 5},
+			{"appName": "기본홈", "usage": 5},
+			{"appName": "쿠팡", "usage": 2},
+			{"appName": "사운드코르셋 튜너 & 메트로놈", "usage": 1},
+			{"appName": "메시지", "usage": 1},
+		]
+	},
+	{
+		"date": 4,
+		"totalTime": 256,
+		"details": [
+			{"appName": "YouTube", "usage": 134},
+			{"appName": "Facebook", "usage": 46},
+			{"appName": "카카오톡", "usage": 32},
+			{"appName": "Chrome", "usage": 24},
+			{"appName": "통화 화면", "usage": 8},
+			{"appName": "기본홈", "usage": 3},
+			{"appName": "Paco", "usage": 3},
+		]
+	},
+	{
+		"date": 5,
+		"totalTime": 114,
+		"details": [
+			{"appName": "Facebook", "usage": 45},
+			{"appName": "카카오톡", "usage": 24},
+			{"appName": "통화 화면", "usage": 12},
+			{"appName": "Chrome", "usage": 10},
+			{"appName": "YouTube", "usage": 4},
+			{"appName": "카메라", "usage": 3},
+			{"appName": "기본홈", "usage": 3},
+			{"appName": "Paco", "usage": 3},
+			{"appName": "Melon", "usage": 2},
+			{"appName": "Wi-Fi", "usage": 1},
+		]
+	},
+	{
+		"date": 6,
+		"totalTime": 180,
+		"details": [
+			{"appName": "Facebook", "usage": 109},
+			{"appName": "카카오톡", "usage": 24},
+			{"appName": "통화 화면", "usage": 12},
+			{"appName": "Chrome", "usage": 10},
+			{"appName": "YouTube", "usage": 4},
+			{"appName": "카메라", "usage": 3},
+			{"appName": "기본홈", "usage": 3},
+			{"appName": "Paco", "usage": 3},
+			{"appName": "Melon", "usage": 2},
+			{"appName": "주소록", "usage": 1},
+			{"appName": "Wi-Fi", "usage": 1},
+		]
+	},
+	{
+		"date": 7,
+		"totalTime": 140,
+		"details": [
+			{"appName": "Facebook", "usage": 86},
+			{"appName": "YouTube", "usage": 30},
+			{"appName": "카카오톡", "usage": 12},
+			{"appName": "Chrome", "usage": 4},
+			{"appName": "통화 화면", "usage": 1},
+			{"appName": "쿠팡", "usage": 1},
+		]
+	},
+]

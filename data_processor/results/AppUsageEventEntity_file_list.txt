@@ -1,554 +1,554 @@
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0703/AppUsageEventEntity-5572736000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0703/AppUsageEventEntity-5573600000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0703/AppUsageEventEntity-5574464000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0703/AppUsageEventEntity-5575328000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0703/AppUsageEventEntity-5576192000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0703/AppUsageEventEntity-5577056000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0703/AppUsageEventEntity-5577920000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0705/AppUsageEventEntity-5572736000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0705/AppUsageEventEntity-5573600000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0705/AppUsageEventEntity-5574464000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0705/AppUsageEventEntity-5575328000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0705/AppUsageEventEntity-5576192000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0705/AppUsageEventEntity-5577056000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0705/AppUsageEventEntity-5577920000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0707/AppUsageEventEntity-5572736000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0707/AppUsageEventEntity-5573600000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0707/AppUsageEventEntity-5574464000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0707/AppUsageEventEntity-5575328000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0707/AppUsageEventEntity-5576192000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0707/AppUsageEventEntity-5577056000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0707/AppUsageEventEntity-5577920000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0710/AppUsageEventEntity-5572736000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0710/AppUsageEventEntity-5573600000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0710/AppUsageEventEntity-5574464000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0710/AppUsageEventEntity-5575328000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0710/AppUsageEventEntity-5576192000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0710/AppUsageEventEntity-5577056000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0710/AppUsageEventEntity-5577920000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0711/AppUsageEventEntity-5572736000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0711/AppUsageEventEntity-5573600000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0711/AppUsageEventEntity-5574464000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0711/AppUsageEventEntity-5575328000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0711/AppUsageEventEntity-5576192000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0711/AppUsageEventEntity-5577056000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0711/AppUsageEventEntity-5577920000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0712/AppUsageEventEntity-5572736000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0712/AppUsageEventEntity-5573600000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0712/AppUsageEventEntity-5574464000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0712/AppUsageEventEntity-5575328000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0712/AppUsageEventEntity-5576192000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0712/AppUsageEventEntity-5577056000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0712/AppUsageEventEntity-5577920000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0714/AppUsageEventEntity-5572736000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0714/AppUsageEventEntity-5573600000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0714/AppUsageEventEntity-5574464000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0714/AppUsageEventEntity-5575328000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0714/AppUsageEventEntity-5576192000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0714/AppUsageEventEntity-5577056000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0714/AppUsageEventEntity-5577920000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0715/AppUsageEventEntity-5572736000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0715/AppUsageEventEntity-5573600000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0715/AppUsageEventEntity-5574464000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0715/AppUsageEventEntity-5575328000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0715/AppUsageEventEntity-5576192000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0715/AppUsageEventEntity-5577056000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0715/AppUsageEventEntity-5577920000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0716/AppUsageEventEntity-5572736000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0716/AppUsageEventEntity-5573600000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0716/AppUsageEventEntity-5574464000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0716/AppUsageEventEntity-5575328000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0716/AppUsageEventEntity-5576192000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0716/AppUsageEventEntity-5577056000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0716/AppUsageEventEntity-5577920000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0717/AppUsageEventEntity-5572736000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0717/AppUsageEventEntity-5573600000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0717/AppUsageEventEntity-5574464000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0717/AppUsageEventEntity-5575328000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0717/AppUsageEventEntity-5576192000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0717/AppUsageEventEntity-5577056000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0717/AppUsageEventEntity-5577920000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0718/AppUsageEventEntity-5572736000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0718/AppUsageEventEntity-5573600000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0718/AppUsageEventEntity-5574464000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0718/AppUsageEventEntity-5575328000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0718/AppUsageEventEntity-5576192000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0718/AppUsageEventEntity-5577056000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0718/AppUsageEventEntity-5577920000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0721/AppUsageEventEntity-5572736000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0721/AppUsageEventEntity-5573600000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0721/AppUsageEventEntity-5574464000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0721/AppUsageEventEntity-5575328000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0721/AppUsageEventEntity-5576192000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0721/AppUsageEventEntity-5577056000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0721/AppUsageEventEntity-5577920000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0722/AppUsageEventEntity-5572736000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0722/AppUsageEventEntity-5573600000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0722/AppUsageEventEntity-5574464000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0722/AppUsageEventEntity-5575328000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0722/AppUsageEventEntity-5576192000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0722/AppUsageEventEntity-5577056000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0722/AppUsageEventEntity-5577920000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0723/AppUsageEventEntity-5572736000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0723/AppUsageEventEntity-5573600000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0723/AppUsageEventEntity-5574464000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0723/AppUsageEventEntity-5575328000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0723/AppUsageEventEntity-5576192000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0723/AppUsageEventEntity-5577056000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0723/AppUsageEventEntity-5577920000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0726/AppUsageEventEntity-5572736000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0726/AppUsageEventEntity-5573600000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0726/AppUsageEventEntity-5574464000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0726/AppUsageEventEntity-5575328000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0726/AppUsageEventEntity-5576192000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0726/AppUsageEventEntity-5577056000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0726/AppUsageEventEntity-5577920000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0728/AppUsageEventEntity-5572736000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0728/AppUsageEventEntity-5573600000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0728/AppUsageEventEntity-5574464000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0728/AppUsageEventEntity-5575328000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0728/AppUsageEventEntity-5576192000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0728/AppUsageEventEntity-5577056000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0728/AppUsageEventEntity-5577920000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0729/AppUsageEventEntity-5572736000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0729/AppUsageEventEntity-5573600000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0729/AppUsageEventEntity-5574464000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0729/AppUsageEventEntity-5575328000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0729/AppUsageEventEntity-5576192000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0729/AppUsageEventEntity-5577056000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0729/AppUsageEventEntity-5577920000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1504/AppUsageEventEntity-5579648000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1504/AppUsageEventEntity-5580512000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1504/AppUsageEventEntity-5581376000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1504/AppUsageEventEntity-5582240000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1504/AppUsageEventEntity-5583104000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1504/AppUsageEventEntity-5583968000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1504/AppUsageEventEntity-5584832000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1509/AppUsageEventEntity-5579648000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1509/AppUsageEventEntity-5580512000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1509/AppUsageEventEntity-5581376000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1509/AppUsageEventEntity-5582240000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1509/AppUsageEventEntity-5583104000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1509/AppUsageEventEntity-5583968000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1509/AppUsageEventEntity-5584832000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1510/AppUsageEventEntity-5579648000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1510/AppUsageEventEntity-5580512000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1510/AppUsageEventEntity-5581376000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1510/AppUsageEventEntity-5582240000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1510/AppUsageEventEntity-5583104000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1510/AppUsageEventEntity-5583968000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1510/AppUsageEventEntity-5584832000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1511/AppUsageEventEntity-5579648000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1511/AppUsageEventEntity-5580512000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1511/AppUsageEventEntity-5581376000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1511/AppUsageEventEntity-5582240000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1511/AppUsageEventEntity-5583104000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1511/AppUsageEventEntity-5583968000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1511/AppUsageEventEntity-5584832000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1515/AppUsageEventEntity-5579648000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1515/AppUsageEventEntity-5580512000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1515/AppUsageEventEntity-5581376000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1515/AppUsageEventEntity-5582240000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1515/AppUsageEventEntity-5583104000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1515/AppUsageEventEntity-5583968000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1515/AppUsageEventEntity-5584832000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1518/AppUsageEventEntity-5579648000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1518/AppUsageEventEntity-5580512000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1518/AppUsageEventEntity-5581376000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1518/AppUsageEventEntity-5582240000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1518/AppUsageEventEntity-5583104000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1518/AppUsageEventEntity-5583968000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1518/AppUsageEventEntity-5584832000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1519/AppUsageEventEntity-5579648000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1519/AppUsageEventEntity-5580512000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1519/AppUsageEventEntity-5581376000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1519/AppUsageEventEntity-5582240000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1519/AppUsageEventEntity-5583104000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1519/AppUsageEventEntity-5583968000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1519/AppUsageEventEntity-5584832000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0701/AppUsageEventEntity-5572736000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0701/AppUsageEventEntity-5573600000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0701/AppUsageEventEntity-5574464000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0701/AppUsageEventEntity-5575328000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0701/AppUsageEventEntity-5576192000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0701/AppUsageEventEntity-5577056000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0701/AppUsageEventEntity-5577920000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0702/AppUsageEventEntity-5572736000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0702/AppUsageEventEntity-5573600000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0702/AppUsageEventEntity-5574464000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0702/AppUsageEventEntity-5575328000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0702/AppUsageEventEntity-5576192000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0702/AppUsageEventEntity-5577056000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0702/AppUsageEventEntity-5577920000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0708/AppUsageEventEntity-5572736000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0708/AppUsageEventEntity-5573600000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0708/AppUsageEventEntity-5574464000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0708/AppUsageEventEntity-5575328000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0708/AppUsageEventEntity-5576192000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0708/AppUsageEventEntity-5577056000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0708/AppUsageEventEntity-5577920000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0719/AppUsageEventEntity-5572736000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0719/AppUsageEventEntity-5573600000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0719/AppUsageEventEntity-5574464000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0719/AppUsageEventEntity-5575328000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0719/AppUsageEventEntity-5576192000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0719/AppUsageEventEntity-5577056000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0719/AppUsageEventEntity-5577920000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0725/AppUsageEventEntity-5572736000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0725/AppUsageEventEntity-5573600000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0725/AppUsageEventEntity-5574464000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0725/AppUsageEventEntity-5575328000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0725/AppUsageEventEntity-5576192000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0725/AppUsageEventEntity-5577056000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0725/AppUsageEventEntity-5577920000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1501/AppUsageEventEntity-5579648000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1501/AppUsageEventEntity-5580512000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1501/AppUsageEventEntity-5581376000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1501/AppUsageEventEntity-5582240000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1501/AppUsageEventEntity-5583104000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1501/AppUsageEventEntity-5583968000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1501/AppUsageEventEntity-5584832000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1502/AppUsageEventEntity-5579648000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1502/AppUsageEventEntity-5580512000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1502/AppUsageEventEntity-5581376000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1502/AppUsageEventEntity-5582240000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1502/AppUsageEventEntity-5583104000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1502/AppUsageEventEntity-5583968000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1502/AppUsageEventEntity-5584832000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1503/AppUsageEventEntity-5579648000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1503/AppUsageEventEntity-5580512000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1503/AppUsageEventEntity-5581376000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1503/AppUsageEventEntity-5582240000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1503/AppUsageEventEntity-5583104000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1503/AppUsageEventEntity-5583968000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1503/AppUsageEventEntity-5584832000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1505/AppUsageEventEntity-5579648000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1505/AppUsageEventEntity-5580512000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1505/AppUsageEventEntity-5581376000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1505/AppUsageEventEntity-5582240000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1505/AppUsageEventEntity-5583104000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1505/AppUsageEventEntity-5583968000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1505/AppUsageEventEntity-5584832000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1506/AppUsageEventEntity-5579648000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1506/AppUsageEventEntity-5580512000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1506/AppUsageEventEntity-5581376000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1506/AppUsageEventEntity-5582240000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1506/AppUsageEventEntity-5583104000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1506/AppUsageEventEntity-5583968000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1506/AppUsageEventEntity-5584832000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1508/AppUsageEventEntity-5579648000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1508/AppUsageEventEntity-5580512000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1508/AppUsageEventEntity-5581376000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1508/AppUsageEventEntity-5582240000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1508/AppUsageEventEntity-5583104000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1508/AppUsageEventEntity-5583968000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1508/AppUsageEventEntity-5584832000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1517/AppUsageEventEntity-5579648000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1517/AppUsageEventEntity-5580512000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1517/AppUsageEventEntity-5581376000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1517/AppUsageEventEntity-5582240000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1517/AppUsageEventEntity-5583104000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1517/AppUsageEventEntity-5583968000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1517/AppUsageEventEntity-5584832000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1520/AppUsageEventEntity-5579648000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1520/AppUsageEventEntity-5580512000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1520/AppUsageEventEntity-5581376000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1520/AppUsageEventEntity-5582240000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1520/AppUsageEventEntity-5583104000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1520/AppUsageEventEntity-5583968000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1520/AppUsageEventEntity-5584832000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1521/AppUsageEventEntity-5579648000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1521/AppUsageEventEntity-5580512000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1521/AppUsageEventEntity-5581376000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1521/AppUsageEventEntity-5582240000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1521/AppUsageEventEntity-5583104000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1521/AppUsageEventEntity-5583968000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1521/AppUsageEventEntity-5584832000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1523/AppUsageEventEntity-5579648000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1523/AppUsageEventEntity-5580512000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1523/AppUsageEventEntity-5581376000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1523/AppUsageEventEntity-5582240000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1523/AppUsageEventEntity-5583104000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1523/AppUsageEventEntity-5583968000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1523/AppUsageEventEntity-5584832000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1525/AppUsageEventEntity-5579648000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1525/AppUsageEventEntity-5580512000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1525/AppUsageEventEntity-5581376000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1525/AppUsageEventEntity-5582240000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1525/AppUsageEventEntity-5583104000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1525/AppUsageEventEntity-5583968000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1525/AppUsageEventEntity-5584832000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1526/AppUsageEventEntity-5579648000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1526/AppUsageEventEntity-5580512000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1526/AppUsageEventEntity-5581376000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1526/AppUsageEventEntity-5582240000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1526/AppUsageEventEntity-5583104000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1526/AppUsageEventEntity-5583968000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1526/AppUsageEventEntity-5584832000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1527/AppUsageEventEntity-5579648000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1527/AppUsageEventEntity-5580512000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1527/AppUsageEventEntity-5581376000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1527/AppUsageEventEntity-5582240000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1527/AppUsageEventEntity-5583104000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1527/AppUsageEventEntity-5583968000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1527/AppUsageEventEntity-5584832000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1541/AppUsageEventEntity-5579648000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1541/AppUsageEventEntity-5580512000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1541/AppUsageEventEntity-5581376000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1541/AppUsageEventEntity-5582240000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1541/AppUsageEventEntity-5583104000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1541/AppUsageEventEntity-5583968000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1541/AppUsageEventEntity-5584832000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3001/AppUsageEventEntity-5565824000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3001/AppUsageEventEntity-5566688000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3001/AppUsageEventEntity-5567552000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3001/AppUsageEventEntity-5568416000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3001/AppUsageEventEntity-5569280000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3001/AppUsageEventEntity-5570144000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3001/AppUsageEventEntity-5571008000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3003/AppUsageEventEntity-5565824000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3003/AppUsageEventEntity-5566688000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3003/AppUsageEventEntity-5567552000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3003/AppUsageEventEntity-5568416000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3003/AppUsageEventEntity-5569280000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3003/AppUsageEventEntity-5570144000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3003/AppUsageEventEntity-5571008000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3005/AppUsageEventEntity-5565824000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3005/AppUsageEventEntity-5566688000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3005/AppUsageEventEntity-5567552000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3005/AppUsageEventEntity-5568416000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3005/AppUsageEventEntity-5569280000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3005/AppUsageEventEntity-5570144000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3005/AppUsageEventEntity-5571008000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3007/AppUsageEventEntity-5565824000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3007/AppUsageEventEntity-5566688000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3007/AppUsageEventEntity-5567552000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3007/AppUsageEventEntity-5568416000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3007/AppUsageEventEntity-5569280000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3007/AppUsageEventEntity-5570144000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3007/AppUsageEventEntity-5571008000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3009/AppUsageEventEntity-5565824000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3009/AppUsageEventEntity-5566688000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3009/AppUsageEventEntity-5567552000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3009/AppUsageEventEntity-5568416000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3009/AppUsageEventEntity-5569280000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3009/AppUsageEventEntity-5570144000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3009/AppUsageEventEntity-5571008000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3010/AppUsageEventEntity-5565824000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3010/AppUsageEventEntity-5566688000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3010/AppUsageEventEntity-5567552000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3010/AppUsageEventEntity-5568416000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3010/AppUsageEventEntity-5569280000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3010/AppUsageEventEntity-5570144000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3010/AppUsageEventEntity-5571008000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3013/AppUsageEventEntity-5565824000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3013/AppUsageEventEntity-5566688000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3013/AppUsageEventEntity-5567552000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3013/AppUsageEventEntity-5568416000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3013/AppUsageEventEntity-5569280000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3013/AppUsageEventEntity-5570144000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3013/AppUsageEventEntity-5571008000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3014/AppUsageEventEntity-5565824000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3014/AppUsageEventEntity-5566688000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3014/AppUsageEventEntity-5567552000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3014/AppUsageEventEntity-5568416000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3014/AppUsageEventEntity-5569280000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3014/AppUsageEventEntity-5570144000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3014/AppUsageEventEntity-5571008000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0704/AppUsageEventEntity-5572736000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0704/AppUsageEventEntity-5573600000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0704/AppUsageEventEntity-5574464000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0704/AppUsageEventEntity-5575328000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0704/AppUsageEventEntity-5576192000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0704/AppUsageEventEntity-5577056000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0704/AppUsageEventEntity-5577920000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0706/AppUsageEventEntity-5572736000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0706/AppUsageEventEntity-5573600000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0706/AppUsageEventEntity-5574464000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0706/AppUsageEventEntity-5575328000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0706/AppUsageEventEntity-5576192000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0706/AppUsageEventEntity-5577056000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0706/AppUsageEventEntity-5577920000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0709/AppUsageEventEntity-5572736000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0709/AppUsageEventEntity-5573600000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0709/AppUsageEventEntity-5574464000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0709/AppUsageEventEntity-5575328000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0709/AppUsageEventEntity-5576192000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0709/AppUsageEventEntity-5577056000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0709/AppUsageEventEntity-5577920000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0713/AppUsageEventEntity-5572736000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0713/AppUsageEventEntity-5573600000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0713/AppUsageEventEntity-5574464000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0713/AppUsageEventEntity-5575328000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0713/AppUsageEventEntity-5576192000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0713/AppUsageEventEntity-5577056000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0713/AppUsageEventEntity-5577920000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0727/AppUsageEventEntity-5572736000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0727/AppUsageEventEntity-5573600000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0727/AppUsageEventEntity-5574464000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0727/AppUsageEventEntity-5575328000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0727/AppUsageEventEntity-5576192000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0727/AppUsageEventEntity-5577056000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0727/AppUsageEventEntity-5577920000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1507/AppUsageEventEntity-5579648000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1507/AppUsageEventEntity-5580512000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1507/AppUsageEventEntity-5581376000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1507/AppUsageEventEntity-5582240000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1507/AppUsageEventEntity-5583104000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1507/AppUsageEventEntity-5583968000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1507/AppUsageEventEntity-5584832000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1514/AppUsageEventEntity-5579648000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1514/AppUsageEventEntity-5580512000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1514/AppUsageEventEntity-5581376000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1514/AppUsageEventEntity-5582240000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1514/AppUsageEventEntity-5583104000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1514/AppUsageEventEntity-5583968000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1514/AppUsageEventEntity-5584832000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1516/AppUsageEventEntity-5579648000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1516/AppUsageEventEntity-5580512000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1516/AppUsageEventEntity-5581376000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1516/AppUsageEventEntity-5582240000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1516/AppUsageEventEntity-5583104000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1516/AppUsageEventEntity-5583968000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1516/AppUsageEventEntity-5584832000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1522/AppUsageEventEntity-5579648000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1522/AppUsageEventEntity-5580512000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1522/AppUsageEventEntity-5581376000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1522/AppUsageEventEntity-5582240000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1522/AppUsageEventEntity-5583104000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1522/AppUsageEventEntity-5583968000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1522/AppUsageEventEntity-5584832000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3002/AppUsageEventEntity-5565824000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3002/AppUsageEventEntity-5566688000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3002/AppUsageEventEntity-5567552000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3002/AppUsageEventEntity-5568416000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3002/AppUsageEventEntity-5569280000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3002/AppUsageEventEntity-5570144000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3002/AppUsageEventEntity-5571008000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3008/AppUsageEventEntity-5565824000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3008/AppUsageEventEntity-5566688000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3008/AppUsageEventEntity-5567552000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3008/AppUsageEventEntity-5568416000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3008/AppUsageEventEntity-5569280000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3008/AppUsageEventEntity-5570144000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3008/AppUsageEventEntity-5571008000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3012/AppUsageEventEntity-5565824000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3012/AppUsageEventEntity-5566688000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3012/AppUsageEventEntity-5567552000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3012/AppUsageEventEntity-5568416000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3012/AppUsageEventEntity-5569280000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3012/AppUsageEventEntity-5570144000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3012/AppUsageEventEntity-5571008000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3015/AppUsageEventEntity-5565824000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3015/AppUsageEventEntity-5566688000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3015/AppUsageEventEntity-5567552000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3015/AppUsageEventEntity-5568416000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3015/AppUsageEventEntity-5569280000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3015/AppUsageEventEntity-5570144000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3015/AppUsageEventEntity-5571008000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3016/AppUsageEventEntity-5565824000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3016/AppUsageEventEntity-5566688000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3016/AppUsageEventEntity-5567552000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3016/AppUsageEventEntity-5568416000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3016/AppUsageEventEntity-5569280000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3016/AppUsageEventEntity-5570144000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3016/AppUsageEventEntity-5571008000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3019/AppUsageEventEntity-5565824000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3019/AppUsageEventEntity-5566688000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3019/AppUsageEventEntity-5567552000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3019/AppUsageEventEntity-5568416000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3019/AppUsageEventEntity-5569280000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3019/AppUsageEventEntity-5570144000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3019/AppUsageEventEntity-5571008000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3021/AppUsageEventEntity-5565824000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3021/AppUsageEventEntity-5566688000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3021/AppUsageEventEntity-5567552000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3021/AppUsageEventEntity-5568416000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3021/AppUsageEventEntity-5569280000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3021/AppUsageEventEntity-5570144000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3021/AppUsageEventEntity-5571008000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3022/AppUsageEventEntity-5565824000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3022/AppUsageEventEntity-5566688000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3022/AppUsageEventEntity-5567552000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3022/AppUsageEventEntity-5568416000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3022/AppUsageEventEntity-5569280000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3022/AppUsageEventEntity-5570144000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3022/AppUsageEventEntity-5571008000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3024/AppUsageEventEntity-5565824000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3024/AppUsageEventEntity-5566688000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3024/AppUsageEventEntity-5567552000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3024/AppUsageEventEntity-5568416000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3024/AppUsageEventEntity-5569280000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3024/AppUsageEventEntity-5570144000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3024/AppUsageEventEntity-5571008000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3027/AppUsageEventEntity-5565824000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3027/AppUsageEventEntity-5566688000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3027/AppUsageEventEntity-5567552000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3027/AppUsageEventEntity-5568416000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3027/AppUsageEventEntity-5569280000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3027/AppUsageEventEntity-5570144000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3027/AppUsageEventEntity-5571008000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3028/AppUsageEventEntity-5565824000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3028/AppUsageEventEntity-5566688000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3028/AppUsageEventEntity-5567552000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3028/AppUsageEventEntity-5568416000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3028/AppUsageEventEntity-5569280000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3028/AppUsageEventEntity-5570144000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3028/AppUsageEventEntity-5571008000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3029/AppUsageEventEntity-5565824000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3029/AppUsageEventEntity-5566688000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3029/AppUsageEventEntity-5567552000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3029/AppUsageEventEntity-5568416000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3029/AppUsageEventEntity-5569280000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3029/AppUsageEventEntity-5570144000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3029/AppUsageEventEntity-5571008000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3030/AppUsageEventEntity-5565824000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3030/AppUsageEventEntity-5566688000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3030/AppUsageEventEntity-5567552000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3030/AppUsageEventEntity-5568416000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3030/AppUsageEventEntity-5569280000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3030/AppUsageEventEntity-5570144000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3030/AppUsageEventEntity-5571008000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3041/AppUsageEventEntity-5565824000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3041/AppUsageEventEntity-5566688000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3041/AppUsageEventEntity-5567552000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3041/AppUsageEventEntity-5568416000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3041/AppUsageEventEntity-5569280000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3041/AppUsageEventEntity-5570144000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3041/AppUsageEventEntity-5571008000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3011/AppUsageEventEntity-5565824000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3011/AppUsageEventEntity-5566688000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3011/AppUsageEventEntity-5567552000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3011/AppUsageEventEntity-5568416000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3011/AppUsageEventEntity-5569280000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3011/AppUsageEventEntity-5570144000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3011/AppUsageEventEntity-5571008000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3017/AppUsageEventEntity-5565824000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3017/AppUsageEventEntity-5566688000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3017/AppUsageEventEntity-5567552000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3017/AppUsageEventEntity-5568416000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3017/AppUsageEventEntity-5569280000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3017/AppUsageEventEntity-5570144000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3017/AppUsageEventEntity-5571008000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3017/AppUsageEventEntity.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3018/AppUsageEventEntity-5565824000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3018/AppUsageEventEntity-5566688000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3018/AppUsageEventEntity-5567552000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3018/AppUsageEventEntity-5568416000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3018/AppUsageEventEntity-5569280000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3018/AppUsageEventEntity-5570144000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3018/AppUsageEventEntity-5571008000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3023/AppUsageEventEntity-5565824000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3023/AppUsageEventEntity-5566688000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3023/AppUsageEventEntity-5567552000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3023/AppUsageEventEntity-5568416000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3023/AppUsageEventEntity-5569280000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3023/AppUsageEventEntity-5570144000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3023/AppUsageEventEntity-5571008000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3025/AppUsageEventEntity-5565824000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3025/AppUsageEventEntity-5566688000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3025/AppUsageEventEntity-5567552000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3025/AppUsageEventEntity-5568416000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3025/AppUsageEventEntity-5569280000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3025/AppUsageEventEntity-5570144000.csv
-K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3025/AppUsageEventEntity-5571008000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0703/AppUsageEventEntity-5572736000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0703/AppUsageEventEntity-5573600000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0703/AppUsageEventEntity-5574464000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0703/AppUsageEventEntity-5575328000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0703/AppUsageEventEntity-5576192000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0703/AppUsageEventEntity-5577056000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0703/AppUsageEventEntity-5577920000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0705/AppUsageEventEntity-5572736000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0705/AppUsageEventEntity-5573600000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0705/AppUsageEventEntity-5574464000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0705/AppUsageEventEntity-5575328000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0705/AppUsageEventEntity-5576192000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0705/AppUsageEventEntity-5577056000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0705/AppUsageEventEntity-5577920000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0707/AppUsageEventEntity-5572736000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0707/AppUsageEventEntity-5573600000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0707/AppUsageEventEntity-5574464000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0707/AppUsageEventEntity-5575328000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0707/AppUsageEventEntity-5576192000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0707/AppUsageEventEntity-5577056000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0707/AppUsageEventEntity-5577920000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0710/AppUsageEventEntity-5572736000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0710/AppUsageEventEntity-5573600000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0710/AppUsageEventEntity-5574464000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0710/AppUsageEventEntity-5575328000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0710/AppUsageEventEntity-5576192000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0710/AppUsageEventEntity-5577056000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0710/AppUsageEventEntity-5577920000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0711/AppUsageEventEntity-5572736000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0711/AppUsageEventEntity-5573600000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0711/AppUsageEventEntity-5574464000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0711/AppUsageEventEntity-5575328000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0711/AppUsageEventEntity-5576192000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0711/AppUsageEventEntity-5577056000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0711/AppUsageEventEntity-5577920000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0712/AppUsageEventEntity-5572736000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0712/AppUsageEventEntity-5573600000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0712/AppUsageEventEntity-5574464000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0712/AppUsageEventEntity-5575328000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0712/AppUsageEventEntity-5576192000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0712/AppUsageEventEntity-5577056000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0712/AppUsageEventEntity-5577920000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0714/AppUsageEventEntity-5572736000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0714/AppUsageEventEntity-5573600000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0714/AppUsageEventEntity-5574464000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0714/AppUsageEventEntity-5575328000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0714/AppUsageEventEntity-5576192000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0714/AppUsageEventEntity-5577056000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0714/AppUsageEventEntity-5577920000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0715/AppUsageEventEntity-5572736000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0715/AppUsageEventEntity-5573600000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0715/AppUsageEventEntity-5574464000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0715/AppUsageEventEntity-5575328000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0715/AppUsageEventEntity-5576192000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0715/AppUsageEventEntity-5577056000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0715/AppUsageEventEntity-5577920000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0716/AppUsageEventEntity-5572736000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0716/AppUsageEventEntity-5573600000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0716/AppUsageEventEntity-5574464000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0716/AppUsageEventEntity-5575328000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0716/AppUsageEventEntity-5576192000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0716/AppUsageEventEntity-5577056000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0716/AppUsageEventEntity-5577920000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0717/AppUsageEventEntity-5572736000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0717/AppUsageEventEntity-5573600000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0717/AppUsageEventEntity-5574464000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0717/AppUsageEventEntity-5575328000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0717/AppUsageEventEntity-5576192000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0717/AppUsageEventEntity-5577056000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0717/AppUsageEventEntity-5577920000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0718/AppUsageEventEntity-5572736000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0718/AppUsageEventEntity-5573600000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0718/AppUsageEventEntity-5574464000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0718/AppUsageEventEntity-5575328000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0718/AppUsageEventEntity-5576192000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0718/AppUsageEventEntity-5577056000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0718/AppUsageEventEntity-5577920000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0721/AppUsageEventEntity-5572736000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0721/AppUsageEventEntity-5573600000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0721/AppUsageEventEntity-5574464000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0721/AppUsageEventEntity-5575328000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0721/AppUsageEventEntity-5576192000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0721/AppUsageEventEntity-5577056000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0721/AppUsageEventEntity-5577920000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0722/AppUsageEventEntity-5572736000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0722/AppUsageEventEntity-5573600000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0722/AppUsageEventEntity-5574464000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0722/AppUsageEventEntity-5575328000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0722/AppUsageEventEntity-5576192000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0722/AppUsageEventEntity-5577056000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0722/AppUsageEventEntity-5577920000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0723/AppUsageEventEntity-5572736000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0723/AppUsageEventEntity-5573600000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0723/AppUsageEventEntity-5574464000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0723/AppUsageEventEntity-5575328000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0723/AppUsageEventEntity-5576192000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0723/AppUsageEventEntity-5577056000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0723/AppUsageEventEntity-5577920000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0726/AppUsageEventEntity-5572736000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0726/AppUsageEventEntity-5573600000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0726/AppUsageEventEntity-5574464000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0726/AppUsageEventEntity-5575328000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0726/AppUsageEventEntity-5576192000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0726/AppUsageEventEntity-5577056000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0726/AppUsageEventEntity-5577920000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0728/AppUsageEventEntity-5572736000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0728/AppUsageEventEntity-5573600000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0728/AppUsageEventEntity-5574464000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0728/AppUsageEventEntity-5575328000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0728/AppUsageEventEntity-5576192000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0728/AppUsageEventEntity-5577056000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0728/AppUsageEventEntity-5577920000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0729/AppUsageEventEntity-5572736000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0729/AppUsageEventEntity-5573600000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0729/AppUsageEventEntity-5574464000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0729/AppUsageEventEntity-5575328000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0729/AppUsageEventEntity-5576192000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0729/AppUsageEventEntity-5577056000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P0729/AppUsageEventEntity-5577920000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1504/AppUsageEventEntity-5579648000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1504/AppUsageEventEntity-5580512000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1504/AppUsageEventEntity-5581376000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1504/AppUsageEventEntity-5582240000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1504/AppUsageEventEntity-5583104000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1504/AppUsageEventEntity-5583968000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1504/AppUsageEventEntity-5584832000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1509/AppUsageEventEntity-5579648000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1509/AppUsageEventEntity-5580512000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1509/AppUsageEventEntity-5581376000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1509/AppUsageEventEntity-5582240000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1509/AppUsageEventEntity-5583104000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1509/AppUsageEventEntity-5583968000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1509/AppUsageEventEntity-5584832000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1510/AppUsageEventEntity-5579648000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1510/AppUsageEventEntity-5580512000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1510/AppUsageEventEntity-5581376000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1510/AppUsageEventEntity-5582240000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1510/AppUsageEventEntity-5583104000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1510/AppUsageEventEntity-5583968000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1510/AppUsageEventEntity-5584832000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1511/AppUsageEventEntity-5579648000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1511/AppUsageEventEntity-5580512000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1511/AppUsageEventEntity-5581376000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1511/AppUsageEventEntity-5582240000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1511/AppUsageEventEntity-5583104000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1511/AppUsageEventEntity-5583968000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1511/AppUsageEventEntity-5584832000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1515/AppUsageEventEntity-5579648000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1515/AppUsageEventEntity-5580512000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1515/AppUsageEventEntity-5581376000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1515/AppUsageEventEntity-5582240000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1515/AppUsageEventEntity-5583104000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1515/AppUsageEventEntity-5583968000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1515/AppUsageEventEntity-5584832000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1518/AppUsageEventEntity-5579648000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1518/AppUsageEventEntity-5580512000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1518/AppUsageEventEntity-5581376000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1518/AppUsageEventEntity-5582240000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1518/AppUsageEventEntity-5583104000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1518/AppUsageEventEntity-5583968000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1518/AppUsageEventEntity-5584832000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1519/AppUsageEventEntity-5579648000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1519/AppUsageEventEntity-5580512000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1519/AppUsageEventEntity-5581376000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1519/AppUsageEventEntity-5582240000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1519/AppUsageEventEntity-5583104000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1519/AppUsageEventEntity-5583968000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-001/K-Emophone Dataset (CS481)/P1519/AppUsageEventEntity-5584832000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0701/AppUsageEventEntity-5572736000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0701/AppUsageEventEntity-5573600000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0701/AppUsageEventEntity-5574464000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0701/AppUsageEventEntity-5575328000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0701/AppUsageEventEntity-5576192000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0701/AppUsageEventEntity-5577056000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0701/AppUsageEventEntity-5577920000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0702/AppUsageEventEntity-5572736000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0702/AppUsageEventEntity-5573600000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0702/AppUsageEventEntity-5574464000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0702/AppUsageEventEntity-5575328000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0702/AppUsageEventEntity-5576192000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0702/AppUsageEventEntity-5577056000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0702/AppUsageEventEntity-5577920000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0708/AppUsageEventEntity-5572736000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0708/AppUsageEventEntity-5573600000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0708/AppUsageEventEntity-5574464000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0708/AppUsageEventEntity-5575328000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0708/AppUsageEventEntity-5576192000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0708/AppUsageEventEntity-5577056000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0708/AppUsageEventEntity-5577920000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0719/AppUsageEventEntity-5572736000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0719/AppUsageEventEntity-5573600000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0719/AppUsageEventEntity-5574464000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0719/AppUsageEventEntity-5575328000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0719/AppUsageEventEntity-5576192000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0719/AppUsageEventEntity-5577056000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0719/AppUsageEventEntity-5577920000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0725/AppUsageEventEntity-5572736000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0725/AppUsageEventEntity-5573600000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0725/AppUsageEventEntity-5574464000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0725/AppUsageEventEntity-5575328000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0725/AppUsageEventEntity-5576192000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0725/AppUsageEventEntity-5577056000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P0725/AppUsageEventEntity-5577920000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1501/AppUsageEventEntity-5579648000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1501/AppUsageEventEntity-5580512000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1501/AppUsageEventEntity-5581376000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1501/AppUsageEventEntity-5582240000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1501/AppUsageEventEntity-5583104000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1501/AppUsageEventEntity-5583968000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1501/AppUsageEventEntity-5584832000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1502/AppUsageEventEntity-5579648000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1502/AppUsageEventEntity-5580512000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1502/AppUsageEventEntity-5581376000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1502/AppUsageEventEntity-5582240000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1502/AppUsageEventEntity-5583104000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1502/AppUsageEventEntity-5583968000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1502/AppUsageEventEntity-5584832000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1503/AppUsageEventEntity-5579648000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1503/AppUsageEventEntity-5580512000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1503/AppUsageEventEntity-5581376000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1503/AppUsageEventEntity-5582240000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1503/AppUsageEventEntity-5583104000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1503/AppUsageEventEntity-5583968000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1503/AppUsageEventEntity-5584832000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1505/AppUsageEventEntity-5579648000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1505/AppUsageEventEntity-5580512000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1505/AppUsageEventEntity-5581376000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1505/AppUsageEventEntity-5582240000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1505/AppUsageEventEntity-5583104000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1505/AppUsageEventEntity-5583968000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1505/AppUsageEventEntity-5584832000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1506/AppUsageEventEntity-5579648000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1506/AppUsageEventEntity-5580512000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1506/AppUsageEventEntity-5581376000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1506/AppUsageEventEntity-5582240000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1506/AppUsageEventEntity-5583104000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1506/AppUsageEventEntity-5583968000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1506/AppUsageEventEntity-5584832000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1508/AppUsageEventEntity-5579648000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1508/AppUsageEventEntity-5580512000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1508/AppUsageEventEntity-5581376000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1508/AppUsageEventEntity-5582240000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1508/AppUsageEventEntity-5583104000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1508/AppUsageEventEntity-5583968000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1508/AppUsageEventEntity-5584832000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1517/AppUsageEventEntity-5579648000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1517/AppUsageEventEntity-5580512000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1517/AppUsageEventEntity-5581376000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1517/AppUsageEventEntity-5582240000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1517/AppUsageEventEntity-5583104000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1517/AppUsageEventEntity-5583968000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1517/AppUsageEventEntity-5584832000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1520/AppUsageEventEntity-5579648000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1520/AppUsageEventEntity-5580512000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1520/AppUsageEventEntity-5581376000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1520/AppUsageEventEntity-5582240000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1520/AppUsageEventEntity-5583104000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1520/AppUsageEventEntity-5583968000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1520/AppUsageEventEntity-5584832000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1521/AppUsageEventEntity-5579648000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1521/AppUsageEventEntity-5580512000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1521/AppUsageEventEntity-5581376000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1521/AppUsageEventEntity-5582240000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1521/AppUsageEventEntity-5583104000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1521/AppUsageEventEntity-5583968000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1521/AppUsageEventEntity-5584832000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1523/AppUsageEventEntity-5579648000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1523/AppUsageEventEntity-5580512000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1523/AppUsageEventEntity-5581376000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1523/AppUsageEventEntity-5582240000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1523/AppUsageEventEntity-5583104000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1523/AppUsageEventEntity-5583968000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1523/AppUsageEventEntity-5584832000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1525/AppUsageEventEntity-5579648000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1525/AppUsageEventEntity-5580512000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1525/AppUsageEventEntity-5581376000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1525/AppUsageEventEntity-5582240000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1525/AppUsageEventEntity-5583104000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1525/AppUsageEventEntity-5583968000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1525/AppUsageEventEntity-5584832000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1526/AppUsageEventEntity-5579648000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1526/AppUsageEventEntity-5580512000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1526/AppUsageEventEntity-5581376000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1526/AppUsageEventEntity-5582240000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1526/AppUsageEventEntity-5583104000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1526/AppUsageEventEntity-5583968000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1526/AppUsageEventEntity-5584832000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1527/AppUsageEventEntity-5579648000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1527/AppUsageEventEntity-5580512000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1527/AppUsageEventEntity-5581376000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1527/AppUsageEventEntity-5582240000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1527/AppUsageEventEntity-5583104000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1527/AppUsageEventEntity-5583968000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1527/AppUsageEventEntity-5584832000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1541/AppUsageEventEntity-5579648000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1541/AppUsageEventEntity-5580512000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1541/AppUsageEventEntity-5581376000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1541/AppUsageEventEntity-5582240000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1541/AppUsageEventEntity-5583104000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1541/AppUsageEventEntity-5583968000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P1541/AppUsageEventEntity-5584832000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3001/AppUsageEventEntity-5565824000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3001/AppUsageEventEntity-5566688000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3001/AppUsageEventEntity-5567552000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3001/AppUsageEventEntity-5568416000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3001/AppUsageEventEntity-5569280000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3001/AppUsageEventEntity-5570144000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3001/AppUsageEventEntity-5571008000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3003/AppUsageEventEntity-5565824000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3003/AppUsageEventEntity-5566688000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3003/AppUsageEventEntity-5567552000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3003/AppUsageEventEntity-5568416000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3003/AppUsageEventEntity-5569280000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3003/AppUsageEventEntity-5570144000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3003/AppUsageEventEntity-5571008000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3005/AppUsageEventEntity-5565824000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3005/AppUsageEventEntity-5566688000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3005/AppUsageEventEntity-5567552000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3005/AppUsageEventEntity-5568416000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3005/AppUsageEventEntity-5569280000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3005/AppUsageEventEntity-5570144000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3005/AppUsageEventEntity-5571008000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3007/AppUsageEventEntity-5565824000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3007/AppUsageEventEntity-5566688000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3007/AppUsageEventEntity-5567552000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3007/AppUsageEventEntity-5568416000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3007/AppUsageEventEntity-5569280000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3007/AppUsageEventEntity-5570144000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3007/AppUsageEventEntity-5571008000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3009/AppUsageEventEntity-5565824000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3009/AppUsageEventEntity-5566688000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3009/AppUsageEventEntity-5567552000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3009/AppUsageEventEntity-5568416000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3009/AppUsageEventEntity-5569280000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3009/AppUsageEventEntity-5570144000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3009/AppUsageEventEntity-5571008000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3010/AppUsageEventEntity-5565824000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3010/AppUsageEventEntity-5566688000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3010/AppUsageEventEntity-5567552000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3010/AppUsageEventEntity-5568416000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3010/AppUsageEventEntity-5569280000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3010/AppUsageEventEntity-5570144000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3010/AppUsageEventEntity-5571008000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3013/AppUsageEventEntity-5565824000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3013/AppUsageEventEntity-5566688000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3013/AppUsageEventEntity-5567552000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3013/AppUsageEventEntity-5568416000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3013/AppUsageEventEntity-5569280000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3013/AppUsageEventEntity-5570144000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3013/AppUsageEventEntity-5571008000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3014/AppUsageEventEntity-5565824000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3014/AppUsageEventEntity-5566688000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3014/AppUsageEventEntity-5567552000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3014/AppUsageEventEntity-5568416000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3014/AppUsageEventEntity-5569280000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3014/AppUsageEventEntity-5570144000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-002/K-Emophone Dataset (CS481)/P3014/AppUsageEventEntity-5571008000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0704/AppUsageEventEntity-5572736000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0704/AppUsageEventEntity-5573600000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0704/AppUsageEventEntity-5574464000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0704/AppUsageEventEntity-5575328000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0704/AppUsageEventEntity-5576192000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0704/AppUsageEventEntity-5577056000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0704/AppUsageEventEntity-5577920000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0706/AppUsageEventEntity-5572736000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0706/AppUsageEventEntity-5573600000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0706/AppUsageEventEntity-5574464000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0706/AppUsageEventEntity-5575328000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0706/AppUsageEventEntity-5576192000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0706/AppUsageEventEntity-5577056000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0706/AppUsageEventEntity-5577920000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0709/AppUsageEventEntity-5572736000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0709/AppUsageEventEntity-5573600000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0709/AppUsageEventEntity-5574464000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0709/AppUsageEventEntity-5575328000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0709/AppUsageEventEntity-5576192000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0709/AppUsageEventEntity-5577056000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0709/AppUsageEventEntity-5577920000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0713/AppUsageEventEntity-5572736000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0713/AppUsageEventEntity-5573600000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0713/AppUsageEventEntity-5574464000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0713/AppUsageEventEntity-5575328000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0713/AppUsageEventEntity-5576192000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0713/AppUsageEventEntity-5577056000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0713/AppUsageEventEntity-5577920000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0727/AppUsageEventEntity-5572736000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0727/AppUsageEventEntity-5573600000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0727/AppUsageEventEntity-5574464000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0727/AppUsageEventEntity-5575328000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0727/AppUsageEventEntity-5576192000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0727/AppUsageEventEntity-5577056000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P0727/AppUsageEventEntity-5577920000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1507/AppUsageEventEntity-5579648000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1507/AppUsageEventEntity-5580512000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1507/AppUsageEventEntity-5581376000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1507/AppUsageEventEntity-5582240000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1507/AppUsageEventEntity-5583104000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1507/AppUsageEventEntity-5583968000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1507/AppUsageEventEntity-5584832000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1514/AppUsageEventEntity-5579648000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1514/AppUsageEventEntity-5580512000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1514/AppUsageEventEntity-5581376000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1514/AppUsageEventEntity-5582240000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1514/AppUsageEventEntity-5583104000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1514/AppUsageEventEntity-5583968000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1514/AppUsageEventEntity-5584832000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1516/AppUsageEventEntity-5579648000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1516/AppUsageEventEntity-5580512000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1516/AppUsageEventEntity-5581376000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1516/AppUsageEventEntity-5582240000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1516/AppUsageEventEntity-5583104000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1516/AppUsageEventEntity-5583968000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1516/AppUsageEventEntity-5584832000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1522/AppUsageEventEntity-5579648000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1522/AppUsageEventEntity-5580512000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1522/AppUsageEventEntity-5581376000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1522/AppUsageEventEntity-5582240000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1522/AppUsageEventEntity-5583104000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1522/AppUsageEventEntity-5583968000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P1522/AppUsageEventEntity-5584832000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3002/AppUsageEventEntity-5565824000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3002/AppUsageEventEntity-5566688000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3002/AppUsageEventEntity-5567552000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3002/AppUsageEventEntity-5568416000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3002/AppUsageEventEntity-5569280000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3002/AppUsageEventEntity-5570144000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3002/AppUsageEventEntity-5571008000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3008/AppUsageEventEntity-5565824000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3008/AppUsageEventEntity-5566688000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3008/AppUsageEventEntity-5567552000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3008/AppUsageEventEntity-5568416000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3008/AppUsageEventEntity-5569280000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3008/AppUsageEventEntity-5570144000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3008/AppUsageEventEntity-5571008000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3012/AppUsageEventEntity-5565824000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3012/AppUsageEventEntity-5566688000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3012/AppUsageEventEntity-5567552000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3012/AppUsageEventEntity-5568416000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3012/AppUsageEventEntity-5569280000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3012/AppUsageEventEntity-5570144000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3012/AppUsageEventEntity-5571008000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3015/AppUsageEventEntity-5565824000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3015/AppUsageEventEntity-5566688000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3015/AppUsageEventEntity-5567552000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3015/AppUsageEventEntity-5568416000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3015/AppUsageEventEntity-5569280000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3015/AppUsageEventEntity-5570144000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3015/AppUsageEventEntity-5571008000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3016/AppUsageEventEntity-5565824000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3016/AppUsageEventEntity-5566688000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3016/AppUsageEventEntity-5567552000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3016/AppUsageEventEntity-5568416000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3016/AppUsageEventEntity-5569280000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3016/AppUsageEventEntity-5570144000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3016/AppUsageEventEntity-5571008000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3019/AppUsageEventEntity-5565824000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3019/AppUsageEventEntity-5566688000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3019/AppUsageEventEntity-5567552000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3019/AppUsageEventEntity-5568416000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3019/AppUsageEventEntity-5569280000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3019/AppUsageEventEntity-5570144000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3019/AppUsageEventEntity-5571008000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3021/AppUsageEventEntity-5565824000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3021/AppUsageEventEntity-5566688000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3021/AppUsageEventEntity-5567552000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3021/AppUsageEventEntity-5568416000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3021/AppUsageEventEntity-5569280000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3021/AppUsageEventEntity-5570144000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3021/AppUsageEventEntity-5571008000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3022/AppUsageEventEntity-5565824000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3022/AppUsageEventEntity-5566688000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3022/AppUsageEventEntity-5567552000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3022/AppUsageEventEntity-5568416000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3022/AppUsageEventEntity-5569280000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3022/AppUsageEventEntity-5570144000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3022/AppUsageEventEntity-5571008000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3024/AppUsageEventEntity-5565824000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3024/AppUsageEventEntity-5566688000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3024/AppUsageEventEntity-5567552000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3024/AppUsageEventEntity-5568416000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3024/AppUsageEventEntity-5569280000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3024/AppUsageEventEntity-5570144000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3024/AppUsageEventEntity-5571008000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3027/AppUsageEventEntity-5565824000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3027/AppUsageEventEntity-5566688000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3027/AppUsageEventEntity-5567552000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3027/AppUsageEventEntity-5568416000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3027/AppUsageEventEntity-5569280000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3027/AppUsageEventEntity-5570144000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3027/AppUsageEventEntity-5571008000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3028/AppUsageEventEntity-5565824000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3028/AppUsageEventEntity-5566688000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3028/AppUsageEventEntity-5567552000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3028/AppUsageEventEntity-5568416000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3028/AppUsageEventEntity-5569280000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3028/AppUsageEventEntity-5570144000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3028/AppUsageEventEntity-5571008000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3029/AppUsageEventEntity-5565824000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3029/AppUsageEventEntity-5566688000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3029/AppUsageEventEntity-5567552000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3029/AppUsageEventEntity-5568416000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3029/AppUsageEventEntity-5569280000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3029/AppUsageEventEntity-5570144000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3029/AppUsageEventEntity-5571008000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3030/AppUsageEventEntity-5565824000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3030/AppUsageEventEntity-5566688000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3030/AppUsageEventEntity-5567552000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3030/AppUsageEventEntity-5568416000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3030/AppUsageEventEntity-5569280000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3030/AppUsageEventEntity-5570144000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3030/AppUsageEventEntity-5571008000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3041/AppUsageEventEntity-5565824000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3041/AppUsageEventEntity-5566688000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3041/AppUsageEventEntity-5567552000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3041/AppUsageEventEntity-5568416000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3041/AppUsageEventEntity-5569280000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3041/AppUsageEventEntity-5570144000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-003/K-Emophone Dataset (CS481)/P3041/AppUsageEventEntity-5571008000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3011/AppUsageEventEntity-5565824000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3011/AppUsageEventEntity-5566688000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3011/AppUsageEventEntity-5567552000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3011/AppUsageEventEntity-5568416000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3011/AppUsageEventEntity-5569280000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3011/AppUsageEventEntity-5570144000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3011/AppUsageEventEntity-5571008000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3017/AppUsageEventEntity-5565824000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3017/AppUsageEventEntity-5566688000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3017/AppUsageEventEntity-5567552000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3017/AppUsageEventEntity-5568416000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3017/AppUsageEventEntity-5569280000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3017/AppUsageEventEntity-5570144000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3017/AppUsageEventEntity-5571008000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3017/AppUsageEventEntity.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3018/AppUsageEventEntity-5565824000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3018/AppUsageEventEntity-5566688000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3018/AppUsageEventEntity-5567552000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3018/AppUsageEventEntity-5568416000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3018/AppUsageEventEntity-5569280000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3018/AppUsageEventEntity-5570144000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3018/AppUsageEventEntity-5571008000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3023/AppUsageEventEntity-5565824000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3023/AppUsageEventEntity-5566688000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3023/AppUsageEventEntity-5567552000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3023/AppUsageEventEntity-5568416000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3023/AppUsageEventEntity-5569280000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3023/AppUsageEventEntity-5570144000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3023/AppUsageEventEntity-5571008000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3025/AppUsageEventEntity-5565824000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3025/AppUsageEventEntity-5566688000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3025/AppUsageEventEntity-5567552000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3025/AppUsageEventEntity-5568416000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3025/AppUsageEventEntity-5569280000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3025/AppUsageEventEntity-5570144000.csv
+C:/Users/jx2ha/Desktop/2-1/CS481/Week 5 (0327-0402)/Dataset/K-Emophone Dataset (CS481)-20230331T074358Z-004/K-Emophone Dataset (CS481)/P3025/AppUsageEventEntity-5571008000.csv

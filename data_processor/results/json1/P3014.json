@@ -1,0 +1,106 @@
+[
+	{
+		"date": 1,
+		"totalTime": 607,
+		"details": [
+			{"appName": "YouTube", "usage": 220},
+			{"appName": "디시인사이드", "usage": 114},
+			{"appName": "Chrome", "usage": 79},
+			{"appName": "카카오톡", "usage": 75},
+			{"appName": "카메라", "usage": 16},
+			{"appName": "기본홈", "usage": 11},
+			{"appName": "네이버 웹툰", "usage": 9},
+			{"appName": "Microsoft Band", "usage": 9},
+			{"appName": "Facebook", "usage": 9},
+			{"appName": "Paco", "usage": 6},
+			{"appName": "한컴오피스 viewer", "usage": 5},
+			{"appName": "OP.GG", "usage": 5},
+			{"appName": "갤러리", "usage": 4},
+			{"appName": "Polar Beat", "usage": 4},
+			{"appName": "Google Play 스토어", "usage": 3},
+			{"appName": "프레젠테이션", "usage": 2},
+			{"appName": "시스템 UI", "usage": 2},
+			{"appName": "설정", "usage": 2},
+			{"appName": "KLMS", "usage": 2},
+			{"appName": "토스", "usage": 1},
+			{"appName": "접근성", "usage": 1},
+			{"appName": "벅스", "usage": 1},
+			{"appName": "T전화", "usage": 1},
+			{"appName": "Messenger", "usage": 1},
+			{"appName": "Logger", "usage": 1},
+			{"appName": "Dropsync", "usage": 1},
+			{"appName": "ABC Logger", "usage": 1},
+		]
+	},
+	{
+		"date": 2,
+		"totalTime": 536,
+		"details": [
+			{"appName": "YouTube", "usage": 220},
+			{"appName": "디시인사이드", "usage": 100},
+			{"appName": "카카오톡", "usage": 84},
+			{"appName": "Chrome", "usage": 48},
+			{"appName": "Facebook", "usage": 23},
+			{"appName": "카메라", "usage": 17},
+			{"appName": "기본홈", "usage": 7},
+			{"appName": "한컴오피스 viewer", "usage": 5},
+			{"appName": "Paco", "usage": 4},
+			{"appName": "LoL 프렌즈", "usage": 4},
+			{"appName": "토스", "usage": 1},
+			{"appName": "알람/시계", "usage": 1},
+			{"appName": "시스템 UI", "usage": 1},
+			{"appName": "벅스", "usage": 1},
+			{"appName": "네이버 웹툰", "usage": 1},
+			{"appName": "T전화", "usage": 1},
+			{"appName": "Messenger", "usage": 1},
+		]
+	},
+	{
+		"date": 3,
+		"totalTime": 501,
+		"details": [
+			{"appName": "카카오톡", "usage": 124},
+			{"appName": "디시인사이드", "usage": 116},
+			{"appName": "YouTube", "usage": 73},
+			{"appName": "과학적인 계산기", "usage": 62},
+			{"appName": "Chrome", "usage": 57},
+			{"appName": "Facebook", "usage": 21},
+			{"appName": "기본홈", "usage": 10},
+			{"appName": "네이버 웹툰", "usage": 5},
+			{"appName": "LoL 프렌즈", "usage": 4},
+			{"appName": "신한 쏠(SOL)", "usage": 3},
+			{"appName": "벅스", "usage": 2},
+			{"appName": "계산기", "usage": 2},
+			{"appName": "Paco", "usage": 2},
+			{"appName": "KLMS", "usage": 2},
+			{"appName": "토스", "usage": 1},
+			{"appName": "알람/시계", "usage": 1},
+			{"appName": "시스템 UI", "usage": 1},
+			{"appName": "Gmail", "usage": 1},
+		]
+	},
+	{
+		"date": 4,
+		"totalTime": 0,
+		"details": [
+		]
+	},
+	{
+		"date": 5,
+		"totalTime": 0,
+		"details": [
+		]
+	},
+	{
+		"date": 6,
+		"totalTime": 0,
+		"details": [
+		]
+	},
+	{
+		"date": 7,
+		"totalTime": 0,
+		"details": [
+		]
+	},
+]

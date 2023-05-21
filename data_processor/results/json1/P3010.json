@@ -1,0 +1,91 @@
+[
+	{
+		"date": 1,
+		"totalTime": 578,
+		"details": [
+			{"appName": "Facebook", "usage": 187},
+			{"appName": "카카오톡", "usage": 74},
+			{"appName": "삼성 인터넷", "usage": 70},
+			{"appName": "냥코 대전쟁", "usage": 64},
+			{"appName": "Microsoft Band", "usage": 24},
+			{"appName": "Samsung Experience 홈", "usage": 22},
+			{"appName": "메모", "usage": 17},
+			{"appName": "카메라", "usage": 14},
+			{"appName": "갤러리", "usage": 13},
+			{"appName": "전화", "usage": 12},
+			{"appName": "Polar Beat", "usage": 12},
+			{"appName": "계산기", "usage": 9},
+			{"appName": "Paco", "usage": 7},
+			{"appName": "Google Play 북", "usage": 6},
+			{"appName": "YouTube", "usage": 5},
+			{"appName": "설정", "usage": 4},
+			{"appName": "Dropsync", "usage": 4},
+			{"appName": "알송", "usage": 3},
+			{"appName": "시스템 UI", "usage": 3},
+			{"appName": "Google Play 스토어", "usage": 3},
+			{"appName": "Logger", "usage": 2},
+			{"appName": "ABC Logger", "usage": 2},
+			{"appName": "패키지 설치 프로그램", "usage": 1},
+			{"appName": "시계", "usage": 1},
+			{"appName": "디바이스 관리", "usage": 1},
+			{"appName": "네이버 웹툰", "usage": 1},
+		]
+	},
+	{
+		"date": 2,
+		"totalTime": 499,
+		"details": [
+			{"appName": "Facebook", "usage": 204},
+			{"appName": "삼성 인터넷", "usage": 69},
+			{"appName": "냥코 대전쟁", "usage": 64},
+			{"appName": "카카오톡", "usage": 54},
+			{"appName": "Samsung Experience 홈", "usage": 23},
+			{"appName": "Polar Beat", "usage": 15},
+			{"appName": "계산기", "usage": 9},
+			{"appName": "전화", "usage": 8},
+			{"appName": "Paco", "usage": 6},
+			{"appName": "Google Play 북", "usage": 6},
+			{"appName": "YouTube", "usage": 5},
+			{"appName": "알송", "usage": 3},
+			{"appName": "시스템 UI", "usage": 3},
+			{"appName": "설정", "usage": 2},
+			{"appName": "갤러리", "usage": 2},
+			{"appName": "Logger", "usage": 2},
+			{"appName": "연락처", "usage": 1},
+			{"appName": "네이버 웹툰", "usage": 1},
+			{"appName": "T world", "usage": 1},
+			{"appName": "KLMS", "usage": 1},
+			{"appName": "Google", "usage": 1},
+		]
+	},
+	{
+		"date": 3,
+		"totalTime": 0,
+		"details": [
+		]
+	},
+	{
+		"date": 4,
+		"totalTime": 0,
+		"details": [
+		]
+	},
+	{
+		"date": 5,
+		"totalTime": 0,
+		"details": [
+		]
+	},
+	{
+		"date": 6,
+		"totalTime": 0,
+		"details": [
+		]
+	},
+	{
+		"date": 7,
+		"totalTime": 0,
+		"details": [
+		]
+	},
+]

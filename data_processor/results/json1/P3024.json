@@ -1,0 +1,105 @@
+[
+	{
+		"date": 1,
+		"totalTime": 234,
+		"details": [
+			{"appName": "Chrome", "usage": 83},
+			{"appName": "카카오톡", "usage": 66},
+			{"appName": "FLO", "usage": 21},
+			{"appName": "시스템 런처", "usage": 18},
+			{"appName": "날씨", "usage": 5},
+			{"appName": "Paco", "usage": 5},
+			{"appName": "InCallUI", "usage": 5},
+			{"appName": "원터치개인", "usage": 4},
+			{"appName": "메시지", "usage": 3},
+			{"appName": "카카오뱅크", "usage": 2},
+			{"appName": "Polar Beat", "usage": 2},
+			{"appName": "Google Play 스토어", "usage": 2},
+			{"appName": "시계", "usage": 1},
+			{"appName": "Microsoft Band", "usage": 1},
+			{"appName": "KLMS", "usage": 1},
+		]
+	},
+	{
+		"date": 2,
+		"totalTime": 241,
+		"details": [
+			{"appName": "Chrome", "usage": 83},
+			{"appName": "카카오톡", "usage": 66},
+			{"appName": "FLO", "usage": 21},
+			{"appName": "시스템 런처", "usage": 18},
+			{"appName": "메시지", "usage": 12},
+			{"appName": "Paco", "usage": 5},
+			{"appName": "InCallUI", "usage": 5},
+			{"appName": "원터치개인", "usage": 4},
+			{"appName": "카카오뱅크", "usage": 2},
+			{"appName": "Google Play 스토어", "usage": 2},
+			{"appName": "Dropsync", "usage": 2},
+			{"appName": "ABC Logger", "usage": 2},
+			{"appName": "시스템 UI", "usage": 1},
+			{"appName": "Polar Beat", "usage": 1},
+			{"appName": "Microsoft Band", "usage": 1},
+			{"appName": "KLMS", "usage": 1},
+		]
+	},
+	{
+		"date": 3,
+		"totalTime": 148,
+		"details": [
+			{"appName": "Chrome", "usage": 52},
+			{"appName": "카카오톡", "usage": 43},
+			{"appName": "FLO", "usage": 13},
+			{"appName": "시스템 런처", "usage": 12},
+			{"appName": "메시지", "usage": 5},
+			{"appName": "ABC Logger", "usage": 5},
+			{"appName": "시스템 UI", "usage": 2},
+			{"appName": "드라이브", "usage": 2},
+			{"appName": "Paco", "usage": 2},
+			{"appName": "CamScanner", "usage": 1},
+		]
+	},
+	{
+		"date": 4,
+		"totalTime": 214,
+		"details": [
+			{"appName": "Chrome", "usage": 73},
+			{"appName": "카카오톡", "usage": 61},
+			{"appName": "FLO", "usage": 29},
+			{"appName": "시스템 런처", "usage": 15},
+			{"appName": "메시지", "usage": 6},
+			{"appName": "Paco", "usage": 5},
+			{"appName": "ABC Logger", "usage": 5},
+			{"appName": "시스템 UI", "usage": 2},
+			{"appName": "드라이브", "usage": 2},
+			{"appName": "InCallUI", "usage": 2},
+			{"appName": "CamScanner", "usage": 1},
+		]
+	},
+	{
+		"date": 5,
+		"totalTime": 0,
+		"details": [
+		]
+	},
+	{
+		"date": 6,
+		"totalTime": 0,
+		"details": [
+		]
+	},
+	{
+		"date": 7,
+		"totalTime": 178,
+		"details": [
+			{"appName": "Chrome", "usage": 95},
+			{"appName": "카카오톡", "usage": 36},
+			{"appName": "YouTube", "usage": 14},
+			{"appName": "시스템 런처", "usage": 9},
+			{"appName": "배달의민족", "usage": 6},
+			{"appName": "InCallUI", "usage": 5},
+			{"appName": "Paco", "usage": 3},
+			{"appName": "메시지", "usage": 2},
+			{"appName": "Polar Beat", "usage": 1},
+		]
+	},
+]

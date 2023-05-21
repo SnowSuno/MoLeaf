@@ -1,0 +1,121 @@
+[
+	{
+		"date": 1,
+		"totalTime": 179,
+		"details": [
+			{"appName": "삼성 인터넷", "usage": 94},
+			{"appName": "페이트/그랜드오더", "usage": 34},
+			{"appName": "네이버 카페", "usage": 10},
+			{"appName": "YouTube", "usage": 10},
+			{"appName": "드라이브", "usage": 7},
+			{"appName": "Polar Beat", "usage": 5},
+			{"appName": "Paco", "usage": 3},
+			{"appName": "카카오톡", "usage": 2},
+			{"appName": "TouchWiz 홈", "usage": 2},
+			{"appName": "시계", "usage": 1},
+			{"appName": "Microsoft Band", "usage": 1},
+		]
+	},
+	{
+		"date": 2,
+		"totalTime": 235,
+		"details": [
+			{"appName": "삼성 인터넷", "usage": 149},
+			{"appName": "페이트/그랜드오더", "usage": 33},
+			{"appName": "네이버 카페", "usage": 13},
+			{"appName": "YouTube", "usage": 13},
+			{"appName": "카카오톡", "usage": 10},
+			{"appName": "TouchWiz 홈", "usage": 4},
+			{"appName": "Polar Beat", "usage": 2},
+			{"appName": "Paco", "usage": 2},
+			{"appName": "시계", "usage": 1},
+			{"appName": "설정", "usage": 1},
+		]
+	},
+	{
+		"date": 3,
+		"totalTime": 559,
+		"details": [
+			{"appName": "삼성 인터넷", "usage": 256},
+			{"appName": "페이트/그랜드오더", "usage": 127},
+			{"appName": "네이버 카페", "usage": 62},
+			{"appName": "네이버 웹툰", "usage": 39},
+			{"appName": "카카오톡", "usage": 21},
+			{"appName": "음성 녹음", "usage": 11},
+			{"appName": "Word", "usage": 11},
+			{"appName": "TouchWiz 홈", "usage": 8},
+			{"appName": "Polar Beat", "usage": 5},
+			{"appName": "Paco", "usage": 5},
+			{"appName": "설정", "usage": 2},
+			{"appName": "지도", "usage": 1},
+			{"appName": "Google Play 스토어", "usage": 1},
+		]
+	},
+	{
+		"date": 4,
+		"totalTime": 354,
+		"details": [
+			{"appName": "삼성 인터넷", "usage": 180},
+			{"appName": "페이트/그랜드오더", "usage": 89},
+			{"appName": "네이버 카페", "usage": 36},
+			{"appName": "YouTube", "usage": 23},
+			{"appName": "카카오톡", "usage": 9},
+			{"appName": "TouchWiz 홈", "usage": 4},
+			{"appName": "코레일톡", "usage": 2},
+			{"appName": "Paco", "usage": 2},
+			{"appName": "음성 녹음", "usage": 1},
+			{"appName": "설정", "usage": 1},
+		]
+	},
+	{
+		"date": 5,
+		"totalTime": 197,
+		"details": [
+			{"appName": "페이트/그랜드오더", "usage": 109},
+			{"appName": "삼성 인터넷", "usage": 52},
+			{"appName": "Twitch", "usage": 10},
+			{"appName": "네이버 카페", "usage": 7},
+			{"appName": "카카오톡", "usage": 5},
+			{"appName": "TouchWiz 홈", "usage": 5},
+			{"appName": "설정", "usage": 3},
+			{"appName": "Paco", "usage": 2},
+		]
+	},
+	{
+		"date": 6,
+		"totalTime": 289,
+		"details": [
+			{"appName": "삼성 인터넷", "usage": 146},
+			{"appName": "페이트/그랜드오더", "usage": 84},
+			{"appName": "Twitch", "usage": 17},
+			{"appName": "카카오톡", "usage": 9},
+			{"appName": "네이버 카페", "usage": 7},
+			{"appName": "Polar Beat", "usage": 5},
+			{"appName": "TouchWiz 홈", "usage": 4},
+			{"appName": "Paco", "usage": 3},
+			{"appName": "알파카", "usage": 2},
+			{"appName": "설정", "usage": 2},
+			{"appName": "신한 쏠(SOL)", "usage": 1},
+			{"appName": "Word", "usage": 1},
+		]
+	},
+	{
+		"date": 7,
+		"totalTime": 230,
+		"details": [
+			{"appName": "삼성 인터넷", "usage": 154},
+			{"appName": "Twitch", "usage": 31},
+			{"appName": "페이트/그랜드오더", "usage": 8},
+			{"appName": "요금안내서 Bill Letter", "usage": 5},
+			{"appName": "네이버 카페", "usage": 5},
+			{"appName": "카카오톡", "usage": 4},
+			{"appName": "Polar Beat", "usage": 4},
+			{"appName": "YouTube", "usage": 3},
+			{"appName": "Discord", "usage": 3},
+			{"appName": "설정", "usage": 2},
+			{"appName": "TouchWiz 홈", "usage": 2},
+			{"appName": "메시지", "usage": 1},
+			{"appName": "Paco", "usage": 1},
+		]
+	},
+]
