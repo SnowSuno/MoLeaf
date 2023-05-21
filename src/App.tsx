@@ -25,7 +25,28 @@ const router = createBrowserRouter([
         path: "/goals",
         element: <Goals />,
         children: [
-          { path: "totaltime", element: <TotalTime /> },
+          {
+            path: "totaltime",
+            element: (
+              <TotalTime
+                text="전체 사용 시간"
+                goal={{ hours: 4, minutes: 0 }}
+              />
+            ),
+          },
+          {
+            path: "maxtime",
+            element: (
+              <TotalTime
+                text="최대 사용 시간"
+                goal={{ hours: 3, minutes: 0 }}
+              />
+            ),
+          },
+          {
+            path: "avgtime",
+            element: <TotalTime text="평균 사용 시간" />,
+          },
           { path: "downtime", element: <DownTime /> },
         ],
       },
@@ -37,7 +58,7 @@ const router = createBrowserRouter([
 function App() {
   return (
     <MotionConfig transition={{ stiffness: 1000, damping: 100 }}>
-      <RouterProvider router={router}/>
+      <RouterProvider router={router} />
     </MotionConfig>
   );
 }

@@ -6,11 +6,22 @@ import { Page } from "../../components/layouts/Page";
 import { Toggle } from "../../components/elements";
 import { GoalInput } from "../../components/GoalInput";
 
-export const TotalTime: React.FC = () => {
+interface Props {
+  text: string;
+  goal?: {
+    hours: number;
+    minutes: number;
+  };
+}
+
+export const TotalTime: React.FC<Props> = ({
+  text,
+  goal = { hours: 0, minutes: 0 },
+}) => {
   const [toggled, setToggled] = useState<boolean>(false);
 
   return (
-    <Page title="전체 사용 시간">
+    <Page title={text}>
       <PageContainer>
         <InnerContainer1>
           <Category>목표 설정 해제하기</Category>
@@ -23,9 +34,9 @@ export const TotalTime: React.FC = () => {
           <Container>
             <Category>목표 설정하기</Category>
             <InnerContainer2>
-              <GoalInput max={24} initVal={4} />
+              <GoalInput max={24} initVal={goal?.hours} />
               <GoalTime1>h</GoalTime1>
-              <GoalInput max={59} initVal={0} />
+              <GoalInput max={59} initVal={goal?.minutes} />
               <GoalTime1>m</GoalTime1>
               <GoalTime2>/ 일</GoalTime2>
             </InnerContainer2>
