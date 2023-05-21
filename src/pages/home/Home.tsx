@@ -8,6 +8,8 @@ import { Button } from "../../components/elements";
 import { Settings } from "../../assets/icons";
 import { SmallPatternWidget } from "../../components/widgets/SmallPatternWidget";
 
+// import { dummyData } from "../../data";
+
 interface Props {
   widgetOrder: string[];
 }
@@ -16,7 +18,7 @@ const WidgetList: React.FC<Props> = ({ widgetOrder }) => {
   return (
     <>
       {widgetOrder?.map((x) => {
-        if (x == "total") {
+        if (x == "totalTime") {
           return (
             <SmallTimeWidget
               title="전체 사용 시간"
@@ -24,7 +26,7 @@ const WidgetList: React.FC<Props> = ({ widgetOrder }) => {
               goal={{ hours: 4, minutes: 0 }}
             />
           );
-        } else if (x == "max") {
+        } else if (x == "maxTime") {
           return (
             <SmallTimeWidget
               title="최대 사용 시간"
@@ -32,7 +34,7 @@ const WidgetList: React.FC<Props> = ({ widgetOrder }) => {
               goal={{ hours: 3, minutes: 0 }}
             />
           );
-        } else if (x == "average") {
+        } else if (x == "averageTime") {
           return (
             <SmallTimeWidget
               title="평균 사용 시간"
@@ -67,17 +69,22 @@ export const Home: React.FC = () => {
       if (!localStorage.getItem("widgetOrder")) {
         await localStorage.setItem(
           "widgetOrder",
-          ["total", "max", "average", "downtime"].toString()
+          ["totalTime", "maxTime", "averageTime", "downtime"].toString()
         );
       }
       if (!localStorage.getItem("mainWidget")) {
-        await localStorage.setItem("mainWidget", "total");
+        await localStorage.setItem("mainWidget", "totalTime");
       }
 
       const tmpWidgetOrder = localStorage.getItem("widgetOrder");
       if (tmpWidgetOrder) await setWidgetOrder(tmpWidgetOrder.split(","));
       const tmpSelectedMain = localStorage.getItem("mainWidget");
       if (tmpSelectedMain) await setSelectedMain(tmpSelectedMain);
+
+      // if (!localStorage.getItem("rawData")) {
+      //   await localStorage.setItem("rawData", JSON.stringify(dummyData));
+      // }
+      // localStorage.setItem("rawData", JSON.stringify(dummyData));
     }
     initLocalStorage();
   }, []);
@@ -89,19 +96,7 @@ export const Home: React.FC = () => {
         <Header title="Overview" />
 
         <Link to="/total" style={{ textDecoration: "none" }}>
-          <MainWidget
-            text={
-              selectedMain == "total"
-                ? "전체 사용 시간"
-                : selectedMain == "average"
-                ? "평균 사용 시간"
-                : selectedMain == "max"
-                ? "최대 사용 시간"
-                : selectedMain == "downtime"
-                ? "다운 타임"
-                : ""
-            }
-          />
+          <MainWidget type={selectedMain} />
         </Link>
 
         <div style={{ overflow: "auto" }}>

@@ -22,7 +22,7 @@ const WidgetList: React.FC<Props> = ({
   return (
     <>
       {widgetOrder.map((x) => {
-        if (x == "total") {
+        if (x == "totalTime") {
           return (
             <div
               onClick={() => (selected == x ? setSelected("") : setSelected(x))}
@@ -31,11 +31,11 @@ const WidgetList: React.FC<Props> = ({
                 title="전체 사용 시간"
                 actual={{ hours: 2, minutes: 27 }}
                 goal={{ hours: 4, minutes: 0 }}
-                selected={selected == "total"}
+                selected={selected == "totalTime"}
               />
             </div>
           );
-        } else if (x == "max") {
+        } else if (x == "maxTime") {
           return (
             <div
               onClick={() => (selected == x ? setSelected("") : setSelected(x))}
@@ -44,11 +44,11 @@ const WidgetList: React.FC<Props> = ({
                 title="최대 사용 시간"
                 actual={{ hours: 3, minutes: 12 }}
                 goal={{ hours: 3, minutes: 0 }}
-                selected={selected == "max"}
+                selected={selected == "maxTime"}
               />
             </div>
           );
-        } else if (x == "average") {
+        } else if (x == "averageTime") {
           return (
             <div
               onClick={() => (selected == x ? setSelected("") : setSelected(x))}
@@ -56,7 +56,7 @@ const WidgetList: React.FC<Props> = ({
               <SmallTimeWidget
                 title="평균 사용 시간"
                 actual={{ hours: 0, minutes: 12 }}
-                selected={selected == "average"}
+                selected={selected == "averageTime"}
               />
             </div>
           );
@@ -170,43 +170,30 @@ export const Customize: React.FC = () => {
             selected == "main" ? setSelected("") : setSelected("main")
           }
         >
-          <MainWidget
-            text={
-              selectedMain == "total"
-                ? "전체 사용 시간"
-                : selectedMain == "average"
-                ? "평균 사용 시간"
-                : selectedMain == "max"
-                ? "최대 사용 시간"
-                : selectedMain == "downtime"
-                ? "다운 타임"
-                : ""
-            }
-            icon={Settings}
-          />
+          <MainWidget type={selectedMain} icon={Settings} />
         </div>
         {selected == "main" ? (
           <ExpandedWidget>
             <Radio
               text="전체 사용 시간"
-              selected={selectedMain == "total"}
-              onClick={() => setSelectedMain("total")}
+              selected={selectedMain == "totalTime"}
+              onClick={() => setSelectedMain("totalTime")}
             />
             <Radio
               text="평균 사용 시간"
-              selected={selectedMain == "average"}
-              onClick={() => setSelectedMain("average")}
+              selected={selectedMain == "averageTime"}
+              onClick={() => setSelectedMain("averageTime")}
             />
             <Radio
               text="최대 사용 시간"
-              selected={selectedMain == "max"}
-              onClick={() => setSelectedMain("max")}
+              selected={selectedMain == "maxTime"}
+              onClick={() => setSelectedMain("maxTime")}
             />
-            <Radio
+            {/* <Radio
               text="다운 타임"
               selected={selectedMain == "downtime"}
               onClick={() => setSelectedMain("downtime")}
-            />
+            /> */}
           </ExpandedWidget>
         ) : (
           <></>

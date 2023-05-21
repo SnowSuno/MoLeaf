@@ -6,7 +6,6 @@ import { Page } from "../../components/Page";
 import { Toggle } from "../../components/elements/Toggle";
 import { GoalInput } from "../../components/GoalInput";
 
-
 export const TotalTime: React.FC = () => {
   const [toggled, setToggled] = useState<boolean>(false);
 
@@ -18,24 +17,30 @@ export const TotalTime: React.FC = () => {
           <Toggle toggled={toggled} setToggled={setToggled} />
         </InnerContainer1>
 
-        {toggled ?
-        <></> :
-        <Container>
-          <Category>목표 설정하기</Category>
-          <InnerContainer2>
-            <GoalInput max={ 24 } />
-            <GoalTime1>h</GoalTime1>
-            <GoalInput max={ 59 } />
-            <GoalTime1>m</GoalTime1>
-            <GoalTime2>/ 일</GoalTime2>
-          </InnerContainer2>
-        </Container>}
+        {toggled ? (
+          <></>
+        ) : (
+          <Container>
+            <Category>목표 설정하기</Category>
+            <InnerContainer2>
+              <GoalInput max={24} />
+              <GoalTime1>h</GoalTime1>
+              <GoalInput max={59} />
+              <GoalTime1>m</GoalTime1>
+              <GoalTime2>/ 일</GoalTime2>
+            </InnerContainer2>
+          </Container>
+        )}
 
-        {toggled ?
-        <></> :
-        <InformationBox>
-          <Information>다른 사람들은 평균적으로 하루에 6h 32m 사용합니다.</Information>
-        </InformationBox>}
+        {toggled ? (
+          <></>
+        ) : (
+          <InformationBox>
+            <Information>
+              다른 사람들은 평균적으로 하루에 6h 32m 사용합니다.
+            </Information>
+          </InformationBox>
+        )}
       </PageContainer>
     </Page>
   );
@@ -66,13 +71,13 @@ const InnerContainer2 = styled.div`
   display: flex;
   gap: 8px;
   margin: 0 auto;
+  align-items: center;
   justify-content: space-between;
 `;
 
 const Category = styled.div`
   color: var(--black);
   font-size: 16px;
-  font-weight: 500;
 `;
 
 const GoalTime1 = styled.div`
@@ -93,10 +98,10 @@ const InformationBox = styled.div`
   padding: 8px;
   display: flex;
   flex-direction: column;
-`
+`;
 
 const Information = styled.div`
   color: var(--dark-text);
   font-size: 16px;
   font-weight: 500;
-`
+`;
