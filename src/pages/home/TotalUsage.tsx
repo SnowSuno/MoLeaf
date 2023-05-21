@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 import { Page } from "../../components/Page";
-import { BarGraph } from "../../components/graphs/BarGraph";
-import { BarGauge } from "../../components/graphs/BarGauge";
+import { BarGraph, BarGauge, BarSelector } from "../../components/graphs";
 import { DataPoint } from "../../types";
-import { Divider } from "../../components/Divider";
-import { BarSelector } from "../../components/graphs/BarSelector";
+import { Divider } from "../../components/elements";
 import { UsageText } from "../../components/UsageText";
 import { MonthSelector } from "../../components/MonthSelector";
 

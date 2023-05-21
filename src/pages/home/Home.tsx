@@ -8,8 +8,8 @@ import {
 } from "../../components/widgets";
 import styled from "@emotion/styled";
 import { Widget } from "../../components/Widget";
-import { Button } from "../../components/Button";
-import { Settings } from "../../assets/icons/Settings";
+import { Button } from "../../components/elements";
+import { Settings } from "../../assets/icons";
 
 export const Home: React.FC = () => {
   return (

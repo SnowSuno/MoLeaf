@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 
 import { Page } from "../../components/Page";
 
-import { ToggleSwitch } from "../../components/ToggleSwitch";
+import { Toggle } from "../../components/elements/Toggle";
 import { GoalInput } from "../../components/GoalInput";
 
 
@@ -15,7 +15,7 @@ export const TotalTime: React.FC = () => {
       <PageContainer>
         <InnerContainer1>
           <Category>목표 설정 해제하기</Category>
-          <ToggleSwitch toggled={toggled} setToggled={setToggled} />
+          <Toggle toggled={toggled} setToggled={setToggled} />
         </InnerContainer1>
 
         {toggled ?

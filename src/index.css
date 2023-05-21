@@ -33,7 +33,7 @@ body,
     --gray_w: 190, 193, 203;
     --light-gray_w: 230, 231, 235;
     --dark-text_w: 102, 102, 102;
-    --backgroud-color_w: 242, 244, 246;
+    --background-color_w: 242, 244, 246;
 
     --primary: rgb(var(--primary_w));
     --white: rgb(var(--white_w));
@@ -41,7 +41,7 @@ body,
     --gray: rgb(var(--gray_w));
     --light-gray: rgb(var(--light-gray_w));
     --dark-text: rgb(var(--dark-text_w));
-    --backgroud-color: rgb(var(--backgroud-color_w));
+    --backgroud-color: rgb(var(--background-color_w));
 
     /* weights */
     --medium-text: 500;

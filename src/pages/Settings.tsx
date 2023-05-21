@@ -1,9 +1,8 @@
 import React from "react";
 import { Header } from "../components/Header";
 import styled from "@emotion/styled";
-import { Card } from "../components/Card";
+import { Card, Checkbox } from "../components/elements";
 import { ChevronRight, Edit } from "../assets/icons";
-import { Checkbox } from "../components/Checkbox";
 
 const UserInfo: React.FC = () => {
   return (
@@ -11,7 +10,7 @@ const UserInfo: React.FC = () => {
       <UserInfoContainer>
         <div id="header">
           유저 정보
-          <Edit size={20} color="var(--dark-text)" />
+          <Edit size={20} color="var(--dark-text)"/>
         </div>
         <div id="nameWrapper">
           <div id="name">이도라</div>
@@ -30,10 +29,10 @@ const PrivacyConsent: React.FC = () => {
       <PrivacyConsentContainer>
         <div id="header">
           개인정보 수집 및 이용 안내
-          <ChevronRight size={24} color="var(--black)" />
+          <ChevronRight size={24} color="var(--black)"/>
         </div>
         <div id="agree">
-          <Checkbox checked={true} />
+          <Checkbox checked={true}/>
           개인정보 수집 및 이용에 동의합니다
         </div>
       </PrivacyConsentContainer>
@@ -44,9 +43,9 @@ const PrivacyConsent: React.FC = () => {
 export const Settings: React.FC = () => {
   return (
     <Container>
-      <Header title="Settings" />
-      <UserInfo />
-      <PrivacyConsent />
+      <Header title="Settings"/>
+      <UserInfo/>
+      <PrivacyConsent/>
     </Container>
   );
 };
@@ -66,18 +65,21 @@ const UserInfoContainer = styled.div`
   color: var(--dark-text);
   font-size: 16px;
   font-weight: var(--medium-text);
+
   & > #header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
   }
+
   & > #nameWrapper {
     display: flex;
     flex-direction: row;
     align-items: baseline;
     gap: 12px;
     font-size: 18px;
+
     & > #name {
       color: var(--black);
       font-size: 36px;
@@ -93,6 +95,7 @@ const PrivacyConsentContainer = styled.div`
   color: var(--dark-text);
   font-size: 16px;
   font-weight: var(--medium-text);
+
   & > #header {
     display: flex;
     flex-direction: row;
@@ -101,6 +104,7 @@ const PrivacyConsentContainer = styled.div`
     font-size: 18px;
     color: var(--black);
   }
+
   & > #agree {
     display: flex;
     flex-direction: row;

@@ -1,6 +1,6 @@
 import React, { type PropsWithChildren } from "react";
 import styled from "@emotion/styled";
-import { IconComponent } from "../assets/icons/utils";
+import { IconComponent } from "../../assets/icons/utils";
 
 interface Props extends PropsWithChildren {
   icon?: IconComponent;

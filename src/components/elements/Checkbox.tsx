@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "@emotion/styled";
-import { ChevronDown } from "../assets/icons";
+import { ChevronDown } from "../../assets/icons";
 
 interface Props {
   checked?: boolean;
