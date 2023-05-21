@@ -9,8 +9,8 @@ interface Props extends PropsWithChildren {
 }
 
 export const SmallWidget: React.FC<Props> = ({ title, mainText, goalText }) => {
-  const children = (
-    <>
+  return (
+    <Widget full={false} title={title}>
       <Container>
         <MainText>{mainText}</MainText>
         {goalText ? (
@@ -21,9 +21,8 @@ export const SmallWidget: React.FC<Props> = ({ title, mainText, goalText }) => {
           </GoalText>
         )}
       </Container>
-    </>
+    </Widget>
   );
-  return <Widget full={false} title={title} children={children} />;
 };
 
 const Container = styled.div``;
