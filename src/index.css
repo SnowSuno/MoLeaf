@@ -49,6 +49,9 @@ body,
     /* fonts */
     --title-font: "Raleway", "Spoqa Han Sans Neo", sans-serif;
     --text-font: "Spoqa Han Sans Neo", sans-serif;
+
+    /* spacing */
+    --margin-inline: 20px;
 }
 
 h1,

@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import { Page } from "../../components/Page";
-import { BarGraph } from "../../components/BarGraph";
-import { BarGauge } from "../../components/BarGauge";
+import { BarGraph } from "../../components/graphs/BarGraph";
+import { BarGauge } from "../../components/graphs/BarGauge";
 import { DataPoint } from "../../types";
 import { Divider } from "../../components/Divider";
+import { BarSelector } from "../../components/graphs/BarSelector";
+import { UsageText } from "../../components/UsageText";
+import { MonthSelector } from "../../components/MonthSelector";
 
 const data: DataPoint[] = [
   { date: 12, value: 2.4 },
@@ -22,13 +25,21 @@ export const TotalUsage: React.FC = () => {
 
   return (
     <Page title="사용 시간">
+      <MonthSelector/>
       <BarGraph
         data={data}
         selected={selected}
         onClickData={setSelected}
       />
+      <BarSelector
+        data={data}
+        selected={selected}
+        onClickData={setSelected}
+      />
       <Divider/>
+      <UsageText/>
       <BarGauge data={selected}/>
+      <div style={{ height: "200vh" }}></div>
     </Page>
   );
 };

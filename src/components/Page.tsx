@@ -61,4 +61,7 @@ const Header = styled.header`
 
 const Main = styled.main`
   margin-top: 60px;
+  //height: 200vh;
+  overflow-y: scroll;
+  height: calc(100% - 60px);
 `;
