@@ -1,16 +1,15 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { AnimatedOutlet } from "../../components/AnimatedOutlet";
 import { Link } from "react-router-dom";
 import { Header } from "../../components/Header";
 import { MainWidget, SmallTimeWidget } from "../../components/widgets";
 import styled from "@emotion/styled";
-import { Widget } from "../../components/Widget";
 import { Button } from "../../components/Button";
 import { Settings } from "../../assets/icons/Settings";
 import { SmallPatternWidget } from "../../components/widgets/SmallPatternWidget";
 
 interface Props {
-  widgetOrder: string[] | null;
+  widgetOrder: string[];
 }
 
 const WidgetList: React.FC<Props> = ({ widgetOrder }) => {
@@ -99,7 +98,7 @@ export const Home: React.FC = () => {
 
         <div style={{ overflow: "auto" }}>
           <WidgetContainer>
-            <WidgetList widgetOrder={widgetOrder} />
+            <WidgetList widgetOrder={widgetOrder ? widgetOrder : []} />
           </WidgetContainer>
         </div>
 

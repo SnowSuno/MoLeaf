@@ -15,7 +15,7 @@ interface Props extends PropsWithChildren {
     startTime: Time;
     endTime: Time;
   };
-  success: boolean;
+  success?: boolean;
   selected?: boolean;
 }
 

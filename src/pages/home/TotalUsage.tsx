@@ -17,18 +17,14 @@ const data: DataPoint[] = [
 
 export const TotalUsage: React.FC = () => {
   const [selected, setSelected] = useState<DataPoint>(
-    data.at(-1) || { date: 0, value: 0 },
+    data.at(-1) || { date: 0, value: 0 }
   );
 
   return (
     <Page title="사용 시간">
-      <BarGraph
-        data={data}
-        selected={selected}
-        onClickData={setSelected}
-      />
-      <Divider/>
-      <BarGauge data={selected}/>
+      <BarGraph data={data} selected={selected} onClickData={setSelected} />
+      <Divider />
+      <BarGauge data={selected} />
     </Page>
   );
 };

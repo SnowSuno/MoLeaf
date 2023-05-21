@@ -1,14 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Page } from "../../components/Page";
-import {
-  ChevronDown,
-  ChevronLeft,
-  ChevronRight,
-  ChevronUp,
-} from "../../assets/icons";
+import { ChevronLeft, ChevronRight } from "../../assets/icons";
 import styled from "@emotion/styled";
 import { MainWidget, SmallTimeWidget } from "../../components/widgets";
-import { Widget } from "../../components/Widget";
 import { Button } from "../../components/Button";
 import { Settings } from "../../assets/icons/Settings";
 import { Card } from "../../components/Card";
@@ -135,7 +129,8 @@ export const Customize: React.FC = () => {
     const tmpWidgetOrder = localStorage.getItem("widgetOrder")?.split(",");
     if (tmpWidgetOrder) setWidgetOrder(tmpWidgetOrder);
 
-    setSelectedMain(localStorage.getItem("mainWidget"));
+    const tmpMainWidget = localStorage.getItem("mainWidget");
+    setSelectedMain(tmpMainWidget ? tmpMainWidget : "");
   }, []);
 
   const move = (dir: number) => {
