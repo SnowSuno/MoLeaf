@@ -1,6 +1,6 @@
 import { icon } from "./utils";
 
-export const ChevronRight = icon(({ color, size, weight }) => (
+export const ChevronUp = icon(({ color, size, weight }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 24 24"
@@ -13,7 +13,7 @@ export const ChevronRight = icon(({ color, size, weight }) => (
       strokeLinecap="round"
       strokeLinejoin="round"
       strokeWidth={weight}
-      d="m10 7 5 5-5 5"
+      d="m17 14-5-5-5 5"
     />
   </svg>
 ));

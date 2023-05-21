@@ -6,6 +6,7 @@ import { TotalUsage } from "./pages/home/TotalUsage";
 import { MotionConfig } from "framer-motion";
 import { TotalTime } from "./pages/goals/TotalTime";
 import { DownTime } from "./pages/goals/DownTime";
+import { Customize } from "./pages/home/Customize";
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,7 @@ const router = createBrowserRouter([
         element: <Home />,
         children: [
           { path: "total", element: <TotalUsage /> },
+          { path: "customize", element: <Customize /> },
         ],
       },
       {
