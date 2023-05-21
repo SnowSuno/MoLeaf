@@ -132,9 +132,6 @@ export const Customize: React.FC = () => {
   const [selectedMain, setSelectedMain] = useState<string>("");
 
   useEffect(() => {
-    console.log("hi");
-  }, [widgetOrder]);
-  useEffect(() => {
     const tmpWidgetOrder = localStorage.getItem("widgetOrder")?.split(",");
     if (tmpWidgetOrder) setWidgetOrder(tmpWidgetOrder);
 
@@ -143,14 +140,12 @@ export const Customize: React.FC = () => {
 
   const move = (dir: number) => {
     const tmp = widgetOrder.findIndex((x) => x == selected);
-    console.log(tmp, dir);
     if (tmp + dir >= 0 && tmp + dir <= widgetOrder.length - 1) {
       const newWidgetOrder = widgetOrder;
       if (newWidgetOrder) {
         newWidgetOrder[tmp] = widgetOrder[tmp + dir];
         newWidgetOrder[tmp + dir] = selected;
         setWidgetOrder(newWidgetOrder);
-        console.log(widgetOrder);
       }
     }
   };
