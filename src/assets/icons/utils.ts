@@ -7,7 +7,7 @@ export interface IconProps {
 }
 
 export const defaultProps: IconProps = {
-  size: 24,
+  size: 32,
   color: "currentColor",
   weight: 1.5,
 };
