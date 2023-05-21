@@ -43,7 +43,7 @@ const Container = styled.nav`
   bottom: 0;
   padding-bottom: env(safe-area-inset-bottom, 0);
 
-  background-color: rgba(var(--backgroud-color_w), 0.5);
+  background-color: rgba(var(--background-color_w), 0.5);
 
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
