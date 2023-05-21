@@ -34,8 +34,8 @@ body,
   --light-gray_w: 230, 231, 235;
   --dark-text_w: 102, 102, 102;
   --backgroud-color_w: 242, 244, 246;
-  --red_w: #ee5858;
-  --light-red_w: #ffcfcf;
+  --red_w: 238, 88, 88;
+  --light-red_w: 255, 207, 207;
   /* TODO: red colors not working */
 
   --primary: rgb(var(--primary_w));

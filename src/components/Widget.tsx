@@ -34,8 +34,8 @@ const Title = styled.div`
 `;
 
 const FailTag = styled.div`
-  color: #ee5858;
-  background-color: #ffcfcf;
+  color: var(--red);
+  background-color: var(--light-red);
   font-size: 12px;
   font-weight: var(--medium-text);
   padding: 4px 8px;

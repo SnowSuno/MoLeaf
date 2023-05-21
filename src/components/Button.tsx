@@ -29,6 +29,7 @@ const Container = styled.div`
   justify-content: center;
   margin: 0 auto;
   font-size: 18px;
+  cursor: pointer;
 
   &:hover {
     background-color: var(--primary);
