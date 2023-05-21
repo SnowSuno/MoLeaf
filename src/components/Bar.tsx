@@ -1,4 +1,20 @@
-import { motion } from "framer-motion";
-import { Bar as VisxBar } from "@visx/shape";
+import React from "react";
 
-export const Bar = motion(VisxBar);
+import { motion } from "framer-motion";
+
+
+interface Props {
+  usage: number;
+  limit: number;
+  horizontal?: boolean;
+}
+
+export const UsageBar: React.FC<Props> = () => {
+
+
+
+
+  return <motion.rect
+
+  />
+}

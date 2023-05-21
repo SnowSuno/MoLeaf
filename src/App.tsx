@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Home, Goals, Settings } from "./pages";
 import { Layout } from "./components/Layout";
 import { TotalUsage } from "./pages/home/TotalUsage";
+import { MotionConfig } from "framer-motion";
 import { TotalTime } from "./pages/goals/TotalTime";
 import { DownTime } from "./pages/goals/DownTime";
 
@@ -31,9 +32,9 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <>
-      <RouterProvider router={router} />
-    </>
+    <MotionConfig transition={{ stiffness: 1000, damping: 100 }}>
+      <RouterProvider router={router}/>
+    </MotionConfig>
   );
 }
 
