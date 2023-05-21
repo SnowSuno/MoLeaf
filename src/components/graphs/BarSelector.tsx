@@ -5,6 +5,7 @@ import { ScaleSVG } from "@visx/responsive";
 import type { DataPoint } from "../../types";
 
 import { spacing } from "./constants";
+import styled from "@emotion/styled";
 
 // accessors
 
@@ -39,7 +40,7 @@ export const BarSelector: React.FC<Props> = ({
     }), [xMax, data]);
 
   return (
-    <div style={{position: "sticky", top: 0, zIndex: 10, backgroundColor: "var(--white)"}}>
+    <Container>
       <ScaleSVG width={spacing.width} height={spacing.scaleHeight}>
         <Group left={spacing.marginInline}>
           {data.map(dataPoint => {
@@ -76,6 +77,13 @@ export const BarSelector: React.FC<Props> = ({
           })}
         </Group>
       </ScaleSVG>
-    </div>
+    </Container>
   );
 };
+
+const Container = styled.div`
+  position: sticky;
+  top: 40px;
+  z-index: 10;
+  background-color: var(--white);
+`;
