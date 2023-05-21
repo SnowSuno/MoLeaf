@@ -1,16 +1,13 @@
 import React, { type ReactNode } from "react";
 import { NavLink } from "react-router-dom";
 import styled from "@emotion/styled";
-import { Home } from "../assets/icons/Home";
-import { Settings } from "../assets/icons/Settings";
-import { Timer } from "../assets/icons/Timer";
+import { Home, Settings, Timer } from "../assets/icons";
 import { css } from "@emotion/css";
 
 interface Props {
   icon: ReactNode;
   to: string;
 }
-
 
 export const Navigator: React.FC = () => (
   <Container>
@@ -19,7 +16,6 @@ export const Navigator: React.FC = () => (
     <NavItem to="/settings" icon={<Settings/>}/>
   </Container>
 );
-
 
 const NavItem: React.FC<Props> = ({ icon, to }) =>
   <NavLink
@@ -46,4 +42,9 @@ const Container = styled.nav`
   position: absolute;
   bottom: 0;
   padding-bottom: env(safe-area-inset-bottom, 0);
+
+  background-color: rgba(var(--backgroud-color_w), 0.5);
+
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
 `;
