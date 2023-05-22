@@ -53,7 +53,7 @@ export const BarSelector: React.FC<Props> = ({
             const padding = 2;
 
             return (
-              <g>
+              <g key={dataPoint.date}>
                 <rect
                   key={dataPoint.date}
                   x={barX - padding}
