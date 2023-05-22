@@ -7,6 +7,7 @@ import { Button, Card } from "../../components/elements";
 import { Settings } from "../../assets/icons";
 import { SmallPatternWidget } from "../../components/widgets/SmallPatternWidget";
 import { Radio } from "../../components/elements";
+import { SmallNumberWidget } from "../../components/widgets/SmallNumberWidget";
 
 interface Props {
   widgetOrder: string[];
@@ -61,6 +62,15 @@ const WidgetList: React.FC<Props> = ({
                 endTime: { hours: 23, minutes: 0 },
               }}
               selected={selected == "downtime"}
+              onClick={() => (selected == x ? setSelected("") : setSelected(x))}
+            />
+          );
+        } else if (x == "numUnlocks") {
+          return (
+            <SmallNumberWidget
+              title="평균 사용 시간"
+              actual={36}
+              selected={selected == "numUnlocks"}
               onClick={() => (selected == x ? setSelected("") : setSelected(x))}
             />
           );
@@ -178,6 +188,11 @@ export const Customize: React.FC = () => {
               text="다운 타임"
               selected={selectedMain == "downtime"}
               onClick={() => setSelectedMain("downtime")}
+            /> */}
+            {/* <Radio
+              text="잠금 해제 횟수"
+              selected={selectedMain == "numUnlocks"}
+              onClick={() => setSelectedMain("numUnlocks")}
             /> */}
           </ExpandedWidget>
         ) : (
