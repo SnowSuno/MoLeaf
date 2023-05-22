@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 interface Props {
   full?: boolean;
   selected?: boolean;
-  onClick?: () => void;
 }
 
 
@@ -17,6 +16,4 @@ export const Card = styled(motion.div)<Props>`
   border-radius: 20px;
   padding: 20px;
   flex-direction: column;
-  
-  ${(props) => props.onClick ? "cursor: pointer;" : ""}
 `;

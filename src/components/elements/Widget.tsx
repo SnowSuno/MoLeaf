@@ -1,30 +1,33 @@
 import React, { type PropsWithChildren } from "react";
 import { Card } from "./Card";
 import styled from "@emotion/styled";
+import { UnstyledLink } from "./UnstyledLink";
 
 interface Props extends PropsWithChildren {
   full?: boolean;
   title?: string;
   success?: boolean;
   selected?: boolean;
-  onClick?: () => void;
+  href?: string;
+  // onClick?: () => void;
 }
 
 export const Widget: React.FC<Props> = ({
   title,
   success,
   children,
+  href,
   ...props
 }) => {
-  return (
-    <Card {...props}>
-      <Header>
-        <Title>{title}</Title>
-        {success == false ? <FailTag>실패</FailTag> : <></>}
-      </Header>
-      {children}
-    </Card>
-  );
+  const inner = <Card {...props}>
+    <Header>
+      <Title>{title}</Title>
+      {success == false ? <FailTag>실패</FailTag> : <></>}
+    </Header>
+    {children}
+  </Card>;
+
+  return href ? <UnstyledLink to={href}>{inner}</UnstyledLink> : inner;
 };
 
 const Header = styled.div`

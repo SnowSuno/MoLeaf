@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { AnimatedOutlet } from "../../components/layouts/AnimatedOutlet";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { Header } from "../../components/layouts/Header";
 import { MainWidget, SmallTimeWidget } from "../../components/widgets";
 import styled from "@emotion/styled";
@@ -73,8 +73,6 @@ const WidgetList: React.FC<Props> = ({ widgetOrder }) => {
 };
 
 export const Home: React.FC = () => {
-  const navigate = useNavigate();
-
   const [widgetOrder, setWidgetOrder] = useState<string[]>([]);
   const [selectedMain, setSelectedMain] = useState<string>("");
 
@@ -118,7 +116,7 @@ export const Home: React.FC = () => {
 
         <MainWidget
           type={selectedMain}
-          onClick={() => navigate("/total")}
+          href="/total"
         />
 
         <WidgetContainer
