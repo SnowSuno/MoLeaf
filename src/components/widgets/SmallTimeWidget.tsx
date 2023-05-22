@@ -13,6 +13,7 @@ interface Props extends PropsWithChildren {
   actual: Time;
   goal?: Time;
   selected?: boolean;
+  onClick?: () => void;
 }
 
 const goalSuccess = (actual: Time, goal: Time) => {
@@ -27,6 +28,7 @@ export const SmallTimeWidget: React.FC<Props> = ({
   actual,
   goal,
   selected,
+  onClick,
 }) => {
   return (
     <Widget
@@ -34,6 +36,7 @@ export const SmallTimeWidget: React.FC<Props> = ({
       title={title}
       success={goal ? goalSuccess(actual, goal) : undefined}
       selected={selected}
+      onClick={onClick}
     >
       <Container>
         <MainText>

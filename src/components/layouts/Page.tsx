@@ -33,7 +33,7 @@ const Container = styled(motion.div)`
   z-index: 10;
   width: 100%;
   height: 100%;
-  background-color: var(--white);
+  background-color: var(--backgroud-color);
   top: 0;
   bottom: 0;
 `;

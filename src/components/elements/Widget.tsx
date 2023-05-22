@@ -7,6 +7,7 @@ interface Props extends PropsWithChildren {
   title?: string;
   success?: boolean;
   selected?: boolean;
+  onClick?: () => void;
 }
 
 export const Widget: React.FC<Props> = ({
@@ -14,10 +15,11 @@ export const Widget: React.FC<Props> = ({
   title,
   success,
   selected,
+  onClick,
   children,
 }) => {
   return (
-    <Card full={full} selected={selected}>
+    <Card full={full} selected={selected} onClick={onClick}>
       <Header>
         <Title>{title}</Title>
         {success == false ? <FailTag>실패</FailTag> : <></>}
