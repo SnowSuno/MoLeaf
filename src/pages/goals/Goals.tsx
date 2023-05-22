@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { Header } from "../../components/layouts/Header";
 import { TimeUsageWidget } from "../../components/widgets";
 import styled from "@emotion/styled";
+import { PatternUsageWidget } from "../../components/widgets/PatternUsageWidget";
 import { AnimatedOutlet } from "../../components/layouts/AnimatedOutlet";
 
 export const Goals: React.FC = () => {
@@ -19,14 +20,14 @@ export const Goals: React.FC = () => {
               totalTime={{ hours: 4, minutes: 0 }}
             />
           </Link>
-          <Link to="/goals/downtime" style={{ textDecoration: "none" }}>
-            <TimeUsageWidget title="다운 타임" />{" "}
-          </Link>
           <Link to="/goals/maxtime" style={{ textDecoration: "none" }}>
             <TimeUsageWidget
               title="최대 사용 시간"
               totalTime={{ hours: 3, minutes: 0 }}
             />
+          </Link>
+          <Link to="/goals/downtime" style={{ textDecoration: "none" }}>
+            <PatternUsageWidget title="다운 타임" />
           </Link>
         </InnerContainer>
         <InnerContainer>
@@ -60,9 +61,3 @@ const Category = styled.div`
   font-size: 24px;
   font-weight: var(--medium-text);
 `;
-
-// const Title = styled.div`
-//   color: var(--dark-text);
-//   font-size: 16px;
-//   font-weight: var(--medium-text);
-// `;

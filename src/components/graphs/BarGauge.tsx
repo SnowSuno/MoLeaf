@@ -2,7 +2,8 @@ import React, { useEffect, useMemo } from "react";
 import {
   AnimatePresence,
   motion,
-  useSpring, useTransform,
+  useSpring,
+  useTransform,
 } from "framer-motion";
 
 import { ScaleSVG } from "@visx/responsive";
@@ -22,54 +23,58 @@ const yMax = height - margin.top - margin.bottom;
 
 interface Props {
   data: DataPoint;
+  limit?: number;
+  showAxis?: boolean;
 }
 
-export const BarGauge: React.FC<Props> = ({ data }) => {
+export const BarGauge: React.FC<Props> = ({
+  data,
+  limit = 2,
+  showAxis = true,
+}) => {
   const value = useSpringWith(data.value);
 
   const xMax = width - margin.inline * 2;
 
-  const xScale = useMemo(() => scaleLinear<number>({
-      range: [0, xMax],
-      round: true,
-      domain: [0, Math.max(2, data.value)],
-    },
-  ), [xMax, data]);
+  const xScale = useMemo(
+    () =>
+      scaleLinear<number>({
+        range: [0, xMax],
+        round: true,
+        domain: [0, Math.max(limit, data.value)],
+      }),
+    [xMax, data]
+  );
 
-  const isOverLimit = data.value > 2;
+  const isOverLimit = data.value > limit;
 
   // const x = useSpringWith(xScale(data.value));
   // const x2 = useSpringWith(xScale(2));
 
-  const x = useTransform(value, value => {
+  const x = useTransform(value, (value) => {
     const xScale = scaleLinear<number>({
       range: [0, xMax],
       round: true,
-      domain: [0, Math.max(2, value)],
+      domain: [0, Math.max(limit, value)],
     });
 
     return xScale(value);
   });
-  const x2 = useTransform(value, value => {
+  const x2 = useTransform(value, (value) => {
     const xScale = scaleLinear<number>({
       range: [0, xMax],
       round: true,
-      domain: [0, Math.max(2, value)],
+      domain: [0, Math.max(limit, value)],
     });
 
-    return xScale(2);
+    return xScale(limit);
   });
 
   return (
     <ScaleSVG width={width} height={height}>
       <Group top={margin.top} left={margin.inline}>
-        <Axis scale={xScale}/>
-        <Bar
-          fill="var(--light-gray)"
-          height={yMax}
-          width={xMax}
-          rx={10}
-        />
+        {showAxis ? <Axis scale={xScale} limit={limit} /> : <></>}
+        <Bar fill="var(--light-gray)" height={yMax} width={xMax} rx={10} />
         <motion.rect
           fill={isOverLimit ? "#F96D75" : "#50AA8D"}
           height={yMax}
@@ -81,12 +86,7 @@ export const BarGauge: React.FC<Props> = ({ data }) => {
           height={yMax}
           width={x2}
         />
-        <motion.rect
-          fill="#fff"
-          height={yMax}
-          x={x2}
-          width={5}
-        />
+        <motion.rect fill="#fff" height={yMax} x={x2} width={5} />
       </Group>
     </ScaleSVG>
   );
@@ -94,9 +94,10 @@ export const BarGauge: React.FC<Props> = ({ data }) => {
 
 interface ScaleProps {
   scale: ScaleLinear<number, number, never>;
+  limit: number;
 }
 
-const Axis: React.FC<ScaleProps> = ({ scale }) => (
+const Axis: React.FC<ScaleProps> = ({ scale, limit }) => (
   <AnimatePresence mode="wait" initial={false}>
     <motion.g
       key={scale(1)}
@@ -109,14 +110,15 @@ const Axis: React.FC<ScaleProps> = ({ scale }) => (
         scale={scale}
         hideAxisLine={true}
         hideTicks={true}
-        numTicks={2}
+        numTicks={limit}
         tickLength={0}
         tickLabelProps={{
           fill: "var(--gray)",
           fontFamily: "var(--text-font)",
         }}
-        tickFormat={tickValue => `${tickValue}h`}
-      />;
+        tickFormat={(tickValue) => `${tickValue}h`}
+      />
+      ;
     </motion.g>
   </AnimatePresence>
 );

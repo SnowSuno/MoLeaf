@@ -48,7 +48,15 @@ export const SmallTimeWidget: React.FC<Props> = ({
         ) : (
           <GoalText style={{ color: "var(--gray)" }}>목표 미설정</GoalText>
         )}
-        {goal ? <BarGauge data={{ date: 0, value: 0 }} /> : <></>}
+        {goal ? (
+          <BarGauge
+            data={{ date: 0, value: actual.hours + actual.minutes / 60 }}
+            limit={goal.hours + goal.minutes / 60}
+            showAxis={false}
+          />
+        ) : (
+          <></>
+        )}
       </Container>
     </Widget>
   );
@@ -57,7 +65,7 @@ export const SmallTimeWidget: React.FC<Props> = ({
 const Container = styled.div`
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 8px;
 `;
 
 const MainText = styled.div`

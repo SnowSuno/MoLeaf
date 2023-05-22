@@ -6,59 +6,138 @@ import { Page } from "../../components/layouts/Page";
 import { GoalInput } from "../../components/GoalInput";
 import { Toggle } from "../../components/elements";
 
-const DownTimeBox: React.FC = () => {
+interface Props {
+  startTime: {
+    hours: number;
+    minutes: number;
+  };
+  endTime: {
+    hours: number;
+    minutes: number;
+  };
+  index: number;
+  removeData: (index: number) => void;
+}
+
+const DownTimeBox: React.FC<Props> = ({
+  startTime,
+  endTime,
+  index,
+  removeData,
+}) => {
   return (
     <InnerContainer1>
       <InnerContainer2>
-        <GoalInput max={11}/>
+        <GoalInput max={11} initVal={startTime.hours % 12} />
         <GoalTime>:</GoalTime>
-        <GoalInput max={59}/>
-        <select>
-          <option>AM</option>
-          <option>PM</option>
+        <GoalInput max={59} initVal={startTime.minutes} />
+        <select
+          style={{
+            position: "relative",
+            width: "72px",
+            fontSize: "20px",
+            color: "var(--black)",
+            textAlign: "center",
+            justifyContent: "center",
+            border: "none",
+            padding: "4px 12px",
+            backgroundColor: "var(--light-gray)",
+            borderRadius: "8px",
+          }}
+        >
+          <option selected={endTime.hours < 12}>AM</option>
+          <option selected={endTime.hours >= 12}>PM</option>
         </select>
 
         <GoalTime>~</GoalTime>
 
-        <GoalInput max={11}/>
+        <GoalInput max={11} initVal={endTime.hours % 12} />
         <GoalTime>:</GoalTime>
-        <GoalInput max={59}/>
-        <select>
-          <option>AM</option>
-          <option>PM</option>
+        <GoalInput max={59} initVal={endTime.minutes} />
+        <select
+          style={{
+            position: "relative",
+            width: "72px",
+            fontSize: "20px",
+            color: "var(--black)",
+            textAlign: "center",
+            justifyContent: "center",
+            border: "none",
+            padding: "4px 12px",
+            backgroundColor: "var(--light-gray)",
+            borderRadius: "8px",
+          }}
+        >
+          <option selected={endTime.hours < 12}>AM</option>
+          <option selected={endTime.hours >= 12}>PM</option>
         </select>
       </InnerContainer2>
 
-      <DeleteButton/>
+      <DeleteButton onClick={() => removeData(index)}>-</DeleteButton>
     </InnerContainer1>
   );
 };
 
 export const DownTime: React.FC = () => {
   const [toggled, setToggled] = useState<boolean>(false);
+  const [data, setData] = useState([
+    {
+      startTime: { hours: 3, minutes: 0 },
+      endTime: { hours: 9, minutes: 0 },
+    },
+    {
+      startTime: { hours: 20, minutes: 0 },
+      endTime: { hours: 23, minutes: 0 },
+    },
+  ]);
+
+  const addData = () => {
+    const newRange = {
+      startTime: { hours: 0, minutes: 0 },
+      endTime: { hours: 0, minutes: 0 },
+    };
+    setData(data.concat(newRange));
+  };
+
+  const removeData = (index: number) => {
+    data.splice(index, 1);
+    setData(data);
+  };
 
   return (
     <Page title="전체 사용 시간">
       <PageContainer>
         <InnerContainer1>
           <Category>목표 설정 해제하기</Category>
-          <Toggle toggled={toggled} setToggled={setToggled}/>
+          <Toggle toggled={toggled} setToggled={setToggled} />
         </InnerContainer1>
 
-        {toggled ?
-          <></> :
+        {toggled ? (
+          <></>
+        ) : (
           <Container>
             <Category>목표 설정하기</Category>
-            <DownTimeBox/>
-            <DownTimeBox/>
-            <AddButton>+</AddButton>
-          </Container>}
+            {data.map((x, index) => (
+              <DownTimeBox
+                startTime={x.startTime}
+                endTime={x.endTime}
+                index={index}
+                removeData={removeData}
+              />
+            ))}
+            <AddButton onClick={addData}>+</AddButton>
+          </Container>
+        )}
 
-        {toggled ?
-          <></> :
+        {toggled ? (
+          <></>
+        ) : (
           <InformationBox>
-            <Information>다른 사람들이 자주 설정하는 다운 타임 시간대는 3AM ~ 6AM입니다.</Information>
-          </InformationBox>}
+            <Information>
+              다른 사람들이 자주 설정하는 다운 타임 시간대는 3AM ~ 6AM입니다.
+            </Information>
+          </InformationBox>
+        )}
       </PageContainer>
     </Page>
   );
@@ -83,6 +162,7 @@ const InnerContainer1 = styled.div`
   display: flex;
   justify-content: space-between;
   width: 100%;
+  align-items: center;
 `;
 
 const InnerContainer2 = styled.div`
@@ -90,12 +170,12 @@ const InnerContainer2 = styled.div`
   gap: 4px;
   margin: 0 auto;
   justify-content: space-between;
+  align-items: center;
 `;
 
 const Category = styled.div`
   color: var(--black);
   font-size: 16px;
-  font-weight: 500;
 `;
 
 const GoalTime = styled.div`

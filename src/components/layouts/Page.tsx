@@ -19,11 +19,11 @@ export const Page: React.FC<Props> = ({ title, ...props }) => {
     >
       <Header>
         <button onClick={() => navigate("..", { replace: true })}>
-          <ChevronLeft size={32} color="var(--dark-text)"/>
+          <ChevronLeft size={32} color="var(--dark-text)" />
         </button>
         <h2>{title}</h2>
       </Header>
-      <Main {...props}/>
+      <Main {...props} />
     </Container>
   );
 };
@@ -47,11 +47,10 @@ const Header = styled.header`
   height: 60px;
   padding-inline: 10px;
   gap: 10px;
-  
+
   & > button {
-    
   }
-  
+
   & > h2 {
     color: var(--dark-text);
     font-weight: 500;

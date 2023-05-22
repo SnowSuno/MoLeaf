@@ -5,10 +5,8 @@ import styled from "@emotion/styled";
 import { MainWidget, SmallTimeWidget } from "../../components/widgets";
 import { Button, Card } from "../../components/elements";
 import { Settings } from "../../assets/icons";
+import { SmallPatternWidget } from "../../components/widgets/SmallPatternWidget";
 import { Radio } from "../../components/elements";
-import {
-  SmallPatternWidget,
-} from "../../components/widgets/SmallPatternWidget";
 
 interface Props {
   widgetOrder: string[];
@@ -21,60 +19,72 @@ const WidgetList: React.FC<Props> = ({
   selected,
   setSelected,
 }) => {
-  return <>{widgetOrder.map((x) => {
-    if (x == "total") {
-      return (
-        <div onClick={() => (selected == x ? setSelected("") : setSelected(x))}>
-          <SmallTimeWidget
-            title="전체 사용 시간"
-            actual={{ hours: 2, minutes: 27 }}
-            goal={{ hours: 4, minutes: 0 }}
-            selected={selected == "total"}
-          />
-        </div>
-      );
-    } else if (x == "max") {
-      return (
-        <div onClick={() => (selected == x ? setSelected("") : setSelected(x))}>
-          <SmallTimeWidget
-            title="최대 사용 시간"
-            actual={{ hours: 3, minutes: 12 }}
-            goal={{ hours: 3, minutes: 0 }}
-            selected={selected == "max"}
-          />
-        </div>
-      );
-    } else if (x == "average") {
-      return (
-        <div onClick={() => (selected == x ? setSelected("") : setSelected(x))}>
-          <SmallTimeWidget
-            title="평균 사용 시간"
-            actual={{ hours: 0, minutes: 12 }}
-            selected={selected == "average"}
-          />
-        </div>
-      );
-    } else if (x == "downtime") {
-      return (
-        <div onClick={() => (selected == x ? setSelected("") : setSelected(x))}>
-          <SmallPatternWidget
-            title="다운 타임"
-            on={true}
-            range={{
-              startTime: { hours: 20, minutes: 0 },
-              endTime: { hours: 23, minutes: 0 },
-            }}
-            selected={selected == "downtime"}
-          />
-        </div>
-      );
-    } else {
-      return (
-        <></>
-        /* TODO: 잠금 해제 횟수 & 다운타임 위젯 만들기 */
-      );
-    }
-  })}</>;
+  return (
+    <>
+      {widgetOrder.map((x) => {
+        if (x == "totalTime") {
+          return (
+            <div
+              onClick={() => (selected == x ? setSelected("") : setSelected(x))}
+            >
+              <SmallTimeWidget
+                title="전체 사용 시간"
+                actual={{ hours: 2, minutes: 27 }}
+                goal={{ hours: 4, minutes: 0 }}
+                selected={selected == "totalTime"}
+              />
+            </div>
+          );
+        } else if (x == "maxTime") {
+          return (
+            <div
+              onClick={() => (selected == x ? setSelected("") : setSelected(x))}
+            >
+              <SmallTimeWidget
+                title="최대 사용 시간"
+                actual={{ hours: 3, minutes: 12 }}
+                goal={{ hours: 3, minutes: 0 }}
+                selected={selected == "maxTime"}
+              />
+            </div>
+          );
+        } else if (x == "averageTime") {
+          return (
+            <div
+              onClick={() => (selected == x ? setSelected("") : setSelected(x))}
+            >
+              <SmallTimeWidget
+                title="평균 사용 시간"
+                actual={{ hours: 0, minutes: 12 }}
+                selected={selected == "averageTime"}
+              />
+            </div>
+          );
+        } else if (x == "downtime") {
+          return (
+            <div
+              onClick={() => (selected == x ? setSelected("") : setSelected(x))}
+            >
+              <SmallPatternWidget
+                title="다운 타임"
+                on={true}
+                range={{
+                  startTime: { hours: 20, minutes: 0 },
+                  endTime: { hours: 23, minutes: 0 },
+                }}
+                selected={selected == "downtime"}
+              />
+            </div>
+          );
+        } else {
+          return (
+            <></>
+            /* TODO: 잠금 해제 횟수 & 다운타임 위젯 만들기 */
+          );
+        }
+      })}
+    </>
+  );
 };
 
 interface ControllerProps {
@@ -160,43 +170,30 @@ export const Customize: React.FC = () => {
             selected == "main" ? setSelected("") : setSelected("main")
           }
         >
-          <MainWidget
-            text={
-              selectedMain == "total"
-                ? "전체 사용 시간"
-                : selectedMain == "average"
-                  ? "평균 사용 시간"
-                  : selectedMain == "max"
-                    ? "최대 사용 시간"
-                    : selectedMain == "downtime"
-                      ? "다운 타임"
-                      : ""
-            }
-            icon={Settings}
-          />
+          <MainWidget type={selectedMain} icon={Settings} />
         </div>
         {selected == "main" ? (
           <ExpandedWidget>
             <Radio
               text="전체 사용 시간"
-              selected={selectedMain == "total"}
-              onClick={() => setSelectedMain("total")}
+              selected={selectedMain == "totalTime"}
+              onClick={() => setSelectedMain("totalTime")}
             />
             <Radio
               text="평균 사용 시간"
-              selected={selectedMain == "average"}
-              onClick={() => setSelectedMain("average")}
+              selected={selectedMain == "averageTime"}
+              onClick={() => setSelectedMain("averageTime")}
             />
             <Radio
               text="최대 사용 시간"
-              selected={selectedMain == "max"}
-              onClick={() => setSelectedMain("max")}
+              selected={selectedMain == "maxTime"}
+              onClick={() => setSelectedMain("maxTime")}
             />
-            <Radio
+            {/* <Radio
               text="다운 타임"
               selected={selectedMain == "downtime"}
               onClick={() => setSelectedMain("downtime")}
-            />
+            /> */}
           </ExpandedWidget>
         ) : (
           <></>
@@ -212,7 +209,9 @@ export const Customize: React.FC = () => {
           </WidgetContainer>
         </div>
 
-        <Button text="저장하기" onClick={save}/>
+        <div style={{ textAlign: "center" }}>
+          <Button text="저장하기" onClick={save} />
+        </div>
       </Container>
       {selected && selected != "main" ? (
         <Controller

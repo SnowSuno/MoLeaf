@@ -4,7 +4,7 @@ import styled from "@emotion/styled";
 
 interface Props extends PropsWithChildren {
   full?: boolean;
-  title: string;
+  title?: string;
   success?: boolean;
   selected?: boolean;
 }
