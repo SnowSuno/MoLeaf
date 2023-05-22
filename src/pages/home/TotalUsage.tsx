@@ -13,7 +13,7 @@ const data: DataPoint[] = [
   { date: 15, value: 0.7 },
   { date: 16, value: 2.8 },
   { date: 17, value: 1.4 },
-  { date: 18, value: 2 },
+  { date: 18, value: 2.6 },
 ];
 
 export const TotalUsage: React.FC = () => {
@@ -28,7 +28,7 @@ export const TotalUsage: React.FC = () => {
       <BarSelector data={data} selected={selected} onClickData={setSelected} />
       <Divider />
       <UsageText />
-      <BarGauge data={selected} />
+      <BarGauge data={selected} limit={4} />
       <div style={{ height: "200vh" }}></div>
     </Page>
   );
