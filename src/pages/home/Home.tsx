@@ -151,10 +151,6 @@ const WidgetContainer = styled(motion.div)`
   padding-inline: 20px;
   padding-bottom: 14px;
 
-  & div::-webkit-scrollbar {
-    display: none;
-  }
-
   & > div {
     flex-shrink: 0;
   }

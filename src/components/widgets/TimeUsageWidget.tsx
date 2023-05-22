@@ -1,39 +1,34 @@
-import React, { type PropsWithChildren } from "react";
+import React from "react";
 import styled from "@emotion/styled";
 import { Widget } from "../elements";
 import { ChevronRight } from "../../assets/icons";
 
-//const totalTime = { hours: 2, minutes: 27 };
-//const goal = { hours: 4, minutes: 0 };
-
-interface Props extends PropsWithChildren {
+interface Props {
   title: string;
   totalTime?: {
     hours: number;
     minutes: number;
   };
+  href?: string;
 }
 
-export const TimeUsageWidget: React.FC<Props> = ({ title, totalTime }) => {
-  const childrenComponent = (
-    <>
-      <Container>
-        <Time>
-          {totalTime ? (
-            <TotalTime>
-              {totalTime.hours}h {totalTime.minutes}m
-            </TotalTime>
-          ) : (
-            <NotSet>미설정</NotSet>
-          )}
-          <GoalTime>/ 1일</GoalTime>
-        </Time>
-        <ChevronRight size={36} color="var(--dark-text)" />
-      </Container>
-    </>
-  );
-  return <Widget full title={title} children={childrenComponent} />;
-};
+export const TimeUsageWidget: React.FC<Props> = ({ totalTime, ...props }) => (
+  <Widget full {...props}>
+    <Container>
+      <Time>
+        {totalTime ? (
+          <TotalTime>
+            {totalTime.hours}h {totalTime.minutes}m
+          </TotalTime>
+        ) : (
+          <NotSet>미설정</NotSet>
+        )}
+        <GoalTime>/ 1일</GoalTime>
+      </Time>
+      <ChevronRight size={36} color="var(--dark-text)"/>
+    </Container>
+  </Widget>
+);
 
 const Container = styled.div`
   display: flex;

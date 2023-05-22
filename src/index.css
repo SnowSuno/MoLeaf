@@ -2,81 +2,76 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: var(--text-font);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--text-font);
 }
 
 html,
 body,
 #root {
-  height: 100%;
-  background-color: var(--background-color);
+    height: 100%;
+    background-color: var(--background-color);
 }
 
 #root {
-  position: relative;
-  max-width: 480px;
-  margin: 0 auto;
-  background-color: var(--background-color);
-  overflow: hidden;
+    position: relative;
+    max-width: 480px;
+    margin: 0 auto;
+    background-color: var(--background-color);
+    overflow: hidden;
 }
 
 :root {
-  -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: transparent;
 
-  /* colors */
-  --primary_w: 80, 170, 141;
-  --white_w: 255, 255, 255;
-  --black_w: 51, 51, 51;
-  --gray_w: 190, 193, 203;
-  --light-gray_w: 230, 231, 235;
-  --dark-text_w: 102, 102, 102;
-  --background-color_w: 242, 244, 246;
-  --red_w: 238, 88, 88;
-  --light-red_w: 255, 207, 207;
+    /* colors */
+    --primary_w: 80, 170, 141;
+    --white_w: 255, 255, 255;
+    --black_w: 51, 51, 51;
+    --gray_w: 190, 193, 203;
+    --light-gray_w: 230, 231, 235;
+    --dark-text_w: 102, 102, 102;
+    --background-color_w: 242, 244, 246;
+    --red_w: 238, 88, 88;
+    --light-red_w: 255, 207, 207;
 
-  --primary: rgb(var(--primary_w));
-  --white: rgb(var(--white_w));
-  --black: rgb(var(--black_w));
-  --gray: rgb(var(--gray_w));
-  --light-gray: rgb(var(--light-gray_w));
-  --dark-text: rgb(var(--dark-text_w));
-  --background-color: rgb(var(--background-color_w));
-  --red: rgb(var(--red_w));
-  --light-red: rgb(var(--light-red_w));
+    --primary: rgb(var(--primary_w));
+    --white: rgb(var(--white_w));
+    --black: rgb(var(--black_w));
+    --gray: rgb(var(--gray_w));
+    --light-gray: rgb(var(--light-gray_w));
+    --dark-text: rgb(var(--dark-text_w));
+    --background-color: rgb(var(--background-color_w));
+    --red: rgb(var(--red_w));
+    --light-red: rgb(var(--light-red_w));
 
-  /* weights */
-  --medium-text: 500;
+    /* weights */
+    --medium-text: 500;
 
-  /* fonts */
-  --title-font: "Raleway", "Spoqa Han Sans Neo", sans-serif;
-  --text-font: "Spoqa Han Sans Neo", sans-serif;
+    /* fonts */
+    --title-font: "Raleway", "Spoqa Han Sans Neo", sans-serif;
+    --text-font: "Spoqa Han Sans Neo", sans-serif;
 
-  /* spacing */
-  --margin-inline: 20px;
+    /* spacing */
+    --margin-inline: 20px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: var(--title-font);
-  font-weight: 800;
-  color: var(--black);
+h1 {
+    font-family: var(--title-font);
+    font-weight: 800;
+    color: var(--black);
 }
 
 button {
-  all: unset;
-  cursor: pointer;
-  display: flex;
+    all: unset;
+    cursor: pointer;
+    display: flex;
 }
 
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
-  -webkit-appearance: none;
-  margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
