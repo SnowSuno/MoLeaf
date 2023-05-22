@@ -6,7 +6,7 @@ import { ChevronLeft } from "../../assets/icons";
 
 interface Props extends PropsWithChildren {
   title: string;
-  color: string;
+  color?: string;
 }
 
 export const Page: React.FC<Props> = ({ title, color, ...props }) => {
