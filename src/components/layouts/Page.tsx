@@ -6,9 +6,10 @@ import { ChevronLeft } from "../../assets/icons";
 
 interface Props extends PropsWithChildren {
   title: string;
+  color?: string;
 }
 
-export const Page: React.FC<Props> = ({ title, ...props }) => {
+export const Page: React.FC<Props> = ({ title, color, ...props }) => {
   const navigate = useNavigate();
 
   return (
@@ -16,6 +17,7 @@ export const Page: React.FC<Props> = ({ title, ...props }) => {
       initial={{ left: "100%" }}
       animate={{ left: 0 }}
       exit={{ left: "100%" }}
+      style={{ backgroundColor: color }}
     >
       <Header>
         <button onClick={() => navigate("..", { replace: true })}>
@@ -33,7 +35,7 @@ const Container = styled(motion.div)`
   z-index: 10;
   width: 100%;
   height: 100%;
-  background-color: var(--white);
+  background-color: var(--backgroud-color);
   top: 0;
   bottom: 0;
 `;

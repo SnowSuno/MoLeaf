@@ -7,6 +7,7 @@ import styled from "@emotion/styled";
 import { Button } from "../../components/elements";
 import { Settings } from "../../assets/icons";
 import { SmallPatternWidget } from "../../components/widgets/SmallPatternWidget";
+import { SmallNumberWidget } from "../../components/widgets/SmallNumberWidget";
 
 // import { dummyData } from "../../data";
 
@@ -52,6 +53,8 @@ const WidgetList: React.FC<Props> = ({ widgetOrder }) => {
               }}
             />
           );
+        } else if (x == "numUnlocks") {
+          return <SmallNumberWidget title="평균 사용 시간" actual={36} />;
         } else {
           return null; /* TODO: 잠금 해제 횟수 & 다운타임 위젯 만들기 */
         }
@@ -69,7 +72,13 @@ export const Home: React.FC = () => {
       if (!localStorage.getItem("widgetOrder")) {
         await localStorage.setItem(
           "widgetOrder",
-          ["totalTime", "maxTime", "averageTime", "downtime"].toString()
+          [
+            "totalTime",
+            "maxTime",
+            "averageTime",
+            "downtime",
+            "numUnlocks",
+          ].toString()
         );
       }
       if (!localStorage.getItem("mainWidget")) {

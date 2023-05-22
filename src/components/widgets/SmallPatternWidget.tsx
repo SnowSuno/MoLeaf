@@ -16,6 +16,7 @@ interface Props extends PropsWithChildren {
   };
   success?: boolean;
   selected?: boolean;
+  onClick?: () => void;
 }
 
 export const SmallPatternWidget: React.FC<Props> = ({
@@ -24,13 +25,20 @@ export const SmallPatternWidget: React.FC<Props> = ({
   range,
   success,
   selected,
+  onClick,
 }) => {
   const timeToString = (time: Time) => {
     const apm = time.hours >= 12 ? "PM" : "AM";
     return `${time.hours % 12}:${("0" + time.minutes).slice(-2)} ${apm}`;
   };
   return (
-    <Widget full={false} title={title} success={success} selected={selected}>
+    <Widget
+      full={false}
+      title={title}
+      success={success}
+      selected={selected}
+      onClick={onClick}
+    >
       <Container>
         <MainText>{on ? "켜짐" : "꺼짐"}</MainText>
         {range ? (

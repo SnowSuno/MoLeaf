@@ -7,6 +7,7 @@ import { Button, Card } from "../../components/elements";
 import { Settings } from "../../assets/icons";
 import { SmallPatternWidget } from "../../components/widgets/SmallPatternWidget";
 import { Radio } from "../../components/elements";
+import { SmallNumberWidget } from "../../components/widgets/SmallNumberWidget";
 
 interface Props {
   widgetOrder: string[];
@@ -24,63 +25,57 @@ const WidgetList: React.FC<Props> = ({
       {widgetOrder.map((x) => {
         if (x == "totalTime") {
           return (
-            <div
+            <SmallTimeWidget
+              title="전체 사용 시간"
+              actual={{ hours: 2, minutes: 27 }}
+              goal={{ hours: 4, minutes: 0 }}
+              selected={selected == "totalTime"}
               onClick={() => (selected == x ? setSelected("") : setSelected(x))}
-            >
-              <SmallTimeWidget
-                title="전체 사용 시간"
-                actual={{ hours: 2, minutes: 27 }}
-                goal={{ hours: 4, minutes: 0 }}
-                selected={selected == "totalTime"}
-              />
-            </div>
+            />
           );
         } else if (x == "maxTime") {
           return (
-            <div
+            <SmallTimeWidget
+              title="최대 사용 시간"
+              actual={{ hours: 3, minutes: 12 }}
+              goal={{ hours: 3, minutes: 0 }}
+              selected={selected == "maxTime"}
               onClick={() => (selected == x ? setSelected("") : setSelected(x))}
-            >
-              <SmallTimeWidget
-                title="최대 사용 시간"
-                actual={{ hours: 3, minutes: 12 }}
-                goal={{ hours: 3, minutes: 0 }}
-                selected={selected == "maxTime"}
-              />
-            </div>
+            />
           );
         } else if (x == "averageTime") {
           return (
-            <div
+            <SmallTimeWidget
+              title="평균 사용 시간"
+              actual={{ hours: 0, minutes: 12 }}
+              selected={selected == "averageTime"}
               onClick={() => (selected == x ? setSelected("") : setSelected(x))}
-            >
-              <SmallTimeWidget
-                title="평균 사용 시간"
-                actual={{ hours: 0, minutes: 12 }}
-                selected={selected == "averageTime"}
-              />
-            </div>
+            />
           );
         } else if (x == "downtime") {
           return (
-            <div
+            <SmallPatternWidget
+              title="다운 타임"
+              on={true}
+              range={{
+                startTime: { hours: 20, minutes: 0 },
+                endTime: { hours: 23, minutes: 0 },
+              }}
+              selected={selected == "downtime"}
               onClick={() => (selected == x ? setSelected("") : setSelected(x))}
-            >
-              <SmallPatternWidget
-                title="다운 타임"
-                on={true}
-                range={{
-                  startTime: { hours: 20, minutes: 0 },
-                  endTime: { hours: 23, minutes: 0 },
-                }}
-                selected={selected == "downtime"}
-              />
-            </div>
+            />
+          );
+        } else if (x == "numUnlocks") {
+          return (
+            <SmallNumberWidget
+              title="평균 사용 시간"
+              actual={36}
+              selected={selected == "numUnlocks"}
+              onClick={() => (selected == x ? setSelected("") : setSelected(x))}
+            />
           );
         } else {
-          return (
-            <></>
-            /* TODO: 잠금 해제 횟수 & 다운타임 위젯 만들기 */
-          );
+          return <></>;
         }
       })}
     </>
@@ -156,7 +151,7 @@ export const Customize: React.FC = () => {
     }
   };
 
-  const save = () => {
+  const save = async () => {
     localStorage.setItem("mainWidget", selectedMain);
     localStorage.setItem("widgetOrder", widgetOrder.toString());
     window.location.href = "/";
@@ -193,6 +188,11 @@ export const Customize: React.FC = () => {
               text="다운 타임"
               selected={selectedMain == "downtime"}
               onClick={() => setSelectedMain("downtime")}
+            /> */}
+            {/* <Radio
+              text="잠금 해제 횟수"
+              selected={selectedMain == "numUnlocks"}
+              onClick={() => setSelectedMain("numUnlocks")}
             /> */}
           </ExpandedWidget>
         ) : (

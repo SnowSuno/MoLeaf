@@ -4,11 +4,14 @@ import styled from "@emotion/styled";
 interface Props extends PropsWithChildren {
   full?: boolean;
   selected?: boolean;
+  onClick?: () => void;
 }
 
 export const Card: React.FC<Props> = ({
   full = true,
   selected = false,
+  onClick,
+
   children,
 }) => {
   const styles = { display: "block", minWidth: "0", borderLeft: "none" };
@@ -20,7 +23,11 @@ export const Card: React.FC<Props> = ({
     styles.borderLeft = "solid 8px var(--primary)";
   }
 
-  return <Container style={styles}>{children}</Container>;
+  return (
+    <Container style={styles} onClick={onClick}>
+      {children}
+    </Container>
+  );
 };
 
 const Container = styled.div`

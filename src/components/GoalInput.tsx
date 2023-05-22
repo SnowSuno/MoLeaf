@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 
 interface Props {
-  max: number;
+  max?: number;
   initVal?: number;
 }
 
-export const GoalInput: React.FC<Props> = ({ max, initVal = 0 }) => {
+export const GoalInput: React.FC<Props> = ({ max = 999999, initVal = 0 }) => {
   const min = 0;
 
   const [value, setValue] = useState(initVal);
@@ -27,7 +27,7 @@ export const GoalInput: React.FC<Props> = ({ max, initVal = 0 }) => {
         justifyContent: "center",
         border: "none",
         padding: "4px 12px",
-        backgroundColor: "var(--light-gray)",
+        backgroundColor: "var(--white)",
         borderRadius: "8px",
       }}
       value={("0" + value).slice(-2)}

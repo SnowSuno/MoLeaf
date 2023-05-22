@@ -18,25 +18,17 @@ const data: DataPoint[] = [
 
 export const TotalUsage: React.FC = () => {
   const [selected, setSelected] = useState<DataPoint>(
-    data.at(-1) || { date: 0, value: 0 },
+    data.at(-1) || { date: 0, value: 0 }
   );
 
   return (
-    <Page title="사용 시간">
-      <MonthSelector/>
-      <BarGraph
-        data={data}
-        selected={selected}
-        onClickData={setSelected}
-      />
-      <BarSelector
-        data={data}
-        selected={selected}
-        onClickData={setSelected}
-      />
-      <Divider/>
-      <UsageText/>
-      <BarGauge data={selected}/>
+    <Page title="사용 시간" color="var(--white)">
+      <MonthSelector />
+      <BarGraph data={data} selected={selected} onClickData={setSelected} />
+      <BarSelector data={data} selected={selected} onClickData={setSelected} />
+      <Divider />
+      <UsageText />
+      <BarGauge data={selected} />
       <div style={{ height: "200vh" }}></div>
     </Page>
   );
