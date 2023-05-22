@@ -22,7 +22,7 @@ export const TotalUsage: React.FC = () => {
   );
 
   return (
-    <Page title="사용 시간" color="var(--white)">
+    <Page title="사용 시간">
       <MonthSelector />
       <BarGraph data={data} selected={selected} onClickData={setSelected} />
       <BarSelector data={data} selected={selected} onClickData={setSelected} />

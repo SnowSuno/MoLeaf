@@ -6,7 +6,7 @@ import { ChevronRight, Edit } from "../assets/icons";
 
 const UserInfo: React.FC = () => {
   return (
-    <Card>
+    <Card full>
       <UserInfoContainer>
         <div id="header">
           유저 정보
@@ -25,7 +25,7 @@ const UserInfo: React.FC = () => {
 
 const PrivacyConsent: React.FC = () => {
   return (
-    <Card>
+    <Card full>
       <PrivacyConsentContainer>
         <div id="header">
           개인정보 수집 및 이용 안내

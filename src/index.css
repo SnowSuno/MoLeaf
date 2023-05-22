@@ -12,14 +12,14 @@ html,
 body,
 #root {
   height: 100%;
-  background-color: var(--backgroud-color);
+  background-color: var(--background-color);
 }
 
 #root {
   position: relative;
   max-width: 480px;
   margin: 0 auto;
-  background-color: var(--backgroud-color);
+  background-color: var(--background-color);
   overflow: hidden;
 }
 
@@ -43,7 +43,7 @@ body,
   --gray: rgb(var(--gray_w));
   --light-gray: rgb(var(--light-gray_w));
   --dark-text: rgb(var(--dark-text_w));
-  --backgroud-color: rgb(var(--background-color_w));
+  --background-color: rgb(var(--background-color_w));
   --red: rgb(var(--red_w));
   --light-red: rgb(var(--light-red_w));
 

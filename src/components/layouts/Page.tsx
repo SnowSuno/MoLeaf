@@ -6,23 +6,22 @@ import { ChevronLeft } from "../../assets/icons";
 
 interface Props extends PropsWithChildren {
   title: string;
-  color?: string;
+  background?: boolean;
 }
 
-export const Page: React.FC<Props> = ({ title, color, ...props }) => {
+export const Page: React.FC<Props> = ({ title, background, ...props }) => {
   const navigate = useNavigate();
 
   return (
     <Container
-      key={title}
       initial={{ left: "100%" }}
       animate={{ left: 0 }}
       exit={{ left: "100%" }}
-      style={{ backgroundColor: color }}
+      background={background}
     >
       <Header>
         <button onClick={() => navigate("..", { replace: true })}>
-          <ChevronLeft size={32} color="var(--dark-text)" />
+          <ChevronLeft size={32} color="var(--dark-text)"/>
         </button>
         <h2>{title}</h2>
       </Header>
@@ -31,12 +30,12 @@ export const Page: React.FC<Props> = ({ title, color, ...props }) => {
   );
 };
 
-const Container = styled(motion.div)`
+const Container = styled(motion.div)<{background?: boolean}>`
   position: absolute;
   z-index: 100;
   width: 100%;
   height: 100%;
-  background-color: var(--backgroud-color);
+  background-color: ${props => props.background ? "var(--background-color)" : "var(--white)"};
   top: 0;
   bottom: 0;
 `;

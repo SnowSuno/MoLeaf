@@ -105,7 +105,7 @@ export const DownTime: React.FC = () => {
   };
 
   return (
-    <Page title="전체 사용 시간">
+    <Page title="전체 사용 시간" background>
       <PageContainer>
         <InnerContainer1>
           <Category>목표 설정 해제하기</Category>

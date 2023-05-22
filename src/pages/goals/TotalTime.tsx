@@ -21,7 +21,7 @@ export const TotalTime: React.FC<Props> = ({
   const [toggled, setToggled] = useState<boolean>(false);
 
   return (
-    <Page title={text}>
+    <Page title={text} background>
       <PageContainer>
         <InnerContainer1>
           <Category>목표 설정 해제하기</Category>
