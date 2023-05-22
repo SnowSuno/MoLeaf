@@ -7,15 +7,14 @@ import { Toggle } from "../../components/elements";
 import { GoalInput } from "../../components/GoalInput";
 
 interface Props {
-  text: string;
   goal?: number;
 }
 
-export const Unlocks: React.FC<Props> = ({ text, goal }) => {
+export const Unlocks: React.FC<Props> = ({ goal }) => {
   const [toggled, setToggled] = useState<boolean>(false);
 
   return (
-    <Page title={text}>
+    <Page title="잠금 해제 횟수">
       <PageContainer>
         <InnerContainer1>
           <Category>목표 설정 해제하기</Category>
