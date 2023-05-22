@@ -29,7 +29,7 @@ export const PatternUsageWidget: React.FC<Props> = ({ title }) => {
     },
   ];
   return (
-    <Widget title={title}>
+    <Widget full title={title}>
       <Container>
         <InnerContainer>
           {!data ? (
