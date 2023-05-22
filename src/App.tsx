@@ -7,6 +7,7 @@ import { MotionConfig } from "framer-motion";
 import { TotalTime } from "./pages/goals/TotalTime";
 import { DownTime } from "./pages/goals/DownTime";
 import { Customize } from "./pages/home/Customize";
+import { Unlocks } from "./pages/goals/Unlocks";
 
 const router = createBrowserRouter([
   {
@@ -48,6 +49,7 @@ const router = createBrowserRouter([
             element: <TotalTime text="평균 사용 시간" />,
           },
           { path: "downtime", element: <DownTime /> },
+          { path: "unlock", element: <Unlocks /> },
         ],
       },
       { path: "/settings", element: <Settings /> },

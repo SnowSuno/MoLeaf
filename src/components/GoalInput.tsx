@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 
 interface Props {
-  max: number;
+  max?: number;
   initVal?: number;
 }
 
-export const GoalInput: React.FC<Props> = ({ max, initVal = 0 }) => {
+export const GoalInput: React.FC<Props> = ({ max = 999999, initVal = 0 }) => {
   const min = 0;
 
   const [value, setValue] = useState(initVal);
