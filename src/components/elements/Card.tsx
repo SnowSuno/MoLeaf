@@ -2,8 +2,7 @@ import styled from "@emotion/styled";
 import { motion } from "framer-motion";
 
 interface Props {
-  width?: number | string | boolean;
-  height?: number | string | boolean;
+  full?: boolean;
   selected?: boolean;
   onClick?: () => void;
 }
@@ -11,7 +10,7 @@ interface Props {
 
 export const Card = styled(motion.div)<Props>`
   display: flex;
-  width: ${(props) => `${props.width}px` || "100%"};
+  width: ${(props) => props.full ? "100%" : "160px"};
   border-left: ${(props) => (props.selected ? "solid 8px var(--primary)" : "")};
   
   background-color: var(--white);

@@ -11,15 +11,13 @@ interface Props extends PropsWithChildren {
 }
 
 export const Widget: React.FC<Props> = ({
-  full,
   title,
   success,
-  selected,
   children,
   ...props
 }) => {
   return (
-    <Card selected={selected} width={full || 160} {...props}>
+    <Card {...props}>
       <Header>
         <Title>{title}</Title>
         {success == false ? <FailTag>실패</FailTag> : <></>}
