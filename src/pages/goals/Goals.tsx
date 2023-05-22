@@ -47,6 +47,7 @@ export const Goals: React.FC = () => {
 const Container = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: stretch;
   gap: 24px;
 `;
 

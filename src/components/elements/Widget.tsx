@@ -15,11 +15,11 @@ export const Widget: React.FC<Props> = ({
   title,
   success,
   selected,
-  onClick,
   children,
+  ...props
 }) => {
   return (
-    <Card full={full} selected={selected} onClick={onClick}>
+    <Card selected={selected} clickable width={full || 160} {...props}>
       <Header>
         <Title>{title}</Title>
         {success == false ? <FailTag>실패</FailTag> : <></>}

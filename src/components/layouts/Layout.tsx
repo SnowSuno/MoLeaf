@@ -18,6 +18,7 @@ export const Layout: React.FC = () => {
 const Main = styled.main`
   max-height: 100%;
   overflow-y: scroll;
+  overflow-x: hidden;
   padding-inline: var(--margin-inline);
   padding-bottom: calc(120px + env(safe-area-inset-bottom, 0));
   & > div {

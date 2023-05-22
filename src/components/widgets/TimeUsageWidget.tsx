@@ -32,7 +32,7 @@ export const TimeUsageWidget: React.FC<Props> = ({ title, totalTime }) => {
       </Container>
     </>
   );
-  return <Widget title={title} children={childrenComponent} />;
+  return <Widget full title={title} children={childrenComponent} />;
 };
 
 const Container = styled.div`

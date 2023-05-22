@@ -8,16 +8,17 @@ interface Props {
   type: string;
   icon?: IconComponent;
   selected?: boolean;
+  onClick?: () => void;
 }
 
-export const MainWidget: React.FC<Props> = ({ type, icon: Icon, selected }) => {
+export const MainWidget: React.FC<Props> = ({ type, icon: Icon, selected, ...props }) => {
   const text = {
     totalTime: "전체 사용 시간",
     maxTime: "최대 사용 시간",
     averageTime: "평균 사용 시간",
     // downtime: "다운 타임",
     // numUnlocks: "잠금 해제 횟수",
-  }[type];
+  }[type] as string;
 
   const time = {
     totalTime: { hours: 2, minutes: 27 },
@@ -30,7 +31,7 @@ export const MainWidget: React.FC<Props> = ({ type, icon: Icon, selected }) => {
   }[type];
 
   return (
-    <Widget title={text} selected={selected}>
+    <Widget full title={text} selected={selected} {...props}>
       {Icon ? (
         <div style={{ float: "right", marginTop: "-24px", cursor: "pointer" }}>
           <Icon size={24} color="var(--dark-text)" />

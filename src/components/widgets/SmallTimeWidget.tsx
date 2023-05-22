@@ -32,7 +32,6 @@ export const SmallTimeWidget: React.FC<Props> = ({
 }) => {
   return (
     <Widget
-      full={false}
       title={title}
       success={goal ? goalSuccess(actual, goal) : undefined}
       selected={selected}

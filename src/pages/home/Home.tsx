@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { AnimatedOutlet } from "../../components/layouts/AnimatedOutlet";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Header } from "../../components/layouts/Header";
 import { MainWidget, SmallTimeWidget } from "../../components/widgets";
 import styled from "@emotion/styled";
@@ -8,6 +8,7 @@ import { Button } from "../../components/elements";
 import { Settings } from "../../assets/icons";
 import { SmallPatternWidget } from "../../components/widgets/SmallPatternWidget";
 import { SmallNumberWidget } from "../../components/widgets/SmallNumberWidget";
+import { motion } from "framer-motion";
 
 // import { dummyData } from "../../data";
 
@@ -18,11 +19,12 @@ interface Props {
 const WidgetList: React.FC<Props> = ({ widgetOrder }) => {
   return (
     <>
-      {widgetOrder?.map((x) => {
+      {widgetOrder.map((x) => {
         if (x == "totalTime") {
           return (
             <SmallTimeWidget
-              title="전체 사용 시간"
+              key={x}
+              title="전체 사용"
               actual={{ hours: 2, minutes: 27 }}
               goal={{ hours: 4, minutes: 0 }}
             />
@@ -30,7 +32,8 @@ const WidgetList: React.FC<Props> = ({ widgetOrder }) => {
         } else if (x == "maxTime") {
           return (
             <SmallTimeWidget
-              title="최대 사용 시간"
+              key={x}
+              title="최대 사용"
               actual={{ hours: 3, minutes: 12 }}
               goal={{ hours: 3, minutes: 0 }}
             />
@@ -38,13 +41,15 @@ const WidgetList: React.FC<Props> = ({ widgetOrder }) => {
         } else if (x == "averageTime") {
           return (
             <SmallTimeWidget
-              title="평균 사용 시간"
+              key={x}
+              title="평균 사용"
               actual={{ hours: 0, minutes: 12 }}
             />
           );
         } else if (x == "downtime") {
           return (
             <SmallPatternWidget
+              key={x}
               title="다운 타임"
               on={true}
               range={{
@@ -54,7 +59,11 @@ const WidgetList: React.FC<Props> = ({ widgetOrder }) => {
             />
           );
         } else if (x == "numUnlocks") {
-          return <SmallNumberWidget title="평균 사용 시간" actual={36} />;
+          return <SmallNumberWidget
+            key={x}
+            title="평균 사용 시간"
+            actual={36}
+          />;
         } else {
           return null; /* TODO: 잠금 해제 횟수 & 다운타임 위젯 만들기 */
         }
@@ -64,6 +73,8 @@ const WidgetList: React.FC<Props> = ({ widgetOrder }) => {
 };
 
 export const Home: React.FC = () => {
+  const navigate = useNavigate();
+
   const [widgetOrder, setWidgetOrder] = useState<string[]>([]);
   const [selectedMain, setSelectedMain] = useState<string>("");
 
@@ -95,28 +106,31 @@ export const Home: React.FC = () => {
       // }
       // localStorage.setItem("rawData", JSON.stringify(dummyData));
     }
+
     initLocalStorage();
   }, []);
 
   return (
     <div>
-      <AnimatedOutlet />
+      <AnimatedOutlet/>
       <Container>
-        <Header title="Overview" />
+        <Header title="Overview"/>
 
-        <Link to="/total" style={{ textDecoration: "none" }}>
-          <MainWidget type={selectedMain} />
-        </Link>
+        <MainWidget
+          type={selectedMain}
+          onClick={() => navigate("/total")}
+        />
 
-        <div style={{ overflow: "auto" }}>
-          <WidgetContainer>
-            <WidgetList widgetOrder={widgetOrder ? widgetOrder : []} />
-          </WidgetContainer>
-        </div>
+        <WidgetContainer
+          drag="x"
+          dragConstraints={{ left: -515, right: 0 }}
+        >
+          <WidgetList widgetOrder={widgetOrder ? widgetOrder : []}/>
+        </WidgetContainer>
 
         <div style={{ margin: "0 auto" }}>
           <Link to="/customize" style={{ textDecoration: "none" }}>
-            <Button icon={Settings} text="홈 화면 수정하기" />
+            <Button icon={Settings} text="홈 화면 수정하기"/>
           </Link>
         </div>
       </Container>
@@ -125,16 +139,25 @@ export const Home: React.FC = () => {
 };
 
 const Container = styled.div`
-  position: relative;
   display: flex;
   flex-direction: column;
   gap: 24px;
   margin-bottom: 24px;
 `;
 
-const WidgetContainer = styled.div`
+const WidgetContainer = styled(motion.div)`
   display: flex;
   flex-direction: row;
   gap: 16px;
-  overflow-x: scroll;
+  margin-inline: -20px;
+  padding-inline: 20px;
+  padding-bottom: 14px;
+
+  & div::-webkit-scrollbar {
+    display: none;
+  }
+
+  & > div {
+    flex-shrink: 0;
+  }
 `;

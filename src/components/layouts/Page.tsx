@@ -14,6 +14,7 @@ export const Page: React.FC<Props> = ({ title, color, ...props }) => {
 
   return (
     <Container
+      key={title}
       initial={{ left: "100%" }}
       animate={{ left: 0 }}
       exit={{ left: "100%" }}
@@ -32,7 +33,7 @@ export const Page: React.FC<Props> = ({ title, color, ...props }) => {
 
 const Container = styled(motion.div)`
   position: absolute;
-  z-index: 10;
+  z-index: 100;
   width: 100%;
   height: 100%;
   background-color: var(--backgroud-color);

@@ -1,39 +1,21 @@
-import React, { type PropsWithChildren } from "react";
 import styled from "@emotion/styled";
+import { motion } from "framer-motion";
 
-interface Props extends PropsWithChildren {
-  full?: boolean;
+interface Props {
+  width?: number | string | boolean;
+  height?: number | string | boolean;
   selected?: boolean;
   onClick?: () => void;
 }
 
-export const Card: React.FC<Props> = ({
-  full = true,
-  selected = false,
-  onClick,
 
-  children,
-}) => {
-  const styles = { display: "block", minWidth: "0", borderLeft: "none" };
-  if (!full) {
-    styles.display = "inline-block";
-    styles.minWidth = "200px";
-  }
-  if (selected) {
-    styles.borderLeft = "solid 8px var(--primary)";
-  }
-
-  return (
-    <Container style={styles} onClick={onClick}>
-      {children}
-    </Container>
-  );
-};
-
-const Container = styled.div`
+export const Card = styled(motion.div)<Props>`
+  display: flex;
+  width: ${(props) => `${props.width}px` || "100%"};
+  border-left: ${(props) => (props.selected ? "solid 8px var(--primary)" : "")};
+  
   background-color: var(--white);
   border-radius: 20px;
   padding: 20px;
-  display: flex;
   flex-direction: column;
 `;
