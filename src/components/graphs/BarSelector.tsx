@@ -71,6 +71,7 @@ export const BarSelector: React.FC<Props> = ({
                   fontSize={14}
                   textAnchor="middle"
                   fill={"var(--white)"}
+                  onClick={() => onClickData?.(dataPoint)}
                 >{dataPoint.date}</text>
               </g>
             );
@@ -86,4 +87,8 @@ const Container = styled.div`
   top: 40px;
   z-index: 10;
   background-color: var(--white);
+  
+  & rect, text {
+    cursor: pointer;
+  }
 `;
