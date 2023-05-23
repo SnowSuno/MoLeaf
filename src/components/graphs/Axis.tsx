@@ -3,14 +3,13 @@ import { AnimatePresence, motion } from "framer-motion";
 import { AxisBottom } from "@visx/axis";
 import { ScaleLinear } from "d3-scale";
 
-import { yMax } from "./sizes";
+import { axisHeight, height } from "./sizes";
 
 interface Props {
   scale: ScaleLinear<number, number, never>;
-  limit: number;
 }
 
-export const Axis: React.FC<Props> = ({ scale, limit }) => (
+export const Axis: React.FC<Props> = ({ scale }) => (
   <AnimatePresence mode="wait" initial={false}>
     <motion.g
       key={scale(1)}
@@ -19,15 +18,16 @@ export const Axis: React.FC<Props> = ({ scale, limit }) => (
       exit={{ opacity: 0 }}
     >
       <AxisBottom
-        top={yMax}
+        top={height - axisHeight}
         scale={scale}
         hideAxisLine={true}
         hideTicks={true}
-        numTicks={limit}
+        numTicks={2}
         tickLength={0}
         tickLabelProps={{
           fill: "var(--gray)",
           fontFamily: "var(--text-font)",
+          fontSize: 14,
         }}
         tickFormat={(tickValue) => `${tickValue}h`}
       />

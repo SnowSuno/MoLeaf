@@ -5,6 +5,7 @@ import { DataPoint } from "../../types";
 import { Divider } from "../../components/elements";
 import { UsageText } from "../../components/UsageText";
 import { MonthSelector } from "../../components/MonthSelector";
+import { MarginInline } from "../../components/elements/MarginInline";
 
 const data: DataPoint[] = [
   { date: 12, value: 2.4 },
@@ -18,17 +19,19 @@ const data: DataPoint[] = [
 
 export const TotalUsage: React.FC = () => {
   const [selected, setSelected] = useState<DataPoint>(
-    data.at(-1) || { date: 0, value: 0 }
+    data.at(-1) || { date: 0, value: 0 },
   );
 
   return (
     <Page title="사용 시간">
-      <MonthSelector />
-      <BarGraph data={data} selected={selected} onClickData={setSelected} />
-      <BarSelector data={data} selected={selected} onClickData={setSelected} />
-      <Divider />
-      <UsageText />
-      <BarGauge data={selected} limit={4} />
+      <MonthSelector/>
+      <BarGraph data={data} selected={selected} onClickData={setSelected}/>
+      <BarSelector data={data} selected={selected} onClickData={setSelected}/>
+      <Divider/>
+      <MarginInline>
+        <UsageText/>
+        <BarGauge data={selected} limit={4}/>
+      </MarginInline>
       <div style={{ height: "200vh" }}></div>
     </Page>
   );

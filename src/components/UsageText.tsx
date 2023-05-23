@@ -11,7 +11,6 @@ export const UsageText: React.FC = () => {
 };
 
 const Container = styled.div`
-  margin-inline: var(--margin-inline);
 
   & > p {
     font-size: 16px;
