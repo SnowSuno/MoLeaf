@@ -14,7 +14,7 @@ export const Header: React.FC<Props> = ({title}) => {
 };
 
 const Container = styled.header`
-  padding: 10px 0;
+  padding: 30px 0 10px;
   
   & > h1 {
     font-size: 36px;
