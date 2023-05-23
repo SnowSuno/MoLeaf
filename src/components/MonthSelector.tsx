@@ -6,7 +6,7 @@ export const MonthSelector: React.FC = () => {
   return (
     <Container>
       <ArrowLeft size={23}/>
-      <div>2023년 4월</div>
+      <h2>2019년 5월 2주</h2>
       <ArrowRight size={23}/>
     </Container>
   );
@@ -26,11 +26,10 @@ const Container = styled.div`
   padding-inline: var(--margin-inline);
   gap: 10px;
   color: var(--dark-text);
+  padding-bottom: 10px;
 
-  & > div {
+  & > h2 {
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
   }
-
-
 `;
