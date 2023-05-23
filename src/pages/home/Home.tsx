@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { AnimatedOutlet } from "../../components/layouts/AnimatedOutlet";
 import { Link } from "react-router-dom";
 import { Header } from "../../components/layouts/Header";
@@ -6,7 +6,9 @@ import { MainWidget, SmallTimeWidget } from "../../components/widgets";
 import styled from "@emotion/styled";
 import { Button } from "../../components/elements";
 import { Settings } from "../../assets/icons";
-import { SmallPatternWidget } from "../../components/widgets/SmallPatternWidget";
+import {
+  SmallPatternWidget,
+} from "../../components/widgets/SmallPatternWidget";
 import { SmallNumberWidget } from "../../components/widgets/SmallNumberWidget";
 import { motion } from "framer-motion";
 
@@ -76,6 +78,8 @@ export const Home: React.FC = () => {
   const [widgetOrder, setWidgetOrder] = useState<string[]>([]);
   const [selectedMain, setSelectedMain] = useState<string>("");
 
+  const containerRef = useRef<HTMLDivElement>(null);
+
   useEffect(() => {
     async function initLocalStorage() {
       if (!localStorage.getItem("widgetOrder")) {
@@ -87,7 +91,7 @@ export const Home: React.FC = () => {
             "averageTime",
             "downtime",
             "numUnlocks",
-          ].toString()
+          ].toString(),
         );
       }
       if (!localStorage.getItem("mainWidget")) {
@@ -119,11 +123,13 @@ export const Home: React.FC = () => {
           href="/total"
         />
 
-        <WidgetContainer
-          drag="x"
-          dragConstraints={{ left: -515, right: 0 }}
-        >
-          <WidgetList widgetOrder={widgetOrder ? widgetOrder : []}/>
+        <WidgetContainer ref={containerRef}>
+          <WidgetScroller
+            drag="x"
+            dragConstraints={containerRef}
+          >
+            <WidgetList widgetOrder={widgetOrder ? widgetOrder : []}/>
+          </WidgetScroller>
         </WidgetContainer>
 
         <div style={{ margin: "0 auto" }}>
@@ -144,13 +150,18 @@ const Container = styled.div`
 `;
 
 const WidgetContainer = styled(motion.div)`
+  padding-bottom: 14px;
+  overflow: visible;
+  width: 100%;
+  
+`;
+
+const WidgetScroller = styled(motion.div)`
   display: flex;
   flex-direction: row;
   gap: 16px;
-  margin-inline: -20px;
-  padding-inline: 20px;
-  padding-bottom: 14px;
-
+  width: min-content;
+  
   & > div {
     flex-shrink: 0;
   }
