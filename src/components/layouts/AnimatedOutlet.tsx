@@ -4,5 +4,5 @@ import { useOutlet } from "react-router-dom";
 
 export const AnimatedOutlet: React.FC<AnimatePresenceProps> = (props) => {
     const outlet = useOutlet();
-    return <AnimatePresence {...props}>{outlet}</AnimatePresence>;
+    return <AnimatePresence initial={false} {...props}>{outlet}</AnimatePresence>;
 };
