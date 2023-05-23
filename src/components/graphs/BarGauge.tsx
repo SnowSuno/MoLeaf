@@ -9,7 +9,7 @@ import { DataPoint } from "../../types";
 
 import { useSpringWith } from "../../utils/hooks";
 
-import { width, height, axisHeight } from "./sizes";
+import { sizes } from "./sizes";
 import { Axis } from "./Axis";
 import styled from "@emotion/styled";
 
@@ -24,7 +24,7 @@ export const BarGauge: React.FC<Props> = ({
   widget = false,
   limit = 2,
 }) => {
-  const totHeight = widget ? height : height - axisHeight;
+  const { width, height, axisHeight, radius } = sizes(widget);
 
   const value = useSpringWith(data.value);
   const scale = (value: number) => scaleLinear<number>({
@@ -40,22 +40,23 @@ export const BarGauge: React.FC<Props> = ({
 
   return (
     <Container>
-      <ScaleSVG width={width} height={height}>
+      <ScaleSVG width={width} height={height + axisHeight}>
         <Group>
-          {widget ? null : <Axis scale={scale(data.value)} />}
-          <Bar fill="var(--light-gray)" height={totHeight} width={width} rx={10}/>
+          {widget ? null : <Axis scale={scale(data.value)}/>}
+          <Bar fill="var(--light-gray)" height={height} width={width}
+               rx={radius}/>
           <motion.rect
             fill={isOverLimit ? "#F96D75" : "#50AA8D"}
-            height={totHeight}
+            height={height}
             width={x}
-            rx={10}
+            rx={radius}
           />
           <motion.rect
             fill={`rgba(255, 255, 255, ${isOverLimit ? 0.22 : 0})`}
-            height={totHeight}
+            height={height}
             width={x2}
           />
-          <motion.rect fill="#fff" height={totHeight} x={x2} width={5}/>
+          <motion.rect fill="#fff" height={height} x={x2} width={5}/>
         </Group>
       </ScaleSVG>
     </Container>

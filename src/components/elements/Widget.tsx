@@ -9,7 +9,7 @@ interface Props extends PropsWithChildren {
   success?: boolean;
   selected?: boolean;
   href?: string;
-  // onClick?: () => void;
+  onClick?: () => void;
 }
 
 export const Widget: React.FC<Props> = ({

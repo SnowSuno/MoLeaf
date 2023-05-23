@@ -1,5 +1,6 @@
-export const width = 400;
-export const height = 50;
-export const axisHeight = 15;
-export const margin = { bottom: 15 };
-export const yMax = height - margin.bottom;
+export const sizes = (widget: boolean) => ({
+  width: 400,
+  height: widget ? 58 : 40,
+  axisHeight: widget ? 0 : 15,
+  radius: widget ? 20 : 14,
+})

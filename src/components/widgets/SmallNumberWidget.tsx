@@ -35,9 +35,9 @@ export const SmallNumberWidget: React.FC<Props> = ({
         )}
         {goal ? (
           <BarGauge
+            widget
             data={{ date: 0, value: actual }}
             limit={goal}
-            showAxis={false}
           />
         ) : (
           <></>

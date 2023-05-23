@@ -52,9 +52,9 @@ export const SmallTimeWidget: React.FC<Props> = ({
         )}
         {goal ? (
           <BarGauge
+            widget
             data={{ date: 0, value: actual.hours + actual.minutes / 60 }}
             limit={goal.hours + goal.minutes / 60}
-            showAxis={false}
           />
         ) : (
           <></>
