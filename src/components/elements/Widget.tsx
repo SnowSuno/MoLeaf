@@ -45,7 +45,7 @@ const Title = styled.div`
 
 const FailTag = styled.div`
   color: var(--red);
-  background-color: var(--light-red);
+  background-color: rgba(var(--light-red_w), 0.3);
   font-size: 12px;
   font-weight: var(--medium-text);
   padding: 4px 8px;
