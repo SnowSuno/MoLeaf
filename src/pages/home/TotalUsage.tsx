@@ -101,7 +101,7 @@ export const TotalUsage: React.FC = () => {
       {/*             onClickDate={setSelectedDate}/>*/}
       <Divider/>
       <MarginInline>
-        <UsageText/>
+        <UsageText date={selectedDate} value={selectedValue}/>
         <BarGauge value={selectedValue} limit={timeLimit}/>
       </MarginInline>
       <div style={{ height: "200vh" }}></div>

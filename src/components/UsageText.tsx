@@ -1,17 +1,25 @@
 import React from "react";
 import styled from "@emotion/styled";
 
-export const UsageText: React.FC = () => {
+interface Props {
+  date: number;
+  value: number;
+}
+export const UsageText: React.FC<Props> = ({date, value}) => {
+  const hour = Math.trunc(value);
+  const minute = Math.trunc((value - hour) * 60);
+
   return (
     <Container>
-      <p>4월 18일</p>
-      <div>2h 27m</div>
+      <p>5월 {date}일</p>
+      <div>{hour}h {minute}m</div>
     </Container>
   );
 };
 
 const Container = styled.div`
-
+  padding: 0 4px 8px;
+  
   & > p {
     font-size: 16px;
   }
