@@ -1,7 +1,5 @@
 # MoLeaf
 
----
-
 ## Teammates
 
 20200510 이지윤 nicolelee2001@kaist.ac.kr
@@ -9,8 +7,6 @@
 20200549 장준하 andy.jang@kaist.ac.kr
 
 20220042 권순호 snowsuno@kaist.ac.kr
-
----
 
 ## Selected Topic
 
@@ -26,8 +22,6 @@ Visual Analytics for Better Self-regulating Phone Usage Behaviors
 
 - [Process Book](https://docs.google.com/presentation/d/1-JtEbmjFuFBJG91VrgiLuUFtJZL5uprzzzDAyeCCJ1E/edit?usp=sharing)
 - [Final Prototype](https://moleaf.sparcsandbox.com/)
-
----
 
 ## Code Explanation
 
