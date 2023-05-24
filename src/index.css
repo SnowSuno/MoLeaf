@@ -34,8 +34,8 @@ body,
     --light-gray_w: 230, 231, 235;
     --dark-text_w: 102, 102, 102;
     --background-color_w: 242, 244, 246;
-    --red_w: 238, 88, 88;
-    --light-red_w: 255, 207, 207;
+    --red_w: 249, 109, 117;
+    --light-red_w: 255, 140, 148;
 
     --primary: rgb(var(--primary_w));
     --white: rgb(var(--white_w));

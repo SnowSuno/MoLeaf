@@ -1,6 +1,12 @@
-export const sizes = (widget: boolean) => ({
+export const gaugeSizes = (widget: boolean) => ({
   width: 400,
   height: widget ? 58 : 40,
   axisHeight: widget ? 0 : 15,
   radius: widget ? 20 : 14,
-})
+});
+
+export const graphSizes = () => ({
+  width: 400,
+  height: 200,
+  dateHeight: 50,
+});

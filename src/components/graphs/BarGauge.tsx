@@ -1,62 +1,63 @@
-import React from "react";
+import React, { useCallback } from "react";
 import { motion, useTransform } from "framer-motion";
 
 import { ScaleSVG } from "@visx/responsive";
 import { scaleLinear } from "@visx/scale";
 import { Group } from "@visx/group";
 import { Bar } from "@visx/shape";
-import { DataPoint } from "../../types";
 
 import { useSpringWith } from "../../utils/hooks";
 
-import { sizes } from "./sizes";
-import { Axis } from "./Axis";
+import { gaugeSizes } from "./sizes";
+import { AnimatedAxis } from "./AnimatedAxis";
 import styled from "@emotion/styled";
 
 interface Props {
-  data: DataPoint;
-  widget?: boolean;
+  value: number;
   limit?: number;
+  widget?: boolean;
 }
 
 export const BarGauge: React.FC<Props> = ({
-  data,
+  value,
   widget = false,
-  limit = 2,
+  limit,
 }) => {
-  const { width, height, axisHeight, radius } = sizes(widget);
+  const { width, height, axisHeight, radius } = gaugeSizes(widget);
 
-  const value = useSpringWith(data.value);
-  const scale = (value: number) => scaleLinear<number>({
+  const motionValue = useSpringWith(value);
+  const scale = useCallback((value: number) => scaleLinear<number>({
     range: [0, width],
     round: true,
-    domain: [0, Math.max(limit, value)],
-  });
+    domain: [0, limit ? Math.max(limit, value) : value],
+  }), [limit, width]);
 
-  const isOverLimit = data.value > limit;
+  const isOverLimit = !!limit && (value > limit);
 
-  const x = useTransform(value, v => scale(v)(v));
-  const x2 = useTransform(value, v => scale(v)(limit));
+  const valueWidth = useTransform(motionValue, v => scale(v)(v));
+  const limitWidth = useTransform(motionValue, v => scale(v)(limit || 0));
 
   return (
     <Container>
       <ScaleSVG width={width} height={height + axisHeight}>
         <Group>
-          {widget ? null : <Axis scale={scale(data.value)}/>}
+          {widget ? null : <AnimatedAxis scale={scale(value)}/>}
           <Bar fill="var(--light-gray)" height={height} width={width}
                rx={radius}/>
           <motion.rect
-            fill={isOverLimit ? "#F96D75" : "#50AA8D"}
+            fill={isOverLimit ? "var(--red)" : "var(--primary)"}
             height={height}
-            width={x}
+            width={valueWidth}
             rx={radius}
           />
-          <motion.rect
-            fill={`rgba(255, 255, 255, ${isOverLimit ? 0.22 : 0})`}
-            height={height}
-            width={x2}
-          />
-          <motion.rect fill="#fff" height={height} x={x2} width={5}/>
+          {limit && <>
+            <motion.rect
+              fill={`rgba(var(--white_w), ${isOverLimit ? 0.22 : 0})`}
+              height={height}
+              width={limitWidth}
+            />
+            <motion.rect fill="#fff" height={height} x={limitWidth} width={5}/>
+          </>}
         </Group>
       </ScaleSVG>
     </Container>

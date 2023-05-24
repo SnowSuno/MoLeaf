@@ -7,9 +7,10 @@ import { UnstyledLink } from "../elements";
 interface Props extends PropsWithChildren {
   title: string;
   background?: boolean;
+  innerRef?: React.Ref<HTMLDivElement>;
 }
 
-export const Page: React.FC<Props> = ({ title, background, ...props }) => (
+export const Page: React.FC<Props> = ({ title, background, innerRef, ...props }) => (
   <Container
     initial={{ left: "100%" }}
     animate={{ left: 0 }}
@@ -22,7 +23,7 @@ export const Page: React.FC<Props> = ({ title, background, ...props }) => (
       </UnstyledLink>
       <h2>{title}</h2>
     </Header>
-    <Main {...props} />
+    <Main ref={innerRef} {...props} />
   </Container>
 );
 
@@ -58,5 +59,13 @@ const Header = styled.header`
 const Main = styled.main`
   margin-top: 60px;
   overflow-y: scroll;
+  overflow-x: hidden;
   height: calc(100% - 60px);
+  
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
 `;

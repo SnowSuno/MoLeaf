@@ -6,7 +6,7 @@ export const useSpringWith = (x: number) => {
 
   useEffect(() => {
     springX.set(x);
-  }, [x, springX]);
+  }, [springX, x]);
 
   return springX;
 };

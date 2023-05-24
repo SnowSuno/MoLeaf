@@ -1,3 +1,3 @@
 export * from "./BarGauge";
-export * from "./BarGraph";
+export * from "./BarGroup";
 export * from "./BarSelector";

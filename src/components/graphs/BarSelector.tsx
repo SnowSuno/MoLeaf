@@ -4,15 +4,15 @@ import { scaleBand } from "@visx/scale";
 import { ScaleSVG } from "@visx/responsive";
 import type { DataPoint } from "../../types";
 
-import { spacing } from "./constants";
 import styled from "@emotion/styled";
+import { graphSizes } from "./sizes";
 
 // accessors
 
 interface Props {
   data: DataPoint[];
-  selected: DataPoint;
-  onClickData?: (dataPoint: DataPoint) => void;
+  selectedDate: number;
+  onClickDate?: (date: number) => void;
   events?: boolean;
   width?: number;
   height?: number;
@@ -24,31 +24,29 @@ interface Props {
 
 export const BarSelector: React.FC<Props> = ({
   data,
-  selected,
-  onClickData,
+  selectedDate,
+  onClickDate,
 }) => {
-  // bounds
-  const xMax = spacing.width - 2 * spacing.marginInline;
+  const { width, dateHeight } = graphSizes();
 
-  // scales, memoize for performance
   const xScale = useMemo(() =>
     scaleBand<number>({
-      range: [0, xMax],
+      range: [0, width],
       round: true,
       domain: data.map(data => data.date),
       padding: 0.3,
-    }), [xMax, data]);
+    }), [width, data]);
 
   return (
     <Container>
-      <ScaleSVG width={spacing.width} height={spacing.scaleHeight}>
-        <Group left={spacing.marginInline}>
+      <ScaleSVG width={width} height={dateHeight}>
+        <Group>
           {data.map(dataPoint => {
             const barWidth = xScale.bandwidth();
             const barX = xScale(dataPoint.date);
             if (!barX) return null;
 
-            const isSelected = dataPoint.date === selected.date;
+            const isSelected = dataPoint.date === selectedDate;
 
             const padding = 2;
 
@@ -63,15 +61,15 @@ export const BarSelector: React.FC<Props> = ({
                   fill="#50AA8D"
                   opacity={isSelected ? 1 : 0.3}
                   rx={12}
-                  onClick={() => onClickData?.(dataPoint)}
+                  onClick={() => onClickDate?.(dataPoint.date)}
                 />
                 <text
                   x={barX + barWidth / 2}
-                  y={23}
-                  fontSize={14}
+                  y={26}
+                  fontSize={16}
                   textAnchor="middle"
                   fill={"var(--white)"}
-                  onClick={() => onClickData?.(dataPoint)}
+                  onClick={() => onClickDate?.(dataPoint.date)}
                 >{dataPoint.date}</text>
               </g>
             );
@@ -83,11 +81,12 @@ export const BarSelector: React.FC<Props> = ({
 };
 
 const Container = styled.div`
-  position: sticky;
-  top: 40px;
+  //position: sticky;
+  //top: 40px;
   z-index: 10;
   background-color: var(--white);
-  
+  padding: 3px var(--margin-inline) 0;
+
   & rect, text {
     cursor: pointer;
   }

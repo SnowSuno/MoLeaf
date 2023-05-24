@@ -58,7 +58,7 @@ export const MainWidget: React.FC<Props> = ({ type, icon: Icon, ...props }) => {
       </Container>
       {time && goal ? (
         <BarGauge
-          data={{ date: 0, value: time.hours + time.minutes / 60 }}
+          value={time.hours + time.minutes / 60}
           limit={goal.hours + goal.minutes / 60}
         />
       ) : (
