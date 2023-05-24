@@ -11,23 +11,20 @@ import { graphSizes } from "./sizes";
 
 interface Props {
   data: DataPoint[];
+  limit?: number;
   selectedDate: number;
   onClickDate?: (date: number) => void;
-  events?: boolean;
-  width?: number;
-  height?: number;
-  marginLeft?: number;
-  marginRight?: number;
-  marginTop?: number;
-  marginBottom?: number;
 }
 
 export const BarSelector: React.FC<Props> = ({
   data,
+  limit = 2,
   selectedDate,
   onClickDate,
 }) => {
   const { width, dateHeight } = graphSizes();
+
+
 
   const xScale = useMemo(() =>
     scaleBand<number>({
@@ -47,7 +44,7 @@ export const BarSelector: React.FC<Props> = ({
             if (!barX) return null;
 
             const isSelected = dataPoint.date === selectedDate;
-
+            const isOverLimit = !!limit && (dataPoint.value > limit);
             const padding = 2;
 
             return (
@@ -58,7 +55,7 @@ export const BarSelector: React.FC<Props> = ({
                   y={0}
                   width={barWidth + padding * 2}
                   height={barWidth + padding * 2}
-                  fill="#50AA8D"
+                  fill={isOverLimit ? "var(--red)" : "var(--primary)"}
                   opacity={isSelected ? 1 : 0.3}
                   rx={12}
                   onClick={() => onClickDate?.(dataPoint.date)}
