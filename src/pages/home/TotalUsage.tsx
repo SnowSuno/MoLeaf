@@ -60,7 +60,7 @@ export const TotalUsage: React.FC = () => {
     [selectedDate],
   );
 
-  const [drag, setDrag] = useState<{ x: 0 | "-50%" }>({ x: 0 });
+  const [drag, setDrag] = useState<{ x: 0 | "-50%" }>({ x: "-50%" });
   const animation = useAnimation();
 
   useEffect(() => {
