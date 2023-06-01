@@ -74,6 +74,7 @@ export const TotalUsage: React.FC = () => {
         <Scroller
           drag="x"
           dragConstraints={ref}
+          initial={{x: "-50%"}}
           animate={animation}
           onDragEnd={(_, { offset, velocity }) => {
             const swipe = swipePower(offset.x, velocity.x);
