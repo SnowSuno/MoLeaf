@@ -2,11 +2,13 @@ import React, { type PropsWithChildren } from "react";
 import { Card } from "./Card";
 import styled from "@emotion/styled";
 import { UnstyledLink } from "./UnstyledLink";
+import { IconComponent } from "../../assets/icons/utils";
 
 interface Props extends PropsWithChildren {
   full?: boolean;
   title?: string;
   success?: boolean;
+  icon?: IconComponent;
   selected?: boolean;
   href?: string;
   onClick?: () => void;
@@ -15,17 +17,27 @@ interface Props extends PropsWithChildren {
 export const Widget: React.FC<Props> = ({
   title,
   success,
+  icon: Icon,
   children,
   href,
   ...props
 }) => {
-  const inner = <Card {...props}>
-    <Header>
-      <Title>{title}</Title>
-      {success == false ? <FailTag>실패</FailTag> : <></>}
-    </Header>
-    {children}
-  </Card>;
+  const inner = (
+    <Card {...props}>
+      <Header>
+        <Title>{title}</Title>
+        {success == false ? <FailTag>실패</FailTag> : <></>}
+        {Icon ? (
+          <div style={{ cursor: "pointer" }}>
+            <Icon size={24} color="var(--dark-text)" />
+          </div>
+        ) : (
+          <></>
+        )}
+      </Header>
+      {children}
+    </Card>
+  );
 
   return href ? <UnstyledLink to={href}>{inner}</UnstyledLink> : inner;
 };
@@ -33,6 +45,7 @@ export const Widget: React.FC<Props> = ({
 const Header = styled.div`
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
   gap: 8px;
 `;

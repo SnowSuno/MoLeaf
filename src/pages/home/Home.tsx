@@ -6,9 +6,7 @@ import { MainWidget, SmallTimeWidget } from "../../components/widgets";
 import styled from "@emotion/styled";
 import { Button } from "../../components/elements";
 import { Settings } from "../../assets/icons";
-import {
-  SmallPatternWidget,
-} from "../../components/widgets/SmallPatternWidget";
+import { SmallPatternWidget } from "../../components/widgets/SmallPatternWidget";
 import { SmallNumberWidget } from "../../components/widgets/SmallNumberWidget";
 import { motion } from "framer-motion";
 
@@ -61,11 +59,9 @@ const WidgetList: React.FC<Props> = ({ widgetOrder }) => {
             />
           );
         } else if (x == "numUnlocks") {
-          return <SmallNumberWidget
-            key={x}
-            title="평균 사용 시간"
-            actual={36}
-          />;
+          return (
+            <SmallNumberWidget key={x} title="평균 사용 시간" actual={36} />
+          );
         } else {
           return null; /* TODO: 잠금 해제 횟수 & 다운타임 위젯 만들기 */
         }
@@ -91,7 +87,7 @@ export const Home: React.FC = () => {
             "averageTime",
             "downtime",
             "numUnlocks",
-          ].toString(),
+          ].toString()
         );
       }
       if (!localStorage.getItem("mainWidget")) {
@@ -114,27 +110,21 @@ export const Home: React.FC = () => {
 
   return (
     <div>
-      <AnimatedOutlet/>
+      <AnimatedOutlet />
       <Container>
-        <Header title="Overview"/>
+        <Header title="Overview" />
 
-        <MainWidget
-          type={selectedMain}
-          href="/total"
-        />
+        <MainWidget type={selectedMain} href="/total" />
 
         <WidgetContainer ref={containerRef}>
-          <WidgetScroller
-            drag="x"
-            dragConstraints={containerRef}
-          >
-            <WidgetList widgetOrder={widgetOrder ? widgetOrder : []}/>
+          <WidgetScroller drag="x" dragConstraints={containerRef}>
+            <WidgetList widgetOrder={widgetOrder ? widgetOrder : []} />
           </WidgetScroller>
         </WidgetContainer>
 
         <div style={{ margin: "0 auto" }}>
           <Link to="/customize" style={{ textDecoration: "none" }}>
-            <Button icon={Settings} text="홈 화면 수정하기"/>
+            <Button icon={Settings} text="홈 화면 수정하기" />
           </Link>
         </div>
       </Container>
@@ -153,7 +143,6 @@ const WidgetContainer = styled(motion.div)`
   padding-bottom: 14px;
   overflow: visible;
   width: 100%;
-  
 `;
 
 const WidgetScroller = styled(motion.div)`
@@ -161,7 +150,7 @@ const WidgetScroller = styled(motion.div)`
   flex-direction: row;
   gap: 16px;
   width: min-content;
-  
+
   & > div {
     flex-shrink: 0;
   }
