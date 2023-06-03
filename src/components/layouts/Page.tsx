@@ -10,7 +10,12 @@ interface Props extends PropsWithChildren {
   innerRef?: React.Ref<HTMLDivElement>;
 }
 
-export const Page: React.FC<Props> = ({ title, background, innerRef, ...props }) => (
+export const Page: React.FC<Props> = ({
+  title,
+  background,
+  innerRef,
+  ...props
+}) => (
   <Container
     initial={{ left: "100%" }}
     animate={{ left: 0 }}
@@ -19,7 +24,7 @@ export const Page: React.FC<Props> = ({ title, background, innerRef, ...props })
   >
     <Header>
       <UnstyledLink to=".." replace>
-        <ChevronLeft size={32} color="var(--dark-text)"/>
+        <ChevronLeft size={32} color="var(--dark-text)" />
       </UnstyledLink>
       <h2>{title}</h2>
     </Header>
@@ -32,9 +37,8 @@ const Container = styled(motion.div)<{ background?: boolean }>`
   z-index: 100;
   width: 100%;
   height: 100%;
-  background-color: ${props => props.background ?
-          "var(--background-color)" :
-          "var(--white)"};
+  background-color: ${(props) =>
+    props.background ? "var(--background-color)" : "var(--white)"};
   top: 0;
   bottom: 0;
 `;
@@ -61,7 +65,8 @@ const Main = styled.main`
   overflow-y: scroll;
   overflow-x: hidden;
   height: calc(100% - 60px);
-  
+  padding-inline: var(--margin-inline);
+
   -ms-overflow-style: none;
   scrollbar-width: none;
 
