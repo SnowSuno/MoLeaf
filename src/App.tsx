@@ -1,13 +1,18 @@
+import React, { useEffect } from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import { MotionConfig } from "framer-motion";
+import { AnimatePresence, MotionConfig } from "framer-motion";
 
 import { Home, Goals, Settings } from "./pages";
 import { Layout } from "./components/layouts/Layout";
-import { TotalUsage } from "./pages/home/TotalUsage";
 import { TotalTime } from "./pages/goals/TotalTime";
 import { DownTime } from "./pages/goals/DownTime";
 import { Customize } from "./pages/home/Customize";
 import { Unlocks } from "./pages/goals/Unlocks";
+import { useUsage } from "~/state/usage";
+import { AnalysisPage } from "~/components/layouts/AnalysisPage";
+
+import testData from "~/data/P0701.json";
+import { migrate } from "~/data/migrate";
 
 const router = createBrowserRouter([
   {
@@ -18,7 +23,7 @@ const router = createBrowserRouter([
         path: "",
         element: <Home/>,
         children: [
-          { path: "total", element: <TotalUsage/> },
+          { path: "total", element: <AnalysisPage type="totalTime"/> },
           { path: "customize", element: <Customize/> },
         ],
       },
@@ -53,7 +58,13 @@ const router = createBrowserRouter([
   },
 ]);
 
-function App() {
+function App () {
+  const loadData = useUsage(state => state.loadData);
+
+  useEffect(() => {
+    loadData(migrate(testData));
+  }, [loadData]);
+
   return (
     <MotionConfig transition={{ stiffness: 1000, damping: 100 }}>
       <RouterProvider router={router}/>

@@ -37,8 +37,6 @@ const data: DataPoint[][] = [
 const timeLimit = 2;
 
 export const TotalUsage: React.FC = () => {
-  const [graphHeight, setGraphHeight] = useState<number>(0);
-
   const [selectedDate, setSelectedDate] = useState<number>(
     data.flat().at(-1)?.date || 0,
   );
@@ -55,13 +53,12 @@ export const TotalUsage: React.FC = () => {
   return (
     <Page title="사용 시간">
       <MonthSelector/>
-      <Swipeable graphHeight={graphHeight}>
+      <Swipeable>
         {data.map((weekData, index) => <BarGraph
           key={index}
           data={weekData}
           selectedDate={selectedDate}
           onClickDate={setSelectedDate}
-          updateHeight={setGraphHeight}
         />)}
       </Swipeable>
       <Divider/>

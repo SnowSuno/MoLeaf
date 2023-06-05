@@ -74,7 +74,7 @@ const WidgetList: React.FC<Props> = ({ widgetOrder }) => {
   );
 };
 
-export const Home: React.FC = () => {
+export const Home: React.FC = React.memo(() => {
   const [widgetOrder, setWidgetOrder] = useState<string[]>([]);
   const [selectedMain, setSelectedMain] = useState<string>("");
 
@@ -112,6 +112,7 @@ export const Home: React.FC = () => {
     initLocalStorage();
   }, []);
 
+
   return (
     <div>
       <AnimatedOutlet/>
@@ -140,7 +141,8 @@ export const Home: React.FC = () => {
       </Container>
     </div>
   );
-};
+});
+
 
 const Container = styled.div`
   display: flex;

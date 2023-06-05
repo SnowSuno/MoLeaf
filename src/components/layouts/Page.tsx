@@ -1,16 +1,21 @@
 import React, { type PropsWithChildren } from "react";
 import { motion } from "framer-motion";
 import styled from "@emotion/styled";
-import { ChevronLeft } from "../../assets/icons";
+import { ChevronLeft } from "~/assets/icons";
 import { UnstyledLink } from "../elements";
 
 interface Props extends PropsWithChildren {
   title: string;
   background?: boolean;
-  innerRef?: React.Ref<HTMLDivElement>;
+  // innerRef?: React.Ref<HTMLDivElement>;
 }
 
-export const Page: React.FC<Props> = ({ title, background, innerRef, ...props }) => (
+export const Page: React.FC<Props> = ({
+  title,
+  background,
+  children
+  // ...props
+}) => (
   <Container
     initial={{ left: "100%" }}
     animate={{ left: 0 }}
@@ -23,9 +28,19 @@ export const Page: React.FC<Props> = ({ title, background, innerRef, ...props })
       </UnstyledLink>
       <h2>{title}</h2>
     </Header>
-    <Main ref={innerRef} {...props} />
+    <Upper title={title}/>
+    <Main>{children}</Main>
   </Container>
 );
+
+const Upper: React.FC<{ title: string }> = React.memo(({ title }) => (
+  <Header>
+    <UnstyledLink to=".." replace>
+      <ChevronLeft size={32} color="var(--dark-text)"/>
+    </UnstyledLink>
+    <h2>{title}</h2>
+  </Header>
+));
 
 const Container = styled(motion.div)<{ background?: boolean }>`
   position: absolute;
@@ -61,7 +76,7 @@ const Main = styled.main`
   overflow-y: scroll;
   overflow-x: hidden;
   height: calc(100% - 60px);
-  
+
   -ms-overflow-style: none;
   scrollbar-width: none;
 
