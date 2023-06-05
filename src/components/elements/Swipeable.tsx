@@ -38,7 +38,8 @@ export const Swipeable: React.FC<Props> = React.memo(({
     navigate(swipe < -threshold ? 1 : swipe > threshold ? 0 : page);
   }, [page, navigate]);
 
-  useEffect(() => { animate("& > div", variant); }, [animate, variant]);
+  useEffect(() => { animate("& > div", variant, { damping: 1000 }); },
+    [animate, variant]);
   useEffect(() => { navigate(page); }, [page, navigate]);
 
   return (
