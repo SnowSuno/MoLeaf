@@ -2,6 +2,7 @@
 #include <iomanip>
 #include <fstream>
 #include <filesystem>
+#include <regex>
 
 #include <string>
 #include <vector>
@@ -35,28 +36,28 @@ struct Usage_Info{
     }
 };
 
-void init(){
-    int user_list[82] = {
-        0,
-        701, 702, 703, 704, 705,
-        706, 707, 708, 709, 710,
-        711, 712, 713, 714, 715,
-        716, 717, 718, 719, 721,
-        722, 723, 724, 725, 726,
-        727, 728, 729,
-        1501, 1502, 1503, 1504, 1505,
-        1506, 1507, 1508, 1509, 1510,
-        1511, 1514, 1515, 1516, 1517,
-        1518, 1519, 1520, 1521, 1522,
-        1523, 1525, 1526, 1527, 1541,
-        3001, 3002, 3003, 3004, 3005,
-        3007, 3008, 3009, 3010, 3011,
-        3012, 3013, 3014, 3015, 3016,
-        3017, 3018, 3019, 3021, 3022,
-        3023, 3024, 3025, 3027, 3028,
-        3029, 3030, 3041
-    };
+int user_list[82] = {
+    0,
+    701, 702, 703, 704, 705,
+    706, 707, 708, 709, 710,
+    711, 712, 713, 714, 715,
+    716, 717, 718, 719, 721,
+    722, 723, 724, 725, 726,
+    727, 728, 729,
+    1501, 1502, 1503, 1504, 1505,
+    1506, 1507, 1508, 1509, 1510,
+    1511, 1514, 1515, 1516, 1517,
+    1518, 1519, 1520, 1521, 1522,
+    1523, 1525, 1526, 1527, 1541,
+    3001, 3002, 3003, 3004, 3005,
+    3007, 3008, 3009, 3010, 3011,
+    3012, 3013, 3014, 3015, 3016,
+    3017, 3018, 3019, 3021, 3022,
+    3023, 3024, 3025, 3027, 3028,
+    3029, 3030, 3041
+};
 
+void init(){
     for(int i = 1; i <= 81; i++) mp_user[user_list[i]] = i;
 }
 
@@ -109,9 +110,10 @@ void fout_close(){
 
 int now_user, now_day;
 unordered_set<string> st_app[82][8];
-unordered_map<string, vector<int>> mp_app_timeline[82][8];
-unordered_map<string, int> mp_app_totaltime[82][8];
+unordered_map<string, vector<ll>> mp_app_timeline[82][8];
+unordered_map<string, ll> mp_app_totaltime[82][8];
 ll total_time[82][8];
+ll hour_time[82][8][24];
 // 81 user, 7 days
 
 vector<Usage_Info> vc_info;
@@ -136,7 +138,7 @@ void Input(){
         int pos5 = str_line.find(",", pos4+1);
 
         // Extract app name from one row
-        string str_stamp = str_line.substr(0, pos1-1);
+        string str_stamp = str_line.substr(0, pos1);
         string str_app = str_line.substr(pos1+1, pos2-pos1-1);
         string str_type = str_line.substr(pos4+1, pos5-pos4-1);
 
@@ -148,9 +150,10 @@ void Input(){
 
 void Processing(){
     unordered_set<string> &st = st_app[now_user][now_day];
-    unordered_map<string, vector<int>> &mp1 = mp_app_timeline[now_user][now_day];
-    unordered_map<string, int> &mp2 = mp_app_totaltime[now_user][now_day];
+    unordered_map<string, vector<ll>> &mp1 = mp_app_timeline[now_user][now_day];
+    unordered_map<string, ll> &mp2 = mp_app_totaltime[now_user][now_day];
     ll &tt = total_time[now_user][now_day];
+    auto &ht = hour_time[now_user][now_day];
 
     sort(vc_info.begin(), vc_info.end());
 
@@ -158,7 +161,7 @@ void Processing(){
         if(ui.type == "MOVE_TO_FOREGROUND"){
             if(st.find(ui.name) == st.end()){
                 st.insert(ui.name);
-                mp1[ui.name] = vector<int>();
+                mp1[ui.name] = vector<ll>();
                 mp1[ui.name].push_back(ui.timestamp);
             }
             else if(~mp1[ui.name].size() & 1) mp1[ui.name].push_back(ui.timestamp);
@@ -166,9 +169,9 @@ void Processing(){
         if(ui.type == "MOVE_TO_BACKGROUND"){
             if(st.find(ui.name) == st.end()){
                 st.insert(ui.name);
-                mp1[ui.name] = vector<int>();
-//                mp1[ui.name].push_back(ui.timestamp/(24*60*60*1000)*(24*60*60*1000));
-//                mp1[ui.name].push_back(ui.timestamp);
+                mp1[ui.name] = vector<ll>();
+                mp1[ui.name].push_back(ui.timestamp/(24*60*60*1000)*(24*60*60*1000));
+                mp1[ui.name].push_back(ui.timestamp);
             }
             else if(mp1[ui.name].size() & 1) mp1[ui.name].push_back(ui.timestamp);
         }
@@ -182,8 +185,13 @@ void Processing(){
     for(string name : st){
         mp2[name] = 0;
         for(int idx = 0; idx < mp1[name].size(); idx += 2){
-            if(mp1[name][idx+1]-mp1[name][idx] > 12*60*60*1000) continue;
             mp2[name] += mp1[name][idx+1]-mp1[name][idx];
+
+            tt += mp1[name][idx+1]-mp1[name][idx];
+            for(int i = 0; i < 24; i++){
+                ll st = i*60*60*1000, ed = (i+1)*60*60*1000;
+                ht[i] += max(min(mp1[name][idx+1]%(24*60*60*1000), ed)-max(mp1[name][idx]%(24*60*60*1000), st), 0ll);
+            }
         }
     }
 
@@ -192,20 +200,42 @@ void Processing(){
     //printf("%d %d\n", now_user, now_day);
 }
 
-void Output(){
-    for(int i = 1; i <= 81; i++){
-        for(int j = 1; j <= 7; j++){
-            vector<pair<ll, string>> vc;
-            for(string str : st_app[i][j]){
-                if(mp_app_totaltime[i][j][str] < 60*1000) continue;
-                vc.emplace_back(mp_app_totaltime[i][j][str], str);
-            }
-            sort(vc.begin(), vc.end());
-            reverse(vc.begin(), vc.end());
+void Output(int i){
+    fout << "[" << endl;
+    for(int j = 1; j <= 7; j++){
+        fout << "\t{" << endl;
+        fout << "\t\t\"date\": " << j << "," << endl;
+        fout << "\t\t\"totalTime\": " << total_time[i][j]/(60*1000) << "," << endl;
+        fout << "\t\t\"details\": [" << endl;
 
-            for(pair<ll, string> it : vc) cout << i << " " << j << " " << it.ff/(60*1000) << " " << it.ss << endl;
+        vector<pair<ll, string>> vc;
+        for(string str : st_app[i][j]){
+            if(mp_app_totaltime[i][j][str] < 60*1000) continue;
+            vc.emplace_back(mp_app_totaltime[i][j][str]/(60*1000), str);
         }
+        sort(vc.begin(), vc.end());
+        reverse(vc.begin(), vc.end());
+
+        for(pair<ll, string> it : vc){
+            fout << "\t\t\t{\"appName\": \"" << regex_replace(it.ss, regex("\t"), " ") << "\", \"usage\": " << it.ff << "}";
+            if(vc.back() != it) fout << ",";
+            fout << endl;
+        }
+
+        fout << "\t\t]," << endl;
+
+        fout << "\t\t\"keys\": [" << endl;
+        for(int k = 0; k <= 23; k++){
+            fout << "\t\t\t{\"hour\": \"" << k << "\", \"usage\": " << hour_time[i][j][k]/(60*1000) << "}";
+            if(k != 23) fout << ",";
+            fout << endl;
+        }
+        fout << "\t\t]" << endl;
+        fout << "\t}";
+        if(j != 7) fout << ",";
+        fout << endl;
     }
+    fout << "]" << endl;
 }
 
 int main(){
@@ -239,7 +269,18 @@ int main(){
         Processing();
     }
 
-    Output();
+    for(int i = 1; i <= 81; i++){
+        string str = "C:/Users/jx2ha/Desktop/2-1/CS481/Week 11 (0508-0514)/results/json3/P";
+        if(user_list[i] < 1000) str += "0";
+        str += to_string(user_list[i]);
+        str += ".json";
+
+        cout << str << endl;
+
+        fout_open(str);
+        Output(i);
+        fout_close();
+    }
 
 	return 0;
 }

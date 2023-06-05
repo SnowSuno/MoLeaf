@@ -108,7 +108,7 @@ void fout_close(){
 }
 
 int now_user, now_day;
-int sum[82][8], mx[82][8], cnt[82][8];
+int sum[82][8], mx[82][8], day[82][8], hour[82][8][24];
 // 81 user, 7 days
 
 vector<Usage_Info> vc_info;
@@ -123,7 +123,7 @@ void Input(){
         int pos = str_line.find(",");
 
         // Extract app name from one row
-        string str_stp = str_line.substr(0, pos-1);
+        string str_stp = str_line.substr(0, pos);
         string str_typ = str_line.substr(pos+1);
 
         //cout << str_ttf << endl;
@@ -137,14 +137,15 @@ void Input(){
 void Processing(){
     int &sum_ = sum[now_user][now_day];
     int &mx_ = mx[now_user][now_day];
-    int &cnt_ = cnt[now_user][now_day];
+    int &day_ = day[now_user][now_day];
+    auto &hour_ = hour[now_user][now_day];
 
     sort(vc_info.begin(), vc_info.end());
 /*
     if(!vc_info.front().type){
         sum_ += vc_info.front().timestamp%(24*60*60*1000);
         mx_ = vc_info.front().timestamp%(24*60*60*1000);
-        cnt_++;
+        day_++;
     }
 */
     ll stp;
@@ -158,14 +159,15 @@ void Processing(){
             flag = false;
             sum_ += ui.timestamp-stp;
             mx_ = max(mx_, (int)(ui.timestamp-stp));
-            cnt_++;
+            day_++;
+            hour_[stp%(24*60*60*1000)/(60*60*1000)]++;
         }
     }
 /*
     if(flag){
         sum_ += 24*60*60*1000-stp%(24*60*60*1000);
         mx_ = max(mx_, (int)(24*60*60*1000-stp%(24*60*60*1000)));
-        cnt_++;
+        day_++;
     }
 */
 
@@ -180,8 +182,18 @@ void Output(int i){
         fout << "\t{" << endl;
         fout << "\t\t\"date\": " << j << "," << endl;
         fout << "\t\t\"maxTime\": " << mx[i][j]/(60*1000) << "," << endl;
-        fout << "\t\t\"unlockCount\": " << cnt[i][j] << endl;
-        fout << "\t}," << endl;
+        fout << "\t\t\"totalUnlockCount\": " << day[i][j] << "," << endl;
+
+        fout << "\t\t\"keys\": [" << endl;
+        for(int k = 0; k <= 23; k++){
+            fout << "\t\t\t{\"hour\": \"" << k << "\", \"unlockCount\": " << hour[i][j][k] << "}";
+            if(k != 23) fout << ",";
+            fout << endl;
+        }
+        fout << "\t\t]" << endl;
+        fout << "\t}";
+        if(j != 7) fout << ",";
+        fout << endl;
     }
     fout << "]" << endl;
 }
@@ -223,7 +235,8 @@ int main(){
         str += to_string(user_list[i]);
         str += ".json";
 
-        cout << str << endl;
+        //cout << str << endl;
+        for(int j = 1; j <= 7; j++) cout << sum[i][j] << endl;
 
         fout_open(str);
         Output(i);

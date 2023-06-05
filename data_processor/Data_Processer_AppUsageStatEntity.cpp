@@ -27,6 +27,7 @@ ofstream fout;
 unordered_map<int, int> mp_user;
 
 struct Usage_Info{
+    ll timestamp;
     string name;
     ll ttf;
 };
@@ -107,7 +108,12 @@ int now_user, now_day;
 unordered_set<string> st_app[82][8];
 unordered_map<string, vector<int>> mp_app_timeline[82][8];
 unordered_map<string, int> mp_app_totaltime[82][8];
+
+int total_cnt[82][8];
+int hour_cnt[82][8][24];
+
 ll total_time[82][8];
+ll hour_time[82][8][24];
 // 81 user, 7 days
 
 vector<Usage_Info> vc_info;
@@ -129,7 +135,7 @@ void Input(){
         int pos8 = str_line.find(",", pos7+1);
 
         // Extract app name from one row
-        string str_stp = str_line.substr(0, pos1-1);
+        string str_stp = str_line.substr(0, pos1);
         string str_app = str_line.substr(pos1+1, pos2-pos1-1);
         string str_ttf = str_line.substr(pos8+1);
 
@@ -141,23 +147,35 @@ void Input(){
         for(char c : str_ttf) flag &= isdigit(c);
         if(!flag) cout << str_ttf << endl;
 
-        vc_info.push_back({str_app, stoll(str_ttf)});
+        vc_info.push_back({stoll(str_stp), str_app, stoll(str_ttf)});
     }
 }
 
 void Processing(){
     unordered_set<string> &st = st_app[now_user][now_day];
+
     unordered_map<string, vector<int>> &mp1 = mp_app_timeline[now_user][now_day];
     unordered_map<string, int> &mp2 = mp_app_totaltime[now_user][now_day];
-    ll &tt = total_time[now_user][now_day];
 
+    int &tc = total_cnt[now_user][now_day];
+    auto &hc = hour_cnt[now_user][now_day];
+
+    ll &tt = total_time[now_user][now_day];
+    auto &ht = hour_time[now_user][now_day];
+
+    int sum = 0;
+    vector<int> vc(24, 0);
     for(Usage_Info ui : vc_info){
         if(st.find(ui.name) == st.end()){
             st.insert(ui.name);
             mp1[ui.name] = vector<int>();
         }
         mp1[ui.name].push_back(ui.ttf);
+
+        tc++;
+        hc[(ui.timestamp%((ll)24*60*60*1000))/((ll)60*60*1000)]++;
     }
+    //printf("!"); for(int i = 0; i < 24; i++) printf("%d ", vc[i]); printf("!"); printf("\n");
 
 /*=============================================================================*/
 
@@ -183,6 +201,11 @@ void Processing(){
         mp2[name] += mx; tt += mx;
     }
 
+    for(int i = 0; i <= 23; i++){
+        if(tc) ht[i] = tt*hc[i]/tc;
+        //cout << tc << " " << hc[i] << " " << tt << " " << ht[i] << endl;
+    }
+
 /*=============================================================================*/
 
     //printf("%d %d\n", now_user, now_day);
@@ -206,6 +229,10 @@ void Output(int i){
 
         for(pair<ll, string> it : vc) fout << "\t\t\t{\"appName\": \"" << it.ss << "\", \"usage\": " << it.ff << "}," << endl;
 
+        fout << "\t\t]," << endl;
+
+        fout << "\t\t\"keys\": [" << endl;
+        for(int k = 0; k <= 23; k++) fout << "\t\t\t{\"hour\": \"" << k << "\", \"usage\": " << hour_time[i][j][k]/(60*1000) << "}," << endl;
         fout << "\t\t]" << endl;
         fout << "\t}," << endl;
     }
