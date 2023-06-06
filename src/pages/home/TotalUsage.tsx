@@ -7,8 +7,8 @@ import { Page } from "../../components/layouts/Page";
 import { BarGauge } from "../../components/graphs";
 import { DataPoint } from "../../types";
 import { Divider } from "../../components/elements";
-import { UsageText } from "../../components/UsageText";
-import { MonthSelector } from "../../components/MonthSelector";
+import { Usage } from "../../components/blocks/Usage";
+import { MonthSelector } from "../../components/blocks/MonthSelector";
 import { MarginInline } from "../../components/elements/MarginInline";
 import { BarGraph } from "../../components/graphs/BarGraph";
 import { Swipeable } from "../../components/elements/Swipeable";
@@ -63,7 +63,7 @@ export const TotalUsage: React.FC = () => {
       </Swipeable>
       <Divider/>
       <MarginInline>
-        <UsageText date={selectedDate} value={selectedValue}/>
+        <Usage date={selectedDate} value={selectedValue}/>
         <BarGauge value={selectedValue} limit={timeLimit}/>
       </MarginInline>
       <div style={{ height: "200vh" }}></div>

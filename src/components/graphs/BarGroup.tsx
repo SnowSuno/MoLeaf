@@ -13,7 +13,7 @@ import { DailyUsage, hasData } from "~/types";
 
 interface Props {
   data: DailyUsage<"totalTime" | "pickups" | "maxTime" | "avgTime">[];
-  limit: number;
+  limit?: number;
   selectedDate: number;
   onClickDate?: (date: number) => void;
 }

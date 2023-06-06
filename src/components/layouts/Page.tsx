@@ -73,6 +73,7 @@ const Header = styled.header`
 
 const Main = styled.main`
   margin-top: 60px;
+  padding-bottom: 100px;
   overflow-y: scroll;
   overflow-x: hidden;
   height: calc(100% - 60px);

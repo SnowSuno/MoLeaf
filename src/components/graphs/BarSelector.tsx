@@ -5,19 +5,22 @@ import { ScaleSVG } from "@visx/responsive";
 
 import styled from "@emotion/styled";
 import { graphSizes } from "./sizes";
-import { DailyUsage } from "~/types";
+import { DailyUsage, UsageType } from "~/types";
 import { Date } from "~/components/graphs/Date";
+import { isOverLimit } from "~/utils/limit";
 
 interface Props {
-  data: DailyUsage<"totalTime" | "pickups" | "maxTime" | "avgTime">[];
+  type: UsageType;
+  data: DailyUsage[];
   limit?: number;
   selectedDate: number;
   onClickDate?: (date: number) => void;
 }
 
 export const BarSelector: React.FC<Props> = ({
+  type,
   data,
-  limit = 2,
+  limit,
   selectedDate,
   onClickDate,
 }) => {
@@ -41,7 +44,8 @@ export const BarSelector: React.FC<Props> = ({
               dataPoint={dataPoint}
               xScale={xScale}
               selectedDate={selectedDate}
-              limit={limit}
+              isOverLimit={isOverLimit(type, dataPoint, limit)}
+              disabled={!dataPoint.usageData}
               onClickDate={onClickDate}
             />
           )}

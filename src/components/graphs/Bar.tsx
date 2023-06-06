@@ -8,7 +8,7 @@ import { Group } from "@visx/group";
 
 interface Props {
   data: DailyUsageRequired<"totalTime" | "pickups" | "maxTime" | "avgTime">;
-  limit: number;
+  limit?: number;
   xScale: ScaleBand<number>;
   yScale: ScaleLinear<number, number>;
   focused?: boolean;
@@ -17,7 +17,7 @@ interface Props {
 
 export const Bar: React.FC<Props> = ({
   data,
-  limit,
+  limit = 0,
   xScale,
   yScale,
   focused = true,

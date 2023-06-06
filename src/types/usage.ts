@@ -19,13 +19,13 @@ interface UsageWithDetails extends BaseUsage {
 }
 
 interface DownTimeUsage {
-  usages: {
-    hour: number;
+  usage: {
+    hour: string;
     usage: number;
   }[];
   details: {
     appName: string;
-    usages: number[];
+    usage: number[];
   }[];
 }
 
@@ -55,7 +55,7 @@ export interface RawUsage {
 
 export type UsageData = RawUsage[];
 
-export interface DailyUsage<T extends UsageType> {
+export interface DailyUsage<T extends UsageType = UsageType> {
   date: number;
   usageData: UsageOf<T> | null;
 }
@@ -66,4 +66,16 @@ export interface DailyUsageRequired<T extends UsageType> {
 }
 
 export const hasData =
-  <T extends UsageType>(data: DailyUsage<T>): data is DailyUsageRequired<T> => !!data.usageData;
+  <T extends UsageType> (data: DailyUsage<T>): data is DailyUsageRequired<T> => !!data?.usageData;
+
+export const isDataType = <C extends UsageType[]> (
+  type: UsageType,
+  data: DailyUsage | undefined,
+  types: C,
+): data is DailyUsage<C[number]> => types.includes(type);
+
+export const isDataTypeArray = <C extends UsageType[]> (
+  type: UsageType,
+  data: DailyUsage[] | undefined,
+  types: C,
+): data is DailyUsage<C[number]>[] => types.includes(type);

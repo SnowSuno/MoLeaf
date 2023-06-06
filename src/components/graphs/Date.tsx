@@ -4,18 +4,20 @@ import type { ScaleBand } from "d3-scale";
 import styled from "@emotion/styled";
 
 interface Props {
-  dataPoint: DailyUsage<"totalTime" | "pickups" | "maxTime" | "avgTime">;
+  dataPoint: DailyUsage;
   xScale: ScaleBand<number>;
   selectedDate: number;
-  limit?: number;
   onClickDate?: (date: number) => void;
+  isOverLimit: boolean | null;
+  disabled: boolean;
 }
 
 export const Date: React.FC<Props> = React.memo(({
   dataPoint,
   xScale,
   selectedDate,
-  limit,
+  isOverLimit,
+  disabled,
   onClickDate
 }) => {
   const barWidth = xScale.bandwidth();
@@ -23,11 +25,11 @@ export const Date: React.FC<Props> = React.memo(({
   if (!barX) return null;
 
   const isSelected = dataPoint.date === selectedDate;
-  const isOverLimit = !!limit
-    && dataPoint.usageData?.usage
-    && (dataPoint.usageData?.usage > limit);
+  // const isOverLimit = !!limit
+  //   && dataPoint.usageData?.usage
+  // //   && (dataPoint.usageData?.usage > limit);
   const padding = 2;
-  const disabled = !dataPoint.usageData?.usage;
+  // const disabled = !dataPoint.usageData?.usage;
   const onClick = () => disabled || onClickDate?.(dataPoint.date);
 
   return (
