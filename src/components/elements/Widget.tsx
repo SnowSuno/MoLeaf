@@ -44,6 +44,7 @@ export const Widget: React.FC<Props> = ({
 const Header = styled.div`
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
   gap: 8px;
 `;

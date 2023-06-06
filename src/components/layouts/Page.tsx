@@ -24,7 +24,7 @@ export const Page: React.FC<Props> = ({
   >
     <Header>
       <UnstyledLink to=".." replace>
-        <ChevronLeft size={32} color="var(--dark-text)"/>
+        <ChevronLeft size={32} color="var(--dark-text)" />
       </UnstyledLink>
       <h2>{title}</h2>
     </Header>
@@ -47,9 +47,8 @@ const Container = styled(motion.div)<{ background?: boolean }>`
   z-index: 100;
   width: 100%;
   height: 100%;
-  background-color: ${props => props.background ?
-          "var(--background-color)" :
-          "var(--white)"};
+  background-color: ${(props) =>
+    props.background ? "var(--background-color)" : "var(--white)"};
   top: 0;
   bottom: 0;
 `;

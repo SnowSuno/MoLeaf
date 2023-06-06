@@ -60,11 +60,9 @@ const WidgetList: React.FC<Props> = ({ widgetOrder }) => {
             />
           );
         } else if (x == "numUnlocks") {
-          return <SmallNumberWidget
-            key={x}
-            title="평균 사용 시간"
-            actual={36}
-          />;
+          return (
+            <SmallNumberWidget key={x} title="평균 사용 시간" actual={36} />
+          );
         } else {
           return null; /* TODO: 잠금 해제 횟수 & 다운타임 위젯 만들기 */
         }
@@ -79,9 +77,9 @@ export const Home: React.FC = React.memo(() => {
 
   return (
     <div>
-      <AnimatedOutlet/>
+      <AnimatedOutlet />
       <Container>
-        <Header title="Overview"/>
+        <Header title="Overview" />
 
         <Widget main type={main}/>
 
@@ -96,7 +94,7 @@ export const Home: React.FC = React.memo(() => {
 
         <div style={{ margin: "0 auto" }}>
           <Link to="/customize" style={{ textDecoration: "none" }}>
-            <Button icon={Settings} text="홈 화면 수정하기"/>
+            <Button icon={Settings} text="홈 화면 수정하기" />
           </Link>
         </div>
       </Container>
