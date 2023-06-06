@@ -8,7 +8,7 @@
 		},
 		"pickups": {"usage": 0},
 		"downTime": {
-			"usage": [
+			"usages": [
 			],
 			"details": [
 			]
@@ -34,7 +34,7 @@
 		},
 		"pickups": {"usage": 0},
 		"downTime": {
-			"usage": [
+			"usages": [
 			],
 			"details": [
 			]
@@ -60,7 +60,7 @@
 		},
 		"pickups": {"usage": 0},
 		"downTime": {
-			"usage": [
+			"usages": [
 			],
 			"details": [
 			]
@@ -86,7 +86,7 @@
 		},
 		"pickups": {"usage": 0},
 		"downTime": {
-			"usage": [
+			"usages": [
 			],
 			"details": [
 			]
@@ -112,7 +112,7 @@
 		},
 		"pickups": {"usage": 0},
 		"downTime": {
-			"usage": [
+			"usages": [
 			],
 			"details": [
 			]
@@ -138,7 +138,7 @@
 		},
 		"pickups": {"usage": 0},
 		"downTime": {
-			"usage": [
+			"usages": [
 			],
 			"details": [
 			]
@@ -164,7 +164,7 @@
 		},
 		"pickups": {"usage": 0},
 		"downTime": {
-			"usage": [
+			"usages": [
 			],
 			"details": [
 			]

@@ -8,7 +8,7 @@
 		},
 		"pickups": {"usage": 0},
 		"downTime": {
-			"usage": [
+			"usages": [
 			],
 			"details": [
 			]
@@ -34,7 +34,7 @@
 		},
 		"pickups": {"usage": 0},
 		"downTime": {
-			"usage": [
+			"usages": [
 			],
 			"details": [
 			]
@@ -74,8 +74,8 @@
 		},
 		"pickups": {"usage": 2},
 		"downTime": {
-			"usage": [
-				{"hour": "23", "usage": 27}
+			"usages": [
+				{"hour": 23, "usage": 27}
 			],
 			"details": [
 				{"appName": "카카오톡", "usage": [21, 22, 23]},
@@ -170,24 +170,24 @@
 		},
 		"pickups": {"usage": 51},
 		"downTime": {
-			"usage": [
-				{"hour": "0", "usage": 56},
-				{"hour": "1", "usage": 43},
-				{"hour": "2", "usage": 6},
-				{"hour": "3", "usage": 42},
-				{"hour": "4", "usage": 11},
-				{"hour": "5", "usage": 31},
-				{"hour": "6", "usage": 25},
-				{"hour": "7", "usage": 32},
-				{"hour": "9", "usage": 5},
-				{"hour": "10", "usage": 43},
-				{"hour": "11", "usage": 14},
-				{"hour": "12", "usage": 17},
-				{"hour": "13", "usage": 23},
-				{"hour": "14", "usage": 29},
-				{"hour": "15", "usage": 60},
-				{"hour": "16", "usage": 37},
-				{"hour": "23", "usage": 0}
+			"usages": [
+				{"hour": 0, "usage": 56},
+				{"hour": 1, "usage": 43},
+				{"hour": 2, "usage": 6},
+				{"hour": 3, "usage": 42},
+				{"hour": 4, "usage": 11},
+				{"hour": 5, "usage": 31},
+				{"hour": 6, "usage": 25},
+				{"hour": 7, "usage": 32},
+				{"hour": 9, "usage": 5},
+				{"hour": 10, "usage": 43},
+				{"hour": 11, "usage": 14},
+				{"hour": 12, "usage": 17},
+				{"hour": 13, "usage": 23},
+				{"hour": 14, "usage": 29},
+				{"hour": 15, "usage": 60},
+				{"hour": 16, "usage": 37},
+				{"hour": 23, "usage": 0}
 			],
 			"details": [
 				{"appName": "좋은 카메라", "usage": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]},
@@ -320,24 +320,24 @@
 		},
 		"pickups": {"usage": 54},
 		"downTime": {
-			"usage": [
-				{"hour": "1", "usage": 22},
-				{"hour": "2", "usage": 14},
-				{"hour": "3", "usage": 50},
-				{"hour": "4", "usage": 23},
-				{"hour": "5", "usage": 0},
-				{"hour": "6", "usage": 0},
-				{"hour": "7", "usage": 0},
-				{"hour": "8", "usage": 8},
-				{"hour": "9", "usage": 20},
-				{"hour": "10", "usage": 12},
-				{"hour": "11", "usage": 60},
-				{"hour": "12", "usage": 60},
-				{"hour": "13", "usage": 46},
-				{"hour": "14", "usage": 1},
-				{"hour": "15", "usage": 22},
-				{"hour": "22", "usage": 7},
-				{"hour": "23", "usage": 24}
+			"usages": [
+				{"hour": 1, "usage": 22},
+				{"hour": 2, "usage": 14},
+				{"hour": 3, "usage": 50},
+				{"hour": 4, "usage": 23},
+				{"hour": 5, "usage": 0},
+				{"hour": 6, "usage": 0},
+				{"hour": 7, "usage": 0},
+				{"hour": 8, "usage": 8},
+				{"hour": 9, "usage": 20},
+				{"hour": 10, "usage": 12},
+				{"hour": 11, "usage": 60},
+				{"hour": 12, "usage": 60},
+				{"hour": 13, "usage": 46},
+				{"hour": 14, "usage": 1},
+				{"hour": 15, "usage": 22},
+				{"hour": 22, "usage": 7},
+				{"hour": 23, "usage": 24}
 			],
 			"details": [
 				{"appName": "좋은 카메라", "usage": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]},
@@ -468,26 +468,26 @@
 		},
 		"pickups": {"usage": 39},
 		"downTime": {
-			"usage": [
-				{"hour": "0", "usage": 1},
-				{"hour": "1", "usage": 1},
-				{"hour": "2", "usage": 7},
-				{"hour": "3", "usage": 25},
-				{"hour": "4", "usage": 12},
-				{"hour": "5", "usage": 23},
-				{"hour": "6", "usage": 28},
-				{"hour": "7", "usage": 42},
-				{"hour": "8", "usage": 11},
-				{"hour": "9", "usage": 12},
-				{"hour": "10", "usage": 4},
-				{"hour": "11", "usage": 60},
-				{"hour": "12", "usage": 59},
-				{"hour": "13", "usage": 57},
-				{"hour": "14", "usage": 55},
-				{"hour": "15", "usage": 1},
-				{"hour": "20", "usage": 0},
-				{"hour": "22", "usage": 0},
-				{"hour": "23", "usage": 17}
+			"usages": [
+				{"hour": 0, "usage": 1},
+				{"hour": 1, "usage": 1},
+				{"hour": 2, "usage": 7},
+				{"hour": 3, "usage": 25},
+				{"hour": 4, "usage": 12},
+				{"hour": 5, "usage": 23},
+				{"hour": 6, "usage": 28},
+				{"hour": 7, "usage": 42},
+				{"hour": 8, "usage": 11},
+				{"hour": 9, "usage": 12},
+				{"hour": 10, "usage": 4},
+				{"hour": 11, "usage": 60},
+				{"hour": 12, "usage": 59},
+				{"hour": 13, "usage": 57},
+				{"hour": 14, "usage": 55},
+				{"hour": 15, "usage": 1},
+				{"hour": 20, "usage": 0},
+				{"hour": 22, "usage": 0},
+				{"hour": 23, "usage": 17}
 			],
 			"details": [
 				{"appName": "스마트 스캔", "usage": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13, 14, 15, 17, 20, 22, 23]},
@@ -612,21 +612,21 @@
 		},
 		"pickups": {"usage": 33},
 		"downTime": {
-			"usage": [
-				{"hour": "0", "usage": 0},
-				{"hour": "1", "usage": 4},
-				{"hour": "2", "usage": 21},
-				{"hour": "3", "usage": 2},
-				{"hour": "4", "usage": 8},
-				{"hour": "5", "usage": 8},
-				{"hour": "6", "usage": 6},
-				{"hour": "7", "usage": 18},
-				{"hour": "8", "usage": 23},
-				{"hour": "9", "usage": 40},
-				{"hour": "10", "usage": 0},
-				{"hour": "11", "usage": 33},
-				{"hour": "12", "usage": 59},
-				{"hour": "13", "usage": 20}
+			"usages": [
+				{"hour": 0, "usage": 0},
+				{"hour": 1, "usage": 4},
+				{"hour": 2, "usage": 21},
+				{"hour": 3, "usage": 2},
+				{"hour": 4, "usage": 8},
+				{"hour": 5, "usage": 8},
+				{"hour": 6, "usage": 6},
+				{"hour": 7, "usage": 18},
+				{"hour": 8, "usage": 23},
+				{"hour": 9, "usage": 40},
+				{"hour": 10, "usage": 0},
+				{"hour": 11, "usage": 33},
+				{"hour": 12, "usage": 59},
+				{"hour": 13, "usage": 20}
 			],
 			"details": [
 				{"appName": "카카오톡", "usage": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]},

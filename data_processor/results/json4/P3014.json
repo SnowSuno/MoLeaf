@@ -39,24 +39,24 @@
 		},
 		"pickups": {"usage": 266},
 		"downTime": {
-			"usage": [
-				{"hour": "0", "usage": 49},
-				{"hour": "1", "usage": 10},
-				{"hour": "7", "usage": 20},
-				{"hour": "8", "usage": 18},
-				{"hour": "9", "usage": 13},
-				{"hour": "10", "usage": 22},
-				{"hour": "11", "usage": 21},
-				{"hour": "12", "usage": 30},
-				{"hour": "13", "usage": 21},
-				{"hour": "14", "usage": 19},
-				{"hour": "15", "usage": 15},
-				{"hour": "16", "usage": 15},
-				{"hour": "17", "usage": 16},
-				{"hour": "18", "usage": 60},
-				{"hour": "19", "usage": 60},
-				{"hour": "20", "usage": 47},
-				{"hour": "23", "usage": 0}
+			"usages": [
+				{"hour": 0, "usage": 49},
+				{"hour": 1, "usage": 10},
+				{"hour": 7, "usage": 20},
+				{"hour": 8, "usage": 18},
+				{"hour": 9, "usage": 13},
+				{"hour": 10, "usage": 22},
+				{"hour": 11, "usage": 21},
+				{"hour": 12, "usage": 30},
+				{"hour": 13, "usage": 21},
+				{"hour": 14, "usage": 19},
+				{"hour": 15, "usage": 15},
+				{"hour": 16, "usage": 15},
+				{"hour": 17, "usage": 16},
+				{"hour": 18, "usage": 60},
+				{"hour": 19, "usage": 60},
+				{"hour": 20, "usage": 47},
+				{"hour": 23, "usage": 0}
 			],
 			"details": [
 				{"appName": "Chrome", "usage": [0, 1, 2, 3, 4, 5, 6, 7, 10, 11, 12, 14, 15, 16, 17]},
@@ -220,27 +220,27 @@
 		},
 		"pickups": {"usage": 324},
 		"downTime": {
-			"usage": [
-				{"hour": "0", "usage": 9},
-				{"hour": "1", "usage": 30},
-				{"hour": "2", "usage": 13},
-				{"hour": "3", "usage": 21},
-				{"hour": "4", "usage": 21},
-				{"hour": "5", "usage": 34},
-				{"hour": "6", "usage": 5},
-				{"hour": "7", "usage": 42},
-				{"hour": "8", "usage": 19},
-				{"hour": "9", "usage": 22},
-				{"hour": "10", "usage": 27},
-				{"hour": "11", "usage": 13},
-				{"hour": "12", "usage": 37},
-				{"hour": "13", "usage": 20},
-				{"hour": "14", "usage": 18},
-				{"hour": "15", "usage": 23},
-				{"hour": "16", "usage": 11},
-				{"hour": "17", "usage": 46},
-				{"hour": "22", "usage": 0},
-				{"hour": "23", "usage": 4}
+			"usages": [
+				{"hour": 0, "usage": 9},
+				{"hour": 1, "usage": 30},
+				{"hour": 2, "usage": 13},
+				{"hour": 3, "usage": 21},
+				{"hour": 4, "usage": 21},
+				{"hour": 5, "usage": 34},
+				{"hour": 6, "usage": 5},
+				{"hour": 7, "usage": 42},
+				{"hour": 8, "usage": 19},
+				{"hour": 9, "usage": 22},
+				{"hour": 10, "usage": 27},
+				{"hour": 11, "usage": 13},
+				{"hour": 12, "usage": 37},
+				{"hour": 13, "usage": 20},
+				{"hour": 14, "usage": 18},
+				{"hour": 15, "usage": 23},
+				{"hour": 16, "usage": 11},
+				{"hour": 17, "usage": 46},
+				{"hour": 22, "usage": 0},
+				{"hour": 23, "usage": 4}
 			],
 			"details": [
 				{"appName": "카카오톡", "usage": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]},
@@ -421,20 +421,20 @@
 				{"appName": "Google Play 서비스", "usage": 0},
 				{"appName": "네트워크", "usage": 0},
 				{"appName": "설정", "usage": 0},
-				{"appName": "네이버 웹툰", "usage": -139309021203050}
+				{"appName": "네이버 웹툰", "usage": -144114041174533}
 			]
 		},
 		"pickups": {"usage": 77},
 		"downTime": {
-			"usage": [
-				{"hour": "0", "usage": 16},
-				{"hour": "1", "usage": 32},
-				{"hour": "2", "usage": 45},
-				{"hour": "3", "usage": 43},
-				{"hour": "4", "usage": 35},
-				{"hour": "5", "usage": 48},
-				{"hour": "6", "usage": 58},
-				{"hour": "7", "usage": 18}
+			"usages": [
+				{"hour": 0, "usage": 16},
+				{"hour": 1, "usage": 32},
+				{"hour": 2, "usage": 45},
+				{"hour": 3, "usage": 43},
+				{"hour": 4, "usage": 35},
+				{"hour": 5, "usage": 48},
+				{"hour": 6, "usage": 58},
+				{"hour": 7, "usage": 18}
 			],
 			"details": [
 				{"appName": "카카오톡", "usage": [0, 1, 2, 3, 4, 5, 6, 7]},
@@ -521,7 +521,7 @@
 				{"appName": "네트워크", "usage": 0},
 				{"appName": "Google Play 서비스", "usage": 0},
 				{"appName": "설정", "usage": 0},
-				{"appName": "네이버 웹툰", "usage": -139309021203050}
+				{"appName": "네이버 웹툰", "usage": -144114041174533}
 			]
 		},
 		"lastPickup": {"time": 971}
@@ -535,8 +535,8 @@
 		},
 		"pickups": {"usage": 3},
 		"downTime": {
-			"usage": [
-				{"hour": "3", "usage": 0}
+			"usages": [
+				{"hour": 3, "usage": 0}
 			],
 			"details": [
 			]
@@ -562,7 +562,7 @@
 		},
 		"pickups": {"usage": 0},
 		"downTime": {
-			"usage": [
+			"usages": [
 			],
 			"details": [
 			]
@@ -588,7 +588,7 @@
 		},
 		"pickups": {"usage": 0},
 		"downTime": {
-			"usage": [
+			"usages": [
 			],
 			"details": [
 			]
@@ -614,7 +614,7 @@
 		},
 		"pickups": {"usage": 0},
 		"downTime": {
-			"usage": [
+			"usages": [
 			],
 			"details": [
 			]

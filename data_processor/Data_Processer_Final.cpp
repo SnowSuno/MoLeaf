@@ -386,14 +386,14 @@ void Output(int i){
         fout << "\t\t\"pickups\": {\"usage\": " << pickups_usage[i][j] << "}," << endl;
 
         fout << "\t\t\"downTime\": {" << endl; 
-        fout << "\t\t\t\"usage\": [" << endl;
+        fout << "\t\t\t\"usages\": [" << endl;
         vpil vc2(downTime_usages[i][j].begin(), downTime_usages[i][j].end());
         sort(vc2.begin(), vc2.end(), [&](const pil &x, const pil &y){
             return x.ff < y.ff;
         });
         loop = vc2.size();
         for(pil it : vc2){
-            fout << "\t\t\t\t{\"hour\": \"" << it.ff << "\", \"usage\": " << it.ss/MIN << "}";
+            fout << "\t\t\t\t{\"hour\": " << it.ff << ", \"usage\": " << it.ss/MIN << "}";
             if(--loop) fout << ",";
             fout << endl;
         }

@@ -4,7 +4,7 @@
 		"totalTime": {
 			"usage": 228,
 			"details": [
-				{"appName": "해피스크린", "usage": 5692},
+				{"appName": "해피스크린", "usage": 8965},
 				{"appName": "카카오톡", "usage": 42},
 				{"appName": "Chrome", "usage": 26},
 				{"appName": "기본홈(홈&앱서랍)", "usage": 25},
@@ -43,31 +43,31 @@
 		},
 		"pickups": {"usage": 107},
 		"downTime": {
-			"usage": [
-				{"hour": "0", "usage": 28},
-				{"hour": "1", "usage": 25},
-				{"hour": "2", "usage": 21},
-				{"hour": "3", "usage": 4},
-				{"hour": "4", "usage": 8},
-				{"hour": "5", "usage": 17},
-				{"hour": "6", "usage": 3},
-				{"hour": "7", "usage": 51},
-				{"hour": "8", "usage": 24},
-				{"hour": "9", "usage": 7},
-				{"hour": "10", "usage": 15},
-				{"hour": "11", "usage": 8},
-				{"hour": "13", "usage": 6},
-				{"hour": "14", "usage": 0},
-				{"hour": "15", "usage": 1},
-				{"hour": "16", "usage": 1},
-				{"hour": "23", "usage": 0}
+			"usages": [
+				{"hour": 0, "usage": 28},
+				{"hour": 1, "usage": 25},
+				{"hour": 2, "usage": 21},
+				{"hour": 3, "usage": 4},
+				{"hour": 4, "usage": 8},
+				{"hour": 5, "usage": 17},
+				{"hour": 6, "usage": 3},
+				{"hour": 7, "usage": 51},
+				{"hour": 8, "usage": 24},
+				{"hour": 9, "usage": 7},
+				{"hour": 10, "usage": 15},
+				{"hour": 11, "usage": 8},
+				{"hour": 13, "usage": 6},
+				{"hour": 14, "usage": 0},
+				{"hour": 15, "usage": 1},
+				{"hour": 16, "usage": 1},
+				{"hour": 23, "usage": 0}
 			],
 			"details": [
 				{"appName": "기본홈(홈&앱서랍)", "usage": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15, 16]},
 				{"appName": "카카오톡", "usage": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 13, 14, 15]},
 				{"appName": "Paco", "usage": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]},
+				{"appName": "해피스크린", "usage": [0, 1, 2, 3, 4, 5, 6, 7]},
 				{"appName": "시스템 UI", "usage": [1, 2, 5, 7, 8, 11]},
-				{"appName": "해피스크린", "usage": [0, 1, 2, 3, 4]},
 				{"appName": "패키지 설치 프로그램", "usage": [0, 2, 5, 8, 11]},
 				{"appName": "통화 화면", "usage": [2, 3, 13, 15, 16]},
 				{"appName": "주소록", "usage": [2, 3, 13, 15, 16]},
@@ -103,7 +103,7 @@
 		"maxTime": {
 			"usage": 28,
 			"details": [
-				{"appName": "해피스크린", "usage": 5571},
+				{"appName": "해피스크린", "usage": 8844},
 				{"appName": "Wi-Fi", "usage": 13},
 				{"appName": "기본홈(홈&앱서랍)", "usage": 12},
 				{"appName": "Google Play 스토어", "usage": 6},
@@ -143,7 +143,7 @@
 		"avgTime": {
 			"usage": 2,
 			"details": [
-				{"appName": "해피스크린", "usage": 105},
+				{"appName": "해피스크린", "usage": 166},
 				{"appName": "Wi-Fi", "usage": 2},
 				{"appName": "Chrome", "usage": 1},
 				{"appName": "Melon", "usage": 1},
@@ -216,23 +216,23 @@
 		},
 		"pickups": {"usage": 83},
 		"downTime": {
-			"usage": [
-				{"hour": "3", "usage": 11},
-				{"hour": "4", "usage": 7},
-				{"hour": "5", "usage": 28},
-				{"hour": "6", "usage": 4},
-				{"hour": "7", "usage": 2},
-				{"hour": "8", "usage": 5},
-				{"hour": "9", "usage": 8},
-				{"hour": "10", "usage": 22},
-				{"hour": "11", "usage": 2},
-				{"hour": "12", "usage": 6},
-				{"hour": "13", "usage": 11},
-				{"hour": "14", "usage": 0},
-				{"hour": "15", "usage": 0},
-				{"hour": "16", "usage": 5},
-				{"hour": "17", "usage": 0},
-				{"hour": "23", "usage": 4}
+			"usages": [
+				{"hour": 3, "usage": 11},
+				{"hour": 4, "usage": 7},
+				{"hour": 5, "usage": 28},
+				{"hour": 6, "usage": 4},
+				{"hour": 7, "usage": 2},
+				{"hour": 8, "usage": 5},
+				{"hour": 9, "usage": 8},
+				{"hour": 10, "usage": 22},
+				{"hour": 11, "usage": 2},
+				{"hour": 12, "usage": 6},
+				{"hour": 13, "usage": 11},
+				{"hour": 14, "usage": 0},
+				{"hour": 15, "usage": 0},
+				{"hour": 16, "usage": 5},
+				{"hour": 17, "usage": 0},
+				{"hour": 23, "usage": 4}
 			],
 			"details": [
 				{"appName": "기본홈(홈&앱서랍)", "usage": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 23]},
@@ -366,25 +366,25 @@
 		},
 		"pickups": {"usage": 104},
 		"downTime": {
-			"usage": [
-				{"hour": "0", "usage": 4},
-				{"hour": "1", "usage": 3},
-				{"hour": "2", "usage": 3},
-				{"hour": "3", "usage": 40},
-				{"hour": "4", "usage": 16},
-				{"hour": "5", "usage": 0},
-				{"hour": "6", "usage": 24},
-				{"hour": "7", "usage": 7},
-				{"hour": "8", "usage": 7},
-				{"hour": "9", "usage": 7},
-				{"hour": "10", "usage": 11},
-				{"hour": "11", "usage": 1},
-				{"hour": "12", "usage": 8},
-				{"hour": "13", "usage": 4},
-				{"hour": "14", "usage": 0},
-				{"hour": "15", "usage": 6},
-				{"hour": "20", "usage": 0},
-				{"hour": "23", "usage": 0}
+			"usages": [
+				{"hour": 0, "usage": 4},
+				{"hour": 1, "usage": 3},
+				{"hour": 2, "usage": 3},
+				{"hour": 3, "usage": 40},
+				{"hour": 4, "usage": 16},
+				{"hour": 5, "usage": 0},
+				{"hour": 6, "usage": 24},
+				{"hour": 7, "usage": 7},
+				{"hour": 8, "usage": 7},
+				{"hour": 9, "usage": 7},
+				{"hour": 10, "usage": 11},
+				{"hour": 11, "usage": 1},
+				{"hour": 12, "usage": 8},
+				{"hour": 13, "usage": 4},
+				{"hour": 14, "usage": 0},
+				{"hour": 15, "usage": 6},
+				{"hour": 20, "usage": 0},
+				{"hour": 23, "usage": 0}
 			],
 			"details": [
 				{"appName": "해피스크린", "usage": [4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]},
@@ -539,25 +539,25 @@
 		},
 		"pickups": {"usage": 60},
 		"downTime": {
-			"usage": [
-				{"hour": "0", "usage": 60},
-				{"hour": "1", "usage": 59},
-				{"hour": "2", "usage": 19},
-				{"hour": "3", "usage": 13},
-				{"hour": "4", "usage": 21},
-				{"hour": "5", "usage": 12},
-				{"hour": "6", "usage": 2},
-				{"hour": "7", "usage": 7},
-				{"hour": "8", "usage": 13},
-				{"hour": "9", "usage": 1},
-				{"hour": "10", "usage": 7},
-				{"hour": "11", "usage": 30},
-				{"hour": "12", "usage": 37},
-				{"hour": "13", "usage": 60},
-				{"hour": "14", "usage": 53},
-				{"hour": "15", "usage": 21},
-				{"hour": "16", "usage": 1},
-				{"hour": "23", "usage": 1}
+			"usages": [
+				{"hour": 0, "usage": 60},
+				{"hour": 1, "usage": 59},
+				{"hour": 2, "usage": 19},
+				{"hour": 3, "usage": 13},
+				{"hour": 4, "usage": 21},
+				{"hour": 5, "usage": 12},
+				{"hour": 6, "usage": 2},
+				{"hour": 7, "usage": 7},
+				{"hour": 8, "usage": 13},
+				{"hour": 9, "usage": 1},
+				{"hour": 10, "usage": 7},
+				{"hour": 11, "usage": 30},
+				{"hour": 12, "usage": 37},
+				{"hour": 13, "usage": 60},
+				{"hour": 14, "usage": 53},
+				{"hour": 15, "usage": 21},
+				{"hour": 16, "usage": 1},
+				{"hour": 23, "usage": 1}
 			],
 			"details": [
 				{"appName": "해피스크린", "usage": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23]},
@@ -669,6 +669,7 @@
 		"totalTime": {
 			"usage": 411,
 			"details": [
+				{"appName": "해피스크린", "usage": 3346},
 				{"appName": "Chrome", "usage": 237},
 				{"appName": "카카오톡", "usage": 62},
 				{"appName": "YouTube", "usage": 36},
@@ -694,41 +695,40 @@
 				{"appName": "CLiP", "usage": 0},
 				{"appName": "Q메모+", "usage": 0},
 				{"appName": "패키지 설치 프로그램", "usage": 0},
-				{"appName": "통화 관리", "usage": 0},
-				{"appName": "해피스크린", "usage": -2761}
+				{"appName": "통화 관리", "usage": 0}
 			]
 		},
 		"pickups": {"usage": 131},
 		"downTime": {
-			"usage": [
-				{"hour": "0", "usage": 37},
-				{"hour": "1", "usage": 38},
-				{"hour": "2", "usage": 0},
-				{"hour": "3", "usage": 17},
-				{"hour": "4", "usage": 12},
-				{"hour": "5", "usage": 14},
-				{"hour": "6", "usage": 30},
-				{"hour": "7", "usage": 17},
-				{"hour": "8", "usage": 5},
-				{"hour": "9", "usage": 10},
-				{"hour": "10", "usage": 9},
-				{"hour": "11", "usage": 5},
-				{"hour": "12", "usage": 10},
-				{"hour": "13", "usage": 1},
-				{"hour": "14", "usage": 26},
-				{"hour": "15", "usage": 51},
-				{"hour": "16", "usage": 9},
-				{"hour": "21", "usage": 15},
-				{"hour": "22", "usage": 17}
+			"usages": [
+				{"hour": 0, "usage": 37},
+				{"hour": 1, "usage": 38},
+				{"hour": 2, "usage": 0},
+				{"hour": 3, "usage": 17},
+				{"hour": 4, "usage": 12},
+				{"hour": 5, "usage": 14},
+				{"hour": 6, "usage": 30},
+				{"hour": 7, "usage": 17},
+				{"hour": 8, "usage": 5},
+				{"hour": 9, "usage": 10},
+				{"hour": 10, "usage": 9},
+				{"hour": 11, "usage": 5},
+				{"hour": 12, "usage": 10},
+				{"hour": 13, "usage": 1},
+				{"hour": 14, "usage": 26},
+				{"hour": 15, "usage": 51},
+				{"hour": 16, "usage": 9},
+				{"hour": 21, "usage": 15},
+				{"hour": 22, "usage": 17}
 			],
 			"details": [
 				{"appName": "기본홈(홈&앱서랍)", "usage": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 21, 22, 23]},
 				{"appName": "카카오톡", "usage": [0, 1, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 23]},
 				{"appName": "Chrome", "usage": [0, 1, 3, 4, 6, 7, 8, 9, 11, 14, 15, 16, 21, 22, 23]},
 				{"appName": "Paco", "usage": [0, 1, 2, 3, 4, 6, 7, 8, 9, 11, 12, 13]},
+				{"appName": "해피스크린", "usage": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]},
 				{"appName": "통화 화면", "usage": [3, 6, 9, 12, 14, 15]},
 				{"appName": "주소록", "usage": [3, 9, 12, 14, 15]},
-				{"appName": "해피스크린", "usage": [0, 1, 2, 3]},
 				{"appName": "통화 관리", "usage": [3, 9, 12, 15]},
 				{"appName": "시스템 UI", "usage": [0, 6, 9, 14]},
 				{"appName": "YouTube", "usage": [0, 1, 14]},
@@ -754,8 +754,8 @@
 		"maxTime": {
 			"usage": 78,
 			"details": [
+				{"appName": "해피스크린", "usage": 3237},
 				{"appName": "Chrome", "usage": 47},
-				{"appName": "해피스크린", "usage": 35},
 				{"appName": "YouTube", "usage": 31},
 				{"appName": "카카오톡", "usage": 6},
 				{"appName": "통화 화면", "usage": 5},
@@ -786,6 +786,7 @@
 		"avgTime": {
 			"usage": 3,
 			"details": [
+				{"appName": "해피스크린", "usage": 88},
 				{"appName": "YouTube", "usage": 5},
 				{"appName": "Chrome", "usage": 4},
 				{"appName": "통화 화면", "usage": 1},
@@ -811,8 +812,7 @@
 				{"appName": "Q메모+", "usage": 0},
 				{"appName": "CLiP", "usage": 0},
 				{"appName": "패키지 설치 프로그램", "usage": 0},
-				{"appName": "통화 관리", "usage": 0},
-				{"appName": "해피스크린", "usage": -72}
+				{"appName": "통화 관리", "usage": 0}
 			]
 		},
 		"lastPickup": {"time": 78}
@@ -822,7 +822,6 @@
 		"totalTime": {
 			"usage": 460,
 			"details": [
-				{"appName": "해피스크린", "usage": 2253},
 				{"appName": "Chrome", "usage": 186},
 				{"appName": "YouTube", "usage": 56},
 				{"appName": "Booking.com", "usage": 55},
@@ -855,38 +854,39 @@
 				{"appName": "날씨", "usage": 0},
 				{"appName": "드라이브", "usage": 0},
 				{"appName": "통화 관리", "usage": 0},
-				{"appName": "패키지 설치 프로그램", "usage": 0}
+				{"appName": "패키지 설치 프로그램", "usage": 0},
+				{"appName": "해피스크린", "usage": -4069}
 			]
 		},
 		"pickups": {"usage": 102},
 		"downTime": {
-			"usage": [
-				{"hour": "0", "usage": 17},
-				{"hour": "1", "usage": 36},
-				{"hour": "2", "usage": 25},
-				{"hour": "3", "usage": 6},
-				{"hour": "4", "usage": 4},
-				{"hour": "5", "usage": 1},
-				{"hour": "6", "usage": 2},
-				{"hour": "7", "usage": 17},
-				{"hour": "8", "usage": 14},
-				{"hour": "9", "usage": 18},
-				{"hour": "10", "usage": 42},
-				{"hour": "11", "usage": 11},
-				{"hour": "12", "usage": 18},
-				{"hour": "13", "usage": 29},
-				{"hour": "14", "usage": 60},
-				{"hour": "15", "usage": 60},
-				{"hour": "16", "usage": 47},
-				{"hour": "17", "usage": 30},
-				{"hour": "23", "usage": 16}
+			"usages": [
+				{"hour": 0, "usage": 17},
+				{"hour": 1, "usage": 36},
+				{"hour": 2, "usage": 25},
+				{"hour": 3, "usage": 6},
+				{"hour": 4, "usage": 4},
+				{"hour": 5, "usage": 1},
+				{"hour": 6, "usage": 2},
+				{"hour": 7, "usage": 17},
+				{"hour": 8, "usage": 14},
+				{"hour": 9, "usage": 18},
+				{"hour": 10, "usage": 42},
+				{"hour": 11, "usage": 11},
+				{"hour": 12, "usage": 18},
+				{"hour": 13, "usage": 29},
+				{"hour": 14, "usage": 60},
+				{"hour": 15, "usage": 60},
+				{"hour": 16, "usage": 47},
+				{"hour": 17, "usage": 30},
+				{"hour": 23, "usage": 16}
 			],
 			"details": [
 				{"appName": "기본홈(홈&앱서랍)", "usage": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 23]},
-				{"appName": "해피스크린", "usage": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]},
 				{"appName": "카카오톡", "usage": [0, 1, 2, 3, 5, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 23]},
 				{"appName": "Chrome", "usage": [1, 2, 3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 15, 16, 17, 23]},
 				{"appName": "Paco", "usage": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]},
+				{"appName": "해피스크린", "usage": [0, 1, 2, 3, 4, 5, 6]},
 				{"appName": "시스템 UI", "usage": [0, 1, 12, 14, 15, 17, 23]},
 				{"appName": "YouTube", "usage": [1, 8, 9, 10, 23]},
 				{"appName": "Q메모+", "usage": [1, 2, 3, 10, 15]},
@@ -921,10 +921,10 @@
 		"maxTime": {
 			"usage": 154,
 			"details": [
-				{"appName": "해피스크린", "usage": 2199},
 				{"appName": "Chrome", "usage": 43},
 				{"appName": "YouTube", "usage": 30},
 				{"appName": "Melon", "usage": 11},
+				{"appName": "해피스크린", "usage": 9},
 				{"appName": "Google", "usage": 5},
 				{"appName": "기본홈(홈&앱서랍)", "usage": 5},
 				{"appName": "통화 화면", "usage": 4},
@@ -960,7 +960,6 @@
 		"avgTime": {
 			"usage": 4,
 			"details": [
-				{"appName": "해피스크린", "usage": 51},
 				{"appName": "YouTube", "usage": 5},
 				{"appName": "Melon", "usage": 2},
 				{"appName": "Chrome", "usage": 2},
@@ -993,7 +992,8 @@
 				{"appName": "날씨", "usage": 0},
 				{"appName": "패키지 설치 프로그램", "usage": 0},
 				{"appName": "드라이브", "usage": 0},
-				{"appName": "통화 관리", "usage": 0}
+				{"appName": "통화 관리", "usage": 0},
+				{"appName": "해피스크린", "usage": -92}
 			]
 		},
 		"lastPickup": {"time": 15}
@@ -1003,6 +1003,7 @@
 		"totalTime": {
 			"usage": 435,
 			"details": [
+				{"appName": "해피스크린", "usage": 116822281778318},
 				{"appName": "Chrome", "usage": 204},
 				{"appName": "Melon", "usage": 100},
 				{"appName": "YouTube", "usage": 60},
@@ -1037,36 +1038,35 @@
 				{"appName": "파일 관리자", "usage": 0},
 				{"appName": "패키지 설치 프로그램", "usage": 0},
 				{"appName": "통화 관리", "usage": 0},
-				{"appName": "원스토어", "usage": 0},
-				{"appName": "해피스크린", "usage": -1415}
+				{"appName": "원스토어", "usage": 0}
 			]
 		},
 		"pickups": {"usage": 104},
 		"downTime": {
-			"usage": [
-				{"hour": "0", "usage": 27},
-				{"hour": "1", "usage": 21},
-				{"hour": "2", "usage": 6},
-				{"hour": "3", "usage": 11},
-				{"hour": "4", "usage": 7},
-				{"hour": "5", "usage": 16},
-				{"hour": "6", "usage": 7},
-				{"hour": "7", "usage": 15},
-				{"hour": "8", "usage": 5},
-				{"hour": "9", "usage": 14},
-				{"hour": "10", "usage": 2},
-				{"hour": "11", "usage": 34},
-				{"hour": "12", "usage": 31},
-				{"hour": "13", "usage": 32},
-				{"hour": "14", "usage": 54},
-				{"hour": "15", "usage": 59},
-				{"hour": "16", "usage": 56},
-				{"hour": "17", "usage": 31},
-				{"hour": "23", "usage": 1}
+			"usages": [
+				{"hour": 0, "usage": 27},
+				{"hour": 1, "usage": 21},
+				{"hour": 2, "usage": 6},
+				{"hour": 3, "usage": 11},
+				{"hour": 4, "usage": 7},
+				{"hour": 5, "usage": 16},
+				{"hour": 6, "usage": 7},
+				{"hour": 7, "usage": 15},
+				{"hour": 8, "usage": 5},
+				{"hour": 9, "usage": 14},
+				{"hour": 10, "usage": 2},
+				{"hour": 11, "usage": 34},
+				{"hour": 12, "usage": 31},
+				{"hour": 13, "usage": 32},
+				{"hour": 14, "usage": 54},
+				{"hour": 15, "usage": 59},
+				{"hour": 16, "usage": 56},
+				{"hour": 17, "usage": 31},
+				{"hour": 23, "usage": 1}
 			],
 			"details": [
+				{"appName": "해피스크린", "usage": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]},
 				{"appName": "기본홈(홈&앱서랍)", "usage": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 23]},
-				{"appName": "해피스크린", "usage": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]},
 				{"appName": "카카오톡", "usage": [0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17, 23]},
 				{"appName": "Chrome", "usage": [0, 1, 2, 3, 4, 5, 7, 8, 9, 11, 12, 13, 14, 15, 16, 17]},
 				{"appName": "Facebook", "usage": [1, 2, 3, 5, 9, 11, 12, 13, 14]},
@@ -1106,9 +1106,9 @@
 		"maxTime": {
 			"usage": 96,
 			"details": [
+				{"appName": "해피스크린", "usage": 116822281778026},
 				{"appName": "Chrome", "usage": 46},
 				{"appName": "Melon", "usage": 37},
-				{"appName": "해피스크린", "usage": 36},
 				{"appName": "YouTube", "usage": 21},
 				{"appName": "접근성", "usage": 5},
 				{"appName": "Facebook", "usage": 5},
@@ -1147,6 +1147,7 @@
 		"avgTime": {
 			"usage": 4,
 			"details": [
+				{"appName": "해피스크린", "usage": 898632936756},
 				{"appName": "YouTube", "usage": 6},
 				{"appName": "Chrome", "usage": 3},
 				{"appName": "Melon", "usage": 2},
@@ -1181,8 +1182,7 @@
 				{"appName": "파일 관리자", "usage": 0},
 				{"appName": "패키지 설치 프로그램", "usage": 0},
 				{"appName": "통화 관리", "usage": 0},
-				{"appName": "원스토어", "usage": 0},
-				{"appName": "해피스크린", "usage": -10}
+				{"appName": "원스토어", "usage": 0}
 			]
 		},
 		"lastPickup": {"time": 0}

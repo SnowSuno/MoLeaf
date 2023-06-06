@@ -34,26 +34,26 @@
 		},
 		"pickups": {"usage": 156},
 		"downTime": {
-			"usage": [
-				{"hour": "0", "usage": 25},
-				{"hour": "1", "usage": 6},
-				{"hour": "2", "usage": 12},
-				{"hour": "3", "usage": 32},
-				{"hour": "4", "usage": 8},
-				{"hour": "5", "usage": 3},
-				{"hour": "6", "usage": 1},
-				{"hour": "7", "usage": 5},
-				{"hour": "8", "usage": 8},
-				{"hour": "9", "usage": 6},
-				{"hour": "10", "usage": 1},
-				{"hour": "11", "usage": 2},
-				{"hour": "12", "usage": 8},
-				{"hour": "13", "usage": 12},
-				{"hour": "14", "usage": 3},
-				{"hour": "15", "usage": 15},
-				{"hour": "17", "usage": 0},
-				{"hour": "21", "usage": 0},
-				{"hour": "23", "usage": 0}
+			"usages": [
+				{"hour": 0, "usage": 25},
+				{"hour": 1, "usage": 6},
+				{"hour": 2, "usage": 12},
+				{"hour": 3, "usage": 32},
+				{"hour": 4, "usage": 8},
+				{"hour": 5, "usage": 3},
+				{"hour": 6, "usage": 1},
+				{"hour": 7, "usage": 5},
+				{"hour": 8, "usage": 8},
+				{"hour": 9, "usage": 6},
+				{"hour": 10, "usage": 1},
+				{"hour": 11, "usage": 2},
+				{"hour": 12, "usage": 8},
+				{"hour": 13, "usage": 12},
+				{"hour": 14, "usage": 3},
+				{"hour": 15, "usage": 15},
+				{"hour": 17, "usage": 0},
+				{"hour": 21, "usage": 0},
+				{"hour": 23, "usage": 0}
 			],
 			"details": [
 				{"appName": "Samsung Experience 홈", "usage": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]},
@@ -188,25 +188,25 @@
 		},
 		"pickups": {"usage": 133},
 		"downTime": {
-			"usage": [
-				{"hour": "0", "usage": 17},
-				{"hour": "1", "usage": 10},
-				{"hour": "2", "usage": 0},
-				{"hour": "3", "usage": 4},
-				{"hour": "4", "usage": 8},
-				{"hour": "5", "usage": 5},
-				{"hour": "6", "usage": 0},
-				{"hour": "7", "usage": 7},
-				{"hour": "8", "usage": 0},
-				{"hour": "9", "usage": 5},
-				{"hour": "10", "usage": 8},
-				{"hour": "11", "usage": 1},
-				{"hour": "12", "usage": 7},
-				{"hour": "13", "usage": 3},
-				{"hour": "14", "usage": 16},
-				{"hour": "15", "usage": 17},
-				{"hour": "22", "usage": 22},
-				{"hour": "23", "usage": 13}
+			"usages": [
+				{"hour": 0, "usage": 17},
+				{"hour": 1, "usage": 10},
+				{"hour": 2, "usage": 0},
+				{"hour": 3, "usage": 4},
+				{"hour": 4, "usage": 8},
+				{"hour": 5, "usage": 5},
+				{"hour": 6, "usage": 0},
+				{"hour": 7, "usage": 7},
+				{"hour": 8, "usage": 0},
+				{"hour": 9, "usage": 5},
+				{"hour": 10, "usage": 8},
+				{"hour": 11, "usage": 1},
+				{"hour": 12, "usage": 7},
+				{"hour": 13, "usage": 3},
+				{"hour": 14, "usage": 16},
+				{"hour": 15, "usage": 17},
+				{"hour": 22, "usage": 22},
+				{"hour": 23, "usage": 13}
 			],
 			"details": [
 				{"appName": "Samsung Experience 홈", "usage": [0, 1, 3, 4, 5, 7, 8, 9, 10, 12, 13, 14, 15, 22, 23]},
@@ -333,8 +333,8 @@
 		},
 		"pickups": {"usage": 11},
 		"downTime": {
-			"usage": [
-				{"hour": "0", "usage": 3}
+			"usages": [
+				{"hour": 0, "usage": 3}
 			],
 			"details": [
 				{"appName": "카카오톡", "usage": [0]},
@@ -384,7 +384,7 @@
 		},
 		"pickups": {"usage": 0},
 		"downTime": {
-			"usage": [
+			"usages": [
 			],
 			"details": [
 			]
@@ -432,24 +432,24 @@
 		},
 		"pickups": {"usage": 98},
 		"downTime": {
-			"usage": [
-				{"hour": "3", "usage": 0},
-				{"hour": "4", "usage": 10},
-				{"hour": "5", "usage": 1},
-				{"hour": "6", "usage": 9},
-				{"hour": "7", "usage": 3},
-				{"hour": "8", "usage": 15},
-				{"hour": "9", "usage": 4},
-				{"hour": "10", "usage": 6},
-				{"hour": "11", "usage": 4},
-				{"hour": "12", "usage": 3},
-				{"hour": "13", "usage": 1},
-				{"hour": "14", "usage": 0},
-				{"hour": "15", "usage": 23},
-				{"hour": "16", "usage": 19},
-				{"hour": "17", "usage": 45},
-				{"hour": "21", "usage": 0},
-				{"hour": "23", "usage": 0}
+			"usages": [
+				{"hour": 3, "usage": 0},
+				{"hour": 4, "usage": 10},
+				{"hour": 5, "usage": 1},
+				{"hour": 6, "usage": 9},
+				{"hour": 7, "usage": 3},
+				{"hour": 8, "usage": 15},
+				{"hour": 9, "usage": 4},
+				{"hour": 10, "usage": 6},
+				{"hour": 11, "usage": 4},
+				{"hour": 12, "usage": 3},
+				{"hour": 13, "usage": 1},
+				{"hour": 14, "usage": 0},
+				{"hour": 15, "usage": 23},
+				{"hour": 16, "usage": 19},
+				{"hour": 17, "usage": 45},
+				{"hour": 21, "usage": 0},
+				{"hour": 23, "usage": 0}
 			],
 			"details": [
 				{"appName": "Samsung Experience 홈", "usage": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16, 17]},
@@ -573,26 +573,26 @@
 		},
 		"pickups": {"usage": 178},
 		"downTime": {
-			"usage": [
-				{"hour": "0", "usage": 41},
-				{"hour": "1", "usage": 7},
-				{"hour": "2", "usage": 2},
-				{"hour": "3", "usage": 1},
-				{"hour": "4", "usage": 5},
-				{"hour": "5", "usage": 7},
-				{"hour": "6", "usage": 2},
-				{"hour": "7", "usage": 0},
-				{"hour": "8", "usage": 1},
-				{"hour": "9", "usage": 17},
-				{"hour": "10", "usage": 3},
-				{"hour": "11", "usage": 14},
-				{"hour": "12", "usage": 3},
-				{"hour": "13", "usage": 18},
-				{"hour": "14", "usage": 50},
-				{"hour": "15", "usage": 17},
-				{"hour": "16", "usage": 27},
-				{"hour": "22", "usage": 9},
-				{"hour": "23", "usage": 26}
+			"usages": [
+				{"hour": 0, "usage": 41},
+				{"hour": 1, "usage": 7},
+				{"hour": 2, "usage": 2},
+				{"hour": 3, "usage": 1},
+				{"hour": 4, "usage": 5},
+				{"hour": 5, "usage": 7},
+				{"hour": 6, "usage": 2},
+				{"hour": 7, "usage": 0},
+				{"hour": 8, "usage": 1},
+				{"hour": 9, "usage": 17},
+				{"hour": 10, "usage": 3},
+				{"hour": 11, "usage": 14},
+				{"hour": 12, "usage": 3},
+				{"hour": 13, "usage": 18},
+				{"hour": 14, "usage": 50},
+				{"hour": 15, "usage": 17},
+				{"hour": 16, "usage": 27},
+				{"hour": 22, "usage": 9},
+				{"hour": 23, "usage": 26}
 			],
 			"details": [
 				{"appName": "Samsung Experience 홈", "usage": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 22, 23]},
@@ -740,22 +740,22 @@
 		},
 		"pickups": {"usage": 168},
 		"downTime": {
-			"usage": [
-				{"hour": "0", "usage": 27},
-				{"hour": "1", "usage": 31},
-				{"hour": "2", "usage": 2},
-				{"hour": "3", "usage": 8},
-				{"hour": "4", "usage": 0},
-				{"hour": "5", "usage": 0},
-				{"hour": "6", "usage": 9},
-				{"hour": "7", "usage": 4},
-				{"hour": "8", "usage": 4},
-				{"hour": "9", "usage": 3},
-				{"hour": "10", "usage": 5},
-				{"hour": "11", "usage": 0},
-				{"hour": "12", "usage": 7},
-				{"hour": "13", "usage": 16},
-				{"hour": "14", "usage": 0}
+			"usages": [
+				{"hour": 0, "usage": 27},
+				{"hour": 1, "usage": 31},
+				{"hour": 2, "usage": 2},
+				{"hour": 3, "usage": 8},
+				{"hour": 4, "usage": 0},
+				{"hour": 5, "usage": 0},
+				{"hour": 6, "usage": 9},
+				{"hour": 7, "usage": 4},
+				{"hour": 8, "usage": 4},
+				{"hour": 9, "usage": 3},
+				{"hour": 10, "usage": 5},
+				{"hour": 11, "usage": 0},
+				{"hour": 12, "usage": 7},
+				{"hour": 13, "usage": 16},
+				{"hour": 14, "usage": 0}
 			],
 			"details": [
 				{"appName": "Samsung Experience 홈", "usage": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 13]},
