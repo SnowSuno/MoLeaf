@@ -68,9 +68,8 @@ const Value: React.FC<TimeProps> = ({ type, value, limit, widget }) => {
 };
 
 const Container = styled.div`
-  padding: 0 4px 8px;
-
-
+  padding: 0 4px;
+  
   & > p > span {
     opacity: 0.4;
     font-weight: 400;
