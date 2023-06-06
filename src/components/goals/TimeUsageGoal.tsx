@@ -1,41 +1,38 @@
 import React from "react";
 import styled from "@emotion/styled";
-import { Widget } from "../elements";
-import { ChevronRight } from "../../assets/icons";
+import { Goal } from "../elements/Goal";
+import { UsageType } from "~/types";
+import { useTranslation } from "react-i18next";
 
 interface Props {
-  title: string;
+  type: Exclude<UsageType, "downTime">;
   totalTime?: {
     hours: number;
     minutes: number;
   };
-  href?: string;
 }
 
-export const TimeUsageWidget: React.FC<Props> = ({ totalTime, ...props }) => (
-  <Widget full {...props}>
-    <Container>
+export const TimeUsageGoal: React.FC<Props> = ({
+  type,
+  totalTime,
+  ...props
+}) => {
+  const { t } = useTranslation();
+  return (
+    <Goal type={type} {...props}>
       <Time>
         {totalTime ? (
           <TotalTime>
             {totalTime.hours}h {totalTime.minutes}m
           </TotalTime>
         ) : (
-          <NotSet>미설정</NotSet>
+          <NotSet>{t(`common.undefined`)}</NotSet>
         )}
-        <GoalTime>/ 1일</GoalTime>
+        <GoalTime>/ 1{t(`common.units.day`)}</GoalTime>
       </Time>
-      <ChevronRight size={36} color="var(--dark-text)"/>
-    </Container>
-  </Widget>
-);
-
-const Container = styled.div`
-  display: flex;
-  align-items: baseline;
-  margin: 16px 0;
-  justify-content: space-between;
-`;
+    </Goal>
+  );
+};
 
 const Time = styled.div`
   display: flex;

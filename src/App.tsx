@@ -7,7 +7,7 @@ import { Layout } from "./components/layouts/Layout";
 import { TotalTime } from "./pages/goals/TotalTime";
 import { DownTime } from "./pages/goals/DownTime";
 import { Customize } from "./pages/home/Customize";
-import { Unlocks } from "./pages/goals/Unlocks";
+import { Pickups } from "./pages/goals/Pickups";
 import { useUsage } from "~/state/usage";
 import { AnalysisPage } from "~/components/layouts/AnalysisPage";
 
@@ -18,56 +18,55 @@ import { UsageType } from "~/types";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Layout/>,
+    element: <Layout />,
     children: [
       {
         path: "",
-        element: <Home/>,
+        element: <Home />,
         children: [
           ...Object.entries(routeMeta).map(([type, path]) => ({
-            path, element: <AnalysisPage type={type as UsageType}/>,
+            path,
+            element: <AnalysisPage type={type as UsageType} />,
           })),
           // { path: "total", element: <AnalysisPage type="totalTime"/> },
           // { path: "pickups", element: <AnalysisPage type="pickups"/> },
           // { path: "max", element: <AnalysisPage type="maxTime"/> },
           // { path: "avg", element: <AnalysisPage type="avgTime"/> },
           // { path: "downtime", element: <AnalysisPage type="downTime"/> },
-          { path: "customize", element: <Customize/> },
+          { path: "customize", element: <Customize /> },
         ],
       },
       {
         path: "goals",
-        element: <Goals/>,
+        element: <Goals />,
         children: [
           {
-            path: "totaltime",
-            element: <TotalTime
-              text="전체 사용 시간"
-              goal={{ hours: 4, minutes: 0 }}
-            />,
+            path: "total",
+            element: (
+              <TotalTime type="totalTime" goal={{ hours: 4, minutes: 0 }} />
+            ),
           },
           {
-            path: "maxtime",
-            element: <TotalTime
-              text="최대 사용 시간"
-              goal={{ hours: 3, minutes: 0 }}
-            />,
+            path: "max",
+            element: (
+              <TotalTime type="maxTime" goal={{ hours: 3, minutes: 0 }} />
+            ),
           },
           {
-            path: "avgtime",
-            element: <TotalTime text="평균 사용 시간"/>,
+            path: "avg",
+            element: <TotalTime type="avgTime" active={false} />,
           },
-          { path: "downtime", element: <DownTime/> },
-          { path: "unlock", element: <Unlocks/> },
+          { path: "downtime", element: <DownTime /> },
+          { path: "pickups", element: <Pickups active={false} /> },
         ],
       },
-      { path: "settings", element: <Settings/> },
+      { path: "settings", element: <Settings /> },
     ],
   },
 ]);
 
-function App () {
-  const loadData = useUsage(state => state.loadData);
+function App() {
+  const loadData = useUsage((state) => state.loadData);
 
   useEffect(() => {
     loadData(testData);
@@ -75,7 +74,7 @@ function App () {
 
   return (
     <MotionConfig transition={{ stiffness: 1000, damping: 100 }}>
-      <RouterProvider router={router}/>
+      <RouterProvider router={router} />
     </MotionConfig>
   );
 }
