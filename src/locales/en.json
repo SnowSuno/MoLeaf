@@ -1,1 +1,17 @@
-{}
+{
+  "translation": {
+    "usage": {
+      "totalTime": { "long": "Total Usage Time", "short": "Total Time" },
+      "pickups": { "long": "Number of Pickups", "short": "Pickups" },
+      "downTime": { "long": "Downtime", "short": "Downtime" },
+      "maxTime": { "long": "Maximum Usage Time", "short": "Max Time" },
+      "avgTime": { "long": "Average Usage Time", "short": "Avg Time" }
+    },
+    "common": {
+      "units": {
+        "number": ""
+      },
+      "goal": "goal"
+    }
+  }
+}
