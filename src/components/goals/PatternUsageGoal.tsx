@@ -1,12 +1,10 @@
 import React from "react";
 import styled from "@emotion/styled";
-import { Widget } from "../elements";
+import { Card } from "../elements";
 import { ChevronRight } from "../../assets/icons";
+import { Goal } from "../elements/Goal";
 
-interface Props {
-  title: string;
-  href?: string;
-}
+interface Props {}
 
 type Time = {
   hours: number;
@@ -28,35 +26,21 @@ const data = [
     endTime: { hours: 23, minutes: 0 },
   },
 ];
-export const PatternUsageWidget: React.FC<Props> = (props) => (
-  <Widget full {...props}>
-    <Container>
-      <InnerContainer>
-        {!data ? (
-          <NotSet>미설정</NotSet>
-        ) : (
-          data.map((range) => (
-            <Time>
-              <TotalTime>
-                {timeToString(range.startTime)} ~{" "}
-                {timeToString(range.endTime)}
-              </TotalTime>
-            </Time>
-          ))
-        )}
-      </InnerContainer>
-      <ChevronRight size={36} color="var(--dark-text)"/>
-    </Container>
-  </Widget>
+export const PatternUsageGoal: React.FC<Props> = (props) => (
+  <Goal type="downTime" {...props}>
+    {!data ? (
+      <NotSet>미설정</NotSet>
+    ) : (
+      data.map((range) => (
+        <Time>
+          <TotalTime>
+            {timeToString(range.startTime)} ~ {timeToString(range.endTime)}
+          </TotalTime>
+        </Time>
+      ))
+    )}
+  </Goal>
 );
-
-const Container = styled.div`
-  display: flex;
-  flex-direction: row;
-  margin: 8px 0;
-  justify-content: space-between;
-  align-items: center;
-`;
 
 const InnerContainer = styled.div`
   display: flex;
