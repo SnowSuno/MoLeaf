@@ -1,0 +1,33 @@
+export default {
+    mode: 'kr',
+    totalUsageTime: '전체 사용 시간',
+    totalUsage: '전체 사용',
+    maxUsage: '최대 사용',
+    avgUsage: '평균 사용',
+    downTime: '다운 타임',
+    fail: '실패',
+    goal: '목표',
+    goalNotSet: '목표 미설정',
+    on: '켜짐',
+    off: '꺼짐',
+    customize: '홈 화면 수정하기',
+    save: '저장하기',
+    currentSetGoal: '현재 설정된 목표',
+    notSetGoal: '미설정 목표',
+    day: '일',
+    notSet: '미설정',
+    maxUsageTime: '최대 사용 시간',
+    goalRelease: '목표 설정 해제하기',
+    goalSet: '목표 설정하기',
+    numberOfTimes: '회',
+    tips: {
+        totalUsageTime: '다른 사람들은 평균적으로 하루에 6h 32m 사용합니다.',
+        maxUsageTime: '다른 사람들은 평균적으로 하루에 6h 32m 사용합니다.',
+        downTime: '다른 사람들이 자주 설정하는 다운 타임 시간대는 3AM ~ 6AM입니다.',
+        avgTime: '다른 사람들은 평균적으로 하루에 6h 32m 사용합니다.',
+        unlock: '다른 사람들은 평균적으로 하루에 86회 잠금 해제합니다.'
+    },
+    userInfo: '유저 정보',
+    personalInfo: '개인정보 수집 및 이용 안내',
+    agree: '개인정보 수집 및 이용에 동의합니다'
+}
