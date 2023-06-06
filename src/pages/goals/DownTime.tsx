@@ -108,8 +108,8 @@ export const DownTime: React.FC = () => {
     <Page title="전체 사용 시간" background>
       <PageContainer>
         <InnerContainer1>
-          <Category>목표 설정 해제하기</Category>
-          <Toggle toggled={toggled} setToggled={setToggled} />
+          <Category>목표 설정하기</Category>
+          <Toggle toggled={!toggled} setToggled={setToggled} />
         </InnerContainer1>
 
         {toggled ? (

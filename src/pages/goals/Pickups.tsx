@@ -10,15 +10,15 @@ interface Props {
   goal?: number;
 }
 
-export const Unlocks: React.FC<Props> = ({ goal }) => {
+export const Pickups: React.FC<Props> = ({ goal }) => {
   const [toggled, setToggled] = useState<boolean>(false);
 
   return (
-    <Page title="잠금 해제 횟수">
+    <Page title="잠금 해제 횟수" background>
       <PageContainer>
         <InnerContainer1>
-          <Category>목표 설정 해제하기</Category>
-          <Toggle toggled={toggled} setToggled={setToggled} />
+          <Category>목표 설정하기</Category>
+          <Toggle toggled={!toggled} setToggled={setToggled} />
         </InnerContainer1>
 
         {toggled ? (
