@@ -1,7 +1,7 @@
 import React, { type PropsWithChildren } from "react";
 import { motion } from "framer-motion";
 import styled from "@emotion/styled";
-import { ChevronLeft } from "../../assets/icons";
+import { ChevronLeft } from "~/assets/icons";
 import { UnstyledLink } from "../elements";
 
 interface Props extends PropsWithChildren {
@@ -76,7 +76,6 @@ const Main = styled.main`
   overflow-y: scroll;
   overflow-x: hidden;
   height: calc(100% - 60px);
-  padding-inline: var(--margin-inline);
 
   -ms-overflow-style: none;
   scrollbar-width: none;
