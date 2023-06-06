@@ -37,7 +37,8 @@
       },
       "goal": "목표",
       "undefined": "미설정",
-      "saveButton": "Save"
+      "saveButton": "저장하기",
+      "appUsage": "앱별 사용량"
     }
   }
 }

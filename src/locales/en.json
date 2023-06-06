@@ -37,7 +37,8 @@
       },
       "goal": "goal",
       "undefined": "undefined",
-      "saveButton": "Save"
+      "saveButton": "Save",
+      "appUsage": "Usage by App"
     }
   }
 }
