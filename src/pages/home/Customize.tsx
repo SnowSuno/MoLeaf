@@ -212,8 +212,8 @@ export const Customize: React.FC = () => {
             <WidgetScroller drag="x" dragConstraints={containerRef}>
               <WidgetList
                 widgetOrder={widgetOrder ? widgetOrder : []}
-                selected={selected}
-                setSelected={setSelected}
+                // selected={selected}
+                // setSelected={setSelected}
               />
             </WidgetScroller>
           </WidgetContainer>
