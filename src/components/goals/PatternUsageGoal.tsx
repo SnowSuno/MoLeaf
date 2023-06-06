@@ -1,7 +1,5 @@
 import React from "react";
 import styled from "@emotion/styled";
-import { Card } from "../elements";
-import { ChevronRight } from "../../assets/icons";
 import { Goal } from "../elements/Goal";
 
 interface Props {}
@@ -41,15 +39,6 @@ export const PatternUsageGoal: React.FC<Props> = (props) => (
     )}
   </Goal>
 );
-
-const InnerContainer = styled.div`
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-  align-items: baseline;
-  margin: 16px 0;
-  justify-content: space-between;
-`;
 
 const Time = styled.div`
   display: flex;
