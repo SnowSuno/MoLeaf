@@ -38,6 +38,7 @@ export const Usage: React.FC<Props> = ({
       />
       {limit
         ? <BarGauge
+          type={type}
           value={value}
           limit={limit}
           widget={widget}
