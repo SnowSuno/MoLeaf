@@ -19,6 +19,14 @@
         "avgTime": "다른 사람들은 평균적으로 하루에 1h 17m 사용합니다."
       }
     },
+    "settings": {
+      "userInfo": "유저 정보",
+      "name": "이도라",
+      "privacy": {
+        "consent": "개인정보 수집 및 이용 안내",
+        "agree": "개인정보 수집 및 이용에 동의합니다"
+      }
+    },
     "common": {
       "units": {
         "number": "회",

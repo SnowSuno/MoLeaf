@@ -19,6 +19,14 @@
         "avgTime": "Others have average of usage 1h 17m daily."
       }
     },
+    "settings": {
+      "userInfo": "User Information",
+      "name": "Dora Lee",
+      "privacy": {
+        "consent": "Information on collection and use of personal information",
+        "agree": "I agree to the collection and use of personal information"
+      }
+    },
     "common": {
       "units": {
         "number": "",
