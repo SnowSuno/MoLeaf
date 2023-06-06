@@ -1,35 +1,30 @@
-import React, { useEffect, useMemo, useRef } from "react";
+import React, { useMemo } from "react";
 import { Group } from "@visx/group";
 import { scaleBand, scaleLinear } from "@visx/scale";
 import { ScaleSVG } from "@visx/responsive";
-import type { DataPoint } from "../../types";
 
 import styled from "@emotion/styled";
 import { graphSizes } from "./sizes";
 import { Axis } from "./Axis";
 import { Bar } from "./Bar";
 import { motion } from "framer-motion";
+import { useMeasureElement } from "~/state/utils/size";
+import { DailyUsage, hasData } from "~/types";
 
 interface Props {
-  data: DataPoint[];
+  data: DailyUsage<"totalTime" | "pickups" | "maxTime" | "avgTime">[];
+  limit?: number;
   selectedDate: number;
   onClickDate?: (date: number) => void;
-  updateHeight?: (height: number) => void;
 }
 
 export const BarGroup: React.FC<Props> = ({
   data,
+  limit,
   selectedDate,
   onClickDate,
-  updateHeight,
 }) => {
-  const ref = useRef<SVGSVGElement>(null);
-
-  useEffect(() => {
-    console.log("HEIGHT", ref.current?.height.baseVal.value);
-    if (ref.current) updateHeight?.(ref.current.height.baseVal.value);
-  }, [updateHeight]);
-
+  const ref = useMeasureElement();
   const { width, height } = graphSizes();
 
   const xScale = useMemo(() =>
@@ -43,17 +38,11 @@ export const BarGroup: React.FC<Props> = ({
     scaleLinear<number>({
       range: [height, 0],
       round: true,
-      domain: [0, Math.max(...data.map(data => data.value))],
+      domain: [0, Math.max(...data.map(data => data.usageData?.usage || 0))],
     }), [height, data]);
 
   return (
-    <Container
-      variants={{
-        hidden: { height: 0 },
-        visible: { height: "auto" },
-      }}
-      animate="visible"
-    >
+    <Container>
       <ScaleSVG width={width} height={height} innerRef={ref}>
         <Group>
           <Axis
@@ -62,14 +51,17 @@ export const BarGroup: React.FC<Props> = ({
             left={0}
           />
 
-          {data.map(dataPoint => <Bar
-            key={dataPoint.date}
-            data={dataPoint}
-            xScale={xScale}
-            yScale={yScale}
-            focused={dataPoint.date === selectedDate}
-            onClick={() => onClickDate?.(dataPoint.date)}
-          />)}
+          {data.map(dataPoint =>
+            hasData(dataPoint) && <Bar
+              key={dataPoint.date}
+              data={dataPoint}
+              limit={limit}
+              xScale={xScale}
+              yScale={yScale}
+              focused={dataPoint.date === selectedDate}
+              onClick={() => onClickDate?.(dataPoint.date)}
+            />)
+          }
         </Group>
       </ScaleSVG>
     </Container>
@@ -78,7 +70,7 @@ export const BarGroup: React.FC<Props> = ({
 
 const Container = styled(motion.div)`
   z-index: 20;
-  
+
   &, & > div, & > div > svg {
     overflow: visible !important;
   }

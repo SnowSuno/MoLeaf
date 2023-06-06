@@ -2,29 +2,29 @@ import React, { useMemo } from "react";
 import { Group } from "@visx/group";
 import { scaleBand } from "@visx/scale";
 import { ScaleSVG } from "@visx/responsive";
-import type { DataPoint } from "../../types";
 
 import styled from "@emotion/styled";
 import { graphSizes } from "./sizes";
-
-// accessors
+import { DailyUsage, UsageType } from "~/types";
+import { Date } from "~/components/graphs/Date";
+import { isOverLimit } from "~/utils/limit";
 
 interface Props {
-  data: DataPoint[];
+  type: UsageType;
+  data: DailyUsage[];
   limit?: number;
   selectedDate: number;
   onClickDate?: (date: number) => void;
 }
 
 export const BarSelector: React.FC<Props> = ({
+  type,
   data,
-  limit = 2,
+  limit,
   selectedDate,
   onClickDate,
 }) => {
   const { width, dateHeight } = graphSizes();
-
-
 
   const xScale = useMemo(() =>
     scaleBand<number>({
@@ -38,39 +38,17 @@ export const BarSelector: React.FC<Props> = ({
     <Container>
       <ScaleSVG width={width} height={dateHeight}>
         <Group>
-          {data.map(dataPoint => {
-            const barWidth = xScale.bandwidth();
-            const barX = xScale(dataPoint.date);
-            if (!barX) return null;
-
-            const isSelected = dataPoint.date === selectedDate;
-            const isOverLimit = !!limit && (dataPoint.value > limit);
-            const padding = 2;
-
-            return (
-              <g key={dataPoint.date}>
-                <rect
-                  key={dataPoint.date}
-                  x={barX - padding}
-                  y={0}
-                  width={barWidth + padding * 2}
-                  height={barWidth + padding * 2}
-                  fill={isOverLimit ? "var(--red)" : "var(--primary)"}
-                  opacity={isSelected ? 1 : 0.3}
-                  rx={12}
-                  onClick={() => onClickDate?.(dataPoint.date)}
-                />
-                <text
-                  x={barX + barWidth / 2}
-                  y={26}
-                  fontSize={16}
-                  textAnchor="middle"
-                  fill={"var(--white)"}
-                  onClick={() => onClickDate?.(dataPoint.date)}
-                >{dataPoint.date}</text>
-              </g>
-            );
-          })}
+          {data.map(dataPoint =>
+            <Date
+              key={dataPoint.date}
+              dataPoint={dataPoint}
+              xScale={xScale}
+              selectedDate={selectedDate}
+              isOverLimit={isOverLimit(type, dataPoint, limit)}
+              disabled={!dataPoint.usageData}
+              onClickDate={onClickDate}
+            />
+          )}
         </Group>
       </ScaleSVG>
     </Container>
@@ -78,13 +56,7 @@ export const BarSelector: React.FC<Props> = ({
 };
 
 const Container = styled.div`
-  //position: sticky;
-  //top: 40px;
   z-index: 10;
   background-color: var(--white);
   padding: 3px var(--margin-inline) 0;
-
-  & rect, text {
-    cursor: pointer;
-  }
 `;

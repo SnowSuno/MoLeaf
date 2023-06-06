@@ -1,13 +1,13 @@
-import React from "react";
+import React, { useCallback, useMemo } from "react";
 import { Bar as VisxBar } from "@visx/shape";
 
-import { DataPoint } from "../../types";
+import { DailyUsageRequired } from "~/types";
 import { ScaleBand, ScaleLinear } from "d3-scale";
 import { graphSizes } from "./sizes";
 import { Group } from "@visx/group";
 
 interface Props {
-  data: DataPoint;
+  data: DailyUsageRequired<"totalTime" | "pickups" | "maxTime" | "avgTime">;
   limit?: number;
   xScale: ScaleBand<number>;
   yScale: ScaleLinear<number, number>;
@@ -17,7 +17,7 @@ interface Props {
 
 export const Bar: React.FC<Props> = ({
   data,
-  limit = 2,
+  limit = 0,
   xScale,
   yScale,
   focused = true,
@@ -25,38 +25,41 @@ export const Bar: React.FC<Props> = ({
 }) => {
   const { height } = graphSizes();
 
-  const isOverLimit = !!limit && (data.value > limit);
+  const isOverLimit = useMemo(() => (
+    !!limit && (data.usageData.usage > limit)
+  ), [limit, data.usageData.usage]);
 
-  const barWidth = xScale.bandwidth();
-  const barHeight = height - (yScale(data.value));
-  const barX = xScale(data.date);
-  const barY = height - barHeight;
+  const x = useMemo(() => ({
+    x: xScale(data.date),
+    width: xScale.bandwidth(),
+  }), [xScale, data.date]);
+
+  const value = useCallback((value: number) => ({
+    y: yScale(value),
+    height: height - yScale(value),
+  }), [yScale, height]);
 
   return (
     <Group opacity={focused ? 1 : 0.3}>
       <VisxBar
-        x={barX}
-        y={barY}
-        width={barWidth}
-        height={barHeight}
+        {...x} {...value(data.usageData.usage)}
         fill={isOverLimit ? "var(--red)" : "var(--primary)"}
         rx={12}
         onClick={onClick}
       />
-      <VisxBar
-        x={barX}
-        y={height - yScale(limit)}
-        fill={`rgba(var(--white_w), ${isOverLimit ? 0.22 : 0})`}
-        height={yScale(limit)}
-        width={barWidth}
-      />
-      <VisxBar
-        x={barX}
-        y={height - yScale(limit)}
-        fill="#fff"
-        height={4}
-        width={barWidth}
-      />
+      {isOverLimit && <>
+        <VisxBar
+          {...x} {...value(limit)}
+          fill={`rgba(var(--white_w), ${isOverLimit ? 0.22 : 0})`}
+        />
+        <VisxBar
+          {...x}
+          y={yScale(limit)}
+          height={4}
+          fill="var(--white)"
+        />
+      </>}
     </Group>
   );
 };
+

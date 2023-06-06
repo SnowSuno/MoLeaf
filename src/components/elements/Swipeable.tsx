@@ -1,80 +1,95 @@
 import React, {
-  Dispatch,
-  PropsWithChildren,
-  SetStateAction,
+  type Dispatch,
+  type SetStateAction,
+  type PropsWithChildren,
+  useCallback,
+  useEffect,
   useState,
 } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import styled from "@emotion/styled";
+import { motion, PanInfo, useAnimate, useIsPresent } from "framer-motion";
+import { useElementHeight } from "~/state/utils/size";
 
 interface Props extends PropsWithChildren {
-  index: number;
-  setIndex: Dispatch<SetStateAction<number>>;
-  min: number;
-  max: number;
+  page: 0 | 1;
+  setPage: Dispatch<SetStateAction<0 | 1>>;
 }
 
-export const Swipeable: React.FC<Props> = ({
-  index,
-  setIndex,
-  min,
-  max,
+export const Swipeable: React.FC<Props> = React.memo(({
+  page,
+  setPage,
   ...props
 }) => {
-  const [direction, setDirection] = useState(0);
+  const graphHeight = useElementHeight();
+  const isPresent = useIsPresent();
 
-  const paginate = (newDirection: number) => {
-    if (index + newDirection < min || index + newDirection > max) return;
-    console.log("paginate", index, newDirection);
-    setIndex(index + newDirection);
-    setDirection(newDirection);
-  };
+  const [scope, animate] = useAnimate();
+  const [variant, setVariant] = useState<
+    { x: `-${0 | 50}%` }
+  >({ x: "-50%" });
+
+  const navigate = useCallback((page: 0 | 1) => {
+    setPage(page);
+    setVariant({ x: `-${page * 50 as 0 | 50}%` });
+  }, [setPage, setVariant]);
+
+  const onDragEnd = useCallback((_: unknown, { offset, velocity }: PanInfo) => {
+    const swipe = swipePower(offset.x, velocity.x);
+    navigate(swipe < -threshold ? 1 : swipe > threshold ? 0 : page);
+  }, [page, navigate]);
+
+  useEffect(() => { animate("& > div", variant, { damping: 1000 }); },
+    [animate, variant]);
+  useEffect(() => { navigate(page); }, [page, navigate]);
 
   return (
-    <AnimatePresence initial={false} custom={direction}>
-      <motion.div
-        key={index}
-        custom={direction}
-        variants={variants}
-        initial="enter"
-        animate="center"
-        exit="exit"
-        drag="x"
-        dragConstraints={{ left: 0, right: 0 }}
-        dragElastic={1}
-        onDragEnd={(_, { offset, velocity }) => {
-          const swipe = swipePower(offset.x, velocity.x);
-
-          if (swipe < -swipeConfidenceThreshold) return paginate(1);
-          if (swipe > swipeConfidenceThreshold) return paginate(-1);
-        }}
+    <Container ref={scope} stickyHeight={graphHeight}>
+      <Swipe
+        drag={isPresent ? "x" : false}
+        dragConstraints={scope}
+        initial={{ x: "-50%" }}
+        onDragEnd={onDragEnd}
         {...props}
       />
-    </AnimatePresence>
+    </Container>
   );
-};
+});
 
-const variants = {
-  enter: (direction: number) => {
-    return {
-      x: direction > 0 ? 1000 : -1000,
-      opacity: 0,
-    };
-  },
-  center: {
-    zIndex: 1,
-    x: 0,
-    opacity: 1,
-  },
-  exit: (direction: number) => {
-    return {
-      zIndex: 0,
-      x: direction < 0 ? 1000 : -1000,
-      opacity: 0,
-    };
-  },
-};
+const Container = styled(motion.div)<{ stickyHeight?: number }>`
+  width: 100%;
+  position: sticky;
+  top: ${({ stickyHeight = 0 }) => 35 - stickyHeight}px;
 
-const swipeConfidenceThreshold = 10000;
+  z-index: 5;
+`;
+
+const Swipe = styled(motion.div)`
+  display: flex;
+  flex-direction: row;
+  width: 200%;
+
+  & > div {
+    width: 100%;
+  }
+
+  &:before, &:after {
+    content: "";
+    background: var(--white);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+
+  &:before {
+    right: 100%;
+  }
+
+  &:after {
+    left: 100%;
+  }
+`;
+
+const threshold = 3000;
 const swipePower = (offset: number, velocity: number) => {
   return Math.abs(offset) * velocity;
 };
