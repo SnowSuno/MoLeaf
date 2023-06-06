@@ -1,33 +1,44 @@
-import React, { type PropsWithChildren } from "react";
+import React from "react";
 import { Card } from "./Card";
 import styled from "@emotion/styled";
 import { UnstyledLink } from "./UnstyledLink";
+import { UsageType } from "~/types";
+import { useUsageOf } from "~/utils/hooks/useUsageOf";
+import { routeMeta } from "~/routeMeta";
 
-interface Props extends PropsWithChildren {
-  full?: boolean;
-  title?: string;
-  success?: boolean;
-  selected?: boolean;
-  href?: string;
-  onClick?: () => void;
+interface Props {
+  type: UsageType;
+  main?: boolean;
+  // full?: boolean;
+  // title?: string;
+  // success?: boolean;
+  // selected?: boolean;
+  // href?: string;
+  // onClick?: () => void;
 }
 
 export const Widget: React.FC<Props> = ({
-  title,
-  success,
-  children,
-  href,
-  ...props
+  type,
+  main
+  // title,
+  // success,
+  // children,
+  // href,
+  // ...props
 }) => {
-  const inner = <Card {...props}>
-    <Header>
-      <Title>{title}</Title>
-      {success == false ? <FailTag>실패</FailTag> : <></>}
-    </Header>
-    {children}
-  </Card>;
+  const data = useUsageOf(type);
 
-  return href ? <UnstyledLink to={href}>{inner}</UnstyledLink> : inner;
+  return (
+    <UnstyledLink to={routeMeta[type]}>
+      <Card full={main}>
+        <Header>
+          <Title>{type}</Title>
+          {/*{success == false ? <FailTag>실패</FailTag> : <></>}*/}
+        </Header>
+        {/*{children}*/}
+      </Card>
+    </UnstyledLink>
+  );
 };
 
 const Header = styled.div`

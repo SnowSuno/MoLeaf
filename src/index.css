@@ -56,6 +56,7 @@ body,
 
     /* spacing */
     --margin-inline: 24px;
+    --widget-width: 140px;
 }
 
 h1 {

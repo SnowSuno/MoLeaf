@@ -12,6 +12,8 @@ import { useUsage } from "~/state/usage";
 import { AnalysisPage } from "~/components/layouts/AnalysisPage";
 
 import testData from "~/data/P0701.json";
+import { routeMeta } from "~/routeMeta";
+import { UsageType } from "~/types";
 
 const router = createBrowserRouter([
   {
@@ -22,11 +24,14 @@ const router = createBrowserRouter([
         path: "",
         element: <Home/>,
         children: [
-          { path: "total", element: <AnalysisPage type="totalTime"/> },
-          { path: "pickups", element: <AnalysisPage type="pickups"/> },
-          { path: "max", element: <AnalysisPage type="maxTime"/> },
-          { path: "avg", element: <AnalysisPage type="avgTime"/> },
-          { path: "downtime", element: <AnalysisPage type="downTime"/> },
+          ...Object.entries(routeMeta).map(([type, path]) => ({
+            path, element: <AnalysisPage type={type as UsageType}/>,
+          })),
+          // { path: "total", element: <AnalysisPage type="totalTime"/> },
+          // { path: "pickups", element: <AnalysisPage type="pickups"/> },
+          // { path: "max", element: <AnalysisPage type="maxTime"/> },
+          // { path: "avg", element: <AnalysisPage type="avgTime"/> },
+          // { path: "downtime", element: <AnalysisPage type="downTime"/> },
           { path: "customize", element: <Customize/> },
         ],
       },

@@ -1,16 +1,15 @@
-import React, { useEffect, useRef, useState } from "react";
-import { AnimatedOutlet } from "../../components/layouts/AnimatedOutlet";
+import React, { useCallback, useRef } from "react";
+import { AnimatedOutlet } from "~/components/layouts/AnimatedOutlet";
 import { Link } from "react-router-dom";
-import { Header } from "../../components/layouts/Header";
-import { MainWidget, SmallTimeWidget } from "../../components/widgets";
+import { Header } from "~/components/layouts/Header";
+import { SmallTimeWidget } from "~/components/widgets";
 import styled from "@emotion/styled";
-import { Button } from "../../components/elements";
-import { Settings } from "../../assets/icons";
-import {
-  SmallPatternWidget,
-} from "../../components/widgets/SmallPatternWidget";
-import { SmallNumberWidget } from "../../components/widgets/SmallNumberWidget";
+import { Button, Widget } from "~/components/elements";
+import { Settings } from "~/assets/icons";
+import { SmallPatternWidget } from "~/components/widgets/SmallPatternWidget";
+import { SmallNumberWidget } from "~/components/widgets/SmallNumberWidget";
 import { motion } from "framer-motion";
+import { useWidgets } from "~/utils/hooks/useWidgets";
 
 // import { dummyData } from "../../data";
 
@@ -75,43 +74,8 @@ const WidgetList: React.FC<Props> = ({ widgetOrder }) => {
 };
 
 export const Home: React.FC = React.memo(() => {
-  const [widgetOrder, setWidgetOrder] = useState<string[]>([]);
-  const [selectedMain, setSelectedMain] = useState<string>("");
-
   const containerRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    async function initLocalStorage() {
-      if (!localStorage.getItem("widgetOrder")) {
-        await localStorage.setItem(
-          "widgetOrder",
-          [
-            "totalTime",
-            "maxTime",
-            "averageTime",
-            "downtime",
-            "numUnlocks",
-          ].toString(),
-        );
-      }
-      if (!localStorage.getItem("mainWidget")) {
-        await localStorage.setItem("mainWidget", "totalTime");
-      }
-
-      const tmpWidgetOrder = localStorage.getItem("widgetOrder");
-      if (tmpWidgetOrder) await setWidgetOrder(tmpWidgetOrder.split(","));
-      const tmpSelectedMain = localStorage.getItem("mainWidget");
-      if (tmpSelectedMain) await setSelectedMain(tmpSelectedMain);
-
-      // if (!localStorage.getItem("rawData")) {
-      //   await localStorage.setItem("rawData", JSON.stringify(dummyData));
-      // }
-      // localStorage.setItem("rawData", JSON.stringify(dummyData));
-    }
-
-    initLocalStorage();
-  }, []);
-
+  const { main, widgets } = useWidgets();
 
   return (
     <div>
@@ -119,17 +83,14 @@ export const Home: React.FC = React.memo(() => {
       <Container>
         <Header title="Overview"/>
 
-        <MainWidget
-          type={selectedMain}
-          href="/total"
-        />
+        <Widget main type={main}/>
 
         <WidgetContainer ref={containerRef}>
           <WidgetScroller
             drag="x"
             dragConstraints={containerRef}
           >
-            <WidgetList widgetOrder={widgetOrder ? widgetOrder : []}/>
+            {widgets.map(type => <Widget key={type} type={type}/>)}
           </WidgetScroller>
         </WidgetContainer>
 
@@ -143,7 +104,6 @@ export const Home: React.FC = React.memo(() => {
   );
 });
 
-
 const Container = styled.div`
   display: flex;
   flex-direction: column;
@@ -151,20 +111,17 @@ const Container = styled.div`
   margin-bottom: 24px;
 `;
 
-const WidgetContainer = styled(motion.div)`
+const WidgetContainer = styled.div`
   padding-bottom: 14px;
   overflow: visible;
   width: 100%;
-  
 `;
 
 const WidgetScroller = styled(motion.div)`
+  --gap: 12px;
+  
   display: flex;
   flex-direction: row;
-  gap: 16px;
+  gap: var(--gap);
   width: min-content;
-  
-  & > div {
-    flex-shrink: 0;
-  }
 `;

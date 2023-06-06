@@ -9,7 +9,7 @@ interface Props {
 
 export const Card = styled(motion.div)<Props>`
   display: flex;
-  width: ${(props) => props.full ? "100%" : "160px"};
+  width: ${(props) => props.full ? "100%" : "var(--widget-width)"};
   border-left: ${(props) => (props.selected ? "solid 8px var(--primary)" : "")};
   
   background-color: var(--white);
