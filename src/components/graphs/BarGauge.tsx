@@ -6,36 +6,44 @@ import { scaleLinear } from "@visx/scale";
 import { Group } from "@visx/group";
 import { Bar } from "@visx/shape";
 
-import { useSpringWith } from "../../utils/hooks";
+import { useSpringWith } from "~/utils/hooks";
 
 import { gaugeSizes } from "./sizes";
 import { AnimatedAxis } from "./AnimatedAxis";
 import styled from "@emotion/styled";
+import { UsageType } from "~/types";
 
 interface Props {
+  type: UsageType;
   value: number;
   limit?: number;
   widget?: boolean;
 }
 
 export const BarGauge: React.FC<Props> = ({
+  type,
   value,
   widget = false,
   limit,
 }) => {
   const { width, height, axisHeight, radius } = gaugeSizes(widget);
 
+  const d = useCallback((value: number) => {
+    const isTime = ["totalTime", "maxTime", "avgTime"].includes(type);
+    return isTime ? value / 60 : value;
+  }, [type]);
+
   const motionValue = useSpringWith(value);
   const scale = useCallback((value: number) => scaleLinear<number>({
     range: [0, width],
     round: true,
-    domain: [0, limit ? Math.max(limit, value) : value],
-  }), [limit, width]);
+    domain: [0, d(limit ? Math.max(limit, value) : value)],
+  }), [d, limit, width]);
 
   const isOverLimit = !!limit && (value > limit);
 
-  const valueWidth = useTransform(motionValue, v => scale(v)(v));
-  const limitWidth = useTransform(motionValue, v => scale(v)(limit || 0));
+  const valueWidth = useTransform(motionValue, v => scale(v)(d(v)));
+  const limitWidth = useTransform(motionValue, v => scale(v)(d(limit || 0)));
 
   return (
     <Container>

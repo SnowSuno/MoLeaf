@@ -1,25 +1,26 @@
 import React from "react";
-import { motion } from "framer-motion";
 
 import { MarginInline } from "../elements/MarginInline";
 import { BarGroup } from "./BarGroup";
 import { BarSelector } from "./BarSelector";
 import { DailyUsage, UsageType } from "~/types";
+import { useLimitOf } from "~/utils/hooks/useLimitOf";
 
 
 interface Props {
-  type: UsageType;
-  data: DailyUsage<"totalTime" | "pickups" | "maxTime" | "avgTime">[];
-  limit?: number;
+  type: Exclude<UsageType, "downTime">;
+  data: DailyUsage<Exclude<UsageType, "downTime">>[];
   selectedDate: number;
   onClickDate?: (date: number) => void;
 }
 
-export const BarGraph: React.FC<Props> = (props) => (
-  <div>
+export const BarGraph: React.FC<Props> = ({type, ...props}) => {
+  const limit = useLimitOf(type);
+
+  return <div>
     <MarginInline>
-      <BarGroup {...props}/>
+      <BarGroup type={type} limit={limit} {...props}/>
     </MarginInline>
-    <BarSelector {...props}/>
+    <BarSelector type={type} limit={limit} {...props}/>
   </div>
-);
+};

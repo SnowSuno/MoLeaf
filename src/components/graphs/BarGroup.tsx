@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React, { useCallback, useMemo } from "react";
 import { Group } from "@visx/group";
 import { scaleBand, scaleLinear } from "@visx/scale";
 import { ScaleSVG } from "@visx/responsive";
@@ -9,9 +9,10 @@ import { Axis } from "./Axis";
 import { Bar } from "./Bar";
 import { motion } from "framer-motion";
 import { useMeasureElement } from "~/state/utils/size";
-import { DailyUsage, hasData } from "~/types";
+import { DailyUsage, hasData, UsageType } from "~/types";
 
 interface Props {
+  type: UsageType;
   data: DailyUsage<"totalTime" | "pickups" | "maxTime" | "avgTime">[];
   limit?: number;
   selectedDate: number;
@@ -19,6 +20,7 @@ interface Props {
 }
 
 export const BarGroup: React.FC<Props> = ({
+  type,
   data,
   limit,
   selectedDate,
@@ -26,6 +28,11 @@ export const BarGroup: React.FC<Props> = ({
 }) => {
   const ref = useMeasureElement();
   const { width, height } = graphSizes();
+
+  const d = useCallback((value: number) => {
+    const isTime = ["totalTime", "maxTime", "avgTime"].includes(type);
+    return isTime ? value / 60 : value;
+  }, [type]);
 
   const xScale = useMemo(() =>
     scaleBand<number>({
@@ -38,8 +45,8 @@ export const BarGroup: React.FC<Props> = ({
     scaleLinear<number>({
       range: [height, 0],
       round: true,
-      domain: [0, Math.max(...data.map(data => data.usageData?.usage || 0))],
-    }), [height, data]);
+      domain: [0, Math.max(...data.map(data => d(data.usageData?.usage || 0)))],
+    }), [d, height, data]);
 
   return (
     <Container>
@@ -55,6 +62,7 @@ export const BarGroup: React.FC<Props> = ({
             hasData(dataPoint) && <Bar
               key={dataPoint.date}
               data={dataPoint}
+              d={d}
               limit={limit}
               xScale={xScale}
               yScale={yScale}

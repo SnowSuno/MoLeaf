@@ -13,10 +13,12 @@ interface Props {
   yScale: ScaleLinear<number, number>;
   focused?: boolean;
   onClick?: () => void;
+  d: (value: number) => number;
 }
 
 export const Bar: React.FC<Props> = ({
   data,
+  d,
   limit = 0,
   xScale,
   yScale,
@@ -24,6 +26,10 @@ export const Bar: React.FC<Props> = ({
   onClick,
 }) => {
   const { height } = graphSizes();
+  const [dValue, dLimit] = useMemo(
+    () => [d(data.usageData.usage), d(limit)] as const,
+    [d, data.usageData.usage, limit]
+  );
 
   const isOverLimit = useMemo(() => (
     !!limit && (data.usageData.usage > limit)
@@ -42,19 +48,19 @@ export const Bar: React.FC<Props> = ({
   return (
     <Group opacity={focused ? 1 : 0.3}>
       <VisxBar
-        {...x} {...value(data.usageData.usage)}
+        {...x} {...value(dValue)}
         fill={isOverLimit ? "var(--red)" : "var(--primary)"}
         rx={12}
         onClick={onClick}
       />
       {isOverLimit && <>
         <VisxBar
-          {...x} {...value(limit)}
+          {...x} {...value(dLimit)}
           fill={`rgba(var(--white_w), ${isOverLimit ? 0.22 : 0})`}
         />
         <VisxBar
           {...x}
-          y={yScale(limit)}
+          y={yScale(dLimit)}
           height={4}
           fill="var(--white)"
         />

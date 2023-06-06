@@ -1,0 +1,17 @@
+{
+  "translation": {
+    "usage": {
+      "totalTime": { "long": "총 사용 시간", "short": "총 사용 시간" },
+      "pickups": { "long": "잠금해제 횟수", "short": "잠금해제 횟수" },
+      "downTime": { "long": "다운 타임", "short": "다운 타임" },
+      "maxTime": { "long": "최장 사용 시간", "short": "최장 사용" },
+      "avgTime": { "long": "평균 사용 시간", "short": "평균 사용" }
+    },
+    "common": {
+      "units": {
+        "number": "회"
+      },
+      "goal": "목표"
+    }
+  }
+}
