@@ -2,12 +2,9 @@ import React, { useEffect, useState } from "react";
 import { Page } from "../../components/layouts/Page";
 import { ChevronLeft, ChevronRight } from "../../assets/icons";
 import styled from "@emotion/styled";
-import { MainWidget, SmallTimeWidget } from "../../components/widgets";
 import { Button, Card } from "../../components/elements";
 import { Settings } from "../../assets/icons";
-import { SmallPatternWidget } from "../../components/widgets/SmallPatternWidget";
 import { Radio } from "../../components/elements";
-import { SmallNumberWidget } from "../../components/widgets/SmallNumberWidget";
 import { useTranslation } from "react-i18next";
 
 interface Props {
@@ -16,72 +13,6 @@ interface Props {
   setSelected: (selected: string) => void;
 }
 
-const WidgetList: React.FC<Props> = ({
-  widgetOrder,
-  selected,
-  setSelected,
-}) => {
-  return (
-    <>
-      {widgetOrder.map((x) => {
-        if (x == "totalTime") {
-          return (
-            <SmallTimeWidget
-              title="전체 사용 시간"
-              actual={{ hours: 2, minutes: 27 }}
-              goal={{ hours: 4, minutes: 0 }}
-              selected={selected == "totalTime"}
-              onClick={() => (selected == x ? setSelected("") : setSelected(x))}
-            />
-          );
-        } else if (x == "maxTime") {
-          return (
-            <SmallTimeWidget
-              title="최대 사용 시간"
-              actual={{ hours: 3, minutes: 12 }}
-              goal={{ hours: 3, minutes: 0 }}
-              selected={selected == "maxTime"}
-              onClick={() => (selected == x ? setSelected("") : setSelected(x))}
-            />
-          );
-        } else if (x == "averageTime") {
-          return (
-            <SmallTimeWidget
-              title="평균 사용 시간"
-              actual={{ hours: 0, minutes: 12 }}
-              selected={selected == "averageTime"}
-              onClick={() => (selected == x ? setSelected("") : setSelected(x))}
-            />
-          );
-        } else if (x == "downtime") {
-          return (
-            <SmallPatternWidget
-              title="다운 타임"
-              on={true}
-              range={{
-                startTime: { hours: 20, minutes: 0 },
-                endTime: { hours: 23, minutes: 0 },
-              }}
-              selected={selected == "downtime"}
-              onClick={() => (selected == x ? setSelected("") : setSelected(x))}
-            />
-          );
-        } else if (x == "numUnlocks") {
-          return (
-            <SmallNumberWidget
-              title="평균 사용 시간"
-              actual={36}
-              selected={selected == "numUnlocks"}
-              onClick={() => (selected == x ? setSelected("") : setSelected(x))}
-            />
-          );
-        } else {
-          return <></>;
-        }
-      })}
-    </>
-  );
-};
 
 interface ControllerProps {
   selectedIdx: number;
@@ -162,69 +93,69 @@ export const Customize: React.FC = () => {
 
   return (
     <Page title={t(`home.edit`)}>
-      <Container>
-        <div
-          onClick={() =>
-            selected == "main" ? setSelected("") : setSelected("main")
-          }
-        >
-          <MainWidget type={selectedMain} icon={Settings} />
-        </div>
-        {selected == "main" ? (
-          <ExpandedWidget>
-            <Radio
-              text="전체 사용 시간"
-              selected={selectedMain == "totalTime"}
-              onClick={() => setSelectedMain("totalTime")}
-            />
-            <Radio
-              text="평균 사용 시간"
-              selected={selectedMain == "averageTime"}
-              onClick={() => setSelectedMain("averageTime")}
-            />
-            <Radio
-              text="최대 사용 시간"
-              selected={selectedMain == "maxTime"}
-              onClick={() => setSelectedMain("maxTime")}
-            />
-            {/* <Radio
-              text="다운 타임"
-              selected={selectedMain == "downtime"}
-              onClick={() => setSelectedMain("downtime")}
-            /> */}
-            {/* <Radio
-              text="잠금 해제 횟수"
-              selected={selectedMain == "numUnlocks"}
-              onClick={() => setSelectedMain("numUnlocks")}
-            /> */}
-          </ExpandedWidget>
-        ) : (
-          <></>
-        )}
+      {/*<Container>*/}
+      {/*  <div*/}
+      {/*    onClick={() =>*/}
+      {/*      selected == "main" ? setSelected("") : setSelected("main")*/}
+      {/*    }*/}
+      {/*  >*/}
+      {/*    <MainWidget type={selectedMain} icon={Settings} />*/}
+      {/*  </div>*/}
+      {/*  {selected == "main" ? (*/}
+      {/*    <ExpandedWidget>*/}
+      {/*      <Radio*/}
+      {/*        text="전체 사용 시간"*/}
+      {/*        selected={selectedMain == "totalTime"}*/}
+      {/*        onClick={() => setSelectedMain("totalTime")}*/}
+      {/*      />*/}
+      {/*      <Radio*/}
+      {/*        text="평균 사용 시간"*/}
+      {/*        selected={selectedMain == "averageTime"}*/}
+      {/*        onClick={() => setSelectedMain("averageTime")}*/}
+      {/*      />*/}
+      {/*      <Radio*/}
+      {/*        text="최대 사용 시간"*/}
+      {/*        selected={selectedMain == "maxTime"}*/}
+      {/*        onClick={() => setSelectedMain("maxTime")}*/}
+      {/*      />*/}
+      {/*      /!* <Radio*/}
+      {/*        text="다운 타임"*/}
+      {/*        selected={selectedMain == "downtime"}*/}
+      {/*        onClick={() => setSelectedMain("downtime")}*/}
+      {/*      /> *!/*/}
+      {/*      /!* <Radio*/}
+      {/*        text="잠금 해제 횟수"*/}
+      {/*        selected={selectedMain == "numUnlocks"}*/}
+      {/*        onClick={() => setSelectedMain("numUnlocks")}*/}
+      {/*      /> *!/*/}
+      {/*    </ExpandedWidget>*/}
+      {/*  ) : (*/}
+      {/*    <></>*/}
+      {/*  )}*/}
 
-        <div style={{ overflow: "auto" }}>
-          <WidgetContainer>
-            <WidgetList
-              widgetOrder={widgetOrder}
-              selected={selected}
-              setSelected={setSelected}
-            />
-          </WidgetContainer>
-        </div>
+      {/*  <div style={{ overflow: "auto" }}>*/}
+      {/*    <WidgetContainer>*/}
+      {/*      <WidgetList*/}
+      {/*        widgetOrder={widgetOrder}*/}
+      {/*        selected={selected}*/}
+      {/*        setSelected={setSelected}*/}
+      {/*      />*/}
+      {/*    </WidgetContainer>*/}
+      {/*  </div>*/}
 
-        <div style={{ textAlign: "center" }}>
-          <Button text={t(`common.saveButton`)} onClick={save} />
-        </div>
-      </Container>
-      {selected && selected != "main" ? (
-        <Controller
-          selectedIdx={widgetOrder.findIndex((x) => x == selected)}
-          widgetNum={widgetOrder.length}
-          move={move}
-        />
-      ) : (
-        <></>
-      )}
+      {/*  <div style={{ textAlign: "center" }}>*/}
+      {/*    <Button text={t(`common.saveButton`)} onClick={save} />*/}
+      {/*  </div>*/}
+      {/*</Container>*/}
+      {/*{selected && selected != "main" ? (*/}
+      {/*  <Controller*/}
+      {/*    selectedIdx={widgetOrder.findIndex((x) => x == selected)}*/}
+      {/*    widgetNum={widgetOrder.length}*/}
+      {/*    move={move}*/}
+      {/*  />*/}
+      {/*) : (*/}
+      {/*  <></>*/}
+      {/*)}*/}
     </Page>
   );
 };

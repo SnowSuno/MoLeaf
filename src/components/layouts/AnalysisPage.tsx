@@ -11,6 +11,7 @@ import { paginate } from "~/utils/paginate";
 import { BarSelector } from "~/components/graphs";
 import { AnalysisDetails } from "~/components/blocks/AnalysisDetails";
 import { useTranslation } from "react-i18next";
+import { DowntimeGraph } from "~/components/graphs/DowntimeGraph";
 
 interface Props<T extends UsageType> {
   type: T;
@@ -64,19 +65,21 @@ export const AnalysisPage = React.memo(<T extends UsageType, > (
             data={weekData}
             selectedDate={selectedDate}
             onClickDate={setSelectedDate}
-          /> : isDataTypeArray(
-            type, weekData,
-            ["downTime"],
-          ) && <BarSelector
+          /> : <BarSelector
             key={index}
             type={type}
             data={weekData}
-            // limit={limit}
             selectedDate={selectedDate}
             onClickDate={setSelectedDate}
           />
         )}
       </Swipeable>
+      {isDataType(type, selectedData, ["downTime"])
+        && hasData(selectedData)
+        && <DowntimeGraph
+          data={selectedData}
+        />
+      }
       <Divider/>
       {isDataType(type, selectedData,
           ["totalTime", "pickups", "maxTime", "avgTime"])

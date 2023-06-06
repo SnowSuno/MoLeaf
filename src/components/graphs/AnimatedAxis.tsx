@@ -7,9 +7,10 @@ import { Axis } from "./Axis";
 
 interface Props {
   scale: ScaleLinear<number, number>;
+  unit?: string;
 }
 
-export const AnimatedAxis: React.FC<Props> = ({ scale }) => {
+export const AnimatedAxis: React.FC<Props> = ({ scale, unit }) => {
   const { height } = gaugeSizes(false);
 
   return (
@@ -24,6 +25,7 @@ export const AnimatedAxis: React.FC<Props> = ({ scale }) => {
           orientation="bottom"
           top={height}
           scale={scale}
+          unit={unit}
         />
       </motion.g>
     </AnimatePresence>

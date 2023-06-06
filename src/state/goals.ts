@@ -13,10 +13,13 @@ interface GoalState {
 
 export const useGoalState = create<GoalState>(set => ({
   goals: {
-    totalTime: 120,
+    totalTime: 240,
     pickups: undefined,
-    downTime: [],
-    maxTime: undefined,
+    downTime: [
+      [5, 9],
+      [15, 16],
+    ],
+    maxTime: 40,
     avgTime: undefined,
   }
 }));
