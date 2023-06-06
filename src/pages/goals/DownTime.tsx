@@ -2,9 +2,9 @@ import React, { useState } from "react";
 
 import styled from "@emotion/styled";
 
-import { Page } from "../../components/layouts/Page";
-import { GoalInput } from "../../components/GoalInput";
-import { Toggle } from "../../components/elements";
+import { Page } from "~/components/layouts/Page";
+import { GoalInput } from "~/components/GoalInput";
+import { Toggle } from "~/components/elements";
 import { useTranslation } from "react-i18next";
 
 interface Props {
@@ -25,7 +25,6 @@ const DownTimeBox: React.FC<Props> = ({
   endTime,
   index,
   removeData,
-  active = true,
 }) => {
   return (
     <InnerContainer1>
