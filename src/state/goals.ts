@@ -2,21 +2,21 @@ import { create } from "zustand";
 
 interface GoalState {
   goals: {
-    totalTime: number | null;
-    pickups: number | null;
-    downTime: [number, number][] | null;
-    maxTime: number | null
-    avgTime: number | null;
+    totalTime: number | undefined;
+    pickups: number | undefined;
+    downTime: [number, number][] | undefined;
+    maxTime: number | undefined;
+    avgTime: number | undefined;
   };
 
 }
 
 export const useGoalState = create<GoalState>(set => ({
   goals: {
-    totalTime: 0,
-    pickups: 0,
+    totalTime: 120,
+    pickups: undefined,
     downTime: [],
-    maxTime: 0,
-    avgTime: 0,
+    maxTime: undefined,
+    avgTime: undefined,
   }
 }));

@@ -6,7 +6,7 @@ import { scaleLinear } from "@visx/scale";
 import { Group } from "@visx/group";
 import { Bar } from "@visx/shape";
 
-import { useSpringWith } from "../../utils/hooks";
+import { useSpringWith } from "~/utils/hooks";
 
 import { gaugeSizes } from "./sizes";
 import { AnimatedAxis } from "./AnimatedAxis";

@@ -1,13 +1,8 @@
 import { useGoalState } from "~/state/goals";
 import { shallow } from "zustand/shallow";
-import { DailyUsage, type UsageType } from "~/types";
-import { useCallback, useMemo } from "react";
+import { useMemo } from "react";
 
-export const useLimitOf = <T extends UsageType> (type: T) => {
+export const useLimitOf = <T extends "totalTime" | "pickups" | "maxTime" | "avgTime">(type: T): number | undefined => {
   const goals = useGoalState(state => state.goals, shallow);
-  const limit = useMemo(() => goals[type], [goals, type]);
-
-  return useCallback((data: DailyUsage<T>) => {
-
-  }, [limit])
+  return useMemo(() => goals[type], [goals, type]);
 };

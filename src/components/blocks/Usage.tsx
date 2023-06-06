@@ -5,12 +5,12 @@ import { Text } from "~/components/elements/Text";
 import { isDataType, UsageType } from "~/types";
 import { FormatValue } from "~/utils/format";
 import { useTranslation } from "react-i18next";
+import { useLimitOf } from "~/utils/hooks/useLimitOf";
 
 interface Props {
   date: number;
-  type: UsageType;
+  type: Exclude<UsageType, "downTime">;
   value: number;
-  limit?: number;
   widget?: boolean;
 }
 
@@ -18,11 +18,10 @@ export const Usage: React.FC<Props> = ({
   type,
   date,
   value,
-  limit,
   widget = false
 }) => {
+  const limit = useLimitOf(type);
   const { t } = useTranslation();
-  const isTime = ["totalTime", "maxTime", "avgTime"].includes(type);
 
   return (
     <Container>

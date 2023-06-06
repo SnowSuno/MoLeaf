@@ -29,8 +29,8 @@ export const Widget: React.FC<Props> = ({
   // href,
   // ...props
 }) => {
-  const { t } = useTranslation();
   const data = useUsageOf(type);
+
 
   const usage = useMemo(() => data.at(-1), [data]);
 
@@ -41,9 +41,8 @@ export const Widget: React.FC<Props> = ({
           && hasData(usage)
           && <Usage
             date={14} // Last date in dataset
-            type={type}
+            type={type as Exclude<UsageType, "downTime">}
             value={usage.usageData.usage}
-            limit={120}
             widget={!main}
           />
         }
@@ -52,26 +51,3 @@ export const Widget: React.FC<Props> = ({
     </UnstyledLink>
   );
 };
-
-const Header = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px;
-`;
-
-const Title = styled.div`
-  color: var(--dark-text);
-  font-size: 16px;
-  font-weight: var(--medium-text);
-`;
-
-const FailTag = styled.div`
-  color: var(--red);
-  background-color: rgba(var(--light-red_w), 0.3);
-  font-size: 12px;
-  font-weight: var(--medium-text);
-  padding: 4px 8px;
-  border-radius: 4px;
-`;

@@ -49,7 +49,6 @@ export const AnalysisPage = React.memo(<T extends UsageType, > (
     data.find(({ date }) => date === selectedDate)
   ), [selectedDate, data]);
 
-  const limit = 240;
 
   return (
     <Page title={t(`usage.${type}.long`)}>
@@ -61,9 +60,8 @@ export const AnalysisPage = React.memo(<T extends UsageType, > (
             ["totalTime", "pickups", "maxTime", "avgTime"]
           ) ? <BarGraph
             key={index}
-            type={type}
+            type={type as Exclude<UsageType, "downTime">}
             data={weekData}
-            limit={limit}
             selectedDate={selectedDate}
             onClickDate={setSelectedDate}
           /> : isDataTypeArray(
@@ -73,7 +71,7 @@ export const AnalysisPage = React.memo(<T extends UsageType, > (
             key={index}
             type={type}
             data={weekData}
-            limit={limit}
+            // limit={limit}
             selectedDate={selectedDate}
             onClickDate={setSelectedDate}
           />
@@ -84,10 +82,9 @@ export const AnalysisPage = React.memo(<T extends UsageType, > (
           ["totalTime", "pickups", "maxTime", "avgTime"])
         && hasData(selectedData)
         && <AnalysisDetails
-          type={type}
+          type={type as Exclude<UsageType, "downTime">}
           date={selectedDate}
           data={selectedData}
-          limit={limit}
         />}
     </Page>
   );
