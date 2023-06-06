@@ -7,6 +7,7 @@
       "maxTime": { "long": "Maximum Usage Time", "short": "Max Time" },
       "avgTime": { "long": "Average Usage Time", "short": "Avg Time" }
     },
+    "home": { "edit": "Customize Screen" },
     "goal": {
       "active": "Active Goals",
       "undefined": "Goals Not Set",
@@ -35,7 +36,8 @@
         "year": ""
       },
       "goal": "goal",
-      "undefined": "undefined"
+      "undefined": "undefined",
+      "saveButton": "Save"
     }
   }
 }

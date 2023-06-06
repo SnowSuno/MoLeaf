@@ -7,6 +7,7 @@
       "maxTime": { "long": "최장 사용 시간", "short": "최장 사용" },
       "avgTime": { "long": "평균 사용 시간", "short": "평균 사용" }
     },
+    "home": { "edit": "홈 화면 수정하기" },
     "goal": {
       "active": "현재 설정된 목표",
       "undefined": "미설정 목표",
@@ -35,7 +36,8 @@
         "year": "년"
       },
       "goal": "목표",
-      "undefined": "미설정"
+      "undefined": "미설정",
+      "saveButton": "Save"
     }
   }
 }
