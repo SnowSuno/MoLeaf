@@ -25,6 +25,7 @@ const DownTimeBox: React.FC<Props> = ({
   endTime,
   index,
   removeData,
+  active = true,
 }) => {
   return (
     <InnerContainer1>
@@ -79,8 +80,8 @@ const DownTimeBox: React.FC<Props> = ({
   );
 };
 
-export const DownTime: React.FC = () => {
-  const [toggled, setToggled] = useState<boolean>(false);
+export const DownTime: React.FC<{ active?: boolean }> = ({ active = true }) => {
+  const [toggled, setToggled] = useState<boolean>(active);
   const [data, setData] = useState([
     {
       startTime: { hours: 3, minutes: 0 },
@@ -112,10 +113,10 @@ export const DownTime: React.FC = () => {
       <PageContainer>
         <InnerContainer1>
           <Category>{t(`goal.setGoal`)}</Category>
-          <Toggle toggled={!toggled} setToggled={setToggled} />
+          <Toggle toggled={toggled} setToggled={setToggled} />
         </InnerContainer1>
 
-        {toggled ? (
+        {!toggled ? (
           <></>
         ) : (
           <Container>
@@ -131,7 +132,7 @@ export const DownTime: React.FC = () => {
           </Container>
         )}
 
-        {toggled ? (
+        {!toggled ? (
           <></>
         ) : (
           <InformationBox>

@@ -54,10 +54,10 @@ const router = createBrowserRouter([
           },
           {
             path: "avg",
-            element: <TotalTime type="avgTime" />,
+            element: <TotalTime type="avgTime" active={false} />,
           },
           { path: "downtime", element: <DownTime /> },
-          { path: "pickups", element: <Pickups /> },
+          { path: "pickups", element: <Pickups active={false} /> },
         ],
       },
       { path: "settings", element: <Settings /> },

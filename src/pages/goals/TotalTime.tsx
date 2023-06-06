@@ -14,13 +14,15 @@ interface Props {
     hours: number;
     minutes: number;
   };
+  active?: boolean;
 }
 
 export const TotalTime: React.FC<Props> = ({
   type,
   goal = { hours: 0, minutes: 0 },
+  active = true,
 }) => {
-  const [toggled, setToggled] = useState<boolean>(false);
+  const [toggled, setToggled] = useState<boolean>(active);
   const { t } = useTranslation();
 
   return (
@@ -28,10 +30,10 @@ export const TotalTime: React.FC<Props> = ({
       <PageContainer>
         <InnerContainer1>
           <Category> {t(`goal.setGoal`)}</Category>
-          <Toggle toggled={!toggled} setToggled={setToggled} />
+          <Toggle toggled={toggled} setToggled={setToggled} />
         </InnerContainer1>
 
-        {toggled ? (
+        {!toggled ? (
           <></>
         ) : (
           <Container>
@@ -45,7 +47,7 @@ export const TotalTime: React.FC<Props> = ({
           </Container>
         )}
 
-        {toggled ? (
+        {!toggled ? (
           <></>
         ) : (
           <InformationBox>

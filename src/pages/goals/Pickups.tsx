@@ -9,10 +9,11 @@ import { useTranslation } from "react-i18next";
 
 interface Props {
   goal?: number;
+  active?: boolean;
 }
 
-export const Pickups: React.FC<Props> = ({ goal }) => {
-  const [toggled, setToggled] = useState<boolean>(false);
+export const Pickups: React.FC<Props> = ({ goal, active = true }) => {
+  const [toggled, setToggled] = useState<boolean>(active);
   const { t } = useTranslation();
 
   return (
@@ -20,10 +21,10 @@ export const Pickups: React.FC<Props> = ({ goal }) => {
       <PageContainer>
         <InnerContainer1>
           <Category>{t(`goal.setGoal`)}</Category>
-          <Toggle toggled={!toggled} setToggled={setToggled} />
+          <Toggle toggled={toggled} setToggled={setToggled} />
         </InnerContainer1>
 
-        {toggled ? (
+        {!toggled ? (
           <></>
         ) : (
           <Container>
@@ -35,7 +36,7 @@ export const Pickups: React.FC<Props> = ({ goal }) => {
           </Container>
         )}
 
-        {toggled ? (
+        {!toggled ? (
           <></>
         ) : (
           <InformationBox>

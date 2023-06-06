@@ -23,8 +23,8 @@ export const Goals: React.FC = () => {
         </section>
         <section>
           <h2>{t(`goal.undefined`)}</h2>
-          <TimeUsageGoal type="avgTime" />
-          <TimeUsageGoal type="pickups" />
+          <TimeUsageGoal type="avgTime" inactive />
+          <TimeUsageGoal type="pickups" inactive />
         </section>
       </Container>
     </div>
