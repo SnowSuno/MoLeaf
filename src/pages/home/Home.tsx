@@ -6,7 +6,9 @@ import { SmallTimeWidget } from "~/components/widgets";
 import styled from "@emotion/styled";
 import { Button, Widget } from "~/components/elements";
 import { Settings } from "~/assets/icons";
-import { SmallPatternWidget } from "~/components/widgets/SmallPatternWidget";
+import {
+  SmallPatternWidget,
+} from "~/components/widgets/SmallPatternWidget";
 import { SmallNumberWidget } from "~/components/widgets/SmallNumberWidget";
 import { motion } from "framer-motion";
 import { useWidgets } from "~/utils/hooks/useWidgets";
@@ -116,10 +118,8 @@ const WidgetContainer = styled.div`
 `;
 
 const WidgetScroller = styled(motion.div)`
-  --gap: 12px;
-  
   display: flex;
   flex-direction: row;
-  gap: var(--gap);
+  gap: 16px;
   width: min-content;
 `;

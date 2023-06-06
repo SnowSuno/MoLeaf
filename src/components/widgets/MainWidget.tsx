@@ -12,7 +12,7 @@ interface Props {
   // onClick?: () => void;
 }
 
-export const MainWidget: React.FC<Props> = ({ type, icon, ...props }) => {
+export const MainWidget: React.FC<Props> = ({ type, icon: Icon, ...props }) => {
   const text = {
     totalTime: "전체 사용 시간",
     maxTime: "최대 사용 시간",
@@ -32,7 +32,14 @@ export const MainWidget: React.FC<Props> = ({ type, icon, ...props }) => {
   }[type];
 
   return (
-    <Widget full title={text} icon={icon} {...props}>
+    <Widget full title={text} {...props}>
+      {Icon ? (
+        <div style={{ float: "right", marginTop: "-24px", cursor: "pointer" }}>
+          <Icon size={24} color="var(--dark-text)" />
+        </div>
+      ) : (
+        <></>
+      )}
       <Container>
         {time ? (
           <TotalTime>

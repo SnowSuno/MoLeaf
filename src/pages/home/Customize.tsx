@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Page } from "../../components/layouts/Page";
 import { ChevronLeft, ChevronRight } from "../../assets/icons";
 import styled from "@emotion/styled";
@@ -8,7 +8,6 @@ import { Settings } from "../../assets/icons";
 import { SmallPatternWidget } from "../../components/widgets/SmallPatternWidget";
 import { Radio } from "../../components/elements";
 import { SmallNumberWidget } from "../../components/widgets/SmallNumberWidget";
-import { motion } from "framer-motion";
 
 interface Props {
   widgetOrder: string[];
@@ -27,8 +26,7 @@ const WidgetList: React.FC<Props> = ({
         if (x == "totalTime") {
           return (
             <SmallTimeWidget
-              key={x}
-              title="전체 사용"
+              title="전체 사용 시간"
               actual={{ hours: 2, minutes: 27 }}
               goal={{ hours: 4, minutes: 0 }}
               selected={selected == "totalTime"}
@@ -38,8 +36,7 @@ const WidgetList: React.FC<Props> = ({
         } else if (x == "maxTime") {
           return (
             <SmallTimeWidget
-              key={x}
-              title="최대 사용"
+              title="최대 사용 시간"
               actual={{ hours: 3, minutes: 12 }}
               goal={{ hours: 3, minutes: 0 }}
               selected={selected == "maxTime"}
@@ -49,8 +46,7 @@ const WidgetList: React.FC<Props> = ({
         } else if (x == "averageTime") {
           return (
             <SmallTimeWidget
-              key={x}
-              title="평균 사용"
+              title="평균 사용 시간"
               actual={{ hours: 0, minutes: 12 }}
               selected={selected == "averageTime"}
               onClick={() => (selected == x ? setSelected("") : setSelected(x))}
@@ -59,7 +55,6 @@ const WidgetList: React.FC<Props> = ({
         } else if (x == "downtime") {
           return (
             <SmallPatternWidget
-              key={x}
               title="다운 타임"
               on={true}
               range={{
@@ -73,15 +68,14 @@ const WidgetList: React.FC<Props> = ({
         } else if (x == "numUnlocks") {
           return (
             <SmallNumberWidget
-              key={x}
-              title="잠금 해제"
+              title="평균 사용 시간"
               actual={36}
               selected={selected == "numUnlocks"}
               onClick={() => (selected == x ? setSelected("") : setSelected(x))}
             />
           );
         } else {
-          return null;
+          return <></>;
         }
       })}
     </>
@@ -137,8 +131,6 @@ export const Customize: React.FC = () => {
   const [selected, setSelected] = useState<string>("");
   const [selectedMain, setSelectedMain] = useState<string>("");
 
-  const containerRef = useRef<HTMLDivElement>(null);
-
   useEffect(() => {
     const tmpWidgetOrder = localStorage.getItem("widgetOrder")?.split(",");
     if (tmpWidgetOrder) setWidgetOrder(tmpWidgetOrder);
@@ -166,7 +158,7 @@ export const Customize: React.FC = () => {
   };
 
   return (
-    <Page title="홈 화면 수정하기" background>
+    <Page title="홈 화면 수정하기">
       <Container>
         <div
           onClick={() =>
@@ -208,14 +200,12 @@ export const Customize: React.FC = () => {
         )}
 
         <div style={{ overflow: "auto" }}>
-          <WidgetContainer ref={containerRef}>
-            <WidgetScroller drag="x" dragConstraints={containerRef}>
-              <WidgetList
-                widgetOrder={widgetOrder ? widgetOrder : []}
-                // selected={selected}
-                // setSelected={setSelected}
-              />
-            </WidgetScroller>
+          <WidgetContainer>
+            <WidgetList
+              widgetOrder={widgetOrder}
+              selected={selected}
+              setSelected={setSelected}
+            />
           </WidgetContainer>
         </div>
 
@@ -240,7 +230,8 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   gap: 24px;
-  margin-bottom: 24px;
+  padding: 24px;
+  margin: 0 auto;
 `;
 
 const ExpandedWidget = styled(Card)`
@@ -250,26 +241,16 @@ const ExpandedWidget = styled(Card)`
 `;
 
 const WidgetContainer = styled.div`
-  overflow: visible;
-  width: 100%;
-`;
-
-const WidgetScroller = styled(motion.div)`
   display: flex;
   flex-direction: row;
   gap: 16px;
-  width: min-content;
-  // border: solid 1px black;
-
-  & > div {
-    flex-shrink: 0;
-  }
+  overflow-x: scroll;
 `;
 
 const ControllerContainer = styled.div`
   position: absolute;
   bottom: 0;
-  width: calc(100% - 48px);
+  width: 100%;
   align-items: center;
   padding: 24px;
   display: flex;
