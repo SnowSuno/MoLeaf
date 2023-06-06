@@ -7,11 +7,12 @@ import { Button, Widget } from "~/components/elements";
 import { Settings } from "~/assets/icons";
 import { motion } from "framer-motion";
 import { useWidgets } from "~/utils/hooks/useWidgets";
-
+import { useTranslation } from "react-i18next";
 
 export const Home: React.FC = React.memo(() => {
   const containerRef = useRef<HTMLDivElement>(null);
   const { main, widgets } = useWidgets();
+  const { t } = useTranslation();
 
   return (
     <div>
@@ -19,20 +20,19 @@ export const Home: React.FC = React.memo(() => {
       <Container>
         <Header title="Overview" />
 
-        <Widget main type={main}/>
+        <Widget main type={main} />
 
         <WidgetContainer ref={containerRef}>
-          <WidgetScroller
-            drag="x"
-            dragConstraints={containerRef}
-          >
-            {widgets.map(type => <Widget key={type} type={type}/>)}
+          <WidgetScroller drag="x" dragConstraints={containerRef}>
+            {widgets.map((type) => (
+              <Widget key={type} type={type} />
+            ))}
           </WidgetScroller>
         </WidgetContainer>
 
         <div style={{ margin: "0 auto" }}>
           <Link to="/customize" style={{ textDecoration: "none" }}>
-            <Button icon={Settings} text="홈 화면 수정하기" />
+            <Button icon={Settings} text={t(`home.edit`)} />
           </Link>
         </div>
       </Container>

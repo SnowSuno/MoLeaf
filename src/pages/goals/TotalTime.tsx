@@ -5,51 +5,53 @@ import { Page } from "../../components/layouts/Page";
 
 import { Toggle } from "../../components/elements";
 import { GoalInput } from "../../components/GoalInput";
+import { useTranslation } from "react-i18next";
+import { UsageType } from "~/types";
 
 interface Props {
-  text: string;
+  type: UsageType;
   goal?: {
     hours: number;
     minutes: number;
   };
+  active?: boolean;
 }
 
 export const TotalTime: React.FC<Props> = ({
-  text,
+  type,
   goal = { hours: 0, minutes: 0 },
+  active = true,
 }) => {
-  const [toggled, setToggled] = useState<boolean>(false);
+  const [toggled, setToggled] = useState<boolean>(active);
+  const { t } = useTranslation();
 
   return (
-    <Page title={text} background>
+    <Page title={t(`usage.${type}.long`)} background>
       <PageContainer>
         <InnerContainer1>
-          <Category>목표 설정 해제하기</Category>
+          <Category> {t(`goal.setGoal`)}</Category>
           <Toggle toggled={toggled} setToggled={setToggled} />
         </InnerContainer1>
 
-        {toggled ? (
+        {!toggled ? (
           <></>
         ) : (
           <Container>
-            <Category>목표 설정하기</Category>
             <InnerContainer2>
               <GoalInput max={24} initVal={goal?.hours} />
               <GoalTime1>h</GoalTime1>
               <GoalInput max={59} initVal={goal?.minutes} />
               <GoalTime1>m</GoalTime1>
-              <GoalTime2>/ 일</GoalTime2>
+              <GoalTime2>/ {t(`common.units.day`)}</GoalTime2>
             </InnerContainer2>
           </Container>
         )}
 
-        {toggled ? (
+        {!toggled ? (
           <></>
         ) : (
           <InformationBox>
-            <Information>
-              다른 사람들은 평균적으로 하루에 6h 32m 사용합니다.
-            </Information>
+            <Information>{t(`goal.helper.${type}`)}</Information>
           </InformationBox>
         )}
       </PageContainer>

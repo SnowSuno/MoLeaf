@@ -8,6 +8,7 @@ import { Settings } from "../../assets/icons";
 import { SmallPatternWidget } from "../../components/widgets/SmallPatternWidget";
 import { Radio } from "../../components/elements";
 import { SmallNumberWidget } from "../../components/widgets/SmallNumberWidget";
+import { useTranslation } from "react-i18next";
 
 interface Props {
   widgetOrder: string[];
@@ -157,8 +158,10 @@ export const Customize: React.FC = () => {
     window.location.href = "/";
   };
 
+  const { t } = useTranslation();
+
   return (
-    <Page title="홈 화면 수정하기">
+    <Page title={t(`home.edit`)}>
       <Container>
         <div
           onClick={() =>
@@ -210,7 +213,7 @@ export const Customize: React.FC = () => {
         </div>
 
         <div style={{ textAlign: "center" }}>
-          <Button text="저장하기" onClick={save} />
+          <Button text={t(`common.saveButton`)} onClick={save} />
         </div>
       </Container>
       {selected && selected != "main" ? (

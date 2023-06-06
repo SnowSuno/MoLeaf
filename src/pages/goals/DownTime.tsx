@@ -5,6 +5,7 @@ import styled from "@emotion/styled";
 import { Page } from "../../components/layouts/Page";
 import { GoalInput } from "../../components/GoalInput";
 import { Toggle } from "../../components/elements";
+import { useTranslation } from "react-i18next";
 
 interface Props {
   startTime: {
@@ -24,6 +25,7 @@ const DownTimeBox: React.FC<Props> = ({
   endTime,
   index,
   removeData,
+  active = true,
 }) => {
   return (
     <InnerContainer1>
@@ -78,8 +80,8 @@ const DownTimeBox: React.FC<Props> = ({
   );
 };
 
-export const DownTime: React.FC = () => {
-  const [toggled, setToggled] = useState<boolean>(false);
+export const DownTime: React.FC<{ active?: boolean }> = ({ active = true }) => {
+  const [toggled, setToggled] = useState<boolean>(active);
   const [data, setData] = useState([
     {
       startTime: { hours: 3, minutes: 0 },
@@ -104,19 +106,20 @@ export const DownTime: React.FC = () => {
     setData(data);
   };
 
+  const { t } = useTranslation();
+
   return (
-    <Page title="전체 사용 시간" background>
+    <Page title={t(`usage.downTime.long`)} background>
       <PageContainer>
         <InnerContainer1>
-          <Category>목표 설정 해제하기</Category>
+          <Category>{t(`goal.setGoal`)}</Category>
           <Toggle toggled={toggled} setToggled={setToggled} />
         </InnerContainer1>
 
-        {toggled ? (
+        {!toggled ? (
           <></>
         ) : (
           <Container>
-            <Category>목표 설정하기</Category>
             {data.map((x, index) => (
               <DownTimeBox
                 startTime={x.startTime}
@@ -129,13 +132,11 @@ export const DownTime: React.FC = () => {
           </Container>
         )}
 
-        {toggled ? (
+        {!toggled ? (
           <></>
         ) : (
           <InformationBox>
-            <Information>
-              다른 사람들이 자주 설정하는 다운 타임 시간대는 3AM ~ 6AM입니다.
-            </Information>
+            <Information>{t(`goal.helper.downTime`)}</Information>
           </InformationBox>
         )}
       </PageContainer>

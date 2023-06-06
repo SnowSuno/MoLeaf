@@ -7,11 +7,38 @@
       "maxTime": { "long": "최장 사용 시간", "short": "최장 사용" },
       "avgTime": { "long": "평균 사용 시간", "short": "평균 사용" }
     },
+    "home": { "edit": "홈 화면 수정하기" },
+    "goal": {
+      "active": "현재 설정된 목표",
+      "undefined": "미설정 목표",
+      "setGoal": "목표 설정하기",
+      "helper": {
+        "totalTime": "다른 사람들은 평균적으로 하루에 6h 32m 사용합니다.",
+        "pickups": "다른 사람들은 평균적으로 하루에 86회 잠금 해제합니다.",
+        "downTime": "다른 사람들이 자주 설정하는 다운 타임 시간대는 3AM ~ 6AM입니다.",
+        "maxTime": "다른 사람들은 평균적으로 하루에 3h 27m 사용합니다.",
+        "avgTime": "다른 사람들은 평균적으로 하루에 1h 17m 사용합니다."
+      }
+    },
+    "settings": {
+      "userInfo": "유저 정보",
+      "name": "이도라",
+      "privacy": {
+        "consent": "개인정보 수집 및 이용 안내",
+        "agree": "개인정보 수집 및 이용에 동의합니다"
+      }
+    },
     "common": {
       "units": {
-        "number": "회"
+        "number": "회",
+        "day": "일",
+        "week": "주",
+        "year": "년"
       },
-      "goal": "목표"
+      "goal": "목표",
+      "undefined": "미설정",
+      "saveButton": "저장하기",
+      "appUsage": "앱별 사용량"
     }
   }
 }
