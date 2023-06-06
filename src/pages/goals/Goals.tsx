@@ -13,7 +13,7 @@ export const Goals: React.FC = () => {
       <Container>
         <Header title="Goals" />
         <section>
-          <h2>{t(`common.goalPage.active`)}</h2>
+          <h2>{t(`goal.active`)}</h2>
           <TimeUsageGoal
             type="totalTime"
             totalTime={{ hours: 4, minutes: 0 }}
@@ -22,7 +22,7 @@ export const Goals: React.FC = () => {
           <PatternUsageGoal />
         </section>
         <section>
-          <h2>{t(`common.goalPage.undefined`)}</h2>
+          <h2>{t(`goal.undefined`)}</h2>
           <TimeUsageGoal type="avgTime" />
           <TimeUsageGoal type="pickups" />
         </section>

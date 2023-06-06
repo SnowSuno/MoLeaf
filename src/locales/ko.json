@@ -7,17 +7,25 @@
       "maxTime": { "long": "최장 사용 시간", "short": "최장 사용" },
       "avgTime": { "long": "평균 사용 시간", "short": "평균 사용" }
     },
+    "goal": {
+      "active": "현재 설정된 목표",
+      "undefined": "미설정 목표",
+      "setGoal": "목표 설정하기",
+      "helper": {
+        "totalTime": "다른 사람들은 평균적으로 하루에 6h 32m 사용합니다.",
+        "pickups": "다른 사람들은 평균적으로 하루에 86회 잠금 해제합니다.",
+        "downTime": "다른 사람들이 자주 설정하는 다운 타임 시간대는 3AM ~ 6AM입니다.",
+        "maxTime": "다른 사람들은 평균적으로 하루에 3h 27m 사용합니다.",
+        "avgTime": "다른 사람들은 평균적으로 하루에 1h 17m 사용합니다."
+      }
+    },
     "common": {
       "units": {
         "number": "회",
         "day": "일"
       },
       "goal": "목표",
-      "undefined": "미설정",
-      "goalPage": {
-        "active": "현재 설정된 목표",
-        "undefined": "미설정 목표"
-      }
+      "undefined": "미설정"
     }
   }
 }

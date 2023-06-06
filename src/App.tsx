@@ -43,24 +43,18 @@ const router = createBrowserRouter([
           {
             path: "total",
             element: (
-              <TotalTime
-                text="전체 사용 시간"
-                goal={{ hours: 4, minutes: 0 }}
-              />
+              <TotalTime type="totalTime" goal={{ hours: 4, minutes: 0 }} />
             ),
           },
           {
             path: "max",
             element: (
-              <TotalTime
-                text="최대 사용 시간"
-                goal={{ hours: 3, minutes: 0 }}
-              />
+              <TotalTime type="maxTime" goal={{ hours: 3, minutes: 0 }} />
             ),
           },
           {
             path: "avg",
-            element: <TotalTime text="평균 사용 시간" />,
+            element: <TotalTime type="avgTime" />,
           },
           { path: "downtime", element: <DownTime /> },
           { path: "pickups", element: <Pickups /> },

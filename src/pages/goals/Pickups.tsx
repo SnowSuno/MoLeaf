@@ -5,6 +5,7 @@ import { Page } from "../../components/layouts/Page";
 
 import { Toggle } from "../../components/elements";
 import { GoalInput } from "../../components/GoalInput";
+import { useTranslation } from "react-i18next";
 
 interface Props {
   goal?: number;
@@ -12,12 +13,13 @@ interface Props {
 
 export const Pickups: React.FC<Props> = ({ goal }) => {
   const [toggled, setToggled] = useState<boolean>(false);
+  const { t } = useTranslation();
 
   return (
-    <Page title="잠금 해제 횟수" background>
+    <Page title={t(`usage.pickups.long`)} background>
       <PageContainer>
         <InnerContainer1>
-          <Category>목표 설정하기</Category>
+          <Category>{t(`goal.setGoal`)}</Category>
           <Toggle toggled={!toggled} setToggled={setToggled} />
         </InnerContainer1>
 
@@ -25,11 +27,10 @@ export const Pickups: React.FC<Props> = ({ goal }) => {
           <></>
         ) : (
           <Container>
-            <Category>목표 설정하기</Category>
             <InnerContainer2>
               <GoalInput initVal={goal} />
-              <GoalTime1>회</GoalTime1>
-              <GoalTime2>/ 일</GoalTime2>
+              <GoalTime1>{t(`common.units.number`)}</GoalTime1>
+              <GoalTime2>/ {t(`common.units.day`)}</GoalTime2>
             </InnerContainer2>
           </Container>
         )}
@@ -38,9 +39,7 @@ export const Pickups: React.FC<Props> = ({ goal }) => {
           <></>
         ) : (
           <InformationBox>
-            <Information>
-              다른 사람들은 평균적으로 하루에 86회 잠금 해제합니다.
-            </Information>
+            <Information>{t(`goal.helper.pickups`)}</Information>
           </InformationBox>
         )}
       </PageContainer>

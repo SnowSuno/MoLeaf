@@ -7,17 +7,25 @@
       "maxTime": { "long": "Maximum Usage Time", "short": "Max Time" },
       "avgTime": { "long": "Average Usage Time", "short": "Avg Time" }
     },
+    "goal": {
+      "active": "Active Goals",
+      "undefined": "Goals Not Set",
+      "setGoal": "Set Goal",
+      "helper": {
+        "totalTime": "Others have an average usage of 6h 32m daily.",
+        "pickups": " Others have an average of 86 pickups daily.",
+        "downTime": "Most users set 3AM ~ 6AM as downtime.",
+        "maxTime": "Others have an average usage of 3h 27m daily.",
+        "avgTime": "Others have average of usage 1h 17m daily."
+      }
+    },
     "common": {
       "units": {
         "number": "",
         "day": "day"
       },
       "goal": "goal",
-      "undefined": "undefined",
-      "goalPage": {
-        "active": "Active Goals",
-        "undefined": "Goals Not Set"
-      }
+      "undefined": "undefined"
     }
   }
 }
