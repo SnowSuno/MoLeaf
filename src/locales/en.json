@@ -30,7 +30,9 @@
     "common": {
       "units": {
         "number": "",
-        "day": "day"
+        "day": "day",
+        "week": "week",
+        "year": ""
       },
       "goal": "goal",
       "undefined": "undefined"
