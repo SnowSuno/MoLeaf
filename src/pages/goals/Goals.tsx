@@ -3,15 +3,17 @@ import { Header } from "../../components/layouts/Header";
 import styled from "@emotion/styled";
 import { TimeUsageGoal, PatternUsageGoal } from "../../components/goals";
 import { AnimatedOutlet } from "../../components/layouts/AnimatedOutlet";
+import { useTranslation } from "react-i18next";
 
 export const Goals: React.FC = () => {
+  const { t } = useTranslation();
   return (
     <div>
       <AnimatedOutlet />
       <Container>
         <Header title="Goals" />
         <section>
-          <h2>현재 설정된 목표</h2>
+          <h2>{t(`common.goalPage.active`)}</h2>
           <TimeUsageGoal
             type="totalTime"
             totalTime={{ hours: 4, minutes: 0 }}
@@ -20,7 +22,7 @@ export const Goals: React.FC = () => {
           <PatternUsageGoal />
         </section>
         <section>
-          <h2>미설정 목표</h2>
+          <h2>{t(`common.goalPage.undefined`)}</h2>
           <TimeUsageGoal type="avgTime" />
           <TimeUsageGoal type="pickups" />
         </section>

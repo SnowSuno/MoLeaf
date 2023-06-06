@@ -9,9 +9,15 @@
     },
     "common": {
       "units": {
-        "number": "회"
+        "number": "회",
+        "day": "일"
       },
-      "goal": "목표"
+      "goal": "목표",
+      "undefined": "미설정",
+      "goalPage": {
+        "active": "현재 설정된 목표",
+        "undefined": "미설정 목표"
+      }
     }
   }
 }

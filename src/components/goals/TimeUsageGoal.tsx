@@ -2,6 +2,7 @@ import React from "react";
 import styled from "@emotion/styled";
 import { Goal } from "../elements/Goal";
 import { UsageType } from "~/types";
+import { useTranslation } from "react-i18next";
 
 interface Props {
   type: Exclude<UsageType, "downTime">;
@@ -15,20 +16,23 @@ export const TimeUsageGoal: React.FC<Props> = ({
   type,
   totalTime,
   ...props
-}) => (
-  <Goal type={type} {...props}>
-    <Time>
-      {totalTime ? (
-        <TotalTime>
-          {totalTime.hours}h {totalTime.minutes}m
-        </TotalTime>
-      ) : (
-        <NotSet>미설정</NotSet>
-      )}
-      <GoalTime>/ 1일</GoalTime>
-    </Time>
-  </Goal>
-);
+}) => {
+  const { t } = useTranslation();
+  return (
+    <Goal type={type} {...props}>
+      <Time>
+        {totalTime ? (
+          <TotalTime>
+            {totalTime.hours}h {totalTime.minutes}m
+          </TotalTime>
+        ) : (
+          <NotSet>{t(`common.undefined`)}</NotSet>
+        )}
+        <GoalTime>/ 1{t(`common.units.day`)}</GoalTime>
+      </Time>
+    </Goal>
+  );
+};
 
 const Time = styled.div`
   display: flex;

@@ -9,9 +9,15 @@
     },
     "common": {
       "units": {
-        "number": ""
+        "number": "",
+        "day": "day"
       },
-      "goal": "goal"
+      "goal": "goal",
+      "undefined": "undefined",
+      "goalPage": {
+        "active": "Active Goals",
+        "undefined": "Goals Not Set"
+      }
     }
   }
 }
