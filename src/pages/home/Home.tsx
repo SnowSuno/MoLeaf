@@ -58,4 +58,6 @@ const WidgetScroller = styled(motion.div)`
   flex-direction: row;
   gap: 16px;
   width: min-content;
+  height: 154px;
+  align-items: stretch;
 `;
