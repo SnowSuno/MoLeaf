@@ -1,15 +1,17 @@
 import React from "react";
 import { Axis as VisxAxis } from "@visx/axis";
-import { ScaleLinear } from "d3-scale";
+import type { ScaleBand, ScaleLinear } from "d3-scale";
 
 interface Props {
-  scale: ScaleLinear<number, number>;
+  scale: ScaleLinear<number, number> | ScaleBand<number>;
   orientation: "left" | "right" | "top" | "bottom";
   top?: number;
   left?: number;
+  unit?: string;
+  tickValues?: number[];
 }
 
-export const Axis: React.FC<Props> = (props) => (
+export const Axis: React.FC<Props> = ({unit = "", ...props}) => (
   <VisxAxis
     hideAxisLine={true}
     hideTicks={true}
@@ -21,7 +23,7 @@ export const Axis: React.FC<Props> = (props) => (
       fontFamily: "var(--text-font)",
       fontSize: 14,
     }}
-    tickFormat={tickValue => `${tickValue}h`}
+    tickFormat={tickValue => `${tickValue}${unit}`}
     {...props}
   />
 );

@@ -8,5 +8,8 @@ export const gaugeSizes = (widget: boolean) => ({
 export const graphSizes = () => ({
   width: 400,
   height: 200,
+  axisMargin: 8,
+  axisHeight: 23,
   dateHeight: 50,
+  boxPadding: 4,
 });

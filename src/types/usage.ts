@@ -20,12 +20,12 @@ interface UsageWithDetails extends BaseUsage {
 
 interface DownTimeUsage {
   usages: {
-    hour: string;
+    hour: number;
     usage: number;
   }[];
   details: {
     appName: string;
-    usages: number[];
+    usage: number[];
   }[];
 }
 

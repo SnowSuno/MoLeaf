@@ -29,10 +29,17 @@ export const BarGroup: React.FC<Props> = ({
   const ref = useMeasureElement();
   const { width, height } = graphSizes();
 
+  const max = useMemo(() => (
+    Math.max(...data.map(data => data.usageData?.usage || 0))
+  ), [data]);
+
+  const isTime = useMemo(() => (
+      ["totalTime", "maxTime", "avgTime"].includes(type)
+  ), [type]);
+
   const d = useCallback((value: number) => {
-    const isTime = ["totalTime", "maxTime", "avgTime"].includes(type);
-    return isTime ? value / 60 : value;
-  }, [type]);
+    return isTime && max > 60 ? value / 60 : value;
+  }, [isTime, max]);
 
   const xScale = useMemo(() =>
     scaleBand<number>({
@@ -45,8 +52,8 @@ export const BarGroup: React.FC<Props> = ({
     scaleLinear<number>({
       range: [height, 0],
       round: true,
-      domain: [0, Math.max(...data.map(data => d(data.usageData?.usage || 0)))],
-    }), [d, height, data]);
+      domain: [0, d(max)],
+    }), [d, height, max]);
 
   return (
     <Container>
@@ -54,6 +61,7 @@ export const BarGroup: React.FC<Props> = ({
         <Group>
           <Axis
             orientation="left"
+            unit={isTime ? (max > 60 ? "h" : "m") : ""}
             scale={yScale}
             left={0}
           />

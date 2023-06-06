@@ -1,4 +1,4 @@
-import React, { useCallback } from "react";
+import React, { useCallback, useMemo } from "react";
 import { motion, useTransform } from "framer-motion";
 
 import { ScaleSVG } from "@visx/responsive";
@@ -28,10 +28,23 @@ export const BarGauge: React.FC<Props> = ({
 }) => {
   const { width, height, axisHeight, radius } = gaugeSizes(widget);
 
+
+  const max = useMemo(() => (
+    limit ? Math.max(limit, value) : value
+  ), [limit, value]);
+
+  const isTime = useMemo(() => (
+      ["totalTime", "maxTime", "avgTime"].includes(type)
+  ), [type]);
+
   const d = useCallback((value: number) => {
-    const isTime = ["totalTime", "maxTime", "avgTime"].includes(type);
-    return isTime ? value / 60 : value;
-  }, [type]);
+    return isTime && max > 60 ? value / 60 : value;
+  }, [isTime, max]);
+
+  // const d = useCallback((value: number) => {
+  //   const isTime = ["totalTime", "maxTime", "avgTime"].includes(type);
+  //   return isTime ? value / 60 : value;
+  // }, [type]);
 
   const motionValue = useSpringWith(value);
   const scale = useCallback((value: number) => scaleLinear<number>({
@@ -49,7 +62,10 @@ export const BarGauge: React.FC<Props> = ({
     <Container>
       <ScaleSVG width={width} height={height + axisHeight}>
         <Group>
-          {widget ? null : <AnimatedAxis scale={scale(value)}/>}
+          {widget ? null : <AnimatedAxis
+            scale={scale(value)}
+            unit={isTime ? (max > 60 ? "h" : "m") : ""}
+          />}
           <Bar fill="var(--background-color)" height={height} width={width}
                rx={radius}/>
           <motion.rect

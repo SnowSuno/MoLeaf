@@ -1,0 +1,184 @@
+[
+	{
+		"date": 1,
+		"totalTime": {
+			"usage": 0,
+			"details": [
+			]
+		},
+		"pickups": {"usage": 0},
+		"downTime": {
+			"usages": [
+			],
+			"details": [
+			]
+		},
+		"maxTime": {
+			"usage": 0,
+			"details": [
+			]
+		},
+		"avgTime": {
+			"usage": 0,
+			"details": [
+			]
+		},
+		"lastPickup": {"time": 0}
+	},
+	{
+		"date": 2,
+		"totalTime": {
+			"usage": 0,
+			"details": [
+			]
+		},
+		"pickups": {"usage": 0},
+		"downTime": {
+			"usages": [
+			],
+			"details": [
+			]
+		},
+		"maxTime": {
+			"usage": 0,
+			"details": [
+			]
+		},
+		"avgTime": {
+			"usage": 0,
+			"details": [
+			]
+		},
+		"lastPickup": {"time": 0}
+	},
+	{
+		"date": 3,
+		"totalTime": {
+			"usage": 0,
+			"details": [
+			]
+		},
+		"pickups": {"usage": 0},
+		"downTime": {
+			"usages": [
+			],
+			"details": [
+			]
+		},
+		"maxTime": {
+			"usage": 0,
+			"details": [
+			]
+		},
+		"avgTime": {
+			"usage": 0,
+			"details": [
+			]
+		},
+		"lastPickup": {"time": 0}
+	},
+	{
+		"date": 4,
+		"totalTime": {
+			"usage": 0,
+			"details": [
+			]
+		},
+		"pickups": {"usage": 0},
+		"downTime": {
+			"usages": [
+			],
+			"details": [
+			]
+		},
+		"maxTime": {
+			"usage": 0,
+			"details": [
+			]
+		},
+		"avgTime": {
+			"usage": 0,
+			"details": [
+			]
+		},
+		"lastPickup": {"time": 0}
+	},
+	{
+		"date": 5,
+		"totalTime": {
+			"usage": 0,
+			"details": [
+			]
+		},
+		"pickups": {"usage": 0},
+		"downTime": {
+			"usages": [
+			],
+			"details": [
+			]
+		},
+		"maxTime": {
+			"usage": 0,
+			"details": [
+			]
+		},
+		"avgTime": {
+			"usage": 0,
+			"details": [
+			]
+		},
+		"lastPickup": {"time": 0}
+	},
+	{
+		"date": 6,
+		"totalTime": {
+			"usage": 0,
+			"details": [
+			]
+		},
+		"pickups": {"usage": 0},
+		"downTime": {
+			"usages": [
+			],
+			"details": [
+			]
+		},
+		"maxTime": {
+			"usage": 0,
+			"details": [
+			]
+		},
+		"avgTime": {
+			"usage": 0,
+			"details": [
+			]
+		},
+		"lastPickup": {"time": 0}
+	},
+	{
+		"date": 7,
+		"totalTime": {
+			"usage": 0,
+			"details": [
+			]
+		},
+		"pickups": {"usage": 0},
+		"downTime": {
+			"usages": [
+			],
+			"details": [
+			]
+		},
+		"maxTime": {
+			"usage": 0,
+			"details": [
+			]
+		},
+		"avgTime": {
+			"usage": 0,
+			"details": [
+			]
+		},
+		"lastPickup": {"time": 0}
+	}
+]

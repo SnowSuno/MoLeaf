@@ -15,7 +15,10 @@ export const useGoalState = create<GoalState>(set => ({
   goals: {
     totalTime: 240,
     pickups: undefined,
-    downTime: [],
+    downTime: [
+      [5, 9],
+      [15, 16],
+    ],
     maxTime: 40,
     avgTime: undefined,
   }
