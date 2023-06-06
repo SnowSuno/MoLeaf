@@ -42,7 +42,7 @@ export const BarGauge: React.FC<Props> = ({
       <ScaleSVG width={width} height={height + axisHeight}>
         <Group>
           {widget ? null : <AnimatedAxis scale={scale(value)}/>}
-          <Bar fill="var(--light-gray)" height={height} width={width}
+          <Bar fill="var(--background-color)" height={height} width={width}
                rx={radius}/>
           <motion.rect
             fill={isOverLimit ? "var(--red)" : "var(--primary)"}

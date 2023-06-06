@@ -45,6 +45,8 @@ export const AnalysisPage = React.memo(
       data.find(({ date }) => date === selectedDate)
     ), [selectedDate, data]);
 
+    const limit = 240
+
     return (
       <Page title={pageNames[type]}>
         <MonthSelector {...{ page, setPage }}/>
@@ -57,7 +59,7 @@ export const AnalysisPage = React.memo(
               key={index}
               type={type}
               data={weekData}
-              limit={200}
+              limit={limit}
               selectedDate={selectedDate}
               onClickDate={setSelectedDate}
             /> : isDataTypeArray(
@@ -67,7 +69,7 @@ export const AnalysisPage = React.memo(
               key={index}
               type={type}
               data={weekData}
-              limit={200}
+              limit={limit}
               selectedDate={selectedDate}
               onClickDate={setSelectedDate}
             />
@@ -81,7 +83,7 @@ export const AnalysisPage = React.memo(
             type={type}
             date={selectedDate}
             data={selectedData}
-            limit={200}
+            limit={limit}
           />}
       </Page>
     );

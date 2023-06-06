@@ -23,6 +23,7 @@ export const AnalysisDetails: React.FC<Props> = React.memo(({
   return (
     <Container>
       <Usage
+        type={type}
         date={date}
         value={data.usageData.usage}
         limit={limit}
