@@ -16,7 +16,7 @@ export const MonthSelector: React.FC<Props> = ({ page, setPage }) => {
         <ArrowLeft size={23} />
       </button>
       <h2>
-        {i18n.language == "ko" ? `2019년 5월 ${2}주` : `Week ${2}, May 2019`}
+        {i18n.language == "ko" ? `2019년 5월 ${page ? 2 : 3}주` : `Week ${page ? 2 : 3}, May 2019`}
       </h2>
       <button disabled={page === 1} onClick={() => setPage(1)}>
         <ArrowRight size={23} />
