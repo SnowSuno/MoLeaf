@@ -12,6 +12,8 @@ import { BarSelector } from "~/components/graphs";
 import { AnalysisDetails } from "~/components/blocks/AnalysisDetails";
 import { useTranslation } from "react-i18next";
 import { DowntimeGraph } from "~/components/graphs/DowntimeGraph";
+import { useDragControls } from "framer-motion";
+import { useLimitOf } from "~/utils/hooks/useLimitOf";
 
 interface Props<T extends UsageType> {
   type: T;
@@ -38,6 +40,7 @@ export const AnalysisPage = React.memo(<T extends UsageType, > (
   const [selectedDate, setSelectedDate] = useState(0);
   const [page, setPage] = useState<0 | 1>(1);
 
+
   useEffect(() => {
     const date = pagination
       .at(page)?.filter(({ usageData }) => !!usageData)
@@ -50,25 +53,31 @@ export const AnalysisPage = React.memo(<T extends UsageType, > (
     data.find(({ date }) => date === selectedDate)
   ), [selectedDate, data]);
 
+  const limit = useLimitOf(type);
 
   return (
     <Page title={t(`usage.${type}.long`)}>
       <MonthSelector {...{ page, setPage }}/>
-      <Swipeable {...{ page, setPage }}>
+      <Swipeable page={page}>
         {pagination.map((weekData, index) =>
           isDataTypeArray(
             type, weekData,
             ["totalTime", "pickups", "maxTime", "avgTime"]
-          ) ? <BarGraph
+          ) && <BarGraph
             key={index}
             type={type as Exclude<UsageType, "downTime">}
             data={weekData}
             selectedDate={selectedDate}
             onClickDate={setSelectedDate}
-          /> : <BarSelector
+          />)}
+      </Swipeable>
+      <Swipeable page={page} sticky>
+        {pagination.map((weekData, index) =>
+          <BarSelector
             key={index}
             type={type}
             data={weekData}
+            limit={limit}
             selectedDate={selectedDate}
             onClickDate={setSelectedDate}
           />

@@ -21,6 +21,6 @@ export const BarGraph: React.FC<Props> = ({type, ...props}) => {
     <MarginInline>
       <BarGroup type={type} limit={limit} {...props}/>
     </MarginInline>
-    <BarSelector type={type} limit={limit} {...props}/>
+    {/*<BarSelector type={type} limit={limit} {...props}/>*/}
   </div>
 };

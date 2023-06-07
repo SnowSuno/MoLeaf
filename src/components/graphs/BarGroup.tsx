@@ -8,7 +8,6 @@ import { graphSizes } from "./sizes";
 import { Axis } from "./Axis";
 import { Bar } from "./Bar";
 import { motion } from "framer-motion";
-import { useMeasureElement } from "~/state/utils/size";
 import { DailyUsage, hasData, UsageType } from "~/types";
 
 interface Props {
@@ -26,7 +25,6 @@ export const BarGroup: React.FC<Props> = ({
   selectedDate,
   onClickDate,
 }) => {
-  const ref = useMeasureElement();
   const { width, height } = graphSizes();
 
   const max = useMemo(() => (
@@ -57,7 +55,7 @@ export const BarGroup: React.FC<Props> = ({
 
   return (
     <Container>
-      <ScaleSVG width={width} height={height} innerRef={ref}>
+      <ScaleSVG width={width} height={height}>
         <Group>
           <Axis
             orientation="left"
