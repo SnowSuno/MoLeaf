@@ -7,7 +7,7 @@ import styled from "@emotion/styled";
 interface Props {
   type: Exclude<UsageType, "downTime">;
   date: number;
-  data: DailyUsageRequired<Exclude<UsageType, "downTime">>;
+  data: DailyUsageRequired<UsageType>;
 }
 
 export const AnalysisDetails: React.FC<Props> = React.memo(({
@@ -20,7 +20,7 @@ export const AnalysisDetails: React.FC<Props> = React.memo(({
       <Usage
         type={type}
         date={date}
-        value={data.usageData.usage}
+        value={(data.usageData as {usage: number}).usage}
       />
 
       {isDataType(type, data, ["totalTime", "maxTime", "avgTime"]) &&

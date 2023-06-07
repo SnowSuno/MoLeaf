@@ -9,7 +9,7 @@ import { useLimitOf } from "~/utils/hooks/useLimitOf";
 
 interface Props {
   date: number;
-  type: Exclude<UsageType, "downTime">;
+  type: UsageType;
   value: number;
   widget?: boolean;
 }
@@ -20,7 +20,7 @@ export const Usage: React.FC<Props> = ({
   value,
   widget = false,
 }) => {
-  const limit = useLimitOf(type);
+  const {goal, overLimit} = useLimitOf(type);
   const { t, i18n } = useTranslation();
 
   return (
@@ -35,9 +35,9 @@ export const Usage: React.FC<Props> = ({
           </span>
         )}
       </Text>
-      <Value type={type} value={value} limit={limit} widget={widget} />
-      {limit ? (
-        <BarGauge type={type} value={value} limit={limit} widget={widget} />
+      <Value type={type} value={value} goal={goal as number} widget={widget} />
+      {goal ? (
+        <BarGauge type={type} value={value} goal={goal as number} widget={widget} />
       ) : (
         <div>No goal TODO</div>
       )}
@@ -49,18 +49,18 @@ interface TimeProps {
   type: UsageType;
   widget?: boolean;
   value: number;
-  limit?: number;
+  goal?: number;
 }
 
-const Value: React.FC<TimeProps> = ({ type, value, limit, widget }) => {
+const Value: React.FC<TimeProps> = ({ type, value, goal, widget }) => {
   const { t } = useTranslation();
 
   return (
     <ValueContainer small={widget}>
       <h3>{FormatValue(value, type)}</h3>
-      {limit && (
+      {goal && (
         <p>
-          {widget && t("common.goal")} {FormatValue(limit, type)}
+          {widget && t("common.goal")} {FormatValue(goal, type)}
         </p>
       )}
     </ValueContainer>

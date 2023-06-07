@@ -13,7 +13,8 @@ import { DailyUsage, hasData, UsageType } from "~/types";
 interface Props {
   type: UsageType;
   data: DailyUsage<"totalTime" | "pickups" | "maxTime" | "avgTime">[];
-  limit?: number;
+  goal?: number;
+  overLimit?: (data: DailyUsage) => boolean;
   selectedDate: number;
   onClickDate?: (date: number) => void;
 }
@@ -21,7 +22,8 @@ interface Props {
 export const BarGroup: React.FC<Props> = ({
   type,
   data,
-  limit,
+  goal,
+  overLimit,
   selectedDate,
   onClickDate,
 }) => {
@@ -69,7 +71,8 @@ export const BarGroup: React.FC<Props> = ({
               key={dataPoint.date}
               data={dataPoint}
               d={d}
-              limit={limit}
+              goal={goal}
+              overLimit={overLimit}
               xScale={xScale}
               yScale={yScale}
               focused={dataPoint.date === selectedDate}

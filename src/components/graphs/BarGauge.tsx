@@ -16,7 +16,7 @@ import { UsageType } from "~/types";
 interface Props {
   type: UsageType;
   value: number;
-  limit?: number;
+  goal?: number;
   widget?: boolean;
 }
 
@@ -24,14 +24,14 @@ export const BarGauge: React.FC<Props> = ({
   type,
   value,
   widget = false,
-  limit,
+  goal,
 }) => {
   const { width, height, axisHeight, radius } = gaugeSizes(widget);
 
 
   const max = useMemo(() => (
-    limit ? Math.max(limit, value) : value
-  ), [limit, value]);
+    goal ? Math.max(goal, value) : value
+  ), [goal, value]);
 
   const isTime = useMemo(() => (
       ["totalTime", "maxTime", "avgTime"].includes(type)
@@ -50,13 +50,13 @@ export const BarGauge: React.FC<Props> = ({
   const scale = useCallback((value: number) => scaleLinear<number>({
     range: [0, width],
     round: true,
-    domain: [0, d(limit ? Math.max(limit, value) : value)],
-  }), [d, limit, width]);
+    domain: [0, d(goal ? Math.max(goal, value) : value)],
+  }), [d, goal, width]);
 
-  const isOverLimit = !!limit && (value > limit);
+  const isOverLimit = !!goal && (value > goal);
 
   const valueWidth = useTransform(motionValue, v => scale(v)(d(v)));
-  const limitWidth = useTransform(motionValue, v => scale(v)(d(limit || 0)));
+  const limitWidth = useTransform(motionValue, v => scale(v)(d(goal || 0)));
 
   return (
     <Container>
@@ -74,7 +74,7 @@ export const BarGauge: React.FC<Props> = ({
             width={valueWidth}
             rx={radius}
           />
-          {limit && <>
+          {goal && <>
             <motion.rect
               fill={`rgba(var(--white_w), ${isOverLimit ? 0.22 : 0})`}
               height={height}

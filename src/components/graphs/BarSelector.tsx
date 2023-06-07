@@ -10,17 +10,16 @@ import { Date } from "~/components/graphs/Date";
 import { isOverLimit } from "~/utils/limit";
 
 interface Props {
-  type: UsageType;
   data: DailyUsage[];
   limit?: number;
+  overLimit?: (data: DailyUsage) => boolean;
   selectedDate: number;
   onClickDate?: (date: number) => void;
 }
 
 export const BarSelector: React.FC<Props> = ({
-  type,
   data,
-  limit,
+  overLimit,
   selectedDate,
   onClickDate,
 }) => {
@@ -44,7 +43,7 @@ export const BarSelector: React.FC<Props> = ({
               dataPoint={dataPoint}
               xScale={xScale}
               selectedDate={selectedDate}
-              isOverLimit={isOverLimit(type, dataPoint, limit)}
+              isOverLimit={overLimit?.(dataPoint) || null}
               disabled={!dataPoint.usageData}
               onClickDate={onClickDate}
             />

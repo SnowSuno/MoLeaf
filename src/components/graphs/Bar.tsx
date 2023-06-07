@@ -1,14 +1,15 @@
 import React, { useCallback, useMemo } from "react";
 import { Bar as VisxBar } from "@visx/shape";
 
-import { DailyUsageRequired } from "~/types";
+import { DailyUsage, DailyUsageRequired } from "~/types";
 import { ScaleBand, ScaleLinear } from "d3-scale";
 import { graphSizes } from "./sizes";
 import { Group } from "@visx/group";
 
 interface Props {
   data: DailyUsageRequired<"totalTime" | "pickups" | "maxTime" | "avgTime">;
-  limit?: number;
+  goal?: number;
+  overLimit?: (data: DailyUsage) => boolean;
   xScale: ScaleBand<number>;
   yScale: ScaleLinear<number, number>;
   focused?: boolean;
@@ -19,7 +20,8 @@ interface Props {
 export const Bar: React.FC<Props> = ({
   data,
   d,
-  limit = 0,
+  goal = 0,
+  overLimit,
   xScale,
   yScale,
   focused = true,
@@ -27,13 +29,16 @@ export const Bar: React.FC<Props> = ({
 }) => {
   const { height } = graphSizes();
   const [dValue, dLimit] = useMemo(
-    () => [d(data.usageData.usage), d(limit)] as const,
-    [d, data.usageData.usage, limit]
+    () => [d(data.usageData.usage), d(goal)] as const,
+    [d, data.usageData.usage, goal]
   );
 
+  // const isOverLimit = useMemo(() => (
+  //   !!limit && (data.usageData.usage > limit)
+  // ), [limit, data.usageData.usage]);
   const isOverLimit = useMemo(() => (
-    !!limit && (data.usageData.usage > limit)
-  ), [limit, data.usageData.usage]);
+    !!overLimit?.(data)
+  ), [overLimit, data]);
 
   const x = useMemo(() => ({
     x: xScale(data.date),

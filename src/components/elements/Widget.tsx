@@ -31,22 +31,20 @@ export const Widget: React.FC<Props> = ({
 }) => {
   const data = useUsageOf(type);
 
-
   const usage = useMemo(() => data.at(-1), [data]);
 
   return (
     <UnstyledLink to={routeMeta[type]}>
       <Card full={main}>
-        {isDataType(type, usage, ["totalTime", "pickups", "maxTime", "avgTime"])
+        {usage
           && hasData(usage)
           && <Usage
             date={14} // Last date in dataset
-            type={type as Exclude<UsageType, "downTime">}
-            value={usage.usageData.usage}
+            type={type}
+            value={(usage.usageData as { usage: number }).usage}
             widget={!main}
           />
         }
-        {/*{children}*/}
       </Card>
     </UnstyledLink>
   );

@@ -53,7 +53,7 @@ export const AnalysisPage = React.memo(<T extends UsageType, > (
     data.find(({ date }) => date === selectedDate)
   ), [selectedDate, data]);
 
-  const limit = useLimitOf(type);
+  const {goal, overLimit} = useLimitOf(type);
 
   return (
     <Page title={t(`usage.${type}.long`)}>
@@ -75,9 +75,8 @@ export const AnalysisPage = React.memo(<T extends UsageType, > (
         {pagination.map((weekData, index) =>
           <BarSelector
             key={index}
-            type={type}
             data={weekData}
-            limit={limit}
+            overLimit={overLimit}
             selectedDate={selectedDate}
             onClickDate={setSelectedDate}
           />
@@ -90,9 +89,7 @@ export const AnalysisPage = React.memo(<T extends UsageType, > (
         />
       }
       <Divider/>
-      {isDataType(type, selectedData,
-          ["totalTime", "pickups", "maxTime", "avgTime"])
-        && hasData(selectedData)
+      {selectedData && hasData(selectedData)
         && <AnalysisDetails
           type={type as Exclude<UsageType, "downTime">}
           date={selectedDate}
