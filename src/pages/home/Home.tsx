@@ -16,23 +16,21 @@ export const Home: React.FC = React.memo(() => {
 
   return (
     <div>
-      <AnimatedOutlet />
+      <AnimatedOutlet/>
       <Container>
-        <Header title="Overview" />
+        <Header title="Overview"/>
 
-        <Widget main type={main} />
+        <Widget main type={main}/>
 
-        <WidgetContainer ref={containerRef}>
-          <WidgetScroller drag="x" dragConstraints={containerRef}>
-            {widgets.map((type) => (
-              <Widget key={type} type={type} />
-            ))}
-          </WidgetScroller>
-        </WidgetContainer>
+        <Scroll>
+          {widgets.map((type) => (
+            <Widget key={type} type={type}/>
+          ))}
+        </Scroll>
 
         <div style={{ margin: "0 auto" }}>
           <Link to="/customize" style={{ textDecoration: "none" }}>
-            <Button icon={Settings} text={t(`home.edit`)} />
+            <Button icon={Settings} text={t(`home.edit`)}/>
           </Link>
         </div>
       </Container>
@@ -47,17 +45,27 @@ const Container = styled.div`
   margin-bottom: 24px;
 `;
 
-const WidgetContainer = styled.div`
-  padding-bottom: 14px;
+const Scroll = styled.div`
   overflow: visible;
-  width: 100%;
-`;
+  width: calc(100% + 48px);
 
-const WidgetScroller = styled(motion.div)`
   display: flex;
   flex-direction: row;
   gap: 16px;
-  width: min-content;
   height: 154px;
+
   align-items: stretch;
+  overflow-x: scroll;
+
+  margin-inline: -24px;
+  padding-inline: 24px;
+  //overflow: visible;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 `;
+
