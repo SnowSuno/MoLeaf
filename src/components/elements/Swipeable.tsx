@@ -1,64 +1,37 @@
-import React, {
-  type Dispatch,
-  type SetStateAction,
-  type PropsWithChildren,
-  useCallback,
-  useEffect,
-  useState,
-} from "react";
+import React, { type PropsWithChildren } from "react";
 import styled from "@emotion/styled";
-import { motion, PanInfo, useAnimate, useIsPresent } from "framer-motion";
-import { useElementHeight } from "~/state/utils/size";
+import { motion } from "framer-motion";
 
 interface Props extends PropsWithChildren {
   page: 0 | 1;
-  setPage: Dispatch<SetStateAction<0 | 1>>;
+  sticky?: boolean;
 }
 
 export const Swipeable: React.FC<Props> = React.memo(({
   page,
-  setPage,
+  sticky,
   ...props
 }) => {
-  const graphHeight = useElementHeight();
-  const isPresent = useIsPresent();
 
-  const [scope, animate] = useAnimate();
-  const [variant, setVariant] = useState<
-    { x: `-${0 | 50}%` }
-  >({ x: "-50%" });
-
-  const navigate = useCallback((page: 0 | 1) => {
-    setPage(page);
-    setVariant({ x: `-${page * 50 as 0 | 50}%` });
-  }, [setPage, setVariant]);
-
-  const onDragEnd = useCallback((_: unknown, { offset, velocity }: PanInfo) => {
-    const swipe = swipePower(offset.x, velocity.x);
-    navigate(swipe < -threshold ? 1 : swipe > threshold ? 0 : page);
-  }, [page, navigate]);
-
-  useEffect(() => { animate("& > div", variant, { damping: 1000 }); },
-    [animate, variant]);
-  useEffect(() => { navigate(page); }, [page, navigate]);
 
   return (
-    <Container ref={scope} stickyHeight={graphHeight}>
+    <Container sticky={sticky}>
       <Swipe
-        drag={isPresent ? "x" : false}
-        dragConstraints={scope}
         initial={{ x: "-50%" }}
-        onDragEnd={onDragEnd}
+        animate={{ x: `-${page * 50}%` }}
         {...props}
       />
     </Container>
   );
 });
 
-const Container = styled(motion.div)<{ stickyHeight?: number }>`
+const Container = styled(motion.div)<{ sticky?: boolean }>`
   width: 100%;
+
+  ${props => props.sticky && `
   position: sticky;
-  top: ${({ stickyHeight = 0 }) => 35 - stickyHeight}px;
+  top: 40px;
+  `}
 
   z-index: 5;
 `;
@@ -71,26 +44,4 @@ const Swipe = styled(motion.div)`
   & > div {
     width: 100%;
   }
-
-  &:before, &:after {
-    content: "";
-    background: var(--white);
-    width: 100%;
-    height: 100%;
-    position: absolute;
-  }
-
-  &:before {
-    right: 100%;
-  }
-
-  &:after {
-    left: 100%;
-  }
 `;
-
-const threshold = 3000;
-const swipePower = (offset: number, velocity: number) => {
-  return Math.abs(offset) * velocity;
-};
-
