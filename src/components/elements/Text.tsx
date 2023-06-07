@@ -4,4 +4,5 @@ export const Text = styled.p`
   font-size: 16px;
   font-weight: 500;
   color: var(--dark-text);
+  padding-bottom: 2px;
 `;

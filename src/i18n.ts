@@ -8,7 +8,7 @@ i18n
   .use(initReactI18next)
   .init({
     resources: { ko, en },
-    lng: "ko",
+    lng: "en",
     interpolation: { escapeValue: false },
   });
 

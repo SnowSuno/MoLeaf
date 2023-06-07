@@ -20,21 +20,29 @@ export const AnalysisDetails: React.FC<Props> = React.memo(({
       <Usage
         type={type}
         date={date}
-        value={(data.usageData as {usage: number}).usage}
+        value={(data.usageData as { usage: number }).usage}
       />
 
       {isDataType(type, data, ["totalTime", "maxTime", "avgTime"]) &&
         <AppUsage data={data}/>
       }
+
+      <Settings>Goal Settings</Settings>
     </Container>
   );
 });
 
 const Container = styled.div`
   padding-inline: var(--margin-inline);
-  
+
   display: flex;
   flex-direction: column;
-  
+
   gap: 10px;
+`;
+
+const Settings = styled.div`
+  border-radius: 12px;
+  background: var(--background-color);
+  padding: 16px 20px;
 `;

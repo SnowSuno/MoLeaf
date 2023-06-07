@@ -36,10 +36,10 @@ export const Usage: React.FC<Props> = ({
         )}
       </Text>
       <Value type={type} value={value} goal={goal as number} widget={widget} />
-      {goal ? (
+      {goal && type !== "downTime" ? (
         <BarGauge type={type} value={value} goal={goal as number} widget={widget} />
       ) : (
-        <div>No goal TODO</div>
+        <div></div>
       )}
     </Container>
   );
@@ -54,6 +54,13 @@ interface TimeProps {
 
 const Value: React.FC<TimeProps> = ({ type, value, goal, widget }) => {
   const { t } = useTranslation();
+
+  if (type === "downTime") {
+    return <ValueContainer small={widget}>
+      <h3><span>On</span></h3>
+      <p>3 PM - 5 PM</p>
+    </ValueContainer>
+  }
 
   return (
     <ValueContainer small={widget}>

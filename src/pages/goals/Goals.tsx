@@ -4,6 +4,7 @@ import styled from "@emotion/styled";
 import { TimeUsageGoal, PatternUsageGoal } from "~/components/goals";
 import { AnimatedOutlet } from "~/components/layouts/AnimatedOutlet";
 import { useTranslation } from "react-i18next";
+import { Text } from "~/components/elements/Text";
 
 export const Goals: React.FC = () => {
   const { t } = useTranslation();
@@ -13,7 +14,7 @@ export const Goals: React.FC = () => {
       <Container>
         <Header title="Goals"/>
         <section>
-          <h2>{t(`goal.active`)}</h2>
+          <Text>{t(`goal.active`)}</Text>
           <TimeUsageGoal
             type="totalTime"
             totalTime={{ hours: 4, minutes: 0 }}
@@ -22,7 +23,7 @@ export const Goals: React.FC = () => {
           <PatternUsageGoal/>
         </section>
         <section>
-          <h2>{t(`goal.undefined`)}</h2>
+          <Text>{t(`goal.undefined`)}</Text>
           <TimeUsageGoal type="avgTime"/>
           <TimeUsageGoal type="pickups"/>
         </section>
@@ -41,7 +42,7 @@ const Container = styled.div`
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 12px;
 
     & > h2 {
       font-size: 24px;
