@@ -2,7 +2,7 @@ import React from "react";
 import styled from "@emotion/styled";
 import { BarGauge } from "~/components/graphs";
 import { Text } from "~/components/elements/Text";
-import { isDataType, UsageType } from "~/types";
+import { UsageType } from "~/types";
 import { FormatValue } from "~/utils/format";
 import { useTranslation } from "react-i18next";
 import { useLimitOf } from "~/utils/hooks/useLimitOf";
@@ -20,7 +20,7 @@ export const Usage: React.FC<Props> = ({
   value,
   widget = false,
 }) => {
-  const {goal, overLimit} = useLimitOf(type);
+  const { goal } = useLimitOf(type);
   const { t, i18n } = useTranslation();
 
   return (
@@ -37,7 +37,12 @@ export const Usage: React.FC<Props> = ({
       </Text>
       <Value type={type} value={value} goal={goal as number} widget={widget} />
       {goal && type !== "downTime" ? (
-        <BarGauge type={type} value={value} goal={goal as number} widget={widget} />
+        <BarGauge
+          type={type}
+          value={value}
+          goal={goal as number}
+          widget={widget}
+        />
       ) : (
         <div></div>
       )}
@@ -56,10 +61,14 @@ const Value: React.FC<TimeProps> = ({ type, value, goal, widget }) => {
   const { t } = useTranslation();
 
   if (type === "downTime") {
-    return <ValueContainer small={widget}>
-      <h3><span>On</span></h3>
-      <p>3 PM - 5 PM</p>
-    </ValueContainer>
+    return (
+      <ValueContainer small={widget}>
+        <h3>
+          <span>On</span>
+        </h3>
+        <p>3 PM - 5 PM</p>
+      </ValueContainer>
+    );
   }
 
   return (

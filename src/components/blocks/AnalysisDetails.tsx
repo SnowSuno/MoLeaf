@@ -8,10 +8,11 @@ interface Props {
   type: UsageType;
   date: number;
   data: DailyUsageRequired<UsageType>;
+  goal: number | [number, number][] | undefined;
 }
 
 export const AnalysisDetails: React.FC<Props> = React.memo(
-  ({ type, date, data }) => {
+  ({ type, date, data, goal }) => {
     return (
       <Container>
         <Usage
@@ -26,7 +27,11 @@ export const AnalysisDetails: React.FC<Props> = React.memo(
           "avgTime",
           "downTime",
         ]) && (
-          <AppUsage type={type as Exclude<UsageType, "pickups">} data={data} />
+          <AppUsage
+            type={type as Exclude<UsageType, "pickups">}
+            data={data}
+            goal={goal}
+          />
         )}
 
         <Settings>Goal Settings</Settings>

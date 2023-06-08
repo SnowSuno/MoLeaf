@@ -5,27 +5,17 @@ import { Page } from "./Page";
 import { MonthSelector } from "~/components/blocks/MonthSelector";
 import { Swipeable } from "~/components/elements/Swipeable";
 import { Divider } from "~/components/elements";
-import { MarginInline } from "~/components/elements/MarginInline";
 import { BarGraph } from "~/components/graphs/BarGraph";
 import { paginate } from "~/utils/paginate";
 import { BarSelector } from "~/components/graphs";
 import { AnalysisDetails } from "~/components/blocks/AnalysisDetails";
 import { useTranslation } from "react-i18next";
 import { DowntimeGraph } from "~/components/graphs/DowntimeGraph";
-import { useDragControls } from "framer-motion";
 import { useLimitOf } from "~/utils/hooks/useLimitOf";
 
 interface Props<T extends UsageType> {
   type: T;
 }
-
-const pageNames = {
-  totalTime: "Total Usage",
-  pickups: "Pickups",
-  downTime: "Down Time",
-  maxTime: "Continuous Usage",
-  avgTime: "Average Usage",
-} as const;
 
 export const AnalysisPage = React.memo(
   <T extends UsageType>({ type }: Props<T>) => {
@@ -93,6 +83,7 @@ export const AnalysisPage = React.memo(
             type={type as UsageType}
             date={selectedDate}
             data={selectedData}
+            goal={goal}
           />
         )}
       </Page>

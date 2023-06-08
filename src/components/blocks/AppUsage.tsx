@@ -5,20 +5,15 @@ import { DailyUsageRequired, UsageType, isDataType } from "~/types";
 import styled from "@emotion/styled";
 import { useTranslation } from "react-i18next";
 import { FormatValue } from "~/utils/format";
-import { DowntimeGraph } from "../graphs/DowntimeGraph";
-import { useLimitOf } from "~/utils/hooks/useLimitOf";
 
 interface Props {
   type: Exclude<UsageType, "pickups">;
   data: DailyUsageRequired<Exclude<UsageType, "pickups">>;
+  goal: number | [number, number][] | undefined;
 }
 
-export const AppUsage: React.FC<Props> = ({ type, data }) => {
+export const AppUsage: React.FC<Props> = ({ type, data, goal }) => {
   const { t } = useTranslation();
-  const { goal, overLimit } = useLimitOf(type);
-
-  // const max = data.usageData.details[0].usage;
-  console.log(data, goal, overLimit);
 
   const timeInRange = (time: number, goals: [number, number][]) => {
     return goals.filter((x) => x[0] <= time && time <= x[1]).length !== 0;
@@ -32,12 +27,13 @@ export const AppUsage: React.FC<Props> = ({ type, data }) => {
           data.usageData.details.map(({ appName, usage }) => (
             <Usage
               key={appName}
-              width={((usage + 1) * 90) / (data.usageData.details[0].usage + 1)}
+              width={(usage * 90) / data.usageData.details[0].usage}
+              over={usage > (goal as number)}
             >
               {appName || "Unknown"}
               <p>
                 <div />
-                <span>{FormatValue(usage, "totalTime")}</span>
+                <span>{usage ? FormatValue(usage, "totalTime") : "< 1m"}</span>
               </p>
             </Usage>
           ))}
@@ -77,7 +73,7 @@ const Container = styled.div`
   overflow: hidden;
 `;
 
-const Usage = styled.div<{ width: number }>`
+const Usage = styled.div<{ width: number; over?: boolean }>`
   background: var(--background-color);
   padding: 16px 20px;
 
@@ -93,9 +89,9 @@ const Usage = styled.div<{ width: number }>`
   }
 
   & div {
-    width: ${(props) => props.width}%;
+    width: calc(${(props) => props.width}% + 8px);
     height: 8px;
-    background: var(--gray);
+    background: ${(props) => (props.over ? "var(--red)" : "var(--primary)")};
     border-radius: 12px;
   }
 `;
