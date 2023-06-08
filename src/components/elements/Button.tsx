@@ -5,6 +5,7 @@ import { IconComponent } from "../../assets/icons/utils";
 interface Props extends PropsWithChildren {
   icon?: IconComponent;
   text: string;
+  full?: boolean;
   onClick?: () => void;
 }
 
@@ -19,12 +20,13 @@ export const Button: React.FC<Props> = ({ icon: Icon, text, onClick }) => {
   );
 };
 
-const Container = styled.div`
+const Container = styled.div<{ full?: boolean }>`
+  width: ${(props) => (props.full ? "100%" : "auto")};
   color: var(--dark-text);
   background-color: var(--light-gray);
   border-radius: 12px;
   padding: 16px 16px;
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
   gap: 8px;
   flex-wrap: wrap;

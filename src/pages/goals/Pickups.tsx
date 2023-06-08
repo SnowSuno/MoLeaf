@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 
 import { Page } from "../../components/layouts/Page";
 
-import { Toggle } from "../../components/elements";
+import { Button, Toggle } from "../../components/elements";
 import { GoalInput } from "../../components/GoalInput";
 import { useTranslation } from "react-i18next";
 
@@ -12,9 +12,11 @@ interface Props {
   active?: boolean;
 }
 
-export const Pickups: React.FC<Props> = ({ goal, active = true }) => {
+export const Pickups: React.FC<Props> = ({ goal: oldGoal, active = true }) => {
   const [toggled, setToggled] = useState<boolean>(active);
   const { t } = useTranslation();
+
+  const [goal, setGoal] = useState<number>(oldGoal ? oldGoal : 0);
 
   return (
     <Page title={t(`usage.pickups.long`)} background>
@@ -23,19 +25,17 @@ export const Pickups: React.FC<Props> = ({ goal, active = true }) => {
           <Category>{t(`goal.setGoal`)}</Category>
           <Toggle toggled={toggled} setToggled={setToggled} />
         </InnerContainer1>
-
         {!toggled ? (
           <></>
         ) : (
           <Container>
             <InnerContainer2>
-              <GoalInput initVal={goal} />
+              <GoalInput value={goal ? goal : 0} setValue={setGoal} />
               <GoalTime1>{t(`common.units.number`)}</GoalTime1>
               <GoalTime2>/ {t(`common.units.day`)}</GoalTime2>
             </InnerContainer2>
           </Container>
         )}
-
         {!toggled ? (
           <></>
         ) : (
@@ -43,6 +43,15 @@ export const Pickups: React.FC<Props> = ({ goal, active = true }) => {
             <Information>{t(`goal.helper.pickups`)}</Information>
           </InformationBox>
         )}
+        {!toggled ? (
+          <></>
+        ) : (
+          <Button
+            text={t(`common.saveButton`)}
+            full={true}
+            onClick={() => console.log(goal)}
+          />
+        )}{" "}
       </PageContainer>
     </Page>
   );

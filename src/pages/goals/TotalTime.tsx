@@ -3,7 +3,7 @@ import styled from "@emotion/styled";
 
 import { Page } from "../../components/layouts/Page";
 
-import { Toggle } from "../../components/elements";
+import { Button, Toggle } from "../../components/elements";
 import { GoalInput } from "../../components/GoalInput";
 import { useTranslation } from "react-i18next";
 import { UsageType } from "~/types";
@@ -19,11 +19,13 @@ interface Props {
 
 export const TotalTime: React.FC<Props> = ({
   type,
-  goal = { hours: 0, minutes: 0 },
+  goal: oldGoal = { hours: 0, minutes: 0 },
   active = true,
 }) => {
   const [toggled, setToggled] = useState<boolean>(active);
   const { t } = useTranslation();
+
+  const [goal, setGoal] = useState<{ hours: number; minutes: number }>(oldGoal);
 
   return (
     <Page title={t(`usage.${type}.long`)} background>
@@ -38,9 +40,21 @@ export const TotalTime: React.FC<Props> = ({
         ) : (
           <Container>
             <InnerContainer2>
-              <GoalInput max={24} initVal={goal?.hours} />
+              <GoalInput
+                max={23}
+                value={goal?.hours}
+                setValue={(val: number) =>
+                  setGoal({ hours: val, minutes: goal.minutes })
+                }
+              />
               <GoalTime1>h</GoalTime1>
-              <GoalInput max={59} initVal={goal?.minutes} />
+              <GoalInput
+                max={59}
+                value={goal?.minutes}
+                setValue={(val: number) =>
+                  setGoal({ hours: goal.hours, minutes: val })
+                }
+              />
               <GoalTime1>m</GoalTime1>
               <GoalTime2>/ {t(`common.units.day`)}</GoalTime2>
             </InnerContainer2>
@@ -53,6 +67,16 @@ export const TotalTime: React.FC<Props> = ({
           <InformationBox>
             <Information>{t(`goal.helper.${type}`)}</Information>
           </InformationBox>
+        )}
+
+        {!toggled ? (
+          <></>
+        ) : (
+          <Button
+            text={t(`common.saveButton`)}
+            full={true}
+            onClick={() => console.log(goal)}
+          />
         )}
       </PageContainer>
     </Page>

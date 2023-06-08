@@ -1,14 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
 
 interface Props {
   max?: number;
-  initVal?: number;
+  value: number;
+  setValue: (val: number) => void;
 }
 
-export const GoalInput: React.FC<Props> = ({ max = 999999, initVal = 0 }) => {
+export const GoalInput: React.FC<Props> = ({
+  max = 999999,
+  value,
+  setValue,
+}) => {
   const min = 0;
-
-  const [value, setValue] = useState(initVal);
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     const value = Math.max(min, Math.min(max, Number(event.target.value)));

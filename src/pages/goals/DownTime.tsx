@@ -4,7 +4,7 @@ import styled from "@emotion/styled";
 
 import { Page } from "~/components/layouts/Page";
 import { GoalInput } from "~/components/GoalInput";
-import { Toggle } from "~/components/elements";
+import { Button, Toggle } from "~/components/elements";
 import { useTranslation } from "react-i18next";
 
 interface Props {
@@ -17,6 +17,19 @@ interface Props {
     minutes: number;
   };
   index: number;
+  setGoal: (
+    index: number,
+    val: {
+      startTime: {
+        hours: number;
+        minutes: number;
+      };
+      endTime: {
+        hours: number;
+        minutes: number;
+      };
+    }
+  ) => void;
   removeData: (index: number) => void;
 }
 
@@ -24,14 +37,33 @@ const DownTimeBox: React.FC<Props> = ({
   startTime,
   endTime,
   index,
+  setGoal,
   removeData,
 }) => {
   return (
     <InnerContainer1>
       <InnerContainer2>
-        <GoalInput max={11} initVal={startTime.hours % 12} />
+        <GoalInput
+          max={11}
+          value={startTime.hours % 12}
+          setValue={(val: number) =>
+            setGoal(index, {
+              startTime: { hours: val, minutes: startTime.minutes },
+              endTime: endTime,
+            })
+          }
+        />
         <GoalTime>:</GoalTime>
-        <GoalInput max={59} initVal={startTime.minutes} />
+        <GoalInput
+          max={59}
+          value={startTime.minutes}
+          setValue={(val: number) =>
+            setGoal(index, {
+              startTime: { hours: startTime.hours, minutes: val },
+              endTime: endTime,
+            })
+          }
+        />
         <select
           style={{
             position: "relative",
@@ -45,6 +77,16 @@ const DownTimeBox: React.FC<Props> = ({
             backgroundColor: "var(--light-gray)",
             borderRadius: "8px",
           }}
+          onChange={(event: React.ChangeEvent<HTMLSelectElement>) => {
+            const type = event.target.value;
+            setGoal(index, {
+              startTime: {
+                hours: (startTime.hours % 12) + (type == "AM" ? 0 : 12),
+                minutes: startTime.minutes,
+              },
+              endTime: endTime,
+            });
+          }}
         >
           <option selected={endTime.hours < 12}>AM</option>
           <option selected={endTime.hours >= 12}>PM</option>
@@ -52,9 +94,27 @@ const DownTimeBox: React.FC<Props> = ({
 
         <GoalTime>~</GoalTime>
 
-        <GoalInput max={11} initVal={endTime.hours % 12} />
+        <GoalInput
+          max={11}
+          value={endTime.hours % 12}
+          setValue={(val: number) =>
+            setGoal(index, {
+              startTime: startTime,
+              endTime: { hours: val, minutes: endTime.minutes },
+            })
+          }
+        />
         <GoalTime>:</GoalTime>
-        <GoalInput max={59} initVal={endTime.minutes} />
+        <GoalInput
+          max={59}
+          value={endTime.minutes}
+          setValue={(val: number) =>
+            setGoal(index, {
+              startTime: startTime,
+              endTime: { hours: endTime.hours, minutes: val },
+            })
+          }
+        />
         <select
           style={{
             position: "relative",
@@ -67,6 +127,16 @@ const DownTimeBox: React.FC<Props> = ({
             padding: "4px 12px",
             backgroundColor: "var(--light-gray)",
             borderRadius: "8px",
+          }}
+          onChange={(event: React.ChangeEvent<HTMLSelectElement>) => {
+            const type = event.target.value;
+            setGoal(index, {
+              startTime: startTime,
+              endTime: {
+                hours: (endTime.hours % 12) + (type == "AM" ? 0 : 12),
+                minutes: endTime.minutes,
+              },
+            });
           }}
         >
           <option selected={endTime.hours < 12}>AM</option>
@@ -92,6 +162,18 @@ export const DownTime: React.FC<{ active?: boolean }> = ({ active = true }) => {
     },
   ]);
 
+  const setGoal = (
+    index: number,
+    val: {
+      startTime: { hours: number; minutes: number };
+      endTime: { hours: number; minutes: number };
+    }
+  ) => {
+    const newGoal = [...data];
+    newGoal[index] = val;
+    setData(newGoal);
+  };
+
   const addData = () => {
     const newRange = {
       startTime: { hours: 0, minutes: 0 },
@@ -114,7 +196,6 @@ export const DownTime: React.FC<{ active?: boolean }> = ({ active = true }) => {
           <Category>{t(`goal.setGoal`)}</Category>
           <Toggle toggled={toggled} setToggled={setToggled} />
         </InnerContainer1>
-
         {!toggled ? (
           <></>
         ) : (
@@ -124,13 +205,13 @@ export const DownTime: React.FC<{ active?: boolean }> = ({ active = true }) => {
                 startTime={x.startTime}
                 endTime={x.endTime}
                 index={index}
+                setGoal={setGoal}
                 removeData={removeData}
               />
             ))}
             <AddButton onClick={addData}>+</AddButton>
           </Container>
         )}
-
         {!toggled ? (
           <></>
         ) : (
@@ -138,6 +219,15 @@ export const DownTime: React.FC<{ active?: boolean }> = ({ active = true }) => {
             <Information>{t(`goal.helper.downTime`)}</Information>
           </InformationBox>
         )}
+        {!toggled ? (
+          <></>
+        ) : (
+          <Button
+            text={t(`common.saveButton`)}
+            full={true}
+            onClick={() => console.log(data)}
+          />
+        )}{" "}
       </PageContainer>
     </Page>
   );
