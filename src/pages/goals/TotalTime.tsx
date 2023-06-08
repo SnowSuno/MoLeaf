@@ -7,25 +7,30 @@ import { Button, Toggle } from "../../components/elements";
 import { GoalInput } from "../../components/GoalInput";
 import { useTranslation } from "react-i18next";
 import { UsageType } from "~/types";
+import { useGoalState } from "~/state/goals";
 
 interface Props {
   type: UsageType;
-  goal?: {
-    hours: number;
-    minutes: number;
-  };
+  goal?: number;
   active?: boolean;
 }
 
-export const TotalTime: React.FC<Props> = ({
-  type,
-  goal: oldGoal = { hours: 0, minutes: 0 },
-  active = true,
-}) => {
+export const TotalTime: React.FC<Props> = ({ type, active = true }) => {
   const [toggled, setToggled] = useState<boolean>(active);
   const { t } = useTranslation();
-
-  const [goal, setGoal] = useState<{ hours: number; minutes: number }>(oldGoal);
+  const initGoal = useGoalState((state) => state.goals)[type] as number;
+  const [goal, setGoal] = useState<{ hours: number; minutes: number }>(
+    initGoal
+      ? {
+          hours: (initGoal - (initGoal % 60)) / 60,
+          minutes: initGoal % 60,
+        }
+      : {
+          hours: 0,
+          minutes: 0,
+        }
+  );
+  const setGoals = useGoalState((state) => state.setGoal);
 
   return (
     <Page title={t(`usage.${type}.long`)} background>
@@ -75,7 +80,7 @@ export const TotalTime: React.FC<Props> = ({
           <Button
             text={t(`common.saveButton`)}
             full={true}
-            onClick={() => console.log(goal)}
+            onClick={() => setGoals(type, goal.hours * 60 + goal.minutes)}
           />
         )}
       </PageContainer>

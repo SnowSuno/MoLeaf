@@ -6,6 +6,7 @@ import { Page } from "~/components/layouts/Page";
 import { GoalInput } from "~/components/GoalInput";
 import { Button, Toggle } from "~/components/elements";
 import { useTranslation } from "react-i18next";
+import { useGoalState } from "~/state/goals";
 
 interface Props {
   startTime: {
@@ -151,16 +152,36 @@ const DownTimeBox: React.FC<Props> = ({
 
 export const DownTime: React.FC<{ active?: boolean }> = ({ active = true }) => {
   const [toggled, setToggled] = useState<boolean>(active);
-  const [data, setData] = useState([
+  // const [data, setData] = useState([
+  //   {
+  //     startTime: { hours: 3, minutes: 0 },
+  //     endTime: { hours: 9, minutes: 0 },
+  //   },
+  //   {
+  //     startTime: { hours: 20, minutes: 0 },
+  //     endTime: { hours: 23, minutes: 0 },
+  //   },
+  // ]);
+  const initGoal = useGoalState((state) => state.goals).downTime;
+  // console.log(
+  //   initGoal?.map((val) => ({
+  //     startTime: { hours: val[0], minutes: 0 },
+  //     endTime: { hours: val[1], minutes: 0 },
+  //   }))
+  // );
+  const [data, setData] = useState<
     {
-      startTime: { hours: 3, minutes: 0 },
-      endTime: { hours: 9, minutes: 0 },
-    },
-    {
-      startTime: { hours: 20, minutes: 0 },
-      endTime: { hours: 23, minutes: 0 },
-    },
-  ]);
+      startTime: { hours: number; minutes: number };
+      endTime: { hours: number; minutes: number };
+    }[]
+  >(
+    initGoal
+      ? initGoal.map((val) => ({
+          startTime: { hours: val[0], minutes: 0 },
+          endTime: { hours: val[1], minutes: 0 },
+        }))
+      : []
+  );
 
   const setGoal = (
     index: number,
@@ -186,6 +207,8 @@ export const DownTime: React.FC<{ active?: boolean }> = ({ active = true }) => {
     data.splice(index, 1);
     setData(data);
   };
+
+  const setGoals = useGoalState((state) => state.setGoal);
 
   const { t } = useTranslation();
 
@@ -225,7 +248,12 @@ export const DownTime: React.FC<{ active?: boolean }> = ({ active = true }) => {
           <Button
             text={t(`common.saveButton`)}
             full={true}
-            onClick={() => console.log(data)}
+            onClick={() =>
+              setGoals(
+                "downTime",
+                data.map((v) => [v.startTime.hours, v.endTime.hours])
+              )
+            }
           />
         )}{" "}
       </PageContainer>

@@ -1,17 +1,23 @@
 import { create } from "zustand";
+import { UsageType } from "~/types";
 
-interface GoalState {
-  goals: {
-    totalTime: number | undefined;
-    pickups: number | undefined;
-    downTime: [number, number][] | undefined;
-    maxTime: number | undefined;
-    avgTime: number | undefined;
-  };
-
+interface Goals {
+  totalTime: number | undefined;
+  pickups: number | undefined;
+  downTime: [number, number][] | undefined;
+  maxTime: number | undefined;
+  avgTime: number | undefined;
 }
 
-export const useGoalState = create<GoalState>(set => ({
+interface GoalState {
+  goals: Goals;
+  setGoal: (
+    type: UsageType,
+    goal: number | [number, number][] | undefined
+  ) => void;
+}
+
+export const useGoalState = create<GoalState>((set) => ({
   goals: {
     totalTime: 240,
     pickups: 100,
@@ -21,5 +27,18 @@ export const useGoalState = create<GoalState>(set => ({
     ],
     maxTime: 40,
     avgTime: 10,
-  }
+  },
+  setGoal: <T extends UsageType>(type: T, goal: Goals[T]) => {
+    set((prev) => ({
+      ...prev,
+      goals: {
+        ...prev.goals,
+        [type]: goal,
+      },
+    }));
+    //   const newGoal = { ...prev.goals };
+    //   newGoal[type] = goal;
+    //   return newGoal;
+    // });
+  },
 }));

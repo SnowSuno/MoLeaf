@@ -14,6 +14,7 @@ import { AnalysisPage } from "~/components/layouts/AnalysisPage";
 import testData from "~/data/P0701.json";
 import { routeMeta } from "~/routeMeta";
 import { UsageType } from "~/types";
+import { useGoalState } from "./state/goals";
 
 const router = createBrowserRouter([
   {
@@ -37,22 +38,24 @@ const router = createBrowserRouter([
         children: [
           {
             path: "total",
-            element: (
-              <TotalTime type="totalTime" goal={{ hours: 4, minutes: 0 }} />
-            ),
+            element: <TotalTime type="totalTime" />,
           },
           {
             path: "max",
-            element: (
-              <TotalTime type="maxTime" goal={{ hours: 3, minutes: 0 }} />
-            ),
+            element: <TotalTime type="maxTime" />,
           },
           {
             path: "avg",
-            element: <TotalTime type="avgTime" active={false} />,
+            element: <TotalTime type="avgTime" />,
           },
-          { path: "downtime", element: <DownTime /> },
-          { path: "pickups", element: <Pickups active={false} /> },
+          {
+            path: "downtime",
+            element: <DownTime />,
+          },
+          {
+            path: "pickups",
+            element: <Pickups />,
+          },
         ],
       },
       { path: "settings", element: <Settings /> },

@@ -1,27 +1,19 @@
 import React from "react";
 import styled from "@emotion/styled";
 import { Goal } from "../elements/Goal";
-import { UsageType } from "~/types";
 import { useTranslation } from "react-i18next";
 
 interface Props {
-  type: Exclude<UsageType, "downTime" | "pickups">;
-  totalTime?: number;
+  data?: number;
 }
 
-export const TimeUsageGoal: React.FC<Props> = ({
-  type,
-  totalTime,
-  ...props
-}) => {
+export const NumberUsageGoal: React.FC<Props> = ({ data, ...props }) => {
   const { t } = useTranslation();
   return (
-    <Goal type={type} {...props}>
+    <Goal type="pickups" {...props}>
       <Time>
-        {totalTime ? (
-          <TotalTime>
-            {(totalTime - (totalTime % 60)) / 60}h {totalTime % 60}m
-          </TotalTime>
+        {data ? (
+          <TotalTime>{data}</TotalTime>
         ) : (
           <NotSet>{t(`common.undefined`)}</NotSet>
         )}
