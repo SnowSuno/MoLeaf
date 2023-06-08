@@ -27,74 +27,75 @@ const pageNames = {
   avgTime: "Average Usage",
 } as const;
 
-export const AnalysisPage = React.memo(<T extends UsageType, > (
-  { type }: Props<T>
-) => {
-  const { t } = useTranslation();
+export const AnalysisPage = React.memo(
+  <T extends UsageType>({ type }: Props<T>) => {
+    const { t } = useTranslation();
 
-  const data = useUsageOf(type);
-  const pagination = useMemo(
-    () => paginate(data),
-    [data]
-  );
-  const [selectedDate, setSelectedDate] = useState(0);
-  const [page, setPage] = useState<0 | 1>(1);
+    const data = useUsageOf(type);
+    const pagination = useMemo(() => paginate(data), [data]);
+    const [selectedDate, setSelectedDate] = useState(0);
+    const [page, setPage] = useState<0 | 1>(1);
 
+    useEffect(() => {
+      const date = pagination
+        .at(page)
+        ?.filter(({ usageData }) => !!usageData)
+        .at(-1)?.date;
 
-  useEffect(() => {
-    const date = pagination
-      .at(page)?.filter(({ usageData }) => !!usageData)
-      .at(-1)?.date;
+      date && setSelectedDate(date);
+    }, [pagination, page]);
 
-    date && setSelectedDate(date);
-  }, [pagination, page]);
+    const selectedData = useMemo(
+      () => data.find(({ date }) => date === selectedDate),
+      [selectedDate, data]
+    );
 
-  const selectedData = useMemo(() => (
-    data.find(({ date }) => date === selectedDate)
-  ), [selectedDate, data]);
+    const { goal, overLimit } = useLimitOf(type);
 
-  const {goal, overLimit} = useLimitOf(type);
-
-  return (
-    <Page title={t(`usage.${type}.long`)}>
-      <MonthSelector {...{ page, setPage }}/>
-      <Swipeable page={page}>
-        {pagination.map((weekData, index) =>
-          isDataTypeArray(
-            type, weekData,
-            ["totalTime", "pickups", "maxTime", "avgTime"]
-          ) && <BarGraph
-            key={index}
-            type={type as Exclude<UsageType, "downTime">}
-            data={weekData}
-            selectedDate={selectedDate}
-            onClickDate={setSelectedDate}
-          />)}
-      </Swipeable>
-      <Swipeable page={page} sticky>
-        {pagination.map((weekData, index) =>
-          <BarSelector
-            key={index}
-            data={weekData}
-            overLimit={overLimit}
-            selectedDate={selectedDate}
-            onClickDate={setSelectedDate}
+    return (
+      <Page title={t(`usage.${type}.long`)}>
+        <MonthSelector {...{ page, setPage }} />
+        <Swipeable page={page}>
+          {pagination.map(
+            (weekData, index) =>
+              isDataTypeArray(type, weekData, [
+                "totalTime",
+                "pickups",
+                "maxTime",
+                "avgTime",
+              ]) && (
+                <BarGraph
+                  key={index}
+                  type={type as Exclude<UsageType, "downTime">}
+                  data={weekData}
+                  selectedDate={selectedDate}
+                  onClickDate={setSelectedDate}
+                />
+              )
+          )}
+        </Swipeable>
+        <Swipeable page={page} sticky>
+          {pagination.map((weekData, index) => (
+            <BarSelector
+              key={index}
+              data={weekData}
+              overLimit={overLimit}
+              selectedDate={selectedDate}
+              onClickDate={setSelectedDate}
+            />
+          ))}
+        </Swipeable>
+        {isDataType(type, selectedData, ["downTime"]) &&
+          hasData(selectedData) && <DowntimeGraph data={selectedData} />}
+        <Divider />
+        {selectedData && hasData(selectedData) && (
+          <AnalysisDetails
+            type={type as UsageType}
+            date={selectedDate}
+            data={selectedData}
           />
         )}
-      </Swipeable>
-      {isDataType(type, selectedData, ["downTime"])
-        && hasData(selectedData)
-        && <DowntimeGraph
-          data={selectedData}
-        />
-      }
-      <Divider/>
-      {selectedData && hasData(selectedData)
-        && <AnalysisDetails
-          type={type as Exclude<UsageType, "downTime">}
-          date={selectedDate}
-          data={selectedData}
-        />}
-    </Page>
-  );
-});
+      </Page>
+    );
+  }
+);

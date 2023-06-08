@@ -5,32 +5,35 @@ import { AppUsage } from "~/components/blocks/AppUsage";
 import styled from "@emotion/styled";
 
 interface Props {
-  type: Exclude<UsageType, "downTime">;
+  type: UsageType;
   date: number;
   data: DailyUsageRequired<UsageType>;
 }
 
-export const AnalysisDetails: React.FC<Props> = React.memo(({
-  type,
-  date,
-  data,
-}) => {
-  return (
-    <Container>
-      <Usage
-        type={type}
-        date={date}
-        value={(data.usageData as { usage: number }).usage}
-      />
+export const AnalysisDetails: React.FC<Props> = React.memo(
+  ({ type, date, data }) => {
+    return (
+      <Container>
+        <Usage
+          type={type}
+          date={date}
+          value={(data.usageData as { usage: number }).usage}
+        />
 
-      {isDataType(type, data, ["totalTime", "maxTime", "avgTime"]) &&
-        <AppUsage data={data}/>
-      }
+        {isDataType(type, data, [
+          "totalTime",
+          "maxTime",
+          "avgTime",
+          "downTime",
+        ]) && (
+          <AppUsage type={type as Exclude<UsageType, "pickups">} data={data} />
+        )}
 
-      <Settings>Goal Settings</Settings>
-    </Container>
-  );
-});
+        <Settings>Goal Settings</Settings>
+      </Container>
+    );
+  }
+);
 
 const Container = styled.div`
   padding-inline: var(--margin-inline);
