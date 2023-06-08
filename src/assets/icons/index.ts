@@ -8,3 +8,4 @@ export * from "./ArrowLeft";
 export * from "./ArrowRight";
 export * from "./Edit";
 export * from "./Timer";
+export * from "./Globe";

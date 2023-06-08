@@ -4,6 +4,7 @@ export interface IconProps {
   size: number;
   color: string;
   weight: number;
+  onClick?: () => void;
 }
 
 export const defaultProps: IconProps = {
