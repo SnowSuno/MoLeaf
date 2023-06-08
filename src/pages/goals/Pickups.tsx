@@ -6,17 +6,19 @@ import { Page } from "../../components/layouts/Page";
 import { Button, Toggle } from "../../components/elements";
 import { GoalInput } from "../../components/GoalInput";
 import { useTranslation } from "react-i18next";
+import { useGoalState } from "~/state/goals";
 
 interface Props {
-  goal?: number;
   active?: boolean;
 }
 
-export const Pickups: React.FC<Props> = ({ goal: oldGoal, active = true }) => {
+export const Pickups: React.FC<Props> = ({ active = true }) => {
   const [toggled, setToggled] = useState<boolean>(active);
   const { t } = useTranslation();
 
-  const [goal, setGoal] = useState<number>(oldGoal ? oldGoal : 0);
+  const initGoal = useGoalState((state) => state.goals).pickups as number;
+  const [goal, setGoal] = useState<number>(initGoal ? initGoal : 0);
+  const setGoals = useGoalState((state) => state.setGoal);
 
   return (
     <Page title={t(`usage.pickups.long`)} background>
@@ -49,7 +51,7 @@ export const Pickups: React.FC<Props> = ({ goal: oldGoal, active = true }) => {
           <Button
             text={t(`common.saveButton`)}
             full={true}
-            onClick={() => console.log(goal)}
+            onClick={() => setGoals("pickups", goal)}
           />
         )}{" "}
       </PageContainer>

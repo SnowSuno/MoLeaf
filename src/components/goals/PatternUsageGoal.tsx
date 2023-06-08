@@ -2,43 +2,40 @@ import React from "react";
 import styled from "@emotion/styled";
 import { Goal } from "../elements/Goal";
 
-interface Props {}
+interface Props {
+  goal?: [number, number][];
+}
 
 type Time = {
   hours: number;
   minutes: number;
 };
 
-const timeToString = (time: Time) => {
-  const apm = time.hours >= 12 ? "PM" : "AM";
-  return `${time.hours % 12}:${("0" + time.minutes).slice(-2)} ${apm}`;
+const timeToString = (time: number) => {
+  const hours = time; //(time - (time % 60)) / 60;
+  const minutes = 0; //time % 60;
+  const apm = hours >= 12 ? "PM" : "AM";
+  return `${hours % 12}:${("0" + minutes).slice(-2)} ${apm}`;
 };
 
-const data = [
-  {
-    startTime: { hours: 3, minutes: 0 },
-    endTime: { hours: 9, minutes: 0 },
-  },
-  {
-    startTime: { hours: 20, minutes: 0 },
-    endTime: { hours: 23, minutes: 0 },
-  },
-];
-export const PatternUsageGoal: React.FC<Props> = (props) => (
-  <Goal type="downTime" {...props}>
-    {!data ? (
-      <NotSet>미설정</NotSet>
-    ) : (
-      data.map((range) => (
-        <Time>
-          <TotalTime>
-            {timeToString(range.startTime)} ~ {timeToString(range.endTime)}
-          </TotalTime>
-        </Time>
-      ))
-    )}
-  </Goal>
-);
+export const PatternUsageGoal: React.FC<Props> = ({ goal, ...props }) => {
+  console.log(goal);
+  return (
+    <Goal type="downTime" {...props}>
+      {!goal ? (
+        <NotSet>미설정</NotSet>
+      ) : (
+        goal.map((range) => (
+          <Time>
+            <TotalTime>
+              {timeToString(range[0])} ~ {timeToString(range[1])}
+            </TotalTime>
+          </Time>
+        ))
+      )}
+    </Goal>
+  );
+};
 
 const Time = styled.div`
   display: flex;
