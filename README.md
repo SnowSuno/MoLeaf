@@ -8,6 +8,10 @@
 
 20220042 권순호 snowsuno@kaist.ac.kr
 
+> Final Prototype Link: [https://moleaf.sparcsandbox.com/](https://moleaf.sparcsandbox.com/)
+> 
+> For real app-like usage, please use `Add to home screen`, and it will act like an app.
+
 ## Selected Topic
 
 Visual Analytics for Better Self-regulating Phone Usage Behaviors
@@ -22,6 +26,12 @@ Visual Analytics for Better Self-regulating Phone Usage Behaviors
 
 - [Process Book](https://docs.google.com/presentation/d/1-JtEbmjFuFBJG91VrgiLuUFtJZL5uprzzzDAyeCCJ1E/edit?usp=sharing)
 - [Final Prototype](https://moleaf.sparcsandbox.com/)
+
+### How to run development server
+```bash
+yarn install
+yarn dev
+```
 
 ## Code Explanation
 
