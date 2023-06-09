@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import { persist, createJSONStorage } from "zustand/middleware";
+import { persist } from "zustand/middleware";
 
 import { UsageType } from "~/types";
 
@@ -8,7 +8,7 @@ interface WidgetState {
   setOrder: (order: UsageType[]) => void;
 }
 
-export const useWidget = create(
+export const useWidgetState = create(
   persist<WidgetState>(
     set => ({
       order: ["totalTime", "pickups", "downTime", "maxTime", "avgTime"],

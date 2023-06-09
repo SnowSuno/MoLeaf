@@ -39,6 +39,9 @@
       "undefined": "미설정",
       "saveButton": "저장하기",
       "appUsage": "앱별 사용량"
+    },
+    "customize": {
+      "help": "드래그하여 위젯 순서를 변경하세요"
     }
   }
 }

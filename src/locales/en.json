@@ -39,6 +39,9 @@
       "undefined": "Not set",
       "saveButton": "Save",
       "appUsage": "Usage by App"
+    },
+    "customize": {
+      "help": "Drag to change widget order"
     }
   }
 }

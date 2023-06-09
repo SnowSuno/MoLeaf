@@ -1,10 +1,10 @@
 import { useMemo } from "react";
 import { shallow } from "zustand/shallow";
 
-import { useWidget } from "~/state/widget";
+import { useWidgetState } from "~/state/widget";
 
 export const useWidgets = () => {
-  const widgets = useWidget(state => state.order, shallow);
+  const widgets = useWidgetState(state => state.order, shallow);
 
   return useMemo(() => ({
     main: widgets[0],

@@ -1,16 +1,14 @@
-import React, { useRef } from "react";
+import React from "react";
 import { AnimatedOutlet } from "~/components/layouts/AnimatedOutlet";
 import { Link } from "react-router-dom";
 import { Header } from "~/components/layouts/Header";
 import styled from "@emotion/styled";
 import { Button, Widget } from "~/components/elements";
 import { Settings } from "~/assets/icons";
-import { motion } from "framer-motion";
 import { useWidgets } from "~/utils/hooks/useWidgets";
 import { useTranslation } from "react-i18next";
 
 export const Home: React.FC = React.memo(() => {
-  const containerRef = useRef<HTMLDivElement>(null);
   const { main, widgets } = useWidgets();
   const { t } = useTranslation();
 

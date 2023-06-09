@@ -17,7 +17,7 @@ export const Header: React.FC<Props> = ({ title }) => {
   return (
     <Container>
       <h1>{title}</h1>
-      <Globe size={24} color="var(--dark-text)" onClick={changeLanguage} />
+      <Globe size={24} weight={2} color="var(--gray)" onClick={changeLanguage} />
     </Container>
   );
 };
