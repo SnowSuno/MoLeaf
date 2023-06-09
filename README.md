@@ -1,5 +1,13 @@
 # MoLeaf
 
+> This Repository is a forked version of the original repository for submission.
+> 
+> Original Repo: [https://github.com/SnowSuno/moleaf](https://github.com/SnowSuno/moleaf)
+> 
+> Final Prototype Link: [https://moleaf.sparcsandbox.com/](https://moleaf.sparcsandbox.com/)
+> 
+> For real app-like usage, please use `Add to home screen`, and it will act like an app.
+
 ## Teammates
 
 20200510 이지윤 nicolelee2001@kaist.ac.kr
@@ -8,9 +16,6 @@
 
 20220042 권순호 snowsuno@kaist.ac.kr
 
-> Final Prototype Link: [https://moleaf.sparcsandbox.com/](https://moleaf.sparcsandbox.com/)
-> 
-> For real app-like usage, please use `Add to home screen`, and it will act like an app.
 
 ## Selected Topic
 
