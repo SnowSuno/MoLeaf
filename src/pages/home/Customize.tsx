@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styled from "@emotion/styled";
 import { Reorder } from "framer-motion";
 
@@ -12,7 +12,9 @@ import { Star } from "../../assets/icons/Star";
 
 export const Customize: React.FC = () => {
   const { t } = useTranslation();
-  const { order, setOrder } = useWidgetState();
+  const [order, setOrder] = useState(useWidgetState.getState().order);
+
+  useEffect(() => useWidgetState.setState({ order }), [order]);
 
   return (
     <Page title={t(`home.edit`)} background>
